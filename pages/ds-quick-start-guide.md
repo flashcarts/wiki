@@ -1,4 +1,7 @@
-# A Quick Guide on DS Flashcarts
+---
+title: A Quick Guide on DS Flashcarts
+---
+
 **Disclaimer**: The information contained in this post is based on other posts and forums around the web. r/flashcarts, its members, and wiki contributors do not claim to own all of these flashcarts.
 
 Here are the best DS flashcarts available on the market currently. **If you're looking for a GBA flashcart, see the [GBA quick start guide](/r/flashcarts/wiki/gba-quick-start-guide).** For other consoles, see the [quick start guide list](https://www.reddit.com/r/flashcarts/wiki/index#wiki_quick_start_guides.3A).

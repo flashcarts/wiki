@@ -1,4 +1,7 @@
-# Flashcarts Wiki
+---
+title: Flashcarts Wiki
+permalink: /index.html
+---
 
 Hello!
 

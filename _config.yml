@@ -1,0 +1,23 @@
+title        : "The Flashcarts Wiki"
+description  : "A documentation for all that is flashcarts (hopefully)"
+color        : "#9376db"
+markdown_ext : "markdown,mkdown,mkdn,mkd,md,html"
+
+sass:
+  sass_dir: _sass
+
+include:
+  - ".well-known"
+
+exclude:
+  - Gemfile*
+  - vendor
+  - LICENSE
+
+defaults:
+  - scope:
+      path: "pages"
+    values:
+      permalink: /:basename:output_ext
+      layout: "default"
+      title: "The Flashcarts Wiki"

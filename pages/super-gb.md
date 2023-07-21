@@ -1,4 +1,6 @@
-# Super Game Boy Flashcarts
+---
+title: Super Game Boy Flashcarts
+---
 
 [What are you trying to do? Get the universe to implode on itself?](https://www.reddit.com/r/snes/comments/17s7zm/as_requested_how_i_play_my_pokemon_games_i_put_my/) Nah, just messin'.
 

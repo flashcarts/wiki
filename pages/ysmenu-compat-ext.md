@@ -1,4 +1,6 @@
-# YSMenu compatibility page, extended
+---
+title: YSMenu compatibility page, extended
+---
 
 Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/) before starting. This page simply builds on the compatibility list that is given here.
 

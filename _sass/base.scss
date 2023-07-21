@@ -1,0 +1,370 @@
+// For the bottom aligned footer
+html, body {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+footer {
+	flex-shrink: 0;
+	padding-top: 20px;
+}
+
+body {
+	color: $main-color;
+	background-color: $main-bg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $header-color;
+}
+
+h2 {
+	border-bottom: 1px solid $borders;
+}
+
+hr {
+	opacity: 0.5;
+}
+
+blockquote {
+	color: $blockquote-color;
+	margin-bottom: 20px;
+	padding: 0 0 0 20px;
+	border-left: 3px solid $borders;
+}
+
+:not(pre) > code, pre {
+	color: $code-color;
+	background-color: $code-bg;
+	padding: 3px;
+	border-radius: 0.25rem;
+}
+
+:not(pre) > code:not(.wrap) {
+	white-space: nowrap;
+
+	@media screen and (max-width: 576px) {
+		white-space: normal;
+	}
+}
+
+pre {
+	padding: 16px;
+	border-radius: 0.5rem;
+	white-space: pre;
+}
+
+a > code {
+	color: inherit!important;
+}
+
+div.language-bash pre.highlight code::before {
+	content: "$ ";
+	color: $code-color;
+}
+
+pre {
+	white-space: pre-wrap;
+}
+
+// .a is for making other things look like <a>s
+a, .a {
+	text-decoration: none;
+	text-decoration-thickness: 1px;
+	color: $a-color;
+	cursor: pointer;
+}
+a:hover, .a:hover {
+	text-decoration: underline;
+}
+
+a.clean {
+	text-decoration: none;
+}
+
+footer a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: underline;
+}
+footer a:hover {
+	color: inherit;
+	opacity: 50%;
+}
+
+small {
+	font-size: 75%;
+	color: $small-color;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+}
+
+.btn, .btn a, a.btn {
+	text-decoration: none;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+div .btn-primary:hover {
+	background-color: inherit;
+	opacity: inherit;
+}
+
+// Override bootstraps primary color
+.bg-primary {
+	background-color: $primary!important;
+}
+.btn-primary, .btn-primary:focus {
+	color: $nav-link-color;
+	background-color: $primary!important;
+	border-color: $primary!important;
+}
+.btn-primary:hover, .btn-primary:active {
+	color: $nav-link-color!important;
+	opacity: 0.8;
+}
+.btn-outline-primary {
+	color: $primary;
+	border-color: $primary;
+}
+.btn-outline-primary:hover, .btn-outline-primary:active {
+	background-color: $primary!important;
+	border-color: $primary!important;
+}
+.text-primary {
+	background-color: $primary!important;
+}
+
+// Override the dark text too
+.text-dark {
+	color: $dark!important;
+}
+// text-dark that I dont override
+.text-dark-always {
+	color: $dark-always!important;
+}
+
+// And the light bg
+.bg-light {
+	background-color: $light!important;
+	border-color: $light-border!important;
+}
+
+.bg-light::placeholder {
+	color: $light-placeholder;
+}
+
+// No underline on navbar links
+.navbar a {
+	text-decoration: none;
+}
+
+// Dim navbar-brand on hover
+.navbar a.navbar-brand:hover {
+	opacity: 0.5;
+}
+
+// Override nav-link color
+.navbar .nav-link {
+	color: $nav-link-color!important;
+}
+.navbar .nav-link:hover {
+	color: $nav-link-color-hover!important;
+}
+
+// And the active nav-link color
+.navbar .nav-link.active {
+	color: $nav-link-color-active!important;
+}
+.navbar .nav-link.active:hover {
+	color: $nav-link-color-hover!important;
+}
+
+// Fixes for navbar on older browsers
+html[dir=ltr] .navbar-toggler {
+	position: absolute;
+	right: 0.75rem;
+	top: 0.5rem;
+}
+
+html[dir=rtl] .navbar-toggler {
+	position: absolute;
+	left: 0.75rem;
+	top: 0.5rem;
+}
+
+.navbar {
+	min-height: 3.5rem;
+}
+
+// Make dropdowns site-colored and animated
+.dropdown-menu, .dropdown .hover-content {
+	background-color: $primary;
+	-webkit-transition: 300ms ease;
+	transition: 300ms ease;
+	display: block;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	line-height: 0;
+	margin: 0;
+}
+.dropdown .hover-content {
+	display: none;
+}
+.dropdown-menu.show, .dropdown:hover .hover-content {
+	display: block;
+	height: inherit;
+	line-height: inherit;
+	padding: 0.5rem 0;
+	visibility: visible;
+}
+
+.navbar-toggler:hover+.navbar-collapse.hover-content, .navbar-collapse.hover-content:hover {
+	display: block;
+}
+
+.dropdown-item {
+	color: $nav-link-color;
+}
+.dropdown-item.active {
+	background-color: unset;
+}
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus {
+	background-color: $dropdown-item-bg-hover;
+	color: $nav-link-color-hover;
+}
+
+// Make images smaller
+.img-small {
+	max-width: 250px;
+	max-height: 250px;
+}
+
+// Hide header anchors unless hovering the header
+.header-anchor {
+	text-decoration: none;
+	display: none;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+	.header-anchor {
+		display: inline;
+		text-decoration: none;
+	}
+}
+
+// File forms
+.form-control {
+	background-color: $main-bg;
+	color: $main-color;
+	border: 1px solid $borders;
+}
+
+.input-group-text, .form-control::-webkit-file-upload-button {
+	background-color: $secondary-bg;
+	color: $main-color;
+	border: 1px solid $borders;
+}
+.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+	background-color: $code-bg;
+}
+// Safari is dumb and don't let the Firefox one be with the others
+.form-control::file-selector-button {
+	background-color: $secondary-bg;
+	color: $main-color;
+	border: 1px solid $borders;
+}
+.form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+	background-color: $code-bg;
+}
+
+// Select
+.form-select-dark {
+	background-color: #444;
+	border: 1px solid #333;
+}
+
+@media only screen and (min-width: 576px) {
+	// Seems to be broken in RTL in bootstrap v5.0-beta1, so override here
+	html[dir=rtl] .dropdown-menu-sm-end {
+		--bs-position: end;
+		right: auto;
+		left: 0;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.main-content {
+		max-width: 1024px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.main-content {
+		max-width: 1200px;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.main-content {
+		max-width: 75%;
+	}
+}
+
+@media only screen and (max-width: 757px) {
+	.dropdown-menu {
+		border: 0;
+	}
+	.dropdown-item {
+		font-weight: bold;
+	}
+	.dropdown-item:hover {
+		background-color: inherit;
+	}
+}
+
+@media only screen and (min-width: 576px) {
+	// Fix nav on old browsers that don't support flex
+	.navbar-expand-sm .navbar-collapse {
+		display: block;
+	}
+
+	header {
+		position: absolute;
+		right: 1rem;
+	}
+
+	nav {
+		.navbar-brand, .navbar-toggler, .navbar-collapse, .navbar-nav, li.nav-item, header {
+			display: inline-block;
+		}
+	}
+
+	html[dir=ltr] .lang-select-dropdown, .navbar-toggler {
+		position: absolute;
+		right: 0.75rem;
+	}
+
+	html[dir=rtl] .lang-select-dropdown, .navbar-toggler {
+		position: absolute;
+		left: 0.75rem;
+	}
+}

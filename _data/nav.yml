@@ -1,0 +1,20 @@
+- title: Home
+  url: /
+- title: DS Quick Start Guide
+  url: ds-quick-start-guide
+- title: GBA Quick Start Guide
+  url: gba-quick-start-guide
+- title: Other Pages
+  items:
+    - title: Famicom Disk System Flashcarts
+      url: fds
+    - title: Mega-CD/Sega CD Flashcarts
+      url: mega-drive
+    - title: Pokémon Mini Flashcarts
+      url: pokemini
+    - title: Sega 32X Flashcarts
+      url: sega-32x
+    - title: Super Game Boy Flashcarts
+      url: super-gb
+    - title: YSMenu compatibility list
+      url: ysmenu-compat-ext

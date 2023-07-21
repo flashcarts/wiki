@@ -1,4 +1,6 @@
-# Pokémon Mini Flashcarts
+---
+title: Pokémon Mini Flashcarts
+---
 
 Demon. Magic. Or is Gastly magic? Either way—how are there more options for this thing than for the Atari Jaguar? (Nevermind. Don't answer that.)
 

@@ -1,4 +1,7 @@
-# A Quick Guide on GBA Flashcarts
+---
+title: A Quick Guide on GBA Flashcarts
+---
+
 **Disclaimer**: The information contained in this post is based on other posts and forums around the web. r/flashcarts, its members, and wiki contributors do not claim to own all of these flashcarts.
 
 Here are the best GBA flashcarts available on the market currently. For other consoles, please see the [quick start guide list](/r/flashcarts/wiki/index#wiki_quick_start_guides.3A).

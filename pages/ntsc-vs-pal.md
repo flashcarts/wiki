@@ -1,4 +1,6 @@
-# NTSC vs PAL Considerations
+---
+title: NTSC vs PAL Considerations
+---
 
 Beginning in the 1960's, three major analog color television standards were created: NTSC (all of the Americas, minus Argentina, Paraguay, Uruguay, and Brazil; Japan; one or two African countries, and a handful of other southeast Asia and Pacifica nations), PAL (southern Asia, Australia, roughly ½ of Africa, and the non-NTSC parts of South America) and SECAM (Russia, kind-of-France, and the other ½ of Africa; there were almost NO consoles specific to SECAM regions.
 

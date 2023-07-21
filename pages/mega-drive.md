@@ -1,3 +1,7 @@
+---
+title: Mega CD / Sega CD Flashcarts
+---
+
 # Mega-CD/Sega CD Flashcarts
 
 What? How are you going to get a flashcart to spin around in an optical drive?  Well, even though such things do exist, we're not going to. Why? Because we don't have to. Thanks to:

@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-primary">
+	<div class="container-fluid maxwidth">
+		<a class="navbar-brand" href="/" accesskey="h">{{ site.title }}</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse hover-content" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				{% for item in site.data.nav %}
+					{% if item.url %}
+						<li class="nav-item">
+							<a class="nav-link {% if item.title == page.title %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+						</li>
+					{% elsif item.items %}
+						<li class="nav-item dropdown">
+							{% assign section = "/" | append: page.section %}
+							<a class="nav-link {% for entry in item.items %}{% if entry.url == section %} active {% endif %}{% endfor %} dropdown-toggle" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
+							<div class="dropdown-menu hover-content" aria-labelledby="navbar-dropdown-menu-link-{{ item.title }}">
+								<ul class="list-unstyled">
+									{% for entry in item.items %}
+									<li><a class="dropdown-item{% if entry.url == section %} active {% endif %}" href="{{ entry.url }}" {% if entry.key %}accesskey="{{ entry.key }}"{% endif %}>{{ entry.title }}</a></li>
+									{% endfor %}
+								</ul>
+							</div>
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+
+			{% if page.description %}
+				<header>
+					<small class="text-dark-always">// {{ page.description }}</small>
+				</header>
+			{% endif %}
+		</div>
+	</div>
+</nav>
