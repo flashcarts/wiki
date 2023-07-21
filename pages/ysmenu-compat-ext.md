@@ -6,7 +6,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 
 **Please *only* follow the installation if your cart is listed! Using YSMenu on any other cart can result in a PERMANENT BRICK! RetroGameFan, YSmenu's contributors, r/flashcarts nor its contributors are NOT responsible for anything you do with the files nor the instructions. You are responsible for any damages that may occur.**
 
-## DSTTi-Clone YSMenu folder
+## DSTTi-Clone YSMenu/TTMenu folder
 - **Carts that work directly**:
     - all carts from ndstt.com, ndstt.net
     - all carts from r4top.com
@@ -33,10 +33,13 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4KING`**:
     - all carts from r4-king.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.TP`**:
+    - all carts from r4ita.com that didn't work with R4i-SDHC YSMenu
     - all carts from r4i-dshc.com
     - all carts from r4i-ndsill.com
     - all carts from r4i-yes.com
     - all carts from r4i-3ds.com
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `config`**:
+    - R4i <New> 2011.01 from r4i-sdhc.hk
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `Redant.dat`**:
     - all carts from r4i-redant.com
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
@@ -63,6 +66,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 
 ## R4SDHC YSMenu folder
 - This folder is up to speculation, but if your cart has no URL, has the "R4" logo and the "SDHC" logo, then this is probably supported. Looks similar to [this image here](https://i.redd.it/sy1w7d1s2fc81.jpg).
+- Some OG R4 SDHC's are actually DSTTi "demon" clones. If it looks like the cart linked above but boots to a `Menu?` screen when an empty sd is inserted, it may instead use the `R4i-SDHC YSMenu` folder.
 
 ## R4-Clone YSMenu folder
 - This requires your original kernel to be installed: however, I do not recommend this way of running games for the Original R4. Use its dedicated kernel instead.
@@ -77,7 +81,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 ## R4i-SDHC YSMenu folder
 - **The following carts will work as-is**:
     - Most r4i-sdhc.com carts
-    - All 2014-2021 r4isdhc.com carts (not the .com.cn, not the .hk, just .com)
+    - All 2014+ r4isdhc.com carts (**not** the .com.cn, **not** the .hk, just .com)
     - Any r4i-sdhc.com.tw carts that didn't work with DSTTi-Clone YSMenu
     - Any r4i-dshc.com carts that didn't work with DSTTi-Clone YSMenu
     - R4DSiXL3D (r4dsixl3d.com)
@@ -89,8 +93,23 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i Gold 3DS (r4i-gold.cc)
     - All r4i-gold.com carts WITHOUT A YEAR NUMBER, ANY WITH A YEAR NUMBER WILL BRICK!
     - R4xDS (r4xds.com)
-    - All r4ita.com carts
+    - Some r4ita.com carts - If this fails, try DSTTi Clone folder
     - All r4i-gold.eu carts
 - **For the following carts, download this [R4.dat](https://github.com/DS-Homebrew/flashcard-archive/raw/main/files/YSMenu/DEMON_common/R4.dat) and replace it with the pre-existing one**:
     - Any r4i-sdhc.com cart that didn't work as-is
     - Any r4i-gold.com cart that didn't work as-is, WITHOUT A YEAR NUMBER, ANY WITH A YEAR NUMBER WILL BRICK!
+
+### Alternative kernel - R4i-SDHC 1.85b - RTS Support/TTMenu Style UI/No Timebomb
+#### [Download Link](https://github.com/DS-Homebrew/flashcard-archive/blob/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
+- **The following carts will work:**
+    - All carts listed above as compatible with R4i-SDHC YSMenu
+- **Features:**
+    - Removed timebomb, no fake card check, no boucing WiFi icon in landing menu
+    - RTS Support with in-game menu (Real-Time Save, AKA Save States)
+    - Better compatibility with romhacks and games
+    - TTMenu-style themeable UI
+- **Cons:**
+    - RTS Support is unstable in some games
+    - Cheat menu can display unreadable text with long cheat names
+    - Some cheats codes are broken
+    - Also, see in-depth explanation of this kernel's cons [here](https://i.imgur.com/V1W2GGQ.png).
