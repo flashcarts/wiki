@@ -4,7 +4,7 @@ title: YSMenu compatibility page, extended
 
 Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/) before starting. This page simply builds on the compatibility list that is given here.
 
-**Please *only* follow the installation if your cart is listed! Using YSMenu on any other cart can result in a PERMANENT BRICK! RetroGameFan, YSmenu's contributors, r/flashcarts nor its contributors are NOT responsible for anything you do with the files nor the instructions. You are responsible for any damages that may occur.**
+**Please *only* follow the installation if your cart is listed! Using YSMenu on any other cart can result in a PERMANENT BRICK! RetroGameFan, YSMenu's contributors, flashcarts.net or its contributors are NOT responsible for anything you do with the files nor the instructions. You are responsible for any damages that may occur.**
 
 ## DSTTi-Clone YSMenu/TTMenu folder
 - **Carts that work directly**:
