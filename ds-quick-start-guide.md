@@ -17,7 +17,7 @@ Here are the best DS flashcarts available on the market currently. **If you're l
 
 ## Recommended carts
 ### Ace3DS X
-[![Ace3DS-X](%%ace3dsx%%)](https://i.imgur.com/xYIaKHr.jpg)
+![Ace3DS X](https://i.imgur.com/xYIaKHr.jpg)
 
 The Ace3DS X is a version of the Ace3DS+ (seen down this list) that also supports ntrboot with just a flick of a switch.
 
@@ -33,7 +33,7 @@ This is recommended **for unhacked DSi and 3DS users** to buy, as well as people
 - Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.7z)
 
 ### DSONE SDHC Clone
-[![DSONE SDHC clone](%%dsonesdhc%%)](https://i.imgur.com/tV7Njih.jpeg)
+![DSONE SDHC clone](https://i.imgur.com/tV7Njih.jpeg)
 
 A clone of the SuperCard DSONE (SDHC), these carts have more or less perfect compatibility and a few features like RTS, slowdown, and an in-game menu not common on other carts. Only works on DS Phat/Lite and hacked DSi/3DS, **will not work on stock DSi/3DS**.
 
@@ -47,8 +47,8 @@ This is recommended **if you only use DS Lite/Phat**. Costs $5-10 USD. Searching
 - Alternate kernel: [YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) (Only use if Evolution OS gives a PSRAM error)
 
 ### Ace3DS+ Clone
-[![r4isdhc.hk Ace3DS+ clone](%%r4isdhchk%%)](https://i.imgur.com/nHboMTG.jpg)
-[![r4isdhc.com.cn Ace3DS+ clone](%%r4isdhccomcn%%)](https://i.imgur.com/bcARa4L.jpg)
+![r4isdhc.hk Ace3DS+ clone](https://i.imgur.com/nHboMTG.jpg)
+![r4isdhc.com.cn Ace3DS+ clone](https://i.imgur.com/bcARa4L.jpg)
 
 These carts are a clone of the Ace3DS+ flashcart, compatible with all DS, DSi, and 3DS consoles, even unhacked on the latest firmware. These Ace3ds+ clones **do not** work with ntrboot, see the Ace3ds X instead if this is a feature that you may need.
 
@@ -71,9 +71,9 @@ This is recommended **for unhacked DSi and 3DS users** to buy. Usually costs $5-
 - Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.7z)
 
 ### Timebomb clone
-[![r4isdhc.com gold cart](%%r4isdhccomg%%)](https://i.imgur.com/Tgj91M0.jpg)
-[![r4isdhc.com dual-core cart](%%r4isdhccomw%%)](https://i.imgur.com/BBsyPuG.jpg)
-[![Unlabelled timebomb clone](%%r4isdhccomblank%%)](https://i.imgur.com/8vQjh5R.png)
+![r4isdhc.com gold cart](https://i.imgur.com/Tgj91M0.jpg)
+![r4isdhc.com dual-core cart](https://i.imgur.com/BBsyPuG.jpg)
+![Unlabelled timebomb clone](https://i.imgur.com/8vQjh5R.png)
 
 These common carts are clones of the DSTT, but with a timebomb in their official kernel. The timebomb is purely software, so switching to an alternative kernel will remove it. These carts are compatible with all DS, DSi, and 3DS consoles, even on the latest firmware, so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+ clones](#wiki_ace3ds+_clone) are recommended instead if possible.
 
