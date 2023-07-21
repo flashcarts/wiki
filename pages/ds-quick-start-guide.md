@@ -97,7 +97,7 @@ These are carts that you may encounter but are not generally recommended.
    - These clones on AliExpress can be identified by their green PCB and lack of a label in a shell otherwise similar to timebomb clones
 
 ## DSi
-On the DSi/DSi XL consoles, Nintendo introduced a whitelist and RSA signatures in an attempt to prevent flashcarts from functioning, so you need to be careful which flashcart you buy to use it on a DSi. Because of this the [Ace3DS+ clones](#wiki_ace3ds.2B_clone) are recommended if you choose to buy a flashcard for use on a DSi, as they are supported all the way up to the latest firmware version.
+On the DSi/DSi XL consoles, Nintendo introduced a whitelist and RSA signatures in an attempt to prevent flashcarts from functioning, so you need to be careful which flashcart you buy to use it on a DSi. Because of this the [Ace3DS+ clones](#wiki_ace3ds.2B_clone) are recommended if you choose to buy a flashcart for use on a DSi, as they are supported all the way up to the latest firmware version.
 
 If you have an unsupported flashcart it will show black screens with white text that says "[An error has occurred](https://i.imgur.com/gE47UKA.png)" when loading. This can be bypassed by installing CFW on your DSi. Specifically Unlaunch is required, with Unlaunch you will be able to load the flashcart from the DSi Menu if it was installed with launcher patches enabled or from Unlaunch itself, TWiLight Menu++, or hiyaCFW regardless of if Unlaunch's launcher patches are enabled.
 
