@@ -39,7 +39,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4i-yes.com
     - all carts from r4i-3ds.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `config`**:
-    - R4i <New> 2011.01 from r4i-sdhc.hk
+    - R4i &#60;New&gt; Year.Month from r4i-sdhc.hk
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `Redant.dat`**:
     - all carts from r4i-redant.com
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
