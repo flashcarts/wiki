@@ -28,10 +28,10 @@ ntrboot is a method that allows you to fix a bricked 3DS family console, and the
 
 For general usage outside of unbricking, Ace3DS X clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an older version of Wood which lacks some anti-piracy patches, so to play certain games you will have to manually [patch their ROMs](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/). Its biggest benefit is that it works on all DSi/3DS consoles.
 
-This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like that peace of mind). Usually costs $5-10 USD. Searching "ace3ds" seems to correctly return results on Aliexpress. A link is provided here, but this may not be the cheapest option as it's one of the many listings: 
+This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like that peace of mind). Usually costs $5-10 USD. Searching "ace3ds" seems to correctly return results on Aliexpress. Some links are provided here, but they may not be the cheapest options out there: 
 
-- aliexpress: https://www.aliexpress.com/item/1005005337644588.html 
-- nds-card: https://www.nds-card.com/ProShow.asp?ProID=575
+- aliexpress: [https://www.aliexpress.com/item/1005005337644588.html](https://www.aliexpress.com/item/1005005337644588.html) 
+- nds-card: [https://www.nds-card.com/ProShow.asp?ProID=575](https://www.nds-card.com/ProShow.asp?ProID=575)
 
 - Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.7z)
 
@@ -44,7 +44,7 @@ Has a relatively high defective cart rate, so buying two or three is recommended
 
 A guide to using the DSONE SDHC is here: https://github.com/Sanrax/DSOneManual
 
-This is recommended **if you only use DS Lite/Phat**. Costs $5-10 USD. Searching "dsone" on AliExpress or eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of the many listings: https://www.aliexpress.com/item/1005002378653693.html
+This is recommended **if you only use DS Lite/Phat**. Costs $5-10 USD. Searching "dsone" on AliExpress or eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of the many listings: [https://www.aliexpress.com/item/1005002378653693.html](https://www.aliexpress.com/item/1005002378653693.html)
 
 - Kernel: [Evolution OS](https://flashcard-archive.ds-homebrew.com/SuperCard/DSONE_SDHC_DSONEi/SuperCard_DSONE_SDHC_EOS_sp6_20121206.zip)
 - Alternate kernel: [YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) (Only use if Evolution OS gives a PSRAM error)
@@ -69,7 +69,7 @@ Note that there exist similar carts looking carts that are **not** Ace3DS+ clone
 
 Ace3DS+ clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an older version of Wood which lacks some anti-piracy patches, so to play certain games you will have to manually [patch their ROMs](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/). Its biggest benefit is that it works on all DSi/3DS consoles.
 
-This is recommended **for unhacked DSi and 3DS users** to buy. Usually costs $5-10 USD. Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of the many listings: https://www.aliexpress.com/item/1005003812530595.html
+This is recommended **for unhacked DSi and 3DS users** to buy. Usually costs $5-10 USD. Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of the many listings: [https://www.aliexpress.com/item/1005003830660409.html](https://www.aliexpress.com/item/1005003830660409.html)
 
 - Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.7z)
 
@@ -84,7 +84,7 @@ Most of these carts available today are labelled as r4isdhc**.com**, others do e
 
 One notable advantage of these carts over DSONE or Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support and do NOT have a spare DS/DS Lite/hacked DSi or 3DS, then these carts are a good choice. Otherwise, consider the Ace3DS X above.
 
-This is only recommended **if you cannot buy an Ace3DS+ clone, or want to use ntrboot and do not have a spare DS/DS Lite or a console with CFW**. Usually costs $10-15 USD.
+This is only recommended **if you cannot buy an Ace3DS+ clone, or want to use ntrboot and do not have a spare DS/DS Lite or a console with CFW**. Usually costs $10-15 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: [https://www.aliexpress.com/item/1005004530389743.html](https://www.aliexpress.com/item/1005004530389743.html)
 
 - Kernel: [YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
 
