@@ -80,9 +80,9 @@ This is recommended **for unhacked DSi and 3DS users** to buy. Usually costs $5-
 
 These common carts are clones of the DSTT, but with a timebomb in their official kernel. The timebomb is purely software, so switching to an alternative kernel will remove it. These carts are compatible with all DS, DSi, and 3DS consoles, even on the latest firmware, so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+ clones](#wiki_ace3ds+_clone) are recommended instead if possible.
 
-Most of these carts available today are labelled as r4isdhc**.com**, others do exist. The timebomb causes the cart to stop loading NDS ROMs after a certain date, but be fixed by either switching to the YSMenu kernel or just setting back your DS clock. Ace3DS+ or Acekard 2i clones are recommended instead due to the AKAIO/Wood kernel having higher compatibility with certain features such as Wii connectivity in DS games.
+Most of these carts available today are labelled as r4isdhc**.com**, others do exist. The timebomb causes the cart to stop loading NDS ROMs after a certain date, but be fixed by either switching to the YSMenu kernel or just setting back your DS clock. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with certain features such as Wii connectivity in DS games.
 
-One notable advantage of these carts over DSONE or Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support and do NOT have a spare DS/DS Lite/hacked DSi or 3DS, then these carts are a good choice. Otherwise, consider the Acekard 2i above.
+One notable advantage of these carts over DSONE or Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support and do NOT have a spare DS/DS Lite/hacked DSi or 3DS, then these carts are a good choice. Otherwise, consider the Ace3DS X above.
 
 This is only recommended **if you cannot buy an Ace3DS+ clone, or want to use ntrboot and do not have a spare DS/DS Lite or a console with CFW**. Usually costs $10-15 USD.
 
