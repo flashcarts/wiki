@@ -6,13 +6,10 @@ markdown_ext : "markdown,mkdown,mkdn,mkd,md,html"
 sass:
   sass_dir: _sass
 
-include:
-  - ".well-known"
-
 exclude:
   - Gemfile*
   - vendor
-  - LICENSE
+  - LICENSE*
 
 defaults:
   - scope:
