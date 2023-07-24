@@ -80,7 +80,7 @@ This is recommended **for unhacked DSi and 3DS users** to buy. Usually costs $5-
 ![r4isdhc.com dual-core cart](../assets/images/ds_carts/r4isdhc_com_back.png)
 ![Unlabelled timebomb clone](../assets/images/ds_carts/timebomb_back.png)
 
-These common carts are clones of the DSTT, but with a timebomb in their official kernel. The timebomb is purely software, so switching to an alternative kernel will remove it. These carts are compatible with all DS, DSi, and 3DS consoles, even on the latest firmware, so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+ clones](#ace3ds+-clone) are recommended instead if possible.
+These common carts are clones of the DSTT, but with a timebomb in their official kernel. The timebomb is purely software, so switching to an alternative kernel will remove it. These carts are compatible with all DS, DSi, and 3DS consoles, even on the latest firmware, so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+ clones](#ace3ds-clone) are recommended instead if possible.
 
 Most of these carts available today are labelled as r4isdhc**.com**, others do exist. The timebomb causes the cart to stop loading NDS ROMs after a certain date, but be fixed by either switching to the YSMenu kernel or just setting back your DS clock. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with certain features such as Wii connectivity in DS games.
 
@@ -99,7 +99,7 @@ These are carts that you may encounter but are not generally recommended.
    - These clones on AliExpress can be identified by their green PCB and lack of a label in a shell otherwise similar to timebomb clones
 
 ## DSi
-On the DSi/DSi XL consoles, Nintendo introduced a whitelist and RSA signatures in an attempt to prevent flashcarts from functioning, so you need to be careful which flashcart you buy to use it on a DSi. Because of this the [Ace3DS+ clones](#ace3ds+-clone) are recommended if you choose to buy a flashcart for use on a DSi, as they are supported all the way up to the latest firmware version.
+On the DSi/DSi XL consoles, Nintendo introduced a whitelist and RSA signatures in an attempt to prevent flashcarts from functioning, so you need to be careful which flashcart you buy to use it on a DSi. Because of this the [Ace3DS+ clones](#ace3ds-clone) are recommended if you choose to buy a flashcart for use on a DSi, as they are supported all the way up to the latest firmware version.
 
 If you have an unsupported flashcart it will show black screens with white text that says "[An error has occurred](https://i.imgur.com/gE47UKA.png)" when loading. This can be bypassed by installing CFW on your DSi. Specifically Unlaunch is required, with Unlaunch you will be able to load the flashcart from the DSi Menu if it was installed with launcher patches enabled or from Unlaunch itself, TWiLight Menu++, or hiyaCFW regardless of if Unlaunch's launcher patches are enabled.
 
@@ -110,6 +110,6 @@ See [dsi.cfw.guide](https://dsi.cfw.guide) for how to install CFW on your DSi.
 ## 3DS
 On the 3DS family of consoles (including the 2DS and XL variants) there is a distinction between flashcarts that play 3DS games and flashcarts that play DS games. Flashcarts that play 3DS games are rendered mostly useless by the existence of CFW, which has *better* compatibility and is completely free, while 3DS flashcarts are very expensive. CFW also has other benefits over 3DS flashcarts such as the ability to run homebrew and emulators.
 
-Flashcarts for playing DS games on the other hand can still be useful, and everything in the [DSi](#dsi) section above applies to DS mode flashcarts on the 3DS as well. With [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html) being a good option, but flashcarts for DS games having slightly higher compatibility. The [Ace3DS+ clones](#ace3ds+-clone) are also the recommended DS flashcart for 3DS users as they support the latest 3DS firmware without needing CFW. Any DS flashcart can be run with CFW, either from the 3DS HOME Menu or TWiLight Menu++.
+Flashcarts for playing DS games on the other hand can still be useful, and everything in the [DSi](#dsi) section above applies to DS mode flashcarts on the 3DS as well. With [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html) being a good option, but flashcarts for DS games having slightly higher compatibility. The [Ace3DS+ clones](#ace3ds-clone) are also the recommended DS flashcart for 3DS users as they support the latest 3DS firmware without needing CFW. Any DS flashcart can be run with CFW, either from the 3DS HOME Menu or TWiLight Menu++.
 
 See [3ds.hacks.guide](https://3ds.hacks.guide) for how to install CFW on your 3DS.
