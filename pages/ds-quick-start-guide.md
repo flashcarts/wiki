@@ -44,6 +44,8 @@ Has a relatively high defective cart rate, so buying two or three is recommended
 
 A guide to using the DSONE SDHC is here: https://github.com/Sanrax/DSOneManual
 
+These carts can also be found with a [DSONEi label](https://i.imgur.com/JsZZC8N.png), however, they are not DSONEi carts. They are DSONE SDHC carts with a DSONEi label.
+
 This is recommended **if you only use DS Lite/Phat**. Costs $5-10 USD. Searching "dsone" on AliExpress or eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of the many listings: [https://www.aliexpress.com/item/1005002378653693.html](https://www.aliexpress.com/item/1005002378653693.html)
 
 - Kernel: [Evolution OS](https://flashcard-archive.ds-homebrew.com/SuperCard/DSONE_SDHC_DSONEi/SuperCard_DSONE_SDHC_EOS_sp6_20121206.zip)
