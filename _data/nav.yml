@@ -10,8 +10,6 @@
   items:
     - title: Atari Jaguar Flashcarts
       url: atari-jaguar
-    - title: Famicom Disk System Flashcarts
-      url: fds
     - title: Mega-CD/Sega CD Flashcarts
       url: mega-drive
     - title: Pokémon Mini Flashcarts
