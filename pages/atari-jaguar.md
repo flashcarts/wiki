@@ -1,4 +1,6 @@
-# Atari Jaguar Flashcarts
+---
+title: Atari Jaguar Flashcarts
+---
 
 There is only one Jaguar flashcart known to exist:
 
