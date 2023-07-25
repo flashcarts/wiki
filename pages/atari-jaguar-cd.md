@@ -12,9 +12,4 @@ Fear not. Much like the situation with Mega-CD/Sega CD flashcarts, there is hope
 
 Get your balding, primal-rage-inducing dragon's lair myst on.
 
-
-## For More Info
-
-Check out [Atari Jaguar Flashcarts](https://www.reddit.com/r/flashcarts/wiki/atari-jaguar-flashcarts).
-
 {% include_relative include/disclaimer.md %}

@@ -2,7 +2,7 @@
 title: A Quick Guide on DS Flashcarts
 ---
 
-Here are the best DS flashcarts available on the market currently. **If you're looking for a GBA flashcart, see the [GBA quick start guide](https://flashcarts.net/gba-quick-start-guide).** For other consoles, see the [quick start guide list](https://flashcarts.net).
+Here are the best DS flashcarts available on the market currently. **If you're looking for a GBA flashcart, see the [GBA quick start guide](gba-quick-start-guide).** For other consoles, see the [quick start guide list](index.html).
 
 ## READ FIRST
 1. There are hundreds, if not thousands of R4 clones made, be wary when purchasing and don't simply slap on any kernel and expect it to work.

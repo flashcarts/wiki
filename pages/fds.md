@@ -2,7 +2,7 @@
 title: Famicom Disk System Flashcarts
 ---
 
-Famicom Disk System (FDS) flashcarts do not exist. However, not all hope is lost. Most known NES and Famicom flashcarts will play FDS titles with no modification. Please keep in mind [NTSC-vs-PAL considerations](https://www.reddit.com/r/flashcarts/wiki/ntsc-vs-pal-flashcart-considerations), as the Famicom Disk System was NTSC-J, only. See [Famicom Flashcarts](https://www.reddit.com/r/flashcarts/wiki/famicom-flashcarts) and [NES Flashcarts](https://www.reddit.com/r/flashcarts/wiki/nintendo-entertainment-system-flashcarts) for more.
+Famicom Disk System (FDS) flashcarts do not exist. However, not all hope is lost. Most known NES and Famicom flashcarts will play FDS titles with no modification. Please keep in mind [NTSC-vs-PAL considerations](ntsc-vs-pal), as the Famicom Disk System was NTSC-J, only.
 
 ## Background
 

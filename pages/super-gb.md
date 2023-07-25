@@ -40,11 +40,4 @@ Well, here's another handy-less-dandy-but-still-dandy chart:
 |Shipping|Krikzz|Everdrive|GB Xx crammed into a GameCube Game Boy Player|Game Boy-SGB-Enhanced, yes. Game Boy Color-SGB-Ehnhanced, no (or, undetermined as to how).|
 |Shipping|Krikzz|Everdrive|GBA X5 crammed into a GameCube Game Boy Player|via the "Goomba.gba" emulator: Game Boy-SGB-Enhanced, yes. Game Boy Color-SGB-Ehnhanced, no (or, undetermined as to how).|
 
-## For More Info
-
-Visit your local library. Nah, just messin'. They're dying because no one reads books any more, especially r/flashcarts, amirite? Nah, just messin'. But really. About 0% of us read the sidebar—how are we possibly going to do Dewey Decimal System? Nah, just messin'. But really. They won't have anything on this.
-
-
-Instead, check out [Game Boy Flashcarts](https://www.reddit.com/r/flashcarts/wiki/game-boy--color-flashcarts) or [Game Boy Color Flashcarts](https://www.reddit.com/r/flashcarts/wiki/game-boy--color-flashcarts).
-
 {% include_relative include/disclaimer.md %}

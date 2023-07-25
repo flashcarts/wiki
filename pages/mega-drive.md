@@ -14,9 +14,9 @@ What? How are you going to get a flashcart to spin around in an optical drive?  
 This is the only one, boys.
 
 
-¹ - Notes:
+Notes:
 
-* Don't forget [NTSC vs PAL consideration](https://www.reddit.com/r/flashcarts/wiki/ntsc-vs-pal-flashcart-considerations) still apply.
+* Don't forget [NTSC vs PAL consideration](ntsc-vs-pal) still apply.
 * 32X games can be played off the cart *with* the 32X add-on attached and part of your tower-of-power. Despite this, the six (6) 32X-CD games cannot.
 * Sega Master System game (and by extension, Game Gear and SG-1000?) can be run off of this Flashcart.
 * Some NTSC Nintendo Entertainment System games can be emulated.
