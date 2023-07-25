@@ -5,7 +5,7 @@ title: Sega 32X Flashcarts
 Sega 32X flashcarts do not exist, presently. However, if you do own a 32X Add-on in addition to your Mega Drive or Genesis, the following flashcarts will allow 32X passthrough (i.e., they work):
 
 |Status|Make|Brand|Model|Notes|MSRP|
---:|--:|--:|--:|:--|:--|
+|---|---|---|---|---|---|
 |Shipping|Krikzz|Mega Everdrive|[Pro](https://krikzz.com/our-products/cartridges/mega-everdrive-pro.html)|(Also plays Mega-CD/Sega CD as well as MSU's.)|~USD$199|
 |Shipping|Krikzz|Mega Everdrive|[X5](https://krikzz.com/our-products/cartridges/mega-everdrive-x5.html)||~USD$55|
 |Shipping|Krikzz|Mega Everdrive|[X3](https://krikzz.com/our-products/cartridges/mega-everdrive-x3.html)||~USD$39|

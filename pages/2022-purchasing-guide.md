@@ -6,7 +6,7 @@ Don't know where to start? Use the below list to head in the right direction! Li
 
 
 |Generation|Type|Make|Model|Abbr.|Notes|
---:|--:|--:|--:|--:|:--|
+|---|---|---|---|---|---|
 |2nd|Console|Atari|Atari 2600|2600||
 |2nd|Console|Atari|Atari 5200|5200||
 |2nd|Console|Coleco|Colecovision|Col||

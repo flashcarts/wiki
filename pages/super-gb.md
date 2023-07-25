@@ -15,7 +15,7 @@ As far as hardware goes, the Super Game Boy had two editions the "1" (not what i
 *Does this work?* Yes. Yes it does. Kind of. Mostly. Here's a (probably incomplete) handy-dandy chart:
 
 |Status|Make|Brand|Model|Does It Work/Show SGB Content in addition to Game Boy Content on a Super Game Boy in a SFC/SNES?|
---:|--:|--:|--:|:--|
+|---|---|---|---|---|
 |Shipping|Krikzz|Everdrive|GB X7|Original GB SGB-Enhanced, only.|
 |Shipping|Krikzz|Everdrive|GB X5|Original GB SGB-Enhanced, only.|
 |Shipping|Krikzz|Everdrive|GB X3|Original GB SGB-Enhanced, only.|
@@ -30,7 +30,7 @@ Note: a working GB/C flashcart won't magically make a non-SGB-Enhanced title sud
 Well, here's another handy-less-dandy-but-still-dandy chart:
 
 |Status|Make|Brand|Scenario/Set-up|Can I SGB Content via this Flashcart-esque set-up?|
---:|--:|--:|--:|:--|
+|---|---|---|---|---|
 |Some|Krikzz|Super Everdrive-esque|[Varies]|No exhaustive list to date, but some models will, possibly with custom firmware|
 |Shipping|Krikzz|Everdrive|GB Xx|No. Are you mad? Where would the borders fit?|
 |"Shipping"|Analogue|Analogue Pocket|via Everdrive GB Xx|Supposedly, yes, in the 1.1 firmware update.|

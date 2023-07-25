@@ -5,7 +5,7 @@ title: Pokémon Mini Flashcarts
 Provided are links to known Pokémon Mini flashcarts.
 
 |Status|Make|Set|Includes|MSRP|
---:|--:|--:|:--|:--|
+|---|---|---|---|---|
 |TBA|[Pokemon Mini 2MB Flash Cart](https://shop.insidegadgets.com/product/pokemon-mini-2mb-flash-cart/)|Standard|Circuit board; GBx Edge Adapter; [GBxCartRw device](https://shop.insidegadgets.com/product/gbxcart-rw/) required|~USD$42|
 |Shipping(?)|DITTO mini|Standard|Circuit board; USB Flasher; Triwing Screwdriver|~USD$95|
 |Legacy|[PokeCard 512](https://www.pokemon-mini.net/flash-carts/)|Rev 2.1||—|
