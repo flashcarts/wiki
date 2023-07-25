@@ -22,7 +22,4 @@ This is the only one, boys.
 * Some NTSC Nintendo Entertainment System games can be emulated.
 * MSU Mega Drive/Genesis games are a thing. And this is the only flashcart that can play them.
 
-
-### Disclaimer
-
-The information contained in this post is based on other subreddit posts, reddit posts, pages and forums around the web. r/flashcarts, its members, moderators, and wiki contributors do not claim to own any or all of these flashcarts; nor vouch they will never harm your system; nor guarantee any suggested price; nor warrant completeness of lists at any given point, nor speak on behalf-of any retailers, seller or vendor (r43ds.org is the devil). In other words, use this for educational purposes and at your own risk. Also, when in doubt, ask questions on the main r/flashcarts feed. Like the X-Wing targeting computer, that's what it there for.
+{% include_relative include/disclaimer.md %}

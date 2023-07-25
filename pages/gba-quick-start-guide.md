@@ -2,8 +2,6 @@
 title: A Quick Guide on GBA Flashcarts
 ---
 
-**Disclaimer**: The information contained in this post is based on other posts and forums around the web. r/flashcarts, its members, and wiki contributors do not claim to own all of these flashcarts.
-
 Here are the best GBA flashcarts available on the market currently. For other consoles, please see the [quick start guide list](/r/flashcarts/wiki/index#wiki_quick_start_guides.3A).
 
 The below flashcarts are purchasable from AliExpress or reputable retro accessory stores like [Hand Held Legend](https://handheldlegend.com) and [Retro Game Repair Shop](https://retrogamerepairshop.com).
@@ -20,3 +18,5 @@ The non-premium option with a few shortcomings. It has a notable battery drain a
 
 ### SuperCard SD
 The cheapest and worst option. It requires a custom rom patcher specific for this cart that reportedly doesn't work on newer windows versions. Only supports 2GB SD cards. However, it seems to be the only readily available cart to work in conjunction with TWiLight Menu++ on DS Phat/Lite for loading GBA games natively on those systems via Slot-1. Costs anywhere between $10-20 USD.
+
+{% include_relative include/disclaimer.md %}

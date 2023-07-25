@@ -20,6 +20,4 @@ Again, these are for-example (there are others) colloquial indicators (or "nickn
 
 SECAM was that kid in school that got the N-Gage because his parents didn't get it or because they were Cold War dictators; in other words, they had something to say they had something, but they missed out on so much more. To knowledge, the only SECAM console that ever existed was the SECAM Atari 2600 (which is kind of cool-looking); further down that rabbit hole, it would seem there very tiny fraction of the 2600 Library that was compiled and minted for SECAM. Same rules as above (NTSC vs PAL) should apply, should you find yourself so lucky.
 
-### Disclaimer
-
-The information contained in this post is based on other subreddit posts, reddit posts, pages and forums around the web. r/flashcarts, its members, moderators, and wiki contributors do not claim to own any or all of these flashcarts; nor vouch they will never harm your system; nor guarantee any suggested price; nor warrant completeness of lists at any given point, nor speak on behalf-of any retailers, seller or vendor (r43ds.org is the devil). In other words, use this for educational purposes and at your own risk. Also, when in doubt, ask questions on the main r/flashcarts feed. Like the X-Wing targeting computer, that's what it there for.
+{% include_relative include/disclaimer.md %}

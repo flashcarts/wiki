@@ -2,8 +2,6 @@
 title: A Quick Guide on DS Flashcarts
 ---
 
-**Disclaimer**: The information contained in this post is based on other posts and forums around the web. r/flashcarts, its members, and wiki contributors do not claim to own all of these flashcarts.
-
 Here are the best DS flashcarts available on the market currently. **If you're looking for a GBA flashcart, see the [GBA quick start guide](https://flashcarts.net/gba-quick-start-guide).** For other consoles, see the [quick start guide list](https://flashcarts.net).
 
 ## READ FIRST
@@ -113,3 +111,5 @@ On the 3DS family of consoles (including the 2DS and XL variants) there is a dis
 Flashcarts for playing DS games on the other hand can still be useful, and everything in the [DSi](#dsi) section above applies to DS mode flashcarts on the 3DS as well. With [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html) being a good option, but flashcarts for DS games having slightly higher compatibility. The [Ace3DS+ clones](#ace3ds-clone) are also the recommended DS flashcart for 3DS users as they support the latest 3DS firmware without needing CFW. Any DS flashcart can be run with CFW, either from the 3DS HOME Menu or TWiLight Menu++.
 
 See [3ds.hacks.guide](https://3ds.hacks.guide) for how to install CFW on your 3DS.
+
+{% include_relative include/disclaimer.md %}

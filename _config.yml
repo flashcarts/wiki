@@ -7,6 +7,7 @@ sass:
   sass_dir: _sass
 
 exclude:
+  - include/*
   - Gemfile*
   - vendor
   - LICENSE*
