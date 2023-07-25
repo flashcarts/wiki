@@ -6,6 +6,10 @@
   url: gba-quick-start-guide
 - title: Other Pages
   items:
+    - title: Nintendo 64 Dynamic Disk Flashcarts
+      url: 64dd
+    - title: Atari Jaguar CD Flashcarts
+      url: atari-jaguar-cd
     - title: Famicom Disk System Flashcarts
       url: fds
     - title: Mega-CD/Sega CD Flashcarts
