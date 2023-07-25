@@ -1,18 +1,14 @@
 ---
-title: Mega CD / Sega CD Flashcarts
+title: Mega Drive Flashcarts
 ---
 
 # Mega-CD/Sega CD Flashcarts
 
-What? How are you going to get a flashcart to spin around in an optical drive?  Well, even though such things do exist, we're not going to. Why? Because we don't have to. Thanks to:
+At the moment, there is only one Mega Drive / Genesis flash cartridge listed on this page. This model also supports the Mega CD / Sega CD consoles as well.
 
 |Status|Make|Brand|Model|Notes|MSRP|
 --:|--:|--:|--:|:--|:--|
 |Shipping|Krikzz|Mega Everdrive|[Pro](https://krikzz.com/our-products/cartridges/mega-everdrive-pro.html)¹|The only known shipping Mega-CD/Sega CD Flashcart; has the added benefit of being compatible with Mega Drive/Genesis titles as well|~USD$199|
-
-
-This is the only one, boys.
-
 
 Notes:
 

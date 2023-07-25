@@ -2,8 +2,6 @@
 title: Super Game Boy Flashcarts
 ---
 
-[What are you trying to do? Get the universe to implode on itself?](https://www.reddit.com/r/snes/comments/17s7zm/as_requested_how_i_play_my_pokemon_games_i_put_my/) Nah, just messin'.
-
 ## Software
 
 As far as software goes, Super Game Boy (SGB) was not a game format per se, but rather bonus features (mostly borders and "expanded" color palettes) that could be added to both Game Boy (roughly 25% of the Game Boy Library) and Game Boy Color (roughly 20% of the Game Boy Color Library) titles.
