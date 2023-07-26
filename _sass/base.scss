@@ -822,12 +822,3 @@ a.footnote::after {
 		left: 0.75rem;
 	}
 }
-
-table, th, td {
-	border: 1px solid;
-	padding: 10px;
-}
-
-tr:nth-child(even) {
-	background-color: #f6f6f6;
-}
