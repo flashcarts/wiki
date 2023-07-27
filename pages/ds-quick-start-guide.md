@@ -13,6 +13,7 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 1. Need firmware? Refer to the [DS-Homebrew Flashcard Archive](https://flashcard-archive.ds-homebrew.com). Here you can compare the website listed on your flashcart to find the correct kernel for you. Feel free to comment or make a new post on the r/flashcarts subreddit if you have trouble identifying your cart!
 1. Want to install YSMenu and not worry about timebombs? Refer to the [gbatemp.net thread](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/). **Not all carts are compatible with YSMenu!** If you are unsure, ask before you install. You risk bricking your cart with the wrong firmware!
 1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a microSD card separately, being [cautious of SD card scams](https://www.youtube.com/watch?v=mSepkrHJv14).
+1. Older DS flashcarts may not work on the stock firmware of a DSi/3DS. Instead of being able to boot the cart, you will be presented with an error message instead. See the ['Alternative Options for DSi/3DS Users'](#alternative-options-for-dsi3ds-users) section for more information about why this happens and how to solve it!
 1. **Note that GBA emulation on these consoles is not perfect, refer to the [GBARunner2 Wiki](https://wiki.gbatemp.net/wiki/GBARunner2#DS_Compatibility_List) to check game compatibility.**
 1. **None of the carts listed here play 3DS games. Install CFW to run 3DS games, more details in the [3DS section](#3ds).**
 
@@ -67,7 +68,7 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 | ----------- | ----------- |
 | ![R4i Gold 3DS Plus](../assets/images/ds_carts/r4i_gold_3ds_plus.png) | This cart halted production at the start of 2020. They were formerly highly recommended carts with a highly compatible and feature-rich kernel (Wood R4 1.64), but their last batch was faulty and cannot play NDS ROMs - thus, they are no longer recommended. Do not follow any old advice saying to buy them. <ul><li> This refers specifically to the *R4i Gold 3DS Plus* from **r4ids.cn**, they should not be confused with carts from any other website. |
 
-# Alternative Options and Flashcart Blacklists - DSi/3DS Users
+# Alternative Options for DSi/3DS Users
 
 ---
 
