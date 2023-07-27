@@ -55,7 +55,7 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 
 ---
 
-##These are carts that you may encounter but are generally NOT recommended:
+## These are carts that you may encounter but are generally NOT recommended:
 
 |  R4 DS | Description |
 | ----------- | ----------- |
@@ -67,7 +67,7 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 | ----------- | ----------- |
 | ![R4i Gold 3DS Plus](../assets/images/ds_carts/r4i_gold_3ds_plus.png) | This cart halted production at the start of 2020. They were formerly highly recommended carts with a highly compatible and feature-rich kernel (Wood R4 1.64), but their last batch was faulty and cannot play NDS ROMs - thus, they are no longer recommended. Do not follow any old advice saying to buy them. <ul><li> This refers specifically to the *R4i Gold 3DS Plus* from **r4ids.cn**, they should not be confused with carts from any other website. |
 
-#Alternative Options and Flashcart Blacklists - DSi/3DS Users
+# Alternative Options and Flashcart Blacklists - DSi/3DS Users
 
 ---
 
