@@ -2,7 +2,7 @@
 title: A Quick Guide on GBA Flashcarts
 ---
 
-Here are the best GBA flashcarts available on the market currently. For other consoles, please see the [quick start guide list](/r/flashcarts/wiki/index#wiki_quick_start_guides.3A).
+Here are the best GBA flashcarts available on the market currently. For other consoles, please see the [quick start guide list](index.html).
 
 The below flashcarts are purchasable from AliExpress or reputable retro accessory stores like [Hand Held Legend](https://handheldlegend.com) and [Retro Game Repair Shop](https://retrogamerepairshop.com).
 
