@@ -757,7 +757,6 @@ a.footnote::after {
 	margin-top: -3px;
 }
 
-
 @media only screen and (min-width: 576px) {
 	// Seems to be broken in RTL in bootstrap v5.0-beta1, so override here
 	html[dir=rtl] .dropdown-menu-sm-end {

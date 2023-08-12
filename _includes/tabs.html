@@ -1,0 +1,9 @@
+{% assign tab-group = "tab" %}
+{% if include.index > 0 %}{% assign tab-group = tab-group | append: include.index %}{% endif %}
+<div class="tab-container" data-tab-group="{{ tab-group }}">
+	{% for tab in page.tabs[include.index] %}
+		<input id="{{ tab-group }}-{{ tab[0] }}" class="d-none" name="{{ tab-group }}" type="radio" {% if forloop.first %}checked{% endif %}>
+		<label for="{{ tab-group }}-{{ tab[0] }}" class="tab-link" onclick="setTab('{{ tab-group }}', '{{ tab[0] }}')">{{ tab[1] }}</label>
+		<div class="tab">{{ include.tabs[forloop.index0] | markdownify }}</div>
+	{% endfor %}
+</div>
