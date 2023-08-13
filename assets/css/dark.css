@@ -102,27 +102,27 @@ div .btn-primary:hover {
   opacity: inherit; }
 
 .bg-primary {
-  background-color: #b55356 !important; }
+  background-color: #ef5350 !important; }
 
 .btn-primary, .btn-primary:focus {
   color: rgba(0, 0, 0, 0.7);
-  background-color: #b55356 !important;
-  border-color: #b55356 !important; }
+  background-color: #ef5350 !important;
+  border-color: #ef5350 !important; }
 
 .btn-primary:hover, .btn-primary:active {
   color: rgba(0, 0, 0, 0.7) !important;
   opacity: 0.8; }
 
 .btn-outline-primary {
-  color: #b55356;
-  border-color: #b55356; }
+  color: #ef5350;
+  border-color: #ef5350; }
 
 .btn-outline-primary:hover, .btn-outline-primary:active {
-  background-color: #b55356 !important;
-  border-color: #b55356 !important; }
+  background-color: #ef5350 !important;
+  border-color: #ef5350 !important; }
 
 .text-primary {
-  background-color: #b55356 !important; }
+  background-color: #ef5350 !important; }
 
 .btn-outline-secondary {
   color: #ccc; }
@@ -177,7 +177,7 @@ html[dir=rtl] .navbar-toggler {
   min-height: 3.5rem; }
 
 .dropdown-menu, .dropdown .hover-content {
-  background-color: #b55356;
+  background-color: #ef5350;
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
   display: block;
