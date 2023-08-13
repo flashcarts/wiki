@@ -68,7 +68,7 @@ Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart. A l
 
 These carts are sold under a variety of brandings. The 2020 and later carts labelled as r4isdhc**.hk** and r4isdhc**.com.cn**, and "208-in-1" carts are Ace3DS+ clones. Aside from the distinction note above, all of these carts perform identically regardless of branding.
 
-Note that there exist similar carts looking carts that are **not** Ace3DS+ clones, but rather [timebomb clones](#timebomb_clone). These include carts labelled as r4isdhc**.com** and some unlabelled red PCB carts. The notable physical differences are:
+Note that there exist similar carts looking carts that are **not** Ace3DS+ clones, but rather [timebomb clones](#dstti-timebomb-clones). These include carts labelled as r4isdhc**.com** and some unlabelled red PCB carts. The notable physical differences are:
 - Ace3DS+ clones have either one or five holes in the PCB near the pins, the similar timebomb clones have two. (see above images)
    - NOTE: It has been reported that the 5 hole PCB variant do not work on unmodded DSi/3DS consoles. This is mostly prominent on unlabeled Ace3DS+ clones, so do not purchase unlabeled carts.
 - Ace3DS+ clones have smaller but deeper indents on the sides
@@ -84,7 +84,7 @@ These common carts are clones of the DSTTi, but with a timebomb in their officia
 
 Most of these carts sold today are labelled as r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. The timebomb causes the cart to stop loading into the menu after a certain date, but can be fixed by either switching to the YSMenu kernel or the de-timebombed stock kernel. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with certain features such as Wii connectivity in DS games.
 
-One notable advantage of these carts over [DSOne](?tab=original-hacked#dsone-sdhc) or Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support, then these carts are a decent choice. However, the [Ace3DS X](#ace3ds-x) above is preferable for that purpose, since it has ntrboot preflashed and uses a better kernel when in DS mode.
+One notable advantage of these carts over [DSOne](?tab=original-hacked#flashcarts) or Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support, then these carts are a decent choice. However, the [Ace3DS X](#ace3ds-x) above is preferable for that purpose, since it has ntrboot preflashed and uses a better kernel when in DS mode.
 
 ### Variants
 ![r4isdhc.com gold cart](/assets/images/ds_carts/r4isdhc_com_front.png)
@@ -167,7 +167,7 @@ This refers specifically to the *R4i Gold 3DS Plus* from **r4ids.cn**, they shou
 ## Alternative Options for DSi/3DS Users
 
 {% capture tab-dsi %}
-On the DSi/DSi XL consoles, Nintendo introduced a whitelist and RSA signatures in an attempt to prevent flashcarts from functioning, so you need to be careful which flashcart you buy to use it on a DSi. Because of this the [Ace3DS+ clones](#ace3ds-clones) are recommended if you choose to buy a flashcart for use on a DSi, as they are supported all the way up to the latest firmware version.
+On the DSi/DSi XL consoles, Nintendo introduced a whitelist and RSA signatures in an attempt to prevent flashcarts from functioning, so you need to be careful which flashcart you buy to use it on a DSi. Because of this the [Ace3DS+ clones](?tab=unhacked#ace3ds-clones) are recommended if you choose to buy a flashcart for use on a DSi, as they are supported all the way up to the latest firmware version.
 
 If you boot an unsupported flashcart on a stock DSi, it will show black screens with white text that says "[An error has occurred](https://i.imgur.com/gE47UKA.png)". This can be bypassed by installing CFW on your DSi. Specifically, Unlaunch is required - with it, you will be able to load the flashcart from the DSi Menu if it was installed with launcher patches enabled or from Unlaunch itself, TWiLight Menu++, or hiyaCFW regardless whether or not Unlaunch's launcher patches are enabled.
 
@@ -180,7 +180,7 @@ See [dsi.cfw.guide](https://dsi.cfw.guide) for a guide on how to install CFW on 
 {% capture tab-3ds %}
 On the 3DS family of consoles (including the 2DS and XL variants) there is a distinction between flashcarts that play 3DS games and flashcarts that play DS games. Flashcarts that play 3DS games are rendered mostly useless by the existence of CFW, which has *better* compatibility and is completely free, while 3DS flashcarts are very expensive. CFW also has other benefits over 3DS flashcarts such as the ability to run homebrew and emulators.
 
-Flashcarts for playing DS games on the other hand can still be useful, and everything in the [DSi](#dsi) section above applies to DS mode flashcarts on the 3DS as well. That is, [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html) being a good option, but flashcarts for DS games having slightly higher compatibility. The [Ace3DS X](#ace3ds-x) carts are the recommended DS flashcart for 3DS users as they support the latest 3DS firmware without needing CFW, and provide ntrboot in the case you may need it. Any DS flashcart can be run with CFW, either from the 3DS HOME Menu or TWiLight Menu++. Thus for CFW users, [DSOne SDHC](#dsone-sdhc) is also a great option.
+Flashcarts for playing DS games on the other hand can still be useful, and everything in the [DSi](?tab1=dsi#alternative-options-for-dsi3ds-users) section above applies to DS mode flashcarts on the 3DS as well. That is, [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html) being a good option, but flashcarts for DS games having slightly higher compatibility. The [Ace3DS X](?tab=unhacked#ace3ds-x) carts are the recommended DS flashcart for 3DS users as they support the latest 3DS firmware without needing CFW, and provide ntrboot in the case you may need it. Any DS flashcart can be run with CFW, either from the 3DS HOME Menu or TWiLight Menu++. Thus for CFW users, [DSOne SDHC](?tab=original-hacked&tab1=3ds#flashcarts) is also a great option.
 
 See [3ds.hacks.guide](https://3ds.hacks.guide) for how to install CFW on your 3DS.
 {% endcapture %}
