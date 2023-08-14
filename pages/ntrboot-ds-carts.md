@@ -34,7 +34,7 @@ This flashcart requires a microSD card to be inserted for it to be detected by y
 
 This cart usually costs $5-$10 USD. Searching "ace3ds" seems to correctly return results on AliExpress. Links are provided here though they may not be the cheapest options out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575) / [AliExpress](https://www.aliexpress.com/item/1005005337644588.html)
 
-Kernel: [Ace Wood 1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.7z) 
+Kernel: [Ace Wood 1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip) 
 
 ## R4i-SDHC B9S
 ![R4i-SDHC B9S](/assets/images/ds_carts/r4i-sdhc_b9s.png){:.float-start .me-3} 
@@ -46,7 +46,7 @@ This cart does **not** have a switch for different modes. It's one of r4i-sdhc.c
 This cart costs $16.99 on NDS-Card's website: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=574)
 
 Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
-Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/blob/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
+Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
 {% endcapture %}
 {% assign tab-preflashed = tab-preflashed | split: "////////" %}
 
@@ -66,7 +66,7 @@ The 4.1b kernel for this cart hosted by r4i-sdhc.com has a broken ROM loader - o
 This cart usually costs $5-10 USD. Searching "r4 gold" seems to correctly return results on AliExpress. Links are provided here but they may not be the cheapest out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=490) / [AliExpress](https://www.aliexpress.com/item/1005002010753427.html)
 
 Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
-Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/blob/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
+Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
 
 ## R4i-SDHC 3DS
 ![R4i-SDHC 3DS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}   
@@ -78,7 +78,7 @@ This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart menti
 This cart usually costs $10-15 USD. Searching "r4i-sdhc" seems to correctly return results on AliExpress. Links are provided here but they may not be the cheapest out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=146) / [AliExpress](https://www.aliexpress.com/item/1005005714399106.html)
 
 Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
-Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/blob/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
+Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
 
 ## DSTT
 ![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}   
