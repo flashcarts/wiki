@@ -44,7 +44,7 @@ This is recommended **for unhacked DSi and 3DS users** to buy, as well as people
 - NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=575>
 
 This cart uses the same kernel as the Ace3DS+, link provided below
-- Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.7z)
+- Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
 ## Ace3DS+ Clones
 ![Ace3DS+ Original](/assets/images/ds_carts/ace3ds+.png){:.float-start .me-3}
@@ -75,7 +75,7 @@ Note that there exist similar carts looking carts that are **not** Ace3DS+ clone
 - Timebomb clones typically have an oval shaped indent in the plastic on the back, while Ace3DS+ clones don't.
 - Ace3DS+ clones always have red PCBs, timebomb clones often have yellow PCBs but are occasionally red as well.
 
-Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.7z)
+Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
 ## DSTTi Timebomb Clones
 ![r4i-sdhc.com 3DS RTS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}
@@ -95,7 +95,7 @@ One notable advantage of these carts over [DSOne](?tab=original-hacked#flashcart
 This is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usually costs $10-15 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.com/item/1005004530389743.html>
 
 - Kernel: [YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-- Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/blob/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
+- Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
 {% endcapture %}
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
 
@@ -135,7 +135,7 @@ Links are provided here, but they may not be the cheapest options:
 
 BL2CK is the recommended kernel for this cart alongside [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard). The stock kernel is also an option:
 - Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.30.4.zip)
-- Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/r4dspro.com_Kernel_1.50.7z)
+- Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
 {% endcapture %}
 {% assign tab-original-hacked = tab-original-hacked | split: "////////" %}
 
