@@ -42,6 +42,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i &#60;New&gt; Year.Month from r4i-sdhc.hk
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `Redant.dat`**:
     - all carts from r4i-redant.com
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.au`**:
+    - R4i SDHC 1.4V Gold (r4i-sdhc.com.au)
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
     - GoldR4 3DS (r4issdhc.com)
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.TP`**:
