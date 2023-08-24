@@ -61,7 +61,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **The following carts will work as-is**:
     - M3 DS Real
     - M3i Zero (the GMP-Z003 version is NOT supported)
-- **For the following carts, also download the [iTouchDS bootstrap for YSMenu](https://gbatemp.net/download/m3-ds-real-itouchds-complete-kernel-replacement.37368/)**:
+- **For the following carts, also download the [iTouchDS bootstrap for YSMenu](https://gbatemp.net/download/37368/)**:
     - iTouchDS
     - R4(i) SDHC (r4rts.com)
     - R4 SDHC RTS black version (r4isdhc.com)

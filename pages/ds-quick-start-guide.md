@@ -19,7 +19,7 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 1. Do not follow YouTube setup guides, as there are many reproduction carts in the market and 99% of guides are outdated.
 1. Need to identify your cart? [Here's a handy guide](https://www.reddit.com/r/flashcarts/comments/rdl55f/things_i_look_at_when_i_identify_flashcarts/)!
 1. Need firmware? Refer to the [DS-Homebrew Flashcard Archive](https://flashcard-archive.ds-homebrew.com). Here you can compare the website listed on your flashcart to find the correct kernel for you. Feel free to comment or make a new post on the r/flashcarts subreddit if you have trouble identifying your cart!
-1. Want to install YSMenu and not worry about timebombs? Refer to the [gbatemp.net thread](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/). **Not all carts are compatible with YSMenu!** If you are unsure, ask before you install. You risk bricking your cart with the wrong firmware!
+1. Want to install YSMenu and not worry about timebombs? Refer to the [YSMenu extended compatibility list](ysmenu-compat-ext). **Not all carts are compatible with YSMenu!** If you are unsure, ask before you install. You risk bricking your cart with the wrong firmware!
 1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a microSD card separately, being [cautious of SD card scams](https://www.youtube.com/watch?v=mSepkrHJv14).
 1. Older DS flashcarts may not work on the stock firmware of a DSi/3DS. Instead of being able to boot the cart, you will be presented with an error message instead. See the ['Alternative Options for DSi/3DS Users'](#alternative-options-for-dsi3ds-users) section for more information about why this happens and how to solve it!
 1. **Note that GBA emulation on these consoles is not perfect, refer to the [GBARunner2 Wiki](https://wiki.gbatemp.net/wiki/GBARunner2#DS_Compatibility_List) to check game compatibility.**
@@ -35,7 +35,7 @@ The Ace3DS X is a version of the Ace3DS+ (seen below) that also supports ntrboot
 
 Ntrboot is a method that allows you to hack your 3DS easily, or fix a bricked 3DS family console. The Ace3DS X makes ntrboot easily accessible without any modification required, such as flashing the cartridge!
 
-For general usage outside of hacking or unbricking, Ace3DS X clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for some games. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game. Its biggest benefit is that it works on all DS family consoles up to latest 3DS consoles.
+For general usage outside of hacking or unbricking, Ace3DS X clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for some games. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game. Its biggest benefit is that it works on all DS family consoles up to latest 3DS consoles.
 
 
 ### Obtaining and Setup
@@ -53,7 +53,7 @@ These carts are clones of the Ace3DS+ flashcart, compatible with all DS, DSi, an
 
 Important distinction: past listings of unlabeled Ace3DS+ clones exist, but we can no longer advise the purchase of these carts as they have started mixing in older versions of the Ace3DS+ which do not work on the latest firmware. More confusion arises from the fact that there are also timebomb clones that have very similar looking PCBs to the Ace3DS+ unlabeled carts. Please purchase the other labeled variants instead, specifically the two shown above.
 
-Ace3DS+ clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an older version of Wood which lacks some anti-piracy patches, so to play certain games you will have to manually [patch their ROMs](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game.
+Ace3DS+ clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an older version of Wood which lacks some anti-piracy patches, so to play certain games you will have to manually [patch their ROMs](https://gbatemp.net/download/35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game.
 
 ### Variants
 Multiple variations of this cart exist, and they're all clones of the cart shown above. Here are the most common ones:
@@ -94,7 +94,7 @@ One notable advantage of these carts over [DSOne](?tab=original-hacked#flashcart
 ### Obtaining and Setup
 This is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usually costs $10-15 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.com/item/1005004530389743.html>
 
-- Kernel: [YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+- Kernel: [YSMenu](https://gbatemp.net/download/35737/)
 - Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip)
 {% endcapture %}
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
@@ -115,7 +115,7 @@ This is the most recommended cart **for use on DS Lite/Phat and hacked systems**
 A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005002378653693.html>
 
 - Kernel: [Evolution OS](https://flashcard-archive.ds-homebrew.com/SuperCard/DSONE_SDHC_DSONEi/SuperCard_DSONE_SDHC_EOS_sp6_20121206.zip)
-- Alternate kernel: [YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) (Only use if Evolution OS gives a PSRAM error)
+- Alternate kernel: [YSMenu](https://gbatemp.net/download/35737/) (Only use if Evolution OS gives a PSRAM error)
 
 A guide to using and setting up the DSOne SDHC is here: <https://github.com/Sanrax/DSOneManual>
 
