@@ -95,7 +95,7 @@ One notable advantage of these carts over [DSOne](?tab=original-hacked#flashcart
 This is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usually costs $10-15 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.com/item/1005004530389743.html>
 
 - Kernel: [YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-- Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
+- Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip)
 {% endcapture %}
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
 
