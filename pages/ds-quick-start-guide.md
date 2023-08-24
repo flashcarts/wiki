@@ -119,7 +119,7 @@ A link is provided here, but this may not be the cheapest option as it's one of 
 
 A guide to using and setting up the DSOne SDHC is here: <https://github.com/Sanrax/DSOneManual>
 
-### R4DS Pro
+## R4DS Pro
 ![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-3}
 
 While on the surface this may look like an original R4 clone - and is often described as an original R4 - this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra which is a derivative of the Acekard 2i. It does not pass AKAIO's clone checks, however, it can run BL2CK OS like most other Acekard2i based carts. **Note that this cart will not work on a stock DSi/3DS**.
