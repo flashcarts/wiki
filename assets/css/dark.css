@@ -34,11 +34,12 @@ blockquote {
   background-color: #5559;
   padding: 3px;
   border-radius: 0.25rem; }
-  :not(pre) > code:not(.wrap), pre:not(.wrap) {
-    white-space: nowrap; }
-    @media screen and (max-width: 576px) {
-      :not(pre) > code:not(.wrap), pre:not(.wrap) {
-        white-space: normal; } }
+
+:not(pre) > code:not(.wrap) {
+  white-space: nowrap; }
+  @media screen and (max-width: 576px) {
+    :not(pre) > code:not(.wrap) {
+      white-space: normal; } }
 
 pre {
   padding: 16px;
