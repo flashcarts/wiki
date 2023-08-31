@@ -134,7 +134,7 @@ Links are provided here, but they may not be the cheapest options:
 - eBay (UK): <https://www.ebay.co.uk/itm/404351104392>
 
 BL2CK is the recommended kernel for this cart alongside [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard). The stock kernel is also an option:
-- Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.30.4.zip)
+- Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
 - Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
 {% endcapture %}
 {% assign tab-original-hacked = tab-original-hacked | split: "////////" %}
