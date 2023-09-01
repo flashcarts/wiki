@@ -14,35 +14,35 @@ Don't know where to start? Use the below list to head in the right direction! Li
 |2nd|Console|Magnavox|Odyssey²|O2||
 |2nd|Console|Milton Bradley/Bandai|Vectrex|Vec||
 |3rd|Console|Atari|Atari 7800|7800||
-|3rd|Console|Nintendo|[Famicom](https://www.reddit.com/r/flashcarts/wiki/famicom-flashcarts)|FC||
-|3rd|Add-On¹|Nintendo|[Famicom Disk System](https://www.reddit.com/r/flashcarts/wiki/famicom-disk-system-flashcarts)|FDS||
-|3rd|Console|Nintendo|[Nintendo Entertainment System](https://www.reddit.com/r/flashcarts/wiki/nintendo-entertainment-system-flashcarts)|NES||
+|3rd|Console|Nintendo|Famicom|FC||
+|3rd|Add-On¹|Nintendo|Famicom Disk System|FDS||
+|3rd|Console|Nintendo|Nintendo Entertainment System|NES||
 |3rd|Console|Sega|SG-1000|SG/1K||
 |3rd|Console|Sega|Sega Master System³|SMS||
 |4th|Handheld|Atari|Atari Lynx|Lyn/x||
-|4th|Handheld|Nintendo|[Game Boy](https://www.reddit.com/r/flashcarts/wiki/game-boy--color-flashcarts)|GB||
+|4th|Handheld|Nintendo|Game Boy|GB||
 |4th|Handheld|Sega|Game Gear³|GG||
 |4th|Console|NEC|PC Engine/TurboGrafx-16³|PCE/TG16||
 |4th|Console|Nintendo|Super Famicom/Super Nintendo Entertainment System|SFC/SNES||
-|4th|Add-On¹|Nintendo|[Super Game Boy](https://www.reddit.com/r/flashcarts/wiki/super-game-boy-flashcarts)|SGB||
-|4th|Console|Sega|[Mega Drive/Genesis](https://www.reddit.com/r/flashcarts/wiki/mega-drive-genesis-flashcarts)³|MD/Gen||
-|4th|Add-On¹|Sega|[Mega-CD/Sega CD](https://www.reddit.com/r/flashcarts/wiki/mega-drive-sega-cd-flashcarts)|MD/S-CD⁴||
+|4th|Add-On¹|Nintendo|[Super Game Boy](super-gb)|SGB||
+|4th|Console|Sega|[Mega Drive/Genesis](mega-drive)³|MD/Gen||
+|4th|Add-On¹|Sega|Mega-CD/Sega CD|MD/S-CD⁴||
 |4th|Console⁵|SNK|Neo Geo|Neo/NG||
 |5th|Handheld|Bandai|WonderSwan|WS||
 |5th|Handheld|Bandai|WonderSwan Color|WSC||
-|5th|Handheld|Nintendo|[Game Boy Color](https://www.reddit.com/r/flashcarts/wiki/game-boy--color-flashcarts)|GBC||
+|5th|Handheld|Nintendo|Game Boy Color|GBC||
 |5th|Handheld|SNK|Neo Geo Pocket|NGP||
 |5th|Handsole⁶|Nintendo|Virtual Boy|VB||
-|5th|Console|Atari|[Atari Jaguar](https://www.reddit.com/r/flashcarts/wiki/atari-jaguar-flashcarts)|Jag/uar||
-|5th|Add-On¹|Atari|[Atari Jaguar CD](https://www.reddit.com/r/flashcarts/wiki/atari-jaguar-cd-flashcarts)|JagCD||
-|5th|Console|Nintendo|[Nintendo⁶⁴](https://www.reddit.com/r/flashcarts/wiki/nintendo-64-flashcarts)|N64||
-|5th|Add-On¹|Nintendo|[Nintendo⁶⁴ Dynamic Disk](https://www.reddit.com/r/flashcarts/wiki/64dd-flashcarts)|64DD||
-|5th|Add-On¹|Sega|[Sega 32X](https://www.reddit.com/r/flashcarts/wiki/sega-32x-flashcarts)⁷|32x|No known flashcarts for either 32X or [32X-CD](https://www.reddit.com/r/flashcarts/wiki/sega-32x-cd-flashcarts) titles.|
-|6th⁸|Handheld|Nintendo|Game Boy Advance⁹ (Family)|GBA||
-|6th|Handheld|Nintendo|[Pokémon Mini](https://www.reddit.com/r/flashcarts/wiki/pokemon-mini-flashcarts)¹⁰|Poke/min/i||
+|5th|Console|Atari|[Atari Jaguar](atari-jaguar)|Jag/uar||
+|5th|Add-On¹|Atari|Atari Jaguar CD|JagCD||
+|5th|Console|Nintendo|Nintendo⁶⁴|N64||
+|5th|Add-On¹|Nintendo|Nintendo⁶⁴ Dynamic Disk|64DD||
+|5th|Add-On¹|Sega|[Sega 32X](sega-32x)⁷|32x|No known flashcarts for either 32X or 32X-CD titles.|
+|6th⁸|Handheld|Nintendo|[Game Boy Advance](gba-quick-start-guide)⁹ (Family)|GBA||
+|6th|Handheld|Nintendo|[Pokémon Mini](pokemini)¹⁰|Poke/min/i||
 |6th|Handheld|SNK|Neo Geo Pocket Color|NGP/C||
-|7th|Handheld|Nintendo|Nintendo DS¹¹|N/DS||
-|7th|Handheld|Nintendo|Nintendo DSi¹¹|DSi|DS Carts are backwards compatible. [Will most likely require modding](https://dsi.hacks.guide).|
+|7th|Handheld|Nintendo|[Nintendo DS](ds-quick-start-guide)¹¹|N/DS||
+|7th|Handheld|Nintendo|Nintendo DSi¹¹|DSi|DS Carts are backwards compatible. [Will most likely require modding](https://dsi.cfw.guide).|
 |8th|Handheld|Nintendo|Nintendo 3DS¹¹|3DS|3DS Carts exist **with warnings** and **should be avoided at all costs**. DS Carts are backwards compatible. [Will most likely require modding](https://3ds.hacks.guide).|
 
 Footnotes:
