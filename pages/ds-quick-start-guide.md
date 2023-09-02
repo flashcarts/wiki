@@ -86,6 +86,8 @@ Most of these carts sold today are labelled as r4isdhc.**com** or r4i-sdhc.**com
 
 One notable advantage of these carts over [DSOne](?tab=original-hacked#flashcarts) or Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support, then these carts are a decent choice. However, the [Ace3DS X](#ace3ds-x) above is preferable for that purpose, since it has ntrboot preflashed and uses a better kernel when in DS mode.
 
+There is a lot of misinformation surrounding these timebombs, see our [Timebomb Misconceptions](ds-timebomb) page for more details.
+
 ### Variants
 ![r4isdhc.com gold cart](/assets/images/ds_carts/r4isdhc_com_front.png)
 ![r4isdhc.com dual-core cart](/assets/images/ds_carts/r4isdhc_com_back.png)

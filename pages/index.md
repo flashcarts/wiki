@@ -11,6 +11,7 @@ This landing page is a work-in-progress.
 
 - [DS Quick Start Guide](ds-quick-start-guide)
     - [NTRBoot Quick Start Guide](ntrboot-ds-carts)
+    - [Timebomb Misconceptions](ds-timebomb)
     - [YSMenu compatibility page, extended](ysmenu-compat-ext)
 - [GBA Quick Start Guide](gba-quick-start-guide)
 - [Atari Jaguar Flashcarts](atari-jaguar)

@@ -39,7 +39,7 @@ Kernel: [Ace Wood 1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/
 ## R4i-SDHC B9S
 ![R4i-SDHC B9S](/assets/images/ds_carts/r4i-sdhc_b9s.png){:.float-start .me-3} 
 
-This cart does **not** have a switch for different modes. It's one of r4i-sdhc.com's timebomb carts which has been pre-flashed with ntrboot. You can flash it back to a state where it can play DS games again. <br/>The stock kernel for this cart has a timebomb set for the 3rd of September, 2024. You should use YSMenu instead as it does not have a timebomb.
+This cart does **not** have a switch for different modes. It's one of r4i-sdhc.com's timebomb carts which has been pre-flashed with ntrboot. You can flash it back to a state where it can play DS games again. <br/>The stock kernel for this cart has a timebomb set for the 3rd of September, 2024. You should use YSMenu instead as it does not have a timebomb. See our [Timebomb Misconceptions](ds-timebomb) page for more details.
 
 ### Purchase links and kernel downloads
 
@@ -59,7 +59,7 @@ These carts will need to be flashed with ntrboot as they come with their DS firm
 
 It doesn't matter whether you get the Gold Pro, or the Dual Core, or any other cart from r4isdhc.com, as long as the year number is 2014 or above - you can use the cart with ntrboot. Carts pre-2014 are not compatible with ntrboot. You must ensure that this is an r4isdhc**.com** cart, other similar looking carts mentioned in the '[Carts to avoid](?tab=avoid)' tab cannot use ntrboot. 
 
-The 4.1b kernel for this cart hosted by r4i-sdhc.com has a broken ROM loader - older versions of the stock kernel have a timebomb - you should use YSMenu instead as it does not have the issues mentioned before.
+The 4.1b kernel for this cart hosted by r4i-sdhc.com has a broken ROM loader - older versions of the stock kernel have a timebomb - you should use YSMenu instead as it does not have the issues mentioned before. See our [Timebomb Misconceptions](ds-timebomb) page for more details.
 
 ### Purchase links and kernel downloads
 
@@ -68,10 +68,10 @@ This cart usually costs $5-10 USD. Searching "r4 gold" seems to correctly return
 Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
 Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
 
-## R4i-SDHC 3DS
+## R4i-SDHC 3DS RTS
 ![R4i-SDHC 3DS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}   
 
-This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart mentioned above, though the main difference is that it costs more to buy it. <br/>The stock kernel for this cart has a timebomb set for the 3rd of September, 2024. You should use YSMenu instead as it does not have a timebomb.
+This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart mentioned above, though the main difference is that it costs more to buy it. <br/>The stock kernel for this cart has a timebomb set for the 3rd of September, 2024. You should use YSMenu instead as it does not have a timebomb. See our [Timebomb Misconceptions](ds-timebomb) page for more details.
 
 ### Purchase links and kernel downloads
 
