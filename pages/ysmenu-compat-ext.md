@@ -38,6 +38,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4i-ndsill.com
     - all carts from r4i-yes.com
     - all carts from r4i-3ds.com
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.PK`**:
+    - R4DSiXL3D (r4dsixl3d.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `config`**:
     - R4i &#60;New&gt; Year.Month from r4i-sdhc.hk
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `Redant.dat`**:
@@ -86,7 +88,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - All 2014+ r4isdhc.com carts (**not** the .com.cn, **not** the .hk, just .com)
     - Any r4i-sdhc.com.tw carts that didn't work with DSTTi-Clone YSMenu
     - Any r4i-dshc.com carts that didn't work with DSTTi-Clone YSMenu
-    - R4DSiXL3D (r4dsixl3d.com)
     - R4i Advance (r4i-advance.com)
     - R4-III(i) (r4dsl.net)
     - R4i SDHC v2.07 (r4sdhc.com)
