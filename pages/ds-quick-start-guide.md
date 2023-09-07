@@ -129,9 +129,7 @@ Ideally, the [DSOne SDHC](#dsone-sdhc) is a better choice for most people using 
 ### Obtaining and Setup
 This cart is only recommended **if you cannot buy any of the other carts mentioned here**. Costs $3-8 USD. Searching "R4 DS" on AliExpress or eBay may return this cart.
 
-Links are provided here, but they may not be the cheapest options:
-- AliExpress: [Listing 1](https://www.aliexpress.com/item/3256804832983831.html), [Listing 2](https://www.aliexpress.com/item/3256804870490222.html)
-- eBay (UK): <https://www.ebay.co.uk/itm/404351104392>
+A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005005991306097.html> - make sure to select `for R4 DS PRO`.
 
 BL2CK is the recommended kernel for this cart alongside [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard). The stock kernel is also an option:
 - Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
