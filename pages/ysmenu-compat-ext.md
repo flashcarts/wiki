@@ -15,6 +15,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i-SDHC 1.4.1, 1.4.2 (r4ll-net.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `3DSCARD.DAT`**:
     - Ace3DS (not PLUS, not X) (ace3ds.com)
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `_DS_MENU.DAT`**:
+    - R4 3DS RTS - Upgrade with cable (r4i-gold.com) - WITHOUT A YEAR NUMBER AND WITH RTS, ANY WITH A YEAR NUMBER OR WITHOUT RTS WILL **BRICK**
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `iLL.iL`**:
     - Blue R4i 1.45 (ndsill.net)
     - R4i Gold Upgrade 1.4.1 and V1.41 (r4igold.cn)
@@ -94,7 +96,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - All r4i.cn carts
     - R4i Pocket (r4ipocket.com)
     - R4i Gold 3DS (r4i-gold.cc)
-    - r4i-gold.com v1.4/1.4.1 carts WITHOUT A YEAR NUMBER AND WITHOUT 3DS, ANY WITH A YEAR NUMBER OR 3DS WILL BRICK!
+    - r4i-gold.com v1.4/1.4.1 carts WITHOUT A YEAR NUMBER AND WITHOUT 3DS (non-RTS), ANY WITH A YEAR NUMBER OR 3DS WILL BRICK!
     - R4xDS (r4xds.com)
     - Some r4ita.com carts - If this fails, try DSTTi Clone folder
     - r4r4.be - R4i-SDHC variant
@@ -102,7 +104,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i SDHC v1.41 (r4ixl-sdhc.com)
 - **For the following carts, download this [R4.dat](http://flashcard-archive.ds-homebrew.com/YSMenu/DEMON_common/R4.dat) and replace it with the pre-existing one**:
     - Any r4i-sdhc.com cart that didn't work as-is
-    - Any r4i-gold.com cart that didn't work as-is, WITHOUT A YEAR NUMBER AND WITHOUT 3DS, ANY WITH A YEAR NUMBER OR 3DS WILL BRICK!
+    - Any r4i-gold.com cart that didn't work as-is, WITHOUT A YEAR NUMBER AND WITHOUT 3DS (non-RTS), ANY WITH A YEAR NUMBER OR 3DS WILL BRICK!
     - Any r4ixl-sdhc.com cart that didnt work as is
 
 ### Alternative kernel - R4i-SDHC 1.85b - RTS Support/TTMenu Style UI/No Timebomb
