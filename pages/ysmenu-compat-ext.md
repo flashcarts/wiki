@@ -13,6 +13,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from ndstti.cn
     - all carts from dstt-adv.com
     - R4i-SDHC 1.4.1, 1.4.2 (r4ll-net.com)
+    - R4 Gold 3DS RTS - Upgrade with Cable (r4i-gold.com) - WITHOUT A YEAR NUMBER AND WITH RTS, ANY WITH A YEAR NUMBER OR WITHOUT RTS WILL **BRICK**
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `3DSCARD.DAT`**:
     - Ace3DS (not PLUS, not X) (ace3ds.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `iLL.iL`**:
@@ -29,7 +30,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4.dat`**:
     - R4i SDHC Silver RTS Lite (without year number, without the NEW label, running it on those will BRICK your cart!) (r4isdhc.com)
     - R4iTT (must have a screw on the back, if it doesn't, this will BRICK your cart!) (r4itt.net)
-    - R4 Gold 3DS RTS - Upgrade with Cable (r4i-gold.com) - WITHOUT A YEAR NUMBER AND WITH RTS, ANY WITH A YEAR NUMBER OR WITHOUT RTS WILL **BRICK**
     - all carts from r4iiisdhc.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4KING`**:
     - all carts from r4-king.com
