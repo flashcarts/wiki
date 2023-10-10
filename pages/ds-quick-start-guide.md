@@ -17,8 +17,8 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 1. Do not use 'R4' websites for purchasing flashcarts. Many are scammy and don't refund orders. Stick to more general places like eBay or AliExpress.
    - Amazon is also not generally recommended as flashcarts are generally extremely over priced compared to eBay and AliExpress.
 1. Do not follow YouTube setup guides, as there are many reproduction carts in the market and 99% of guides are outdated.
-1. Need to identify your cart? [Here's a handy guide](https://web.archive.org/web/20230310213600/https://www.reddit.com/r/flashcarts/comments/rdl55f/things_i_look_at_when_i_identify_flashcarts/)!
-1. Need firmware? Refer to the [DS-Homebrew Flashcard Archive](https://flashcard-archive.ds-homebrew.com). Here you can compare the website listed on your flashcart to find the correct kernel for you. Feel free to ask for help in the [DS(i) Mode Hacking](https://discord.gg/yD3spjv) Discord server (English only) if you have trouble identifying your cart!
+1. Need to identify your cart? [Here's a handy guide](https://www.reddit.com/r/flashcarts/comments/rdl55f/things_i_look_at_when_i_identify_flashcarts/)!
+1. Need firmware? Refer to the [DS-Homebrew Flashcard Archive](https://flashcard-archive.ds-homebrew.com). Here you can compare the website listed on your flashcart to find the correct kernel for you. Feel free to ask for help in the [DS(i) Mode Hacking](https://discord.gg/yD3spjv) Discord server (English only) if you have trouble identifying your cart! You can also make a post in the [r/flashcarts](https://reddit.com/r/flashcarts) subreddit if you prefer.
 1. Want to install YSMenu and not worry about timebombs? Refer to the [YSMenu extended compatibility list](ysmenu-compat-ext). **Not all carts are compatible with YSMenu!** If you are unsure, ask before you install. You risk bricking your cart with the wrong firmware!
 1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a microSD card separately, being [cautious of SD card scams](https://www.youtube.com/watch?v=mSepkrHJv14).
 1. Older DS flashcarts may not work on the stock firmware of a DSi/3DS. Instead of being able to boot the cart, you will be presented with an error message instead. See the ['Alternative Options for DSi/3DS Users'](#alternative-options-for-dsi3ds-users) section for more information about why this happens and how to solve it!
@@ -126,14 +126,14 @@ A guide to using and setting up the DSOne SDHC is here: <https://github.com/Sanr
 
 While on the surface this may look like an original R4 clone - and is often described as an original R4 - this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra which is a derivative of the Acekard 2i. It does not pass AKAIO's clone checks, however, it can run BL2CK OS like most other Acekard2i based carts. **Note that this cart will not work on a stock DSi/3DS**.
 
-Ideally, the [DSOne SDHC](#dsone-sdhc) is a better choice for most people using a DS Lite. This cart isn't that much better than the [Ace3ds+ clones](?tab=unhacked#ace3ds-clones) mentioned before. Unless it's your only option, we would suggest picking up a different cart.
+Ideally, the [DSOne SDHC](#dsone-sdhc) is a better choice for most people using a DS Lite. This cart isn't that much better than the [Ace3DS+ clones](?tab=unhacked#ace3ds-clones) mentioned before, though it's usually found for a cheaper price.
 
 ### Obtaining and Setup
-This cart is only recommended **if you cannot buy any of the other carts mentioned here**. Costs $3-8 USD. Searching "R4 DS" on AliExpress or eBay may return this cart.
+This cart is only recommended **if you cannot buy a DSOne SDHC**. Costs $3-8 USD. Searching "R4 DS" on AliExpress or eBay may return this cart.
 
 A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005005991306097.html> - make sure to select `for R4 DS PRO`.
 
-BL2CK is the recommended kernel for this cart alongside [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard). The stock kernel is also an option:
+BL2CK is the recommended kernel for this cart alongside [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard). The stock kernel is also an option, though it struggles with booting many ROMSs:
 - Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
 - Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
 {% endcapture %}
