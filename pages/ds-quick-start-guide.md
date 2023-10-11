@@ -133,7 +133,7 @@ This cart is only recommended **if you cannot buy a DSOne SDHC**. Costs $3-8 USD
 
 A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005005991306097.html> - make sure to select `for R4 DS PRO`.
 
-BL2CK is the recommended kernel for this cart alongside [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard). The stock kernel is also an option, though it struggles with booting many ROMSs:
+BL2CK is the recommended kernel for this cart alongside [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard). The stock kernel is also an option, although it isn't great for playing your DS ROMs:
 - Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
 - Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
 {% endcapture %}
