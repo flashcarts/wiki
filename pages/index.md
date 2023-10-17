@@ -3,7 +3,7 @@ title: Flashcarts Wiki
 permalink: /index.html
 ---
 
-Welcome to the Flashcarts Wiki!
+# Welcome to the Flashcarts Wiki!
 
 Here you can find flashcart recommendations for various systems like the Nintendo DS and GameBoy Advance, plus extra resources like the YSMenu Compatibility List. Check out the full list of pages below.
 
