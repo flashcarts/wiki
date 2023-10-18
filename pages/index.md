@@ -1,6 +1,7 @@
 ---
 title: Flashcarts Wiki
 permalink: /index.html
+homepage: true
 ---
 
 # Welcome to the Flashcarts Wiki!
