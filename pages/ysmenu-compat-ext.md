@@ -15,6 +15,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i-SDHC 1.4.1, 1.4.2 (r4ll-net.com)
     - all carts from r4ill-net.com
     - R4 Gold 3DS RTS - Upgrade with Cable (r4i-gold.com) - WITHOUT A YEAR NUMBER AND WITH RTS, ANY WITH A YEAR NUMBER OR WITHOUT RTS WILL **BRICK**
+    - all carts from pk3ds.org
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `3DSCARD.DAT`**:
     - Ace3DS (not PLUS, not X) (ace3ds.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `iLL.iL`**:
