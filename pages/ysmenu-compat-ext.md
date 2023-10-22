@@ -20,7 +20,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `3DSCARD.DAT`**:
     - Ace3DS (not PLUS, not X) (ace3ds.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `iLL.iL`**:
-    - Blue R4i 1.45 (ndsill.net)
+    - Blue/Green R4i 1.41-1.45 (ndsill.net)
     - R4i Gold Upgrade 1.4.1 and V1.41 (r4igold.cn)
     - R4i-SDHC (r4i-sdhc.com.tw)
     - R4i Dual Core NEW (r4isdhc.cc)
