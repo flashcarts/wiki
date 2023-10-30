@@ -136,6 +136,8 @@ A link is provided here, but this may not be the cheapest option as it's one of 
 BL2CK is the recommended kernel for this cart. The stock kernel is also an option, although it isn't great for playing your DS ROMs:
 - Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
 - Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
+
+**Note: TwiLight Menu ++ currently does not work on this flashcart.**
 {% endcapture %}
 {% assign tab-original-hacked = tab-original-hacked | split: "////////" %}
 
