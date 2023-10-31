@@ -98,7 +98,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i Advance (r4i-advance.com)
     - R4-III(i) (r4dsl.net)
     - R4i SDHC v2.07 (r4sdhc.com)
-    - All r4i.cn carts
     - R4i Pocket (r4ipocket.com)
     - R4i Gold 3DS (r4i-gold.cc)
     - r4i-gold.com v1.4/1.4.1 carts WITHOUT A YEAR NUMBER AND WITHOUT 3DS (non-RTS), ANY WITH A YEAR NUMBER OR 3DS WILL BRICK!
