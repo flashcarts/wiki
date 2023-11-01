@@ -28,6 +28,8 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 ## Flashcarts
 
 {% capture tab-unhacked %}
+# Recommended flashcarts for an unhacked 3DS/DSi
+
 ## Ace3DS X
 ![Ace3DS X](/assets/images/ds_carts/ace3dsx.png){:.float-start .me-3}
 
@@ -64,7 +66,7 @@ Multiple variations of this cart exist, and they're all clones of the cart shown
 ![Ace3DS+ Original](/assets/images/ds_carts/ace3ds-nolabel.png)
 
 ### Obtaining and Setup
-Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.com/item/1005003830660409.html>
+Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.com/item/1005006097443888.html>
 
 These carts are sold under a variety of brandings. The 2020 and later carts labelled as r4isdhc**.hk** and r4isdhc**.com.cn**, and "208-in-1" carts are Ace3DS+ clones. Aside from the distinction note above, all of these carts perform identically regardless of branding.
 
@@ -74,6 +76,8 @@ Note that there exist similar carts looking carts that are **not** Ace3DS+ clone
 - Ace3DS+ clones have smaller but deeper indents on the sides
 - Timebomb clones typically have an oval shaped indent in the plastic on the back, while Ace3DS+ clones don't.
 - Ace3DS+ clones always have red PCBs, timebomb clones often have yellow PCBs but are occasionally red as well.
+
+You should also keep in mind that r4isdhc.hk have switched to shipping [R4DS Pro](?tab=original-hacked#r4ds-pro) carts for their 2024 models, though their 2021-2023 Ace3DS+ clones appear to still be in stock. If you want to be guaranteed an Ace3DS+ clone, buy a cart with the r4isdhc.com.cn label instead, or consider buying an [Ace3DS X](?tab=unhacked#ace3ds-x).
 
 Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
@@ -102,6 +106,8 @@ This is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usu
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
 
 {% capture tab-original-hacked %}
+# Recommended flashcarts for a DS, DS Lite, or hacked 3DS/DSi
+
 ## DSOne SDHC
 ![DSOne SDHC](/assets/images/ds_carts/dsone_sdhc.jpeg){:.float-start .me-3}
 
@@ -121,15 +127,20 @@ A link is provided here, but this may not be the cheapest option as it's one of 
 
 A guide to using and setting up the DSOne SDHC is here: <https://github.com/Sanrax/DSOneManual>
 
+# Other flashcarts
+
+These are flashcarts which we don't necessarily recommend but are available to buy. Information is provided here about these carts for people who may already have one. 
+
 ## R4DS Pro
-![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-3}
+![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
+![2024 r4isdhc.hk gold pro](/assets/images/ds_carts/r4isdhc_hk_pro.png){:.float-start .me-2}
 
 While on the surface this may look like an original R4 clone - and is often described as an original R4 - this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra which is a derivative of the Acekard 2i. It does not pass AKAIO's clone checks, however, it can run BL2CK OS like most other Acekard2i based carts. **Note that this cart will not work on a stock DSi/3DS**.
 
-Ideally, the [DSOne SDHC](#dsone-sdhc) is a better choice for most people using a DS Lite. This cart isn't that much better than the [Ace3DS+ clones](?tab=unhacked#ace3ds-clones) mentioned before, though it's usually found for a cheaper price.
+This flashcart is also being sold as a ["2024" r4isdhc.hk GOLD Pro, RTS Lite and Dual-Core](https://www.aliexpress.com/item/1005006149161741.html). It doesn't matter which model you choose, they are exactly the same besides a different label/shell colour.
 
 ### Obtaining and Setup
-This cart is only recommended **if you cannot buy a DSOne SDHC**. Costs $3-8 USD. Searching "R4 DS" on AliExpress or eBay may return this cart.
+Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart.
 
 A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005005991306097.html> - make sure to select `for R4 DS PRO`.
 
@@ -137,7 +148,43 @@ BL2CK is the recommended kernel for this cart. The stock kernel is also an optio
 - Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
 - Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
 
-**Note: TwiLight Menu ++ currently does not work on this flashcart.**
+**Note: TwiLight Menu ++ currently does not work on this flashcart.** Trying to use it will corrupt your micro SD card. If this gets fixed, we will move this flashcart back into the recommended section.
+
+## R4 Gold 3DS RTS
+
+![R4 Gold 3DS RTS](./assets/images/ds_carts/r4i-gold_com_RTS.png){:.float-start .me-3}
+
+This is a cart by r4i-gold.com which appears to be based on the pk3ds.com cart. It has both a micro SD card slot and a proprietary USB port. The USB port is only used to provide power to the flashcart so that it can upgrade it's firmware from the micro SD card. We currently do not have any archive of the firmware upgrades for this flashcart.
+
+It acts like a DSTTi clone, however, it doesn't seem to support DSTTi DLDI. For people who wish to autoboot TwiLight Menu ++ on this flashcart, there are two ways of doing it. If you choose to use the pre-built autoboot files provided by TwiLight Menu ++, you will have to use the `Original R4` autoboot files which will limit you to 2GB microSD cards. The other way of doing it is by setting YSMenu to autoboot TwiLight Menu ++, you can do this by editing `YSMenu.ini` in the `TTMenu` folder. Change line 16 to `AUTO_BOOT=BOOT.NDS`. This may be the better option for most people as you won't have to go out of your way to find a 2GB microSD card. Another weird quirk of this flashcart is that it can boot from three different files; `TTMenu.dat`, `R4.dat`, and `_DS_MENU.dat`.
+
+Note: This flashcart was also being sold as a "DSTTi Gold from ndstt.com" on AliExpress. This flashcart wasn't made by the DSTT team, it's just a relabelled version of this flashcart by `YourSmile. Store`.
+
+### Obtaining and Setup
+Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart.
+
+A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005005991306097.html> - make sure to select `for R4 GOLD RTS`.
+
+YSMenu is the recommended kernel for this cart though you can also use RetroGameFan's repacked version of TTMenu. Do **not** use stock TTMenu on this flashcart as it will brick it! The stock kernel is also an option, although it isn't great for playing your DS ROMs:
+- Kernel: [DSTTi Clone YSMenu/TTMenu](https://gbatemp.net/download/35737/)
+- Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4i-gold.com/old/r4i-gold.com_Gold_3DS_RTS.zip)
+
+## DSTT
+![DSTT](./assets/images/ds_carts/dstt.png){:.float-start .me-3}
+
+The original DSTT is still being sold by NDS-Card. Since this flashcart does not work on unhacked 3DS/DSi systems, we have not added it to our list of recommended flashcarts. 
+
+This cart may be useful for ntrboot. NDS-Card appear to have sent out genuine DSTTs which can be used for that purpose. Though if you need a flashcart for ntrboot, an [Ace3DS X](?tab=unhacked#ace3ds-x) will still be a better choice over this cart.
+
+### Obtaining and Setup
+NDS-Card charge different prices on their AliExpress store and their main website. The AliExpress listing appears to be cheaper so it is recommended to buy from there instead if you wish to have an original DSTT. You may find one cheaper second hand on eBay. This also does not come with the DSTT's original packaging if that matters to you.
+
+- AliExpress: <https://www.aliexpress.com/item/1005005579961052.html> ($5.49)
+- NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=157> ($11.99) - Uses a picture of a DSTT clone with packaging, though you will receive a genuine DSTT without it's packaging.
+
+You should avoid the original TTMenu kernel just in case you are sent a DSTT clone, you will risk bricking your flashcart if you attempt to use it. We would recommend using YSMenu or RetroGameFan's repacked version of TTMenu instead.
+
+- Kernel: [DSTTi Clone YSMenu/TTMenu](https://gbatemp.net/download/35737/)
 {% endcapture %}
 {% assign tab-original-hacked = tab-original-hacked | split: "////////" %}
 
@@ -157,9 +204,19 @@ These clones on AliExpress can be identified by their green PCB with the text "R
 ## R4i Gold 3DS Plus
 ![R4i Gold 3DS Plus](/assets/images/ds_carts/r4i_gold_3ds_plus.png){:.float-start .me-3}
 
-This cart halted production at the start of 2020. They were formerly highly recommended carts with a highly compatible and feature-rich kernel (Wood R4 1.64), but their last batch was faulty and cannot play NDS ROMs - thus, they are no longer recommended. Do not follow any old advice saying to buy them.
+This cart halted production at the start of 2020. They were formerly highly recommended carts with a highly compatible and feature-rich kernel (Wood R4 1.64), but their last batch was faulty and cannot play NDS ROMs on their stock kernel - thus, they are no longer recommended. Do not follow any old advice saying to buy them.
 
 This refers specifically to the *R4i Gold 3DS Plus* from **r4ids.cn**, they should not be confused with carts from any other website.
+
+If you do have one of the faulty carts, you can use [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip) or [TwiLight Menu ++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard) instead to play NDS ROMs. Though you will miss out on the features that Wood R4 1.64 provides.
+
+## Stargate3DS
+
+![Stargate3DS](./assets/images/ds_carts/stargate3ds.png){:.float-start .me-3}
+
+Stargate3DS flashcarts are still being made to this day. However, they are not recommended in the context of a DS flashcart for a few reasons. The major reason being that it is only usable on a 3DS, you cannot use it's DS mode on a DS, DS Lite, or DSi due to the shape of the cartridge. The DS mode of this flashcart becomes inaccessible once you have installed custom firmware onto your 3DS. The final nail in the coffin for this flashcart is it's lack of an available DLDI, meaning that some homebrew cannot be used on it. If you are looking for a DS flashcart to use in your 3DS, consider an [Ace3DS X](?tab=unhacked#ace3ds-x) instead.
+
+In the context of a 3DS flashcart, it's not really recommended either. Installing [custom firmware](https://3ds.hacks.guide) to your 3DS is easy to do and it allows you to install 3DS backups directly to your console. You need custom firmware to dump your 3DS ROMs to use in the flashcart anyways, making this flashcart a gimmick more than something useful given it's price.
 {% endcapture %}
 {% assign tab-non-recommended = tab-non-recommended | split: "////////" %}
 
