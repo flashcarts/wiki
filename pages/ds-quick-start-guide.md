@@ -1,5 +1,6 @@
 ---
 title: A Quick Guide on DS Flashcarts
+description: DS flashcarts, what there is, and what to buy
 tabs:
   - unhacked: Unhacked 3DS/DSi
     original-hacked: DS, DS Lite, hacked 3DS/DSi

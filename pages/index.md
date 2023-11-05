@@ -1,5 +1,6 @@
 ---
 title: Flashcarts Wiki
+description: The website for all that is flashcarts
 permalink: /index.html
 homepage: true
 ---

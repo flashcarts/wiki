@@ -1,5 +1,6 @@
 ---
 title: A Quick Guide on GBA Flashcarts
+description: GBA flashcarts, what there is, and what to buy
 tabs:
   - ez-flash-ode: EZ Flash Omega DE
     ez-flash-omega: EZ Flash Omega
