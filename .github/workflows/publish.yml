@@ -27,7 +27,6 @@ jobs:
 
         # Copy (or touch) other needed files
         # .nojekyll: to tell GH Pages to not rebuild (lol)
-        # CNAME: to tell GH Pages about the domain name
       - name: Post-Jekyll build copy files
         run: |
           touch _site/.nojekyll
