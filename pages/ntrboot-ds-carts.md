@@ -32,7 +32,7 @@ This flashcart requires a microSD card to be inserted for it to be detected by y
 
 ### Purchase links and kernel downloads
 
-This cart usually costs $5-$10 USD. Searching "ace3ds" seems to correctly return results on AliExpress. Links are provided here though they may not be the cheapest options out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575) / [AliExpress](https://www.aliexpress.com/item/1005005337644588.html)
+This cart usually costs $5-$10 USD. Searching "ace3ds" seems to correctly return results on AliExpress. Links are provided here though they may not be the cheapest options out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575) / [AliExpress](https://www.aliexpress.com/item/1005005598209906.html)
 
 Kernel: [Ace Wood 1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip) 
 
