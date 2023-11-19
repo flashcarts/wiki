@@ -2,7 +2,7 @@
 
 The website aimed for documenting, recommending, and explaining flashcarts.
 
-https://flashcarts.net
+https://www.flashcarts.net
 
 
 ### Building the site locally
