@@ -143,7 +143,7 @@ This flashcart is also being sold as a ["2024" r4isdhc.hk GOLD Pro, RTS Lite and
 ### Obtaining and Setup
 Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart.
 
-A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005005991306097.html> - make sure to select `for R4 DS PRO`.
+A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005006027046243.html> - make sure to select `1PCS R4 DS PRO`.
 
 BL2CK is the recommended kernel for this cart. The stock kernel is also an option, although it isn't great for playing your DS ROMs:
 - Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
@@ -164,7 +164,7 @@ Note: This flashcart was also being sold as a "DSTTi Gold from ndstt.com" on Ali
 ### Obtaining and Setup
 Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart.
 
-A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005005991306097.html> - make sure to select `for R4 GOLD RTS`.
+A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005006027046243.html> - make sure to select `1PCS R4 GOLD RTS`.
 
 YSMenu is the recommended kernel for this cart though you can also use RetroGameFan's repacked version of TTMenu. Do **not** use stock TTMenu on this flashcart as it will brick it! The stock kernel is also an option, although it isn't great for playing your DS ROMs:
 - Kernel: [DSTTi Clone YSMenu/TTMenu](https://gbatemp.net/download/35737/)
