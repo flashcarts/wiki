@@ -14,7 +14,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from dstt-adv.com
     - R4i-SDHC 1.4.1, 1.4.2 (r4ll-net.com)
     - all carts from r4ill-net.com
-    - R4 Gold 3DS RTS - Upgrade with Cable (r4i-gold.com) - WITHOUT A YEAR NUMBER AND WITH RTS, ANY WITH A YEAR NUMBER OR WITHOUT RTS WILL **BRICK**
+    - R4 Gold 3DS RTS - Upgrade with Cable (r4i-gold.com) - WITHOUT A YEAR NUMBER AND WITHOUT PRO WRITTEN ON THE CART, ANY WITH A YEAR NUMBER OR PRO WILL **BRICK**
         - The R4 Gold 3DS RTS was also sold as a "DSTTi Gold from ndstt.com". This is the same cart, just relabelled by an AliExpress seller.
     - all carts from pk3ds.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `3DSCARD.DAT`**:
@@ -100,7 +100,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i SDHC v2.07 (r4sdhc.com)
     - R4i Pocket (r4ipocket.com)
     - R4i Gold 3DS (r4i-gold.cc)
-    - r4i-gold.com v1.4/1.4.1 carts WITHOUT A YEAR NUMBER AND WITHOUT 3DS (non-RTS), ANY WITH A YEAR NUMBER OR 3DS WILL BRICK!
+    - r4i-gold.com v1.4/1.4.1 carts WITHOUT A YEAR NUMBER AND WITHOUT PRO WRITTEN ON THE CART, ANY WITH A YEAR NUMBER OR PRO WILL BRICK!
     - R4xDS (r4xds.com)
     - Some r4ita.com carts - If this fails, try DSTTi Clone folder
     - r4r4.be - R4i-SDHC variant
@@ -108,7 +108,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i SDHC v1.41 (r4ixl-sdhc.com)
 - **For the following carts, download this [R4.dat](http://flashcard-archive.ds-homebrew.com/YSMenu/DEMON_common/R4.dat) and replace it with the pre-existing one**:
     - Any r4i-sdhc.com cart that didn't work as-is
-    - Any r4i-gold.com cart that didn't work as-is, WITHOUT A YEAR NUMBER AND WITHOUT 3DS (non-RTS), ANY WITH A YEAR NUMBER OR 3DS WILL BRICK!
+    - Any r4i-gold.com cart that didn't work as-is, WITHOUT A YEAR NUMBER AND WITHOUT PRO WRITTEN ON THE CART, ANY WITH A YEAR NUMBER OR PRO WILL BRICK!
+    - All r4i-gold.eu carts
     - Any r4ixl-sdhc.com cart that didnt work as is
 
 ### Alternative kernel - R4i-SDHC 1.85b - RTS Support/TTMenu Style UI/No Timebomb
