@@ -140,6 +140,8 @@ While on the surface this may look like an original R4 clone - and is often desc
 
 This flashcart is also being sold as a ["2024" r4isdhc.hk GOLD Pro, RTS Lite and Dual-Core](https://www.aliexpress.com/item/1005006149161741.html). It doesn't matter which model you choose, they are exactly the same besides a different label/shell colour.
 
+Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**! This is the only flashcart on this list which will brick if you attempt to run YSMenu on it.
+
 ### Obtaining and Setup
 Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart.
 
