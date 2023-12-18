@@ -61,7 +61,6 @@ Ace3DS+ clones are a good cheap option, however they have a few downsides. Due t
 ### Variants
 Multiple variations of this cart exist, and they're all clones of the cart shown above. Here are the most common ones:
 
-![r4isdhc.hk Ace3DS+ clone](/assets/images/ds_carts/r4isdhc_hk.png)
 ![r4isdhc.com.cn Ace3DS+ clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
 ![208 in 1 cart](/assets/images/ds_carts/208in1.png)
 ![Ace3DS+ Original](/assets/images/ds_carts/ace3ds-nolabel.png)
