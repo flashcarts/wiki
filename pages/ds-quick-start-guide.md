@@ -155,7 +155,7 @@ This is a cart by r4i-gold.com which appears to be based on the pk3ds.com cart. 
 
 It acts like a DSTTi clone, however, it doesn't seem to support DSTTi DLDI. For people who wish to autoboot TwiLight Menu ++ on this flashcart, there are two ways of doing it. If you choose to use the pre-built autoboot files provided by TwiLight Menu ++, you will have to use the `Original R4` autoboot files which will limit you to 2GB microSD cards. The other way of doing it is by setting YSMenu to autoboot TwiLight Menu ++, you can do this by editing `YSMenu.ini` in the `TTMenu` folder. Change line 16 to `AUTO_BOOT=BOOT.NDS`. This may be the better option for most people as you won't have to go out of your way to find a 2GB microSD card. Another weird quirk of this flashcart is that it can boot from three different files; `TTMenu.dat`, `R4.dat`, and `_DS_MENU.dat`.
 
-Note: This flashcart was also being sold as a "DSTTi Gold from ndstt.com" on AliExpress. This flashcart wasn't made by the DSTT team, it's just a relabelled version of this flashcart by `YourSmile. Store`.
+Note: This flashcart was also being sold as a "DSTTi Gold from ndstt.com" on AliExpress. This flashcart wasn't made by the DSTT team, it's just a relabelled version of this flashcart.
 
 ### Obtaining and Setup
 Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart.
