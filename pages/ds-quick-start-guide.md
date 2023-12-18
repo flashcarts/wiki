@@ -69,7 +69,7 @@ Multiple variations of this cart exist, and they're all clones of the cart shown
 ### Obtaining and Setup
 Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.com/item/1005006097443888.html>
 
-These carts are sold under a variety of brandings. The 2020 and later carts labelled as r4isdhc**.hk** and r4isdhc**.com.cn**, and "208-in-1" carts are Ace3DS+ clones. Aside from the distinction note above, all of these carts perform identically regardless of branding.
+These carts are sold under a variety of brandings. The 2020 and later carts labelled as r4isdhc**.com.cn** and "208-in-1" carts are Ace3DS+ clones. Aside from the distinction note above, all of these carts perform identically regardless of branding.
 
 Note that there exist similar carts looking carts that are **not** Ace3DS+ clones, but rather [timebomb clones](#dstti-timebomb-clones). These include carts labelled as r4isdhc**.com** and some unlabelled red PCB carts. The notable physical differences are:
 - Ace3DS+ clones have either one or five holes in the PCB near the pins, the similar timebomb clones have two. (see above images)
@@ -77,8 +77,6 @@ Note that there exist similar carts looking carts that are **not** Ace3DS+ clone
 - Ace3DS+ clones have smaller but deeper indents on the sides
 - Timebomb clones typically have an oval shaped indent in the plastic on the back, while Ace3DS+ clones don't.
 - Ace3DS+ clones always have red PCBs, timebomb clones often have yellow PCBs but are occasionally red as well.
-
-You should also keep in mind that r4isdhc.hk have switched to shipping [R4DS Pro](?tab=original-hacked#r4ds-pro) carts for their 2024 models, though their 2021-2023 Ace3DS+ clones appear to still be in stock. If you want to be guaranteed an Ace3DS+ clone, buy a cart with the r4isdhc.com.cn label instead, or consider buying an [Ace3DS X](?tab=unhacked#ace3ds-x).
 
 Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
@@ -134,11 +132,8 @@ These are flashcarts which we don't necessarily recommend but are available to b
 
 ## R4DS Pro
 ![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
-![2024 r4isdhc.hk gold pro](/assets/images/ds_carts/r4isdhc_hk_pro.png){:.float-start .me-2}
 
 While on the surface this may look like an original R4 clone - and is often described as an original R4 - this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra which is a derivative of the Acekard 2i. It does not pass AKAIO's clone checks, however, it can run BL2CK OS like most other Acekard2i based carts. **Note that this cart will not work on a stock DSi/3DS**.
-
-This flashcart is also being sold as a ["2024" r4isdhc.hk GOLD Pro, RTS Lite and Dual-Core](https://www.aliexpress.com/item/1005006149161741.html). It doesn't matter which model you choose, they are exactly the same besides a different label/shell colour.
 
 Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**! This is the only flashcart on this list which will brick if you attempt to run YSMenu on it.
 
