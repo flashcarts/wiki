@@ -36,6 +36,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i SDHC Silver RTS Lite (without year number, without the NEW label, running it on those will BRICK your cart!) (r4isdhc.com)
     - R4iTT (must have a screw on the back, if it doesn't, this will BRICK your cart!) (r4itt.net)
     - all carts from r4iiisdhc.com
+    - all carts from r4ids.cc
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4KING`**:
     - all carts from r4-king.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.TP`**:
@@ -52,6 +53,10 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4i-redant.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.au`**:
     - R4i SDHC 1.4V Gold (r4i-sdhc.com.au)
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.HK`**:
+    - all carts from r4i-blue.com
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.DL`**:
+    - all carts from r4idsxl.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `u2ds.dat`**:
     - U2DS from u2ds.com
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
@@ -96,6 +101,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - All 2014+ r4isdhc.com carts (**not** the .com.cn, **not** the .hk, just .com)
     - Any r4i-sdhc.com.tw carts that didn't work with DSTTi-Clone YSMenu
     - Any r4i-dshc.com carts that didn't work with DSTTi-Clone YSMenu
+    - Some r4i-best.com carts
+    - r4-usas.com 2016 Dual Core carts
     - R4i Advance (r4i-advance.com)
     - R4-III(i) (r4dsl.net)
     - R4i SDHC v2.07 (r4sdhc.com)
