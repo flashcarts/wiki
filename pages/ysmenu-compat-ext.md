@@ -116,7 +116,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4xDS (r4xds.com)
     - Some r4ita.com carts - If this fails, try DSTTi Clone folder
     - r4r4.be - R4i-SDHC variant
-    - All r4i-gold.eu carts
     - R4i SDHC v1.41 (r4ixl-sdhc.com)
 - **For the following carts, download this [R4.dat](http://flashcard-archive.ds-homebrew.com/YSMenu/DEMON_common/R4.dat) and replace it with the pre-existing one**:
     - Any r4i-sdhc.com cart that didn't work as-is
