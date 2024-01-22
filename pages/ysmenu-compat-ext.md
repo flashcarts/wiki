@@ -1,5 +1,5 @@
 ---
-title: YSMenu compatibility page, extended
+title: YSMenu Compatibility Page - Extended
 ---
 
 Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/) before starting. This page simply builds on the compatibility list that is given here.
@@ -61,8 +61,10 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4i-blue.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.DL`**:
     - all carts from r4idsxl.com
-- **The following carts must make a copy of `TTMenu.dat` and rename it to `u2ds.dat`**:
-    - U2DS from u2ds.com
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.DL`**:
+    - all carts from r4idsxl.com
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `n5i.dat`**:
+    - R4i Upgrade from r4i-g.com
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
     - GoldR4 3DS (r4issdhc.com)
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.TP`**:
