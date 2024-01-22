@@ -29,7 +29,7 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 ## Flashcarts
 
 {% capture tab-unhacked %}
-# Recommended flashcarts for an unhacked 3DS/DSi
+# Recommended Flashcarts - All Systems
 
 Note that while the below carts do work on all DS family systems and are a safe choice, there may be better carts available for DS/DS Lite and hacked 3DS/DSi users in the "Hacked 3DS/DSi Only" tab. Those carts may have better game compatibility, and extra features like Real-Time-Save.
 {:.alert .alert-info}
