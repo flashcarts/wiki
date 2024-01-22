@@ -64,7 +64,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.DL`**:
     - all carts from r4idsxl.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `n5i.dat`**:
-    - R4i Upgrade from r4i-g.com
+    - R4i Upgrade (r4i-g.com)
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
     - GoldR4 3DS (r4issdhc.com)
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.TP`**:
