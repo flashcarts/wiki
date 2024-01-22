@@ -2,9 +2,9 @@
 title: A Quick Guide on DS Flashcarts
 description: DS flashcarts, what there is, and what to buy
 tabs:
-  - unhacked: Unhacked 3DS/DSi
-    original-hacked: DS, DS Lite, hacked 3DS/DSi
-    non-recommended: Non-recommended
+  - unhacked: All Systems - Unhacked or Hacked - 3DS/DSi/DS/DSL
+    original-hacked: DS, DS Lite, and Hacked 3DS/DSi Only
+    non-recommended: Non-Recommended Carts
   - dsi: DSi
     3ds: 3DS
 ---
@@ -31,6 +31,9 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 {% capture tab-unhacked %}
 # Recommended flashcarts for an unhacked 3DS/DSi
 
+Note that while the below carts do work on all DS family systems and are a safe choice, there may be better carts available for DS/DS Lite and hacked 3DS/DSi users in the "Hacked 3DS/DSi Only" tab. Those carts may have better game compatibility, and extra features like Real-Time-Save.
+{:.alert .alert-info}
+
 ## Ace3DS X
 ![Ace3DS X](/assets/images/ds_carts/ace3dsx.png){:.float-start .me-3}
 
@@ -39,7 +42,6 @@ The Ace3DS X is a version of the Ace3DS+ (seen below) that also supports ntrboot
 Ntrboot is a method that allows you to hack your 3DS easily, or fix a bricked 3DS family console. The Ace3DS X makes ntrboot easily accessible without any modification required, such as flashing the cartridge!
 
 For general usage outside of hacking or unbricking, Ace3DS X clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for some games. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game. Its biggest benefit is that it works on all DS family consoles up to latest 3DS consoles.
-
 
 ### Obtaining and Setup
 This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like that peace of mind). Usually costs $5-10 USD. Searching "ace3ds" seems to correctly return results on AliExpress. Some links are provided here, but they may not be the cheapest options out there:
