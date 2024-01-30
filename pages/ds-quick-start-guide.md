@@ -147,8 +147,6 @@ BL2CK is the recommended kernel for this cart. The stock kernel is also an optio
 - Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
 - Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
 
-**Note: TwiLight Menu ++ currently does not work on this flashcart.** Trying to use it will corrupt your micro SD card. If this gets fixed, we will move this flashcart back into the recommended section.
-
 ## R4 Gold 3DS RTS
 
 ![R4 Gold 3DS RTS](./assets/images/ds_carts/r4i-gold_com_RTS.png){:.float-start .me-3}
