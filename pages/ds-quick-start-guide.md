@@ -16,7 +16,7 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 
 1. There are hundreds, if not thousands of R4 clones made, so be wary when purchasing and don't simply slap on any kernel and expect it to work.
 1. Do not use 'R4' websites for purchasing flashcarts. Many are scammy and don't refund orders. Stick to more general places like eBay or AliExpress.
-   - Amazon is also not generally recommended as flashcarts are generally extremely over priced compared to eBay and AliExpress.
+   - We also do not recommend using Amazon, Etsy or Temu for buying DS flashcarts. Flashcarts listed on these sites tend to be sold for a high price in comparison to eBay or AliExpress.
 1. Do not follow YouTube setup guides, as there are many reproduction carts in the market and 99% of guides are outdated.
 1. Need to identify your cart? [Here's a handy guide](https://www.reddit.com/r/flashcarts/comments/rdl55f/things_i_look_at_when_i_identify_flashcarts/)!
 1. Need firmware? Refer to the [DS-Homebrew Flashcard Archive](https://flashcard-archive.ds-homebrew.com). Here you can compare the website listed on your flashcart to find the correct kernel for you. Feel free to ask for help in the [DS(i) Mode Hacking](https://discord.gg/yD3spjv) Discord server (English only) if you have trouble identifying your cart! You can also make a post in the [r/flashcarts](https://reddit.com/r/flashcarts) subreddit if you prefer.
