@@ -30,6 +30,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4itt.**info** - not r4itt.**net**
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.dat`**:
     - R4i Gold Upgrade 1.14b (r4igold.cn)
+    - R4i V1.4 (r4igold.cn)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.3ds`**:
     - R4i3D (without year number, without the NEW label, running it on those will BRICK your cart!) (r4i3d.com)
     - R4i Upgrade (r4i-gold.cc)
