@@ -115,6 +115,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i SDHC v2.07 (r4sdhc.com)
     - R4i Pocket (r4ipocket.com)
     - R4i Gold 3DS (r4i-gold.cc)
+    - R4i Max (r4imax.com)
     - r4i-gold.com v1.4/1.4.1 carts WITHOUT A YEAR NUMBER AND WITHOUT PRO WRITTEN ON THE CART, ANY WITH A YEAR NUMBER OR PRO WILL BRICK!
     - R4xDS (r4xds.com)
     - Some r4ita.com carts - If this fails, try DSTTi Clone folder
