@@ -109,6 +109,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - Any r4i-sdhc.com.tw carts that didn't work with DSTTi-Clone YSMenu
     - Any r4i-dshc.com carts that didn't work with DSTTi-Clone YSMenu
     - Some r4i-best.com carts
+    - M3i Upgrade (m3iupgrade.com)
     - r4-usas.com 2016 Dual Core carts
     - R4i Advance (r4i-advance.com)
     - R4-III(i) (r4dsl.net)
