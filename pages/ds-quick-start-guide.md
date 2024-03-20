@@ -126,25 +126,25 @@ A link is provided here, but this may not be the cheapest option as it's one of 
 
 A guide to using and setting up the DSOne SDHC is here: <https://github.com/Sanrax/DSOneManual>
 
-# Other flashcarts
-
-These are flashcarts which we don't necessarily recommend but are available to buy. Information is provided here about these carts for people who may already have one. 
-
 ## R4DS Pro
 ![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
 
-While on the surface this may look like an original R4 clone - and is often described as an original R4 - this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra which is a derivative of the Acekard 2i. It does not pass AKAIO's clone checks, however, it can run BL2CK OS like most other Acekard2i based carts. **Note that this cart will not work on a stock DSi/3DS**.
+While on the surface this may look like an original R4 clone, (and is often described as an original R4) this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2i. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard2i based carts. This cart is recommended for those seeking a WoodR4 UI cart for use in a DS Lite or DS Phat. BL2CK tends to avoid the AP-patching issues Ace3DS+ clones have, therefore making the R4DSPro a fairly good option for anyone that would prefer WoodR4 over EOS. **Note that this cart will not work on a stock DSi/3DS**.
 
-Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**! This is the only flashcart on this list which will brick if you attempt to run YSMenu on it.
+Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**! This is the only flashcart listed here that will brick if you attempt to run YSMenu on it.
 
 ### Obtaining and Setup
-Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart.
+Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart. This cart is sometimes also sold as the "BL2CK Homebrew OS" cart with a custom BL2CK label on the front, for a slight markup.
 
 A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005006027046243.html> - make sure to select `1PCS R4 DS PRO`.
 
 BL2CK is the recommended kernel for this cart. The stock kernel is also an option, although it isn't great for playing your DS ROMs:
-- Kernel: [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip)
+- Kernel: [BL2CK (R4DSPro Edition)](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0_r4dspro.com.zip)
 - Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
+
+# Other flashcarts
+
+These are flashcarts which we don't necessarily recommend but are available to buy. Information is provided here about these carts for people who may already have one.
 
 ## R4 Gold 3DS RTS
 
