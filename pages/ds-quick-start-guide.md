@@ -119,7 +119,7 @@ Note that these carts can also be found with a [DSONEi label](https://i.imgur.co
 ### Obtaining and Setup
 This is the most recommended cart **for use on DS Lite/Phat and hacked systems**. Costs $5-10 USD. Searching "dsone" on AliExpress or eBay usually returns this cart.
 
-A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005002378653693.html>
+A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005005678783189.html> - this is **not** a DSONEi as shown on the label.
 
 - Kernel: [Evolution OS](https://flashcard-archive.ds-homebrew.com/SuperCard/DSONE_SDHC_DSONEi/SuperCard_DSONE_SDHC_EOS_sp6_20121206.zip)
 - Alternate kernel: [YSMenu](https://gbatemp.net/download/35737/) (Only use if Evolution OS gives a PSRAM error)
