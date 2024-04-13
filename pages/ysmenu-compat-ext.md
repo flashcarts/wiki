@@ -22,6 +22,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - Ace3DS (not PLUS, not X) (ace3ds.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `iLL.iL`**:
     - Blue/Green R4i 1.41-1.45 (ndsill.net)
+    - R4i V1.4 (r4igold.cn)
     - R4i Gold Upgrade 1.4.1 and V1.41 (r4igold.cn)
     - R4i WiFi V1.5 (r4igold.cn)
     - R4i-SDHC (r4i-sdhc.com.tw)
@@ -30,7 +31,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4itt.**info** - not r4itt.**net**
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.dat`**:
     - R4i Gold Upgrade 1.14b (r4igold.cn)
-    - R4i V1.4 (r4igold.cn)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.3ds`**:
     - R4i3D (without year number, without the NEW label, running it on those will BRICK your cart!) (r4i3d.com)
     - R4i Upgrade (r4i-gold.cc)
