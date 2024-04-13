@@ -108,7 +108,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **The following carts will work as-is**:
     - Most r4i-sdhc.com carts
     - All 2014+ r4isdhc.com carts (**not** the .com.cn, **not** the .hk, just .com)
-    - All r4i-gold.eu carts
     - Any r4i-sdhc.com.tw carts that didn't work with DSTTi-Clone YSMenu
     - Any r4i-dshc.com carts that didn't work with DSTTi-Clone YSMenu
     - Some r4i-best.com carts
@@ -126,6 +125,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - r4r4.be - R4i-SDHC variant
     - R4i SDHC v1.41 (r4ixl-sdhc.com)
 - **For the following carts, download this [R4.dat](http://flashcard-archive.ds-homebrew.com/YSMenu/DEMON_common/R4.dat) and replace it with the pre-existing one**:
+    - All r4i-gold.eu carts
     - Any r4i-sdhc.com cart that didn't work as-is
     - Any r4i-gold.com cart that didn't work as-is, WITHOUT A YEAR NUMBER AND WITHOUT PRO WRITTEN ON THE CART, ANY WITH A YEAR NUMBER OR PRO WILL BRICK!
     - Any r4ixl-sdhc.com cart that didnt work as is
