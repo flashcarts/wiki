@@ -43,6 +43,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4KING`**:
     - all carts from r4-king.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.TP`**:
+    - R4i Advance V1.6 WiFi 3DS (Red cart) (r4i-advance.com)
     - all carts from r4ita.com that didn't work with R4i-SDHC YSMenu
     - all carts from r4i-dshc.com
     - all carts from r4i-ndsill.com
@@ -113,7 +114,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - Some r4i-best.com carts
     - M3i Upgrade (m3iupgrade.com) - Rename `R4.dat` to `M3i.dat`
     - r4-usas.com 2016 Dual Core carts
-    - R4i Advance (r4i-advance.com)
     - R4-III(i) (r4dsl.net)
     - R4i SDHC v2.07 (r4sdhc.com)
     - R4i Pocket (r4ipocket.com)
