@@ -37,6 +37,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4.dat`**:
     - R4i SDHC Silver RTS Lite (without year number, without the NEW label, running it on those will BRICK your cart!) (r4isdhc.com)
     - R4iTT (must have a screw on the back, if it doesn't, this will BRICK your cart!) (r4itt.net)
+    - all carts from r4i3d-multi.com
     - all carts from r4iiisdhc.com
     - all carts from r4ids.cc
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4KING`**:
