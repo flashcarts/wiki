@@ -44,8 +44,9 @@ Ntrboot is a method that allows you to hack your 3DS easily, or fix a bricked 3D
 For general usage outside of hacking or unbricking, Ace3DS X clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for some games. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game. Its biggest benefit is that it works on all DS family consoles up to latest 3DS consoles.
 
 ### Obtaining and Setup
-This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like that peace of mind). Usually costs $5-10 USD. There have been a few reports of AliExpress sellers forgetting to include the cart in the package. We have temporarily removed any AliExpress listings for the Ace3DS X from this page until we can confirm that the issue has been resolved. A link to purchase the Ace3DS X has been provided below, although it may not be the cheapest listing out there:
+This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like that peace of mind). Usually costs $5-10 USD. Links to purchase the Ace3DS X has been provided below, although they may not be the cheapest listings out there:
 - NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=575>
+- AliExpress: <https://www.aliexpress.com/item/1005006177003571.html>
 
 This cart uses the same kernel as the Ace3DS+, link provided below
 - Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
