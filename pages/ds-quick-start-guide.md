@@ -87,7 +87,7 @@ These common carts are clones of the DSTTi, but with a timebomb in their officia
 
 Most of these carts sold today are labelled as r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. The timebomb causes the cart to stop loading into the menu after a certain date, but can be fixed by either switching to the YSMenu kernel or the de-timebombed stock kernel. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with certain features such as Wii connectivity in DS games.
 
-One notable advantage of these carts over [DSOne](?tab=original-hacked#flashcarts) or Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support, then these carts are a decent choice. However, the [Ace3DS X](#ace3ds-x) above is preferable for that purpose, since it has ntrboot preflashed and uses a better kernel when in DS mode.
+One notable advantage of these carts over Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support, then these carts are a decent choice. However, the [Ace3DS X](#ace3ds-x) above is preferable for that purpose, since it has ntrboot preflashed and uses a better kernel when in DS mode.
 
 There is a lot of misinformation surrounding these timebombs, see our [Timebomb Misconceptions](ds-timebomb) page for more details.
 
@@ -106,25 +106,6 @@ This is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usu
 
 {% capture tab-original-hacked %}
 # Recommended flashcarts for a DS, DS Lite, or hacked 3DS/DSi
-
-## DSOne SDHC
-![DSOne SDHC](/assets/images/ds_carts/dsone_sdhc.jpeg){:.float-start .me-3}
-
-A clone of the SuperCard DSOne SDHC, these carts have more or less perfect compatibility with retail games, plus features like RTS, slowdown, and an in-game menu not commonly found in other carts. This cart only works on DS Phat/Lite and hacked DSi/3DS - **it will not work on stock DSi/3DS**.
-
-While it's an excellent choice, it has a relatively high defective cart rate, so buying two or three is recommended if you'd like to ensure you get a fully functional cart. Defective carts will still work with YSMenu, but will not be able to take advantage of the extra features provided by its usual Evolution OS kernel.
-
-Note that these carts can also be found with a [DSONEi label](https://i.imgur.com/JsZZC8N.png), but they are not DSONEi carts in reality. They are DSONE SDHC carts with a DSONEi label.
-
-### Obtaining and Setup
-This is the most recommended cart **for use on DS Lite/Phat and hacked systems**. Costs $5-10 USD. Searching "dsone" on AliExpress or eBay usually returns this cart.
-
-A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005005678783189.html> - this is **not** a DSONEi as shown on the label.
-
-- Kernel: [Evolution OS](https://flashcard-archive.ds-homebrew.com/SuperCard/DSONE_SDHC_DSONEi/SuperCard_DSONE_SDHC_EOS_sp6_20121206.zip)
-- Alternate kernel: [YSMenu](https://gbatemp.net/download/35737/) (Only use if Evolution OS gives a PSRAM error)
-
-A guide to using and setting up the DSOne SDHC is here: <https://github.com/Sanrax/DSOneManual>
 
 ## R4DS Pro
 ![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
@@ -235,7 +216,7 @@ See [dsi.cfw.guide](https://dsi.cfw.guide) for a guide on how to install CFW on 
 {% capture tab-3ds %}
 On the 3DS family of consoles (including the 2DS and XL variants) there is a distinction between flashcarts that play 3DS games and flashcarts that play DS games. Flashcarts that play 3DS games are rendered mostly useless by the existence of CFW, which has *better* compatibility and is completely free, while 3DS flashcarts are very expensive. CFW also has other benefits over 3DS flashcarts such as the ability to run homebrew and emulators.
 
-Flashcarts for playing DS games on the other hand can still be useful, and everything in the [DSi](?tab1=dsi#alternative-options-for-dsi3ds-users) section above applies to DS mode flashcarts on the 3DS as well. That is, [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html) being a good option, but flashcarts for DS games having slightly higher compatibility. The [Ace3DS X](?tab=unhacked#ace3ds-x) carts are the recommended DS flashcart for 3DS users as they support the latest 3DS firmware without needing CFW, and provide ntrboot in the case you may need it. Any DS flashcart can be run with CFW, either from the 3DS HOME Menu or TWiLight Menu++. Thus for CFW users, [DSOne SDHC](?tab=original-hacked&tab1=3ds#flashcarts) is also a great option.
+Flashcarts for playing DS games on the other hand can still be useful, and everything in the [DSi](?tab1=dsi#alternative-options-for-dsi3ds-users) section above applies to DS mode flashcarts on the 3DS as well. That is, [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html) being a good option, but flashcarts for DS games having slightly higher compatibility. The [Ace3DS X](?tab=unhacked#ace3ds-x) carts are the recommended DS flashcart for 3DS users as they support the latest 3DS firmware without needing CFW, and provide ntrboot in the case you may need it. Any DS flashcart can be run with CFW, either from the 3DS HOME Menu or TWiLight Menu++.
 
 See [3ds.hacks.guide](https://3ds.hacks.guide) for how to install CFW on your 3DS.
 {% endcapture %}
