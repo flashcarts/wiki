@@ -46,7 +46,7 @@ For general usage outside of hacking or unbricking, Ace3DS X clones are a good c
 ### Obtaining and Setup
 This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like that peace of mind). Usually costs $5-10 USD. Links to purchase the Ace3DS X has been provided below, although they may not be the cheapest listings out there:
 - NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=575>
-- AliExpress: <https://www.aliexpress.com/item/1005006177003571.html>
+- AliExpress: <https://www.aliexpress.com/item/1005005616167352.html>
 
 This cart uses the same kernel as the Ace3DS+, link provided below
 - Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
