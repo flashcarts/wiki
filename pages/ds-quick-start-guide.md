@@ -170,6 +170,15 @@ You should avoid the original TTMenu kernel just in case you are sent a DSTT clo
 These are carts that you may encounter but are generally NOT recommended.
 {:.alert .alert-warning}
 
+## AliExpress "DSTWO"s
+![DSTWO WOS MINI](/assets/images/ds_carts/dstwo_wos_mini.png){:.float-start .me-3 width="150px" height="150px"}
+
+There are flashcarts currently being sold on AliExpress which claim to be a SuperCard DSTWO. In reality, they are Ace3DS+ clones with a misleading description and sticker. Due to the misleading information in these listings and their high prices, we do not recommend that you go out and buy one.
+
+These carts typically come with a pre-loaded SD card. The files on the SD card includes a maintained version of AOS (known as Wood Beyond) which has been skinned to look like the DSTWOs EvolutionOS, as well as some pirated scene ROMs. The SD cards are low quality and will fail fairly quickly.
+
+DSTWOs haven't been in production for a few years now. If you see a listing for one on AliExpress, chances are that it is just an Ace3DS+ clone with a false description.
+
 ## R4 DS
 ![R4 DS](/assets/images/ds_carts/r4ds.png){:.float-start .me-3}
 
