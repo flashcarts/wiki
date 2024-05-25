@@ -111,12 +111,14 @@ This is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usu
 ## R4DS Pro
 ![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
 
-While on the surface this may look like an original R4 clone, (and is often described as an original R4) this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2i. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard2i based carts. This cart is recommended for those seeking a WoodR4 UI cart for use in a DS Lite or DS Phat. BL2CK tends to avoid the AP-patching issues Ace3DS+ clones have, therefore making the R4DSPro a fairly good option for anyone that would prefer WoodR4 over EOS. **Note that this cart will not work on a stock DSi/3DS**.
+While on the surface this may look like an original R4 clone, and is often described as an original R4, this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard2 based carts. This cart is recommended for those seeking a WoodR4 UI cart for use in a DS Lite or DS Phat. BL2CK tends to avoid the AP-patching issues Ace3DS+ clones have, however, there are still some quirks in some games. For instance, you cannot enter the Minigames section in `New Super Mario Bros`. **Note that this cart will not work on a stock DSi/3DS**. 
+
+One of the downsides to this cart is that sleep mode does not function correctly. Closing the lid of your console will not suspend the loaded game as shown in this video: <https://www.reddit.com/r/flashcarts/s/W8LKdc3isr>. If you need a cart with a working sleep mode, you should look for an [Ace3DS+ clone](?tab=unhacked#ace3ds-clones) instead.
 
 Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**! This is the only flashcart listed here that will brick if you attempt to run YSMenu on it.
 
 ### Obtaining and Setup
-Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart. This cart is sometimes also sold as the "BL2CK Homebrew OS" cart with a custom BL2CK label on the front, for a slight markup.
+Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart. This cart is sometimes also sold as the "BL2CK Homebrew OS" cart with a custom BL2CK label on the front, it can also be found as an "OpenDS R4 SDHC", both of which are sold at a slight markup.
 
 A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005006027046243.html> - make sure to select `1PCS R4 DS PRO`.
 
@@ -155,10 +157,10 @@ The original DSTT is still being sold by NDS-Card. Since this flashcart does not
 This cart may be useful for ntrboot. NDS-Card appear to have sent out genuine DSTTs which can be used for that purpose. Though if you need a flashcart for ntrboot, an [Ace3DS X](?tab=unhacked#ace3ds-x) will still be a better choice over this cart.
 
 ### Obtaining and Setup
-NDS-Card charge different prices on their AliExpress store and their main website. The AliExpress listing appears to be cheaper so it is recommended to buy from there instead if you wish to have an original DSTT. You may find one cheaper second hand on eBay. This also does not come with the DSTT's original packaging if that matters to you.
+NDS-Card charge different prices on their AliExpress store and their main website. The AliExpress listing appears to be cheaper so it is recommended to buy from there instead if you wish to have a DSTT. You may find one cheaper second hand on eBay. This also does not come with the DSTT's original packaging if that matters to you.
 
-- AliExpress: <https://www.aliexpress.com/item/1005005579961052.html> ($5.49)
-- NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=157> ($11.99) - Uses a picture of a DSTT clone with packaging, though you will receive a genuine DSTT without it's packaging.
+- AliExpress: <https://www.aliexpress.com/item/1005005579961052.html>
+- NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=157>
 
 You should avoid the original TTMenu kernel just in case you are sent a DSTT clone, you will risk bricking your flashcart if you attempt to use it. We would recommend using YSMenu or RetroGameFan's repacked version of TTMenu instead.
 
