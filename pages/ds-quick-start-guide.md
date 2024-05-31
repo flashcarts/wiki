@@ -108,12 +108,18 @@ This is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usu
 {% capture tab-original-hacked %}
 # Recommended flashcarts for a DS, DS Lite, or hacked 3DS/DSi
 
+See the [All Systems](?tab=unhacked) tab for flashcart recommendations as we currently do not recommend specific carts for the DS/DS Lite or hacked 3DS/DSi consoles.
+
+# Other flashcarts
+
+These are flashcarts which we don't necessarily recommend but are available to buy. Information is provided here about these carts for people who may already have one.
+
 ## R4DS Pro
 ![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
 
-While on the surface this may look like an original R4 clone, and is often described as an original R4, this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard2 based carts. This cart is recommended for those seeking a WoodR4 UI cart for use in a DS Lite or DS Phat. BL2CK tends to avoid the AP-patching issues Ace3DS+ clones have, however, there are still some quirks in some games. For instance, you cannot enter the Minigames section in `New Super Mario Bros`. **Note that this cart will not work on a stock DSi/3DS**. 
+While on the surface this may look like an original R4 clone, and is often described as an original R4, this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard2 based carts. BL2CK tends to avoid the AP-patching issues Ace3DS+ clones have, however, there are still some quirks in some games. For instance, you cannot enter the Minigames section in `New Super Mario Bros`. Changing the WFC settings in some games will either result in a black screen before you can change the settings, or a white screen once the settings have been changed as you return to your game.
 
-One of the downsides to this cart is that sleep mode does not function correctly. Closing the lid of your console will not suspend the loaded game as shown in this video: <https://www.reddit.com/r/flashcarts/s/W8LKdc3isr>. If you need a cart with a working sleep mode, you should look for an [Ace3DS+ clone](?tab=unhacked#ace3ds-clones) instead.
+Unfortunately, this cart does come with a few downsides. One of the issues that this cart has is that sleep mode does not function correctly. Closing the lid of your console will not suspend the loaded game as shown in this video: <https://www.reddit.com/r/flashcarts/s/W8LKdc3isr>. This flashcart also suffers from slow read/write speeds to the SD card which can result in slower loading times in both games and homebrew.
 
 Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**! This is the only flashcart listed here that will brick if you attempt to run YSMenu on it.
 
@@ -125,10 +131,6 @@ A link is provided here, but this may not be the cheapest option as it's one of 
 BL2CK is the recommended kernel for this cart. The stock kernel is also an option, although it isn't great for playing your DS ROMs:
 - Kernel: [BL2CK (R4DSPro Edition)](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0_r4dspro.com.zip)
 - Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
-
-# Other flashcarts
-
-These are flashcarts which we don't necessarily recommend but are available to buy. Information is provided here about these carts for people who may already have one.
 
 ## R4 Gold 3DS RTS
 
