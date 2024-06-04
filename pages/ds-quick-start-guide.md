@@ -174,6 +174,22 @@ You should avoid the original TTMenu kernel just in case you are sent a DSTT clo
 These are carts that you may encounter but are generally NOT recommended.
 {:.alert .alert-warning}
 
+## EZ Flash Parallel
+
+![EZ Flash Parallel](/assets/images/ds_carts/ez_flash_parallel.png){:.float-start .me-3 width="150px" height="150px"}
+
+The EZ Flash Parallel is a new flashcart on the market with a fairly stylish shell design. It will work on the DS/DS Lite as well as unhacked DSi/3DS consoles. It comes pre-flashed with 3DS ntrboot meaning that you can use it to unbrick your console or to install custom firmware. Unfortunately, that's where the positives mostly end for this flashcart.
+
+One of the main issues with this flashcart is that read/write speeds to the SD card are very slow - slower than most of the other flashcarts currently being sold as of this writing. This has a noticable impact on game performance as many games will tend to run slower, especially those with video cutscenes. This has also been an issue on EZ Flash's previous DS flashcarts. Many homebrew applications also appear to have issues running on the EZ Flash Parallel, with some refusing to boot at all on the cart.
+
+Users have also reported fitment issues with this cart. Some have said that the shell is too thick for their DS Lite, often causing a tight fit when inserted into the cartridge slot. Others have reported that the cart's PCB doesn't make proper contact with the cartridge reader, preventing it from booting on their consoles without using the paper trick. While not everyone has had these issues, it goes to show that the build quality of the EZP is inconsistent. Another quirk of the EZ Flash Parallel is that sleep mode doesn't function correctly on certain consoles. Closing the lid of your DS in game will cause the audio, power light and screens to strobe: [GBATemp Post](https://gbatemp.net/threads/652317/). It is unclear if this issue will be fixed any time soon.
+
+Other issues which some community members feel is worth mentioning about this cart is EZ Flash's attitude to open source. EZ Flash said that they were planning on releasing the source code to their DLDI - which they are not required to do. However, this has not happened months later. Similarly, they are refusing to give out the source code to the kernel used by the cart. The kernel is based on WoodRPG, which is licensed under GPLv3. EZ Flash is required under this license to give out the source code to the kernel, but they have chosen not to. They are also violating the GPLv2 licence of Homebrew Menu as functions from it have been found in the EZP's firmware. In the past, EZ Flash have respected the licenses of any open source software that they have used in their products, hence why it is strange for them to not do so now.
+
+One common misconception about the EZ Flash Parallel is that the FPGA on the cart is currently being left unused. This isn't true. The FPGA is the brains of the flashcart, it is being used to handle cart commands and SD I/O, much like how other flashcarts with an FPGA use them. The actual reason why the FPGA was listed as a selling point on EZ Flash's website is because it is being made entirely within China, though the meaning behind this seems to have been lost in translation.
+
+Due to this flashcart's unusually high price - often sells for around 25 USD, whereas most other carts sell between 5-10 USD - and the issues listed above, we cannot recommend this cart to people looking to buy one. If you own an EZ Flash Parallel, please update to the latest kernel (1.06) as soon as possible as it fixes a bug where the game `Casper's Scare School: Spooky Sports Day` can brick the flashcart due to a missing save patch.
+
 ## AliExpress "DSTWO"s
 ![DSTWO WOS MINI](/assets/images/ds_carts/dstwo_wos_mini.png){:.float-start .me-3 width="150px" height="150px"}
 
