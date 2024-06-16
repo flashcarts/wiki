@@ -29,3 +29,6 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
 end
+
+# Removing this will break the site under Arch Linux's provided ruby package (3.0.6-1) as it appears to be missing the json gem.
+gem "json", "~>2.7", ">=2.7.2"
