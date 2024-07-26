@@ -76,6 +76,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **The following carts have multiple files to test. Make several copies of `TTMenu.dat`, and name them `R4i.TP`, `iLL.iL`, `config`, `3DSCARD.dat`, `R4i.3DS`**:
     - Most r4i-sdhc.hk carts
     - All r4i-gold.hk carts
+    - r4i-kungfu.com RTS Lite carts
 
 ## DSOnei SDHC YSMenu folder
 - DSONE SDHC (and its future clones) (The non-SDHC version is NOT supported)
