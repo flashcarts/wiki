@@ -68,7 +68,7 @@ Multiple variations of this cart exist, and they're all clones of the cart shown
 ![Ace3DS+ Original](/assets/images/ds_carts/ace3ds-nolabel.png)
 
 ### Obtaining and Setup
-Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.com/item/1005006097443888.html>
+Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.us/item/3256806533240778.html>
 
 These carts are sold under a variety of brandings. The 2020 and later carts labelled as r4isdhc**.com.cn** and "208-in-1" carts are Ace3DS+ clones. Aside from the distinction note above, all of these carts perform identically regardless of branding.
 
