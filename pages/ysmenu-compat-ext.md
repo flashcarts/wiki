@@ -100,8 +100,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - This requires your original kernel to be installed: however, I do not recommend this way of running games for the Original R4. Use its dedicated kernel instead.
 - The rest are probably useful:
     - R4-III (r4iiinew.com)
-    - All carts from r4-pro.com
-    - R4-III (r4dsl.net)
+    - R4-III/R4 Upgrade (r4dsl.net)
     - N5 (dsn5.com)
     - R4iNDSiXL (r4indsill.com)
     - R4 SDHC Christmas Edition (only this cart, running it on any other r4isdhc.com cart may BRICK!) (r4isdhc.com)
