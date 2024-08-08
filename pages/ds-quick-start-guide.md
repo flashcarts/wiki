@@ -132,25 +132,6 @@ BL2CK is the recommended kernel for this cart. The stock kernel is also an optio
 - Kernel: [BL2CK (R4DSPro Edition)](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0_r4dspro.com.zip)
 - Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
 
-## R4 Gold 3DS RTS
-
-![R4 Gold 3DS RTS](./assets/images/ds_carts/r4i-gold_com_RTS.png){:.float-start .me-3}
-
-This is a cart by r4i-gold.com which appears to be based on the pk3ds.com cart. It has both a micro SD card slot and a proprietary USB port. The USB port is only used to provide power to the flashcart so that it can upgrade it's firmware from the micro SD card. We currently do not have any archive of the firmware upgrades for this flashcart.
-
-It acts like a DSTTi clone, however, it doesn't seem to support DSTTi DLDI. For people who wish to autoboot TwiLight Menu ++ on this flashcart, there are two ways of doing it. If you choose to use the pre-built autoboot files provided by TwiLight Menu ++, you will have to use the `Original R4` autoboot files which will limit you to 2GB microSD cards. The other way of doing it is by setting YSMenu to autoboot TwiLight Menu ++, you can do this by editing `YSMenu.ini` in the `TTMenu` folder. Change line 16 to `AUTO_BOOT=BOOT.NDS`. This may be the better option for most people as you won't have to go out of your way to find a 2GB microSD card. Another weird quirk of this flashcart is that it can boot from three different files; `TTMenu.dat`, `R4.dat`, and `_DS_MENU.dat`.
-
-Note: This flashcart was also being sold as a "DSTTi Gold from ndstt.com" on AliExpress. This flashcart wasn't made by the DSTT team, it's just a relabelled version of this flashcart.
-
-### Obtaining and Setup
-Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart.
-
-A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005006027046243.html> - make sure to select `1PCS R4 GOLD RTS`.
-
-YSMenu is the recommended kernel for this cart though you can also use RetroGameFan's repacked version of TTMenu. Do **not** use stock TTMenu on this flashcart as it will brick it! The stock kernel is also an option, although it isn't great for playing your DS ROMs:
-- Kernel: [DSTTi Clone YSMenu/TTMenu](https://gbatemp.net/download/35737/)
-- Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4i-gold.com/old/r4i-gold.com_Gold_3DS_RTS.zip)
-
 ## DSTT
 ![DSTT](./assets/images/ds_carts/dstt.png){:.float-start .me-3}
 
@@ -198,6 +179,18 @@ There are flashcarts currently being sold on AliExpress which claim to be a Supe
 These carts typically come with a pre-loaded SD card. The files on the SD card includes a maintained version of AOS (known as Wood Beyond) which has been skinned to look like the DSTWOs EvolutionOS, as well as some pirated scene ROMs. The SD cards are low quality and will fail fairly quickly.
 
 DSTWOs haven't been in production for a few years now. If you see a listing for one on AliExpress, chances are that it is just an Ace3DS+ clone with a false description.
+
+## R4 Gold 3DS RTS
+
+![R4 Gold 3DS RTS](./assets/images/ds_carts/r4i-gold_com_RTS.png){:.float-start .me-3}
+
+This is a flashcart by r4i-gold.com which appears to be a clone of the pk3ds.com cart. It has both a micro SD card slot and a proprietary USB port. The USB port appears to be used to provide power to the flashcart so that it can upgrade it's firmware from the micro SD card. We currently do not have any archive of the firmware upgrades for this flashcart.
+
+It acts like a DSTTi clone, however, it doesn't seem to support DSTTi DLDI. For people who wish to autoboot TwiLight Menu ++ on this flashcart, there are two ways of doing it. You would have to set YSMenu to autoboot TwiLight Menu ++ (by changing the auto_boot title to `boot.nds` or by renaming `boot.nds` to `default.nds`), or by using the `Original R4` autoboot files and be limited to microSD cards up to 2GB in size.
+
+This flashcart was also being sold as a "DSTTi Gold from ndstt.com" on AliExpress. This flashcart wasn't made by the DSTT team, it's just a relabelled version of this flashcart.
+
+We have decided to move this flashcart to the non-recommended list due to reports of carts being dead on arrival. We cannot guarantee that you will receive a working flashcart if you decide to buy one of these.
 
 ## R4 DS
 ![R4 DS](/assets/images/ds_carts/r4ds.png){:.float-start .me-3}
