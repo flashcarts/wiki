@@ -3,7 +3,7 @@ title: A Quick Guide on DS Flashcarts
 description: DS flashcarts, what there is, and what to buy
 tabs:
   - unhacked: All Systems - Unhacked or Hacked - 3DS/DSi/DS/DSL
-    original-hacked: DS, DS Lite, and Hacked 3DS/DSi Only
+    original-hacked: Other Flashcarts
     non-recommended: Non-Recommended Carts
   - dsi: DSi
     3ds: 3DS
@@ -30,9 +30,6 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 
 {% capture tab-unhacked %}
 # Recommended Flashcarts - All Systems
-
-Note that while the below carts do work on all DS family systems and are a safe choice, there may be better carts available for DS/DS Lite and hacked 3DS/DSi users in the "Hacked 3DS/DSi Only" tab. Those carts may have better game compatibility, and extra features like Real-Time-Save.
-{:.alert .alert-info}
 
 ## Ace3DS X
 ![Ace3DS X](/assets/images/ds_carts/ace3dsx.png){:.float-start .me-3}
@@ -106,13 +103,11 @@ This is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usu
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
 
 {% capture tab-original-hacked %}
-# Recommended flashcarts for a DS, DS Lite, or hacked 3DS/DSi
-
-See the [All Systems](?tab=unhacked) tab for flashcart recommendations as we currently do not recommend specific carts for the DS/DS Lite or hacked 3DS/DSi consoles.
-
-# Other flashcarts
+# Other Flashcarts
 
 These are flashcarts which we don't necessarily recommend but are available to buy. Information is provided here about these carts for people who may already have one.
+
+**Note**: These flashcarts will only work on the DS, DS Lite, and hacked 3DS/DSi systems. They **will not** work on unhacked 3DS/DSi systems.
 
 ## R4DS Pro
 ![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
