@@ -112,9 +112,11 @@ These are flashcarts which we don't necessarily recommend but are available to b
 ## R4DS Pro
 ![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
 
-While on the surface this may look like an original R4 clone, and is often described as an original R4, this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard2 based carts. BL2CK tends to avoid the AP-patching issues Ace3DS+ clones have, however, there are still some quirks in some games. For instance, you cannot enter the Minigames section in `New Super Mario Bros`. Changing the WFC settings in some games will either result in a black screen before you can change the settings, or a white screen once the settings have been changed as you return to your game.
+While on the surface this may look like an original R4 clone, and is often described as an original R4, this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard 2 based carts. 
 
-Unfortunately, this cart does come with a few downsides. One of the issues that this cart has is that sleep mode does not function correctly. Closing the lid of your console will not suspend the loaded game as shown in this video: <https://www.reddit.com/r/flashcarts/s/W8LKdc3isr>. This flashcart also suffers from slow read/write speeds to the SD card which can result in slower loading times in both games and homebrew.
+BL2CK tends to avoid the AP-patching issues that Ace3DS+ clones have, however, one major downside to this kernel is that download play doesn't seem to work in most games. There are also some compatibility quirks in BL2CK which seems to only exist on this cart. Those being that the `Minigames` section in `New Super Mario Bros` loads to a black screen and that attempting to change WFC settings can freeze the console.
+
+Another issue that this cart has is that sleep mode does not function correctly. Closing the lid of your console will not suspend the loaded game as shown in this video: <https://www.reddit.com/r/flashcarts/s/W8LKdc3isr>. This flashcart also suffers from slow read/write speeds to the SD card which can result in slower loading times in both games and homebrew.
 
 Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**! This is the only flashcart listed here that will brick if you attempt to run YSMenu on it.
 
