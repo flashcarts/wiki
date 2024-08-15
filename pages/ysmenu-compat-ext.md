@@ -137,11 +137,11 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 - **Features:**
     - Removed timebomb, no fake card check, no boucing WiFi icon in landing menu
     - RTS Support with in-game menu (Real-Time Save, AKA Save States)
-    - Better compatibility with romhacks and games
     - TTMenu-style themeable UI
 - **Cons:**
     - RTS Support is unstable in some games
     - Cheat menu can display unreadable text with long cheat names
+    - Game compatibility is slightly worse than the stock timebomb kernel
     - Some cheats codes are broken
     - Also, see in-depth explanation of this kernel's cons [here](https://i.imgur.com/V1W2GGQ.png).
 
