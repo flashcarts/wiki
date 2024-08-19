@@ -41,49 +41,64 @@ Ntrboot is a method that allows you to hack your 3DS easily, or fix a bricked 3D
 For general usage outside of hacking or unbricking, Ace3DS X clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for some games. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game. Its biggest benefit is that it works on all DS family consoles up to latest 3DS consoles.
 
 ### Obtaining and Setup
-This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like that peace of mind). Usually costs $5-10 USD. Links to purchase the Ace3DS X has been provided below, although they may not be the cheapest listings out there:
-- NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=575>
-- AliExpress: <https://www.aliexpress.com/item/1005005616167352.html>
+This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like the peace of mind). Usually costs $5-10 USD.
+
+Searching "ace3ds" on AliExpress or eBay usually returns this cart.
+
+Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
+
+- [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575)
+- [AliExpress [1]](https://www.aliexpress.us/item/3256806171570798.html)
+- [AliExpress [2]](https://www.aliexpress.us/item/3256805990688819.html)
+- [AliExpress [3]](https://www.aliexpress.com/item/1005005616167352.html)
 
 This cart uses the same kernel as the Ace3DS+, link provided below
-- Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
+- Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
-## Ace3DS+ Clones
+## Ace3DS+/R4iLS Clones
 ![Ace3DS+ Original](/assets/images/ds_carts/ace3ds+.png){:.float-start .me-3}
 
-These carts are clones of the Ace3DS+ flashcart, compatible with all DS, DSi, and 3DS consoles, even unhacked ones on the latest firmware. These Ace3DS+ clones **do not** work with ntrboot - see the [Ace3DS X](#ace3ds-x) instead if this is a feature that you may need.
+These carts are clones of the Ace3DS+ (or R4iLS) flashcart, compatible with all DS, DSi, and 3DS consoles, even unhacked ones on the latest firmware. These carts **do not** work with ntrboot - see the [Ace3DS X](#ace3ds-x) instead if this is a feature that you may need.
 
-Important distinction: past listings of unlabeled Ace3DS+ clones exist, but we can no longer advise the purchase of these carts as they have started mixing in older versions of the Ace3DS+ which do not work on the latest firmware. More confusion arises from the fact that there are also timebomb clones that have very similar looking PCBs to the Ace3DS+ unlabeled carts. Please purchase the other labeled variants instead, specifically the two shown above.
+Important distinction: past listings of unlabeled Ace3DS+/R4iLS clones exist, but we can no longer advise the purchase of these carts as they have started mixing in older versions of the Ace3DS+ which do not work on the latest firmware. More confusion arises from the fact that there are also timebomb clones that have very similar looking PCBs to the Ace3DS+ unlabeled carts. Please purchase the other labeled variants instead, specifically the two shown below.
 
-Ace3DS+ clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an older version of Wood which lacks some anti-piracy patches, so to play certain games you will have to manually [patch their ROMs](https://gbatemp.net/download/35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game.
+Ace3DS+/R4iLS clones are an excellent option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs a fork of Wood which lacks a couple anti-piracy patches, so to play those games you will have to manually [patch their ROMs](https://gbatemp.net/download/35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game.
 
 ### Variants
 Multiple variations of this cart exist, and they're all clones of the cart shown above. Here are the most common ones:
 
-![r4isdhc.com.cn Ace3DS+ clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
+![r4isdhc.com.cn R4iLS clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
+![r4isdhc.hk R4iLS clone](/assets/images/ds_carts/r4isdhc_hk.png)
 ![208 in 1 cart](/assets/images/ds_carts/208in1.png)
-![Ace3DS+ Original](/assets/images/ds_carts/ace3ds-nolabel.png)
+![Ace3DS+ unlabeled](/assets/images/ds_carts/ace3ds-nolabel.png)
+
+These carts are sold under a variety of brandings. The 2020 and later carts labeled as r4isdhc**.com.cn** and r4isdhc**.hk** are R4iLS clones. "208-in-1" and unlabeled carts are Ace3DS+ or R4iLS clones. All of these carts will perform the same and use the same kernel, so choose whichever label style you like.
+
+**Warning regarding r4isdhc.hk variant:** Not all carts labeled with the r4isdhc.hk URL are R4iLS/Ace3DS+ clones. If you choose to buy this variant, look out for the following characteristics to make sure you get the correct cart:
+
+- The year number on the label should have a star shaped outline, and NOT a ribbon style
+- The label should be silver colored
+- The label should have the text "Smart Update" on it
+- The label should NOT have "Gold Pro", "Real Time Save", or "RTS LITE" on it
+- The PCB should be a red color
 
 ### Obtaining and Setup
-Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.us/item/3256806533240778.html>
+Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart.
 
-These carts are sold under a variety of brandings. The 2020 and later carts labelled as r4isdhc**.com.cn** and "208-in-1" carts are Ace3DS+ clones. Aside from the distinction note above, all of these carts perform identically regardless of branding.
+Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
 
-Note that there exist similar carts looking carts that are **not** Ace3DS+ clones, but rather [timebomb clones](#dstti-timebomb-clones). These include carts labelled as r4isdhc**.com** and some unlabelled red PCB carts. The notable physical differences are:
-- Ace3DS+ clones have either one or five holes in the PCB near the pins, the similar timebomb clones have two. (see above images)
-   - NOTE: It has been reported that the 5 hole PCB variant do not work on unmodded DSi/3DS consoles. This is mostly prominent on unlabeled Ace3DS+ clones, so do not purchase unlabeled carts.
-- Ace3DS+ clones have smaller but deeper indents on the sides
-- Timebomb clones typically have an oval shaped indent in the plastic on the back, while Ace3DS+ clones don't.
-- Ace3DS+ clones always have red PCBs, timebomb clones often have yellow PCBs but are occasionally red as well.
+- [r4isdhc.com.cn carts [1]](https://www.aliexpress.us/item/3256806533240778.html)
+- [r4isdhc.com.cn carts [2]](https://www.aliexpress.us/item/3256806903668385.html)
+- [r4isdhc.hk carts](https://www.aliexpress.us/item/3256806551164406.html)
 
-Kernel: [Ace3DS+ Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
+Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
 ## DSTTi Timebomb Clones
 ![r4i-sdhc.com 3DS RTS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}
 
-These common carts are clones of the DSTTi, but with a timebomb in their official kernel. The timebomb is purely software, so switching to an alternative kernel will remove it. These carts are compatible with all DS, DSi, and 3DS consoles - even on the latest firmware - so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+ clones](#ace3ds-clones) are recommended instead if possible.
+These common carts are clones of the DSTTi, but with a timebomb in their official kernel. The timebomb is purely software, so switching to an alternative kernel will remove it. These carts are compatible with all DS, DSi, and 3DS consoles - even on the latest firmware - so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+/R4iLS clones](#ace3ds-clones) are recommended instead if possible.
 
-Most of these carts sold today are labelled as r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. The timebomb causes the cart to stop loading into the menu after a certain date, but can be fixed by either switching to the YSMenu kernel or the de-timebombed stock kernel. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with certain features such as Wii connectivity in DS games.
+Most of these carts sold today are labeled r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. The timebomb causes the cart to stop loading into the menu after a certain date, but can be fixed by either switching to the YSMenu kernel or the de-timebombed stock kernel. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with games and romhacks, as well as certain features like Wii connectivity in DS games.
 
 One notable advantage of these carts over Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support, then these carts are a decent choice. However, the [Ace3DS X](#ace3ds-x) above is preferable for that purpose, since it has ntrboot preflashed and uses a better kernel when in DS mode.
 
@@ -95,10 +110,16 @@ There is a lot of misinformation surrounding these timebombs, see our [Timebomb 
 ![Unlabelled timebomb clone](/assets/images/ds_carts/timebomb_back.png)
 
 ### Obtaining and Setup
-This is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usually costs $10-15 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart. A link is provided here, but this may not be the cheapest option as it's one of many listings: <https://www.aliexpress.com/item/1005004530389743.html>
+This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usually costs $10-15 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart.
+
+Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
+
+- [r4isdhc.com carts [1]](https://www.aliexpress.com/item/1005004530389743.html)
+- [r4isdhc.com carts [2]](https://www.aliexpress.us/item/3256806493405547.html)
+- [r4i-sdhc.com cart](https://www.aliexpress.us/item/3256806677764435.html)
 
 - Kernel: [YSMenu](https://gbatemp.net/download/35737/)
-- Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip)
+- Alternate Kernel: [De-Timebombed 1.85b R4i-SDHC kernel](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip)
 {% endcapture %}
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
 
