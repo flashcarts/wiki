@@ -9,12 +9,13 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 ## DSTTi-Clone YSMenu/TTMenu folder
 - **Carts that work directly**:
     - all carts from ndstt.com, ndstt.net
-    - all carts from r4top.com
     - all carts from ndstti.cn
+    - all carts from nds-tti.com
     - all carts from dstt-adv.com
     - R4i-SDHC 1.4.1, 1.4.2 (r4ll-net.com)
     - all carts from r4ill-net.com
     - all carts from r4dsll.com
+    - all carts from r4top.com
     - R4 Gold 3DS RTS - Upgrade with Cable (r4i-gold.com) - WITHOUT A YEAR NUMBER AND WITHOUT PRO WRITTEN ON THE CART, ANY WITH A YEAR NUMBER OR PRO WILL **BRICK**
         - The R4 Gold 3DS RTS was also sold as a "DSTTi Gold from ndstt.com". This is the same cart, just relabelled by an AliExpress seller.
     - all carts from pk3ds.com
