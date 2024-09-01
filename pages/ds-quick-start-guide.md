@@ -14,17 +14,23 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 
 ## READ FIRST
 
-1. There are hundreds, if not thousands of R4 clones made, so be wary when purchasing and don't simply slap on any kernel and expect it to work.
-1. Do not use 'R4' websites for purchasing flashcarts. Many are scammy and don't refund orders. Stick to more general places like eBay or AliExpress.
-   - We also do not recommend using Amazon, Etsy or Temu for buying DS flashcarts. Flashcarts listed on these sites tend to be sold for a high price in comparison to eBay or AliExpress.
-1. Do not follow YouTube setup guides, as there are many reproduction carts in the market and 99% of guides are outdated.
-1. Need to identify your cart? [Here's a handy guide](https://www.reddit.com/r/flashcarts/comments/rdl55f/things_i_look_at_when_i_identify_flashcarts/)!
-1. Need firmware? Refer to the [DS-Homebrew Flashcard Archive](https://flashcard-archive.ds-homebrew.com). Here you can compare the website listed on your flashcart to find the correct kernel for you. Feel free to ask for help in the [DS(i) Mode Hacking](https://discord.gg/yD3spjv) Discord server (English only) if you have trouble identifying your cart! You can also make a post in the [r/flashcarts](https://reddit.com/r/flashcarts) subreddit if you prefer.
-1. Want to install YSMenu and not worry about timebombs? Refer to the [YSMenu extended compatibility list](ysmenu-compat-ext). **Not all carts are compatible with YSMenu!** If you are unsure, ask before you install. You risk bricking your cart with the wrong firmware!
-1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a microSD card separately, being [cautious of SD card scams](https://www.youtube.com/watch?v=UsWx1iO-aeA).
-1. Older DS flashcarts may not work on the stock firmware of a DSi/3DS. Instead of being able to boot the cart, you will be presented with an error message instead. See the ['Alternative Options for DSi/3DS Users'](#alternative-options-for-dsi3ds-users) section for more information about why this happens and how to solve it!
-1. **Note that GBA emulation on these consoles is not perfect, refer to the [GBARunner2 Wiki](https://wiki.gbatemp.net/wiki/GBARunner2#DS_Compatibility_List) to check game compatibility.**
-1. **None of the carts listed here play 3DS games. Install CFW to run 3DS games, more details in the [3DS section](?tab1=3ds#alternative-options-for-dsi3ds-users).**
+1. The market contains a huge array of R4 clones; often using their own kernels and are not compatible with each other.
+1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay and Aliexpress.
+   - Amazon, Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or Aliexpress 
+1. Do **not** follow YouTube setup guides, as there are many reproduction carts in the market and 99% of guides are outdated.
+1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a recognised name-brand microSD card separately, being [cautious of SD card scams](https://www.youtube.com/watch?v=UsWx1iO-aeA).
+
+<details markdown="1">
+<summary><b>Guides & Info</b></summary>
+- Need to identify your cart? [Here's a handy guide](https://www.reddit.com/r/flashcarts/comments/rdl55f/things_i_look_at_when_i_identify_flashcarts/)!
+- Need firmware? Refer to the [DS-Homebrew Flashcard Archive](https://flashcard-archive.ds-homebrew.com). Here you can compare the website listed on your flashcart to find the correct kernel for you. Feel free to ask for help in the [DS(i) Mode Hacking](https://discord.gg/yD3spjv) Discord server (English only) if you have trouble identifying your cart! You can also make a post in the [r/flashcarts](https://reddit.com/r/flashcarts) subreddit if you prefer.
+- Want to install YSMenu and not worry about timebombs? Refer to the [YSMenu extended compatibility list](ysmenu-compat-ext). **Not all carts are compatible with YSMenu!** If you are unsure, ask before you install. You risk bricking your cart with the wrong firmware!
+- Older DS flashcarts may not work on the stock firmware of a DSi/3DS. Instead of being able to boot the cart, you will be presented with an error message instead. See the ['Alternative Options for DSi/3DS Users'](#alternative-options-for-dsi3ds-users) section for more information about why this happens and how to solve it!
+</details>
+
+### Important to note
+- **GBA emulation on these consoles is not perfect, refer to the [GBARunner2 Wiki](https://wiki.gbatemp.net/wiki/GBARunner2#DS_Compatibility_List) to check game compatibility.**
+- **None of the carts listed here play 3DS games. Install CFW to run 3DS games, more details in the [3DS section](?tab1=3ds#alternative-options-for-dsi3ds-users).**
 
 ## Flashcarts
 
@@ -38,7 +44,7 @@ The Ace3DS X is a version of the Ace3DS+ (seen below) that also supports ntrboot
 
 Ntrboot is a method that allows you to hack your 3DS easily, or fix a bricked 3DS family console. The Ace3DS X makes ntrboot easily accessible without any modification required, such as flashing the cartridge!
 
-For general usage outside of hacking or unbricking, Ace3DS X clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for some games. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game. Its biggest benefit is that it works on all DS family consoles up to latest 3DS consoles.
+For general usage outside of hacking or unbricking, Ace3DS X clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for a few games, namely Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases) and enable the Anti-Piracy bypass cheat before starting the game. Its biggest benefit is that it works on all DS family consoles up to latest 3DS consoles.
 
 ### Obtaining and Setup
 This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like the peace of mind). Usually costs $5-10 USD.
@@ -58,14 +64,14 @@ This cart uses the same kernel as the Ace3DS+, link provided below
 ## Ace3DS+/R4iLS Clones
 ![Ace3DS+ Original](/assets/images/ds_carts/ace3ds+.png){:.float-start .me-3}
 
-These carts are clones of the Ace3DS+ (or R4iLS) flashcart, compatible with all DS, DSi, and 3DS consoles, even unhacked ones on the latest firmware. These carts **do not** work with ntrboot - see the [Ace3DS X](#ace3ds-x) instead if this is a feature that you may need.
+These carts are clones of the Ace3DS+ or R4iLS flashcarts, compatible with all DS, DSi, and 3DS consoles, even unhacked ones on the latest firmware. These carts **do not** work with ntrboot - see the [Ace3DS X](#ace3ds-x) instead if this is a feature that you may need.
 
 Important distinction: past listings of unlabeled Ace3DS+/R4iLS clones exist, but we can no longer advise the purchase of these carts as they have started mixing in older versions of the Ace3DS+ which do not work on the latest firmware. More confusion arises from the fact that there are also timebomb clones that have very similar looking PCBs to the Ace3DS+ unlabeled carts. Please purchase the other labeled variants instead, specifically the two shown below.
 
-Ace3DS+/R4iLS clones are an excellent option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs a fork of Wood which lacks a couple anti-piracy patches, so to play those games you will have to manually [patch their ROMs](https://gbatemp.net/download/35735/), or use a cheat database and enable the Anti-Piracy bypass cheat before starting the game.
+Ace3DS+/R4iLS clones are an excellent option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for a few games, namely Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases) and enable the Anti-Piracy bypass cheat before starting the game.
 
 ### Variants
-Multiple variations of this cart exist, and they're all clones of the cart shown above. Here are the most common ones:
+Multiple variations of this cart exist, and they're all clones of the Ace3DS+ or the R4iLS. Here are the most common ones:
 
 ![r4isdhc.com.cn R4iLS clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
 ![r4isdhc.hk R4iLS clone](/assets/images/ds_carts/r4isdhc_hk.png)
@@ -179,15 +185,24 @@ These are carts that you may encounter but are generally NOT recommended.
 
 The EZ Flash Parallel is a new flashcart on the market with a fairly stylish shell design. It will work on the DS/DS Lite as well as unhacked DSi/3DS consoles. It comes pre-flashed with 3DS ntrboot meaning that you can use it to unbrick your console or to install custom firmware. Unfortunately, that's where the positives mostly end for this flashcart.
 
-One of the main issues with this flashcart is that read/write speeds to the SD card are very slow - slower than most of the other flashcarts currently being sold as of this writing. This has a noticable impact on game performance as many games will tend to run slower, especially those with video cutscenes. This has also been an issue on EZ Flash's previous DS flashcarts. Many homebrew applications also appear to have issues running on the EZ Flash Parallel, with some refusing to boot at all on the cart.
+There are several issues that result in this flashcart not being recommended:
+<br><br>
+- Slow SD card speeds, which cause slowdown in games, with some homebrew applications not even working.
+- Multiple reports of fitment issues with the cart, with the shell being too thick for some DS consoles, therefore not fitting properly.
+- Reports of users also needing to use the paper trick to use the cart with the PCB pins not making good contact. Both these issues demonstrate the inconsistent build quality of this flashcart.
+- Sleep mode is non-functional, causing a strobing effect when it is used [(GBATemp Post)](https://gbatemp.net/threads/652317/). It is not clear if this issue will be fixed any time soon.
 
-Users have also reported fitment issues with this cart. Some have said that the shell is too thick for their DS Lite, often causing a tight fit when inserted into the cartridge slot. Others have reported that the cart's PCB doesn't make proper contact with the cartridge reader, preventing it from booting on their consoles without using the paper trick. While not everyone has had these issues, it goes to show that the build quality of the EZP is inconsistent. Another quirk of the EZ Flash Parallel is that sleep mode doesn't function correctly on certain consoles. Closing the lid of your DS in game will cause the audio, power light and screens to strobe: [GBATemp Post](https://gbatemp.net/threads/652317/). It is unclear if this issue will be fixed any time soon.
-
-Other issues which some community members feel is worth mentioning about this cart is EZ Flash's attitude to open source. EZ Flash said that they were planning on releasing the source code to their DLDI - which they are not required to do. However, this has not happened months later. Similarly, they are refusing to give out the source code to the kernel used by the cart. The kernel is based on WoodRPG, which is licensed under GPLv3. EZ Flash is required under this license to give out the source code to the kernel, but they have chosen not to. They are also violating the GPLv2 licence of Homebrew Menu as functions from it have been found in the EZP's firmware. In the past, EZ Flash have respected the licenses of any open source software that they have used in their products, hence why it is strange for them to not do so now.
-
+<details markdown="1">
+<summary><b>FPGA Misconceptions</b></summary>
 One common misconception about the EZ Flash Parallel is that the FPGA on the cart is currently being left unused. This isn't true. The FPGA is the brains of the flashcart, it is being used to handle cart commands and SD I/O, much like how other flashcarts with an FPGA use them. The actual reason why the FPGA was listed as a selling point on EZ Flash's website is because it is being made entirely within China, though the meaning behind this seems to have been lost in translation.
+</details>
 
-Due to this flashcart's unusually high price - often sells for around 25 USD, whereas most other carts sell between 5-10 USD - and the issues listed above, we cannot recommend this cart to people looking to buy one. If you own an EZ Flash Parallel, please update to the latest kernel (1.06) as soon as possible as it fixes a bug where the game `Casper's Scare School: Spooky Sports Day` can brick the flashcart due to a missing save patch.
+<details markdown="1">
+<summary><b>GPL Non-compliance</b></summary>
+Other issues which some community members feel is worth mentioning about this cart is EZ Flash's attitude to open source. EZ Flash stated they were planning to release the source code to there DLDI - which are they not requred to do. However, this is not happened months later. Similarly, they are refusing to give out the source code to the kernel used by the cart. The kernel is absed on WoodRPG, which is licensed under GPLv3. EZ Flash is required under this license to give out the source code to the kernel, but have refused to do so. They are also violating the GPLv2 license of Homebrew Menu as functions from it have been found in the EZP's firmware. In the past, EZ Flash have respected the licenses of any open source software that they have used in their products, hence why it is strange for them to not do so now.
+</details>
+
+Due to this flashcart's unusually high price - which often sells for around 25 USD, whereas most other carts sell between 5-10 USD - and the issues listed above, we cannot recommend this cart to people looking to buy one. If you own an EZ Flash Parallel, please update to the latest kernel (1.06) as soon as possible as it fixes a bug where the game `Casper's Scare School: Spooky Sports Day` can brick the flashcart due to a missing save patch.
 
 ## AliExpress "DSTWO"s
 ![DSTWO WOS MINI](/assets/images/ds_carts/dstwo_wos_mini.png){:.float-start .me-3 width="150px" height="150px"}
