@@ -141,16 +141,22 @@ These are flashcarts which we don't necessarily recommend but are available to b
 
 While on the surface this may look like an original R4 clone, and is often described as an original R4, this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard 2 based carts. 
 
-BL2CK tends to avoid the AP-patching issues that Ace3DS+ clones have, however, one major downside to this kernel is that download play doesn't seem to work in most games. There are also some compatibility quirks in BL2CK which seems to only exist on this cart. Those being that the `Minigames` section in `New Super Mario Bros` loads to a black screen and that attempting to change WFC settings can freeze the console.
-
-Another issue that this cart has is that sleep mode does not function correctly. Closing the lid of your console will not suspend the loaded game as shown in this video: <https://www.reddit.com/r/flashcarts/s/W8LKdc3isr>. This flashcart also suffers from slow read/write speeds to the SD card which can result in slower loading times in both games and homebrew.
+BL2CK tends to avoid the AP-patching issues that Ace3DS+ clones have, however it has some problems specific to this cart:
+<br>
+<br>
+- Attempting to access the `Minigames` section in `New Super Mario bros` crashes on a black screen.
+- Attempting to change WFC settings in some games will cause the console to freeze.
+- DS Download play does not work in most games.
+- Slow SD Cards speeds when using homebrew due to using single-block DLDI.
+- Sleep mode does not work on some R4DS Pro units, causing a strobing effect [(Reddit Post)](https://www.reddit.com/r/flashcarts/s/W8LKdc3isr).
 
 Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**! This is the only flashcart listed here that will brick if you attempt to run YSMenu on it.
+{:.alert .alert-warning}
 
 ### Obtaining and Setup
 Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart. This cart is sometimes also sold as the "BL2CK Homebrew OS" cart with a custom BL2CK label on the front, it can also be found as an "OpenDS R4 SDHC", both of which are sold at a slight markup.
 
-A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005006027046243.html> - make sure to select `1PCS R4 DS PRO`.
+A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005007018267862.html> - make sure to select `1PCS R4 DS PRO`.
 
 BL2CK is the recommended kernel for this cart. The stock kernel is also an option, although it isn't great for playing your DS ROMs:
 - Kernel: [BL2CK (R4DSPro Edition)](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0_r4dspro.com.zip)
