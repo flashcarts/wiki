@@ -54,7 +54,7 @@ Searching "ace3ds" on AliExpress or eBay usually returns this cart.
 Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
 
 - [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575)
-- [AliExpress [1]](https://www.aliexpress.us/item/3256806171570798.html)
+- [AliExpress [1]](https://www.aliexpress.us/item/3256806135281543.html)
 - [AliExpress [2]](https://www.aliexpress.us/item/3256805990688819.html)
 - [AliExpress [3]](https://www.aliexpress.com/item/1005005616167352.html)
 
