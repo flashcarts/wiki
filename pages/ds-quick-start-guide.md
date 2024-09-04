@@ -54,8 +54,8 @@ Searching "ace3ds" on AliExpress or eBay usually returns this cart.
 Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
 
 - [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575)
-- [AliExpress [1]](https://www.aliexpress.us/item/3256806135281543.html)
-- [AliExpress [2]](https://www.aliexpress.us/item/3256805990688819.html)
+- [AliExpress [1]](https://www.aliexpress.com/item/1005006321596295.html)
+- [AliExpress [2]](https://www.aliexpress.com/item/1005006177003571.html)
 - [AliExpress [3]](https://www.aliexpress.com/item/1005005616167352.html)
 
 This cart uses the same kernel as the Ace3DS+, link provided below
@@ -93,9 +93,8 @@ Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart.
 
 Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
 
-- [r4isdhc.com.cn carts [1]](https://www.aliexpress.us/item/3256806533240778.html)
-- [r4isdhc.com.cn carts [2]](https://www.aliexpress.us/item/3256806903668385.html)
-- [r4isdhc.hk carts](https://www.aliexpress.us/item/3256806551164406.html)
+- [r4isdhc.com.cn carts](https://www.aliexpress.com/item/1005007089983137.html)
+- [r4isdhc.hk carts](https://www.aliexpress.com/item/1005006737479158.html)
 
 Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
@@ -121,8 +120,8 @@ This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**
 Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
 
 - [r4isdhc.com carts [1]](https://www.aliexpress.com/item/1005004530389743.html)
-- [r4isdhc.com carts [2]](https://www.aliexpress.us/item/3256806493405547.html)
-- [r4i-sdhc.com cart](https://www.aliexpress.us/item/3256806677764435.html)
+- [r4isdhc.com carts [2]](https://www.aliexpress.com/item/1005006679720299.html)
+- [r4i-sdhc.com cart](https://www.aliexpress.com/item/1005006864079187.html)
 
 - Kernel: [YSMenu](https://gbatemp.net/download/35737/)
 - Alternate Kernel: [De-Timebombed 1.85b R4i-SDHC kernel](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip)
