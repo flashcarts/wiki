@@ -35,8 +35,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i3D (without year number, without the NEW label, running it on those will BRICK your cart!) (r4i3d.com)
     - R4i Upgrade (r4i-gold.cc)
     - R4i SDHC UPGRADABLE (r4i-eu.com)
-- **The following carts must make a copy of `TTMenu.dat` and rename it to `r4i3ds.dat`**:
-    - all r4i3ds.com carts
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4.dat`**:
     - R4i SDHC Silver RTS Lite (without year number, without the NEW label, running it on those will BRICK your cart!) (r4isdhc.com)
     - R4iTT (must have a screw on the back, if it doesn't, this will BRICK your cart!) (r4itt.net)
@@ -52,6 +50,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4i-ndsill.com
     - all carts from r4i-yes.com
     - all carts from r4i-3ds.com
+    - all carts from r4i3ds.com
+    - all carts from r4n3ds.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.PK`**:
     - R4DSiXL3D (r4dsixl3d.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `config`**:
