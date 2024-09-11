@@ -93,8 +93,9 @@ Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart.
 
 Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
 
-- [r4isdhc.com.cn carts](https://www.aliexpress.com/item/1005007089983137.html)
-- [r4isdhc.hk carts](https://www.aliexpress.com/item/1005006737479158.html)
+- [r4isdhc.com.cn carts [1]](https://www.aliexpress.com/item/1005007089983137.html)
+- [r4isdhc.com.cn carts [2]](https://www.aliexpress.com/item/1005005371486815.html)
+- [r4isdhc.hk cart](https://www.aliexpress.com/item/1005006737479158.html)
 
 Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
