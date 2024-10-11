@@ -19,6 +19,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4 Gold 3DS RTS - Upgrade with Cable (r4i-gold.com) - WITHOUT A YEAR NUMBER AND WITHOUT PRO WRITTEN ON THE CART, ANY WITH A YEAR NUMBER OR PRO WILL **BRICK**
         - The R4 Gold 3DS RTS was also sold as a "DSTTi Gold from ndstt.com". This is the same cart, just relabelled by an AliExpress seller.
     - all carts from pk3ds.com
+    - R4iTT (must have a screw on the back, if it doesn't, this will BRICK your cart!) (r4itt.net)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `3DSCARD.DAT`**:
     - Ace3DS (not PLUS, not X) (ace3ds.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `iLL.iL`**:
@@ -37,7 +38,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i SDHC UPGRADABLE (r4i-eu.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4.dat`**:
     - R4i SDHC Silver RTS Lite (without year number, without the NEW label, running it on those will BRICK your cart!) (r4isdhc.com)
-    - R4iTT (must have a screw on the back, if it doesn't, this will BRICK your cart!) (r4itt.net)
     - all carts from r4i3d-multi.com
     - all carts from r4iiisdhc.com
     - all carts from r4ids.cc
