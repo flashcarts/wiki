@@ -54,9 +54,8 @@ Searching "ace3ds" on AliExpress or eBay usually returns this cart.
 Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
 
 - [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575)
-- [AliExpress [1]](https://www.aliexpress.com/item/1005006321596295.html)
-- [AliExpress [2]](https://www.aliexpress.com/item/1005006177003571.html)
-- [AliExpress [3]](https://www.aliexpress.com/item/1005005616167352.html)
+- [AliExpress [1]](https://www.aliexpress.com/item/1005006177003571.html)
+- [AliExpress [2]](https://www.aliexpress.com/item/1005005616167352.html)
 
 This cart uses the same kernel as the Ace3DS+, link provided below
 - Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
