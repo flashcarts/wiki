@@ -102,13 +102,11 @@ Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/
 ## DSTTi Timebomb Clones
 ![r4i-sdhc.com 3DS RTS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}
 
-These common carts are clones of the DSTTi, but with a timebomb in their official kernel. The timebomb is purely software, so switching to an alternative kernel will remove it. These carts are compatible with all DS, DSi, and 3DS consoles - even on the latest firmware - so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+/R4iLS clones](#ace3ds-clones) are recommended instead if possible.
+These common carts are clones of the DSTTi, and are known as "timebomb" carts because their stock kernels used to contain a date-check mechanism that would throw an error past a certain date. The latest releases of the stock kernel for these carts no longer contain this timebomb, so users who want to use stock kernel-specific features like RTS have the option of using it instead of the recommended YSMenu. These carts are compatible with all DS, DSi, and 3DS consoles - even on the latest firmware - so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+/R4iLS clones](#ace3ds-clones) are recommended instead if possible.
 
-Most of these carts sold today are labeled r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. The timebomb causes the cart to stop loading into the menu after a certain date, but can be fixed by either switching to the YSMenu kernel or the de-timebombed stock kernel. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with games and romhacks, as well as certain features like Wii connectivity in DS games.
+Most of these carts sold today are labeled r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with games and romhacks, as well as certain features like Wii connectivity in DS games. One notable advantage of these carts over Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS, and can also be flashed with DSi ntrboot for unbricking DSi consoles. However, the [Ace3DS X](#ace3ds-x) above is preferable for 3DS ntrboot use, since it has ntrboot preflashed and uses a better kernel when in DS mode.
 
-One notable advantage of these carts over Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS. If you are looking for a cart with ntrboot support, then these carts are a decent choice. However, the [Ace3DS X](#ace3ds-x) above is preferable for that purpose, since it has ntrboot preflashed and uses a better kernel when in DS mode.
-
-There is a lot of misinformation surrounding these timebombs, see our [Timebomb Misconceptions](ds-timebomb) page for more details.
+There is a lot of misinformation surrounding timebombs and what they do. See our [Timebomb Misconceptions](ds-timebomb) page for more details.
 
 ### Variants
 ![r4isdhc.com gold cart](/assets/images/ds_carts/r4isdhc_com_front.png)
@@ -116,7 +114,7 @@ There is a lot of misinformation surrounding these timebombs, see our [Timebomb 
 ![Unlabelled timebomb clone](/assets/images/ds_carts/timebomb_back.png)
 
 ### Obtaining and Setup
-This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usually costs $10-15 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart.
+This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usually costs $5-10 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart.
 
 Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
 
@@ -125,7 +123,9 @@ Links to AliExpress are provided below, but they may not be the cheapest option 
 - [r4i-sdhc.com cart](https://www.aliexpress.com/item/1005006864079187.html)
 
 - Kernel: [YSMenu](https://gbatemp.net/download/35737/)
-- Alternate Kernel: [De-Timebombed 1.85b R4i-SDHC kernel](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip)
+- Alternate Kernel:
+    - [r4isdhc.com 4.3b](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-2024_DEMON_4.3.zip)
+    - [r4i-sdhc.com 1.87b](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.87b.zip)
 {% endcapture %}
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
 
