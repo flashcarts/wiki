@@ -39,8 +39,8 @@ If the label on your cart does not list one of these sites, it's very likely tha
 If you have one of the carts affected by this timebomb, you can do the following:
 
 - Set your date and time back a few years - this will allow you to boot into the stock kernel without facing the timebomb message.
-- Install [RetroGameFan's R4i-SDHC YSMenu](https://gbatemp.net/download/35737/) - timebomb carts are [supported by YSMenu](ysmenu-compat-ext#r4i-sdhc-ysmenu-folder). Before attempting to install it, ensure that your cart is supported by YSMenu. Unsupported carts can be bricked if you are not careful!
+- Install [RetroGameFan's R4i-SDHC YSMenu](https://gbatemp.net/download/35737/) - timebomb carts are [supported by YSMenu](ysmenu-compat-ext#r4i-sdhc-ysmenu-folder). Before attempting to install it, ensure that your particular cart is known to work with YSMenu by referencing the compatibility list. Unsupported carts can be bricked if you are not careful!
 - Install TWiLight Menu ++ - install YSMenu first as your flashcart loader, then follow the guide for [installing TWiLight Menu ++ onto your flashcart](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard).
-- Install the stock kernel without the timebomb - thanks to [Kynex7510](https://github.com/kynex7510), we now have a version of the stock kernel with the timebomb removed. You can download it [from here](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip). This kernel does have [some issues though](ysmenu-compat-ext#alternative-kernel---r4i-sdhc-185b---rts-supportttmenu-style-uino-timebomb) so keep that in mind.
+- [r4isdhc.com 2014+ and r4i-sdhc.com only] - Install the latest version of the stock kernel, which no longer has a timebomb. This is kernel version 4.3b for r4isdhc.com carts, and 1.87b for r4i-sdhc.com carts. The kernel can be downloaded from [r4i-sdhc.com](http://r4i-sdhc.com).
 
 {% include_relative include/disclaimer.md %}
