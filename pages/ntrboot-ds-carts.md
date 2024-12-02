@@ -66,7 +66,7 @@ The 4.1b kernel for this cart hosted by r4i-sdhc.com has a broken ROM loader - o
 This cart usually costs $5-10 USD. Searching "r4 gold" seems to correctly return results on AliExpress. Links are provided here but they may not be the cheapest out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=490) / [AliExpress](https://www.aliexpress.com/item/1005002010753427.html)
 
 Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
-Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
+Alternate Kernel: [r4isdhc.com R4iMenu 4.3b](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-2024_DEMON_4.3.zip)
 
 ## R4i-SDHC 3DS RTS
 ![R4i-SDHC 3DS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}   
@@ -78,7 +78,7 @@ This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart menti
 This cart usually costs $10-15 USD. Searching "r4i-sdhc" seems to correctly return results on AliExpress. Links are provided here but they may not be the cheapest out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=146) / [AliExpress](https://www.aliexpress.com/item/1005005714399106.html)
 
 Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
-Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
+Alternate Kernel: [R4i-SDHC R4iMenu 1.87b](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.87b.zip)
 
 ## DSTT
 ![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}   
@@ -89,7 +89,7 @@ Consider other options on this list before deciding if you really want to buy a 
 
 ### Purchase links and kernel downloads
 
-This cart usually costs $6-$12 USD. Links are provided here though they may not be the cheapest options out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=157) / [Aliexpress](https://www.aliexpress.com/item/1005005579961052.html) 
+This cart usually costs $6-$12 USD. Links are provided here though they may not be the cheapest options out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=157) / [AliExpress](https://www.aliexpress.com/item/3256806134330675.html) 
 
 Kernel: [DSTTi Clone YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
 {% endcapture %}
