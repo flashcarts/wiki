@@ -167,7 +167,7 @@ BL2CK is the recommended kernel for this cart. The stock kernel is also an optio
 
 The original DSTT is still being sold by NDS-Card. Since this flashcart does not work on unhacked 3DS/DSi systems, we have not added it to our list of recommended flashcarts. 
 
-Some variants of the DSTT are supported by ntrboot, however, we cannot guarantee that you will receive a supported cart. For that reason, if you are looking for an ntrboot compatible flashcart, consider an [Ace3DS X](?tab=unhacked#ace3ds-x) or a [Timebomb Clone](?tab=unhacked#dstti-timebomb-clones).
+This cart may be useful for ntrboot. NDS-Card appear to have sent out genuine DSTTs which can be used for that purpose. Though if you need a flashcart for ntrboot, an [Ace3DS X](?tab=unhacked#ace3ds-x) will still be a better choice over this cart.
 
 ### Obtaining and Setup
 NDS-Card charge different prices on their AliExpress store and their main website. The AliExpress listing appears to be cheaper so it is recommended to buy from there instead if you wish to have a DSTT. You may find one cheaper second hand on eBay. This also does not come with the DSTT's original packaging if that matters to you.

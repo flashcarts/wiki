@@ -79,6 +79,19 @@ This cart usually costs $10-15 USD. Searching "r4i-sdhc" seems to correctly retu
 
 Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
 Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
+
+## DSTT
+![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}   
+
+**This cart will not work on a stock DSi/3DS, only buy this cart if you have a DS/DS Lite**. [Only certain flashchips are compatible](https://gist.github.com/aspargas2/fa2a70aed3a7fe33f1f10bc264d9fab6), while the purchase links here have sent out compatible DSTT carts, we cannot guarantee that this is what you will recieve. 
+
+Consider other options on this list before deciding if you really want to buy a DSTT.
+
+### Purchase links and kernel downloads
+
+This cart usually costs $6-$12 USD. Links are provided here though they may not be the cheapest options out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=157) / [Aliexpress](https://www.aliexpress.com/item/1005005579961052.html) 
+
+Kernel: [DSTTi Clone YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
 {% endcapture %}
 {% assign tab-flashable = tab-flashable | split: "////////" %}
 
