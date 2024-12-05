@@ -59,7 +59,7 @@ Links to purchase the Ace3DS X are provided below, but they may not be the cheap
 - [AliExpress [3]](https://www.aliexpress.com/item/1005006321596295.html)
 
 This cart uses the same kernel as the Ace3DS+, link provided below
-- Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
+- Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://archive.flashcarts.net/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
 ## Ace3DS+/R4iLS Clones
 ![Ace3DS+ Original](/assets/images/ds_carts/ace3ds+.png){:.float-start .me-3}
@@ -97,7 +97,7 @@ Links to AliExpress are provided below, but they may not be the cheapest option 
 - [r4isdhc.com.cn carts [2]](https://www.aliexpress.com/item/3256807671820308.html)
 - [r4isdhc.hk cart](https://www.aliexpress.com/item/1005007707123413.html)
 
-Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
+Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://archive.flashcarts.net/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
 ## DSTTi Timebomb Clones
 ![r4i-sdhc.com 3DS RTS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}
@@ -159,8 +159,8 @@ Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart. This cart 
 A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005007018267862.html> - make sure to select `1PCS R4 DS PRO`.
 
 BL2CK is the recommended kernel for this cart. The stock kernel is also an option, although it isn't great for playing your DS ROMs:
-- Kernel: [BL2CK (R4DSPro Edition)](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0_r4dspro.com.zip)
-- Alternate kernel: [Stock kernel](https://flashcard-archive.ds-homebrew.com/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
+- Kernel: [BL2CK (R4DSPro Edition)](https://archive.flashcarts.net/BL2CK/BL2CK_1.31.0_r4dspro.com.zip)
+- Alternate kernel: [Stock kernel](https://archive.flashcarts.net/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
 
 ## DSTT
 ![DSTT](./assets/images/ds_carts/dstt.png){:.float-start .me-3}
@@ -245,7 +245,7 @@ This cart halted production at the start of 2020. They were formerly highly reco
 
 This refers specifically to the *R4i Gold 3DS Plus* from **r4ids.cn**, they should not be confused with carts from any other website.
 
-If you do have one of the faulty carts, you can use [BL2CK](https://flashcard-archive.ds-homebrew.com/BL2CK/BL2CK_1.31.0.zip) or [TwiLight Menu ++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard) instead to play NDS ROMs. Though you will miss out on the features that Wood R4 1.64 provides.
+If you do have one of the faulty carts, you can use [BL2CK](https://archive.flashcarts.net/BL2CK/BL2CK_1.31.0.zip) or [TwiLight Menu ++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard) instead to play NDS ROMs. Though you will miss out on the features that Wood R4 1.64 provides.
 
 ## Stargate3DS
 
