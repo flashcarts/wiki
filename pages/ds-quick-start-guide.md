@@ -170,9 +170,9 @@ The original DSTT is still being sold by NDS-Card. Since this flashcart does not
 This cart may be useful for ntrboot. NDS-Card appear to have sent out genuine DSTTs which can be used for that purpose. Though if you need a flashcart for ntrboot, an [Ace3DS X](?tab=unhacked#ace3ds-x) will still be a better choice over this cart.
 
 ### Obtaining and Setup
-NDS-Card charge different prices on their AliExpress store and their main website. The AliExpress listing appears to be cheaper so it is recommended to buy from there instead if you wish to have a DSTT. You may find one cheaper second hand on eBay. This also does not come with the DSTT's original packaging if that matters to you.
+NDS-Card charge different prices on their AliExpress store and their main website. The AliExpress listing appears to be cheaper so it is recommended to buy from there instead if you wish to buy a DSTT. You may also find one cheaper second-hand on eBay. This also does not come with the DSTT's original packaging if that matters to you.
 
-- AliExpress: <https://www.aliexpress.com/item/1005005579961052.html>
+- AliExpress: <https://www.aliexpress.com/item/3256806134330675.html>
 - NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=157>
 
 You should avoid the original TTMenu kernel just in case you are sent a DSTT clone, you will risk bricking your flashcart if you attempt to use it. We would recommend using YSMenu or RetroGameFan's repacked version of TTMenu instead.
