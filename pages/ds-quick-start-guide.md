@@ -124,7 +124,7 @@ Links to AliExpress are provided below, but they may not be the cheapest option 
 
 - Kernel: [YSMenu](https://gbatemp.net/download/35737/)
 - Alternate Kernel:
-    - [r4isdhc.com 4.3b](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-2024_DEMON_4.3.zip)
+    - [r4isdhc.com 4.3b](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-and-above_DEMON_4.3.zip)
     - [r4i-sdhc.com 1.87b](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.87b.zip)
 {% endcapture %}
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
