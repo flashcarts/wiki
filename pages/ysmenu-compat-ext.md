@@ -133,18 +133,18 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - Any r4i-gold.com cart that didn't work as-is, WITHOUT A YEAR NUMBER AND WITHOUT PRO WRITTEN ON THE CART, ANY WITH A YEAR NUMBER OR PRO WILL BRICK!
     - Any r4ixl-sdhc.com cart that didnt work as is
 
-### Alternative kernel - R4i-SDHC 1.85b - RTS Support/TTMenu Style UI/No Timebomb
-#### [Download Link](https://flashcard-archive.ds-homebrew.com/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.85b-notimebomb.zip)
-- **The following carts will work:**
-    - All carts listed above as compatible with R4i-SDHC YSMenu
+### Alternative kernel (R4iMenu) - RTS Support/TTMenu Style UI/No Timebomb - For r4i-sdhc.com and r4isdhc.com carts only
+- **Downloads:**
+    - For r4isdhc.com 2014+ flashcarts: [4.3 Kernel](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-and-above_DEMON_4.3.zip)
+    - For r4i-sdhc.com flashcarts: [1.87b Kernel](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.87b.zip)
+    - **Avoid using older versions of the stock kernel for these carts as they still have a timebomb.**
 - **Features:**
-    - Removed timebomb, no fake card check, no boucing WiFi icon in landing menu
+    - No timebomb
     - RTS Support with in-game menu (Real-Time Save, AKA Save States)
     - TTMenu-style themeable UI
 - **Cons:**
     - RTS Support is unstable in some games
     - Cheat menu can display unreadable text with long cheat names
-    - Game compatibility is slightly worse than the stock timebomb kernel
     - Some cheats codes are broken
     - Also, see in-depth explanation of this kernel's cons [here](https://i.imgur.com/V1W2GGQ.png).
 
