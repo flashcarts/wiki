@@ -32,3 +32,11 @@ end
 
 # Removing this will break the site under Arch Linux's provided ruby package (3.0.6-1) as it appears to be missing the json gem.
 gem "json", "~>2.7", ">=2.7.2"
+
+# Add gems removed from Ruby 3.4.0 Standard library
+gem "csv", "~> 3.3", ">=3.3.2"
+gem "base64", "~> 0.2.0"
+gem "bigdecimal", "~> 3.1", ">= 3.1.9"
+
+# Add gems removed from Ruby 3.5.0 Standard library
+gem 'logger', '~> 1.6', '>= 1.6.4'
