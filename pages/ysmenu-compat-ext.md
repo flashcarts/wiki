@@ -29,6 +29,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i-SDHC (r4i-sdhc.com.tw)
     - R4i Dual Core NEW (r4isdhc.cc)
     - R4i Unlimited Upgradable (r4i-sdhc.hk)
+    - R4i 3DS (r4-gold.net)
     - all carts from r4itt.**info** - not r4itt.**net**
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.dat`**:
     - R4i Gold Upgrade 1.14b (r4igold.cn)
