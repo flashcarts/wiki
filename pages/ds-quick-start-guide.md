@@ -154,7 +154,7 @@ Do not attempt to run YSMenu on this flashcart, doing so will cause it to **bric
 {:.alert .alert-warning}
 
 ### Obtaining and Setup
-Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart. This cart is sometimes also sold as the "BL2CK Homebrew OS" cart with a custom BL2CK label on the front, it can also be found as an "OpenDS R4 SDHC", both of which are sold at a slight markup.
+Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart. This cart is also sold as the "BL2CK Homebrew OS" cart with a custom BL2CK label on the front, which is sold at a slight markup.
 
 A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005007018267862.html> - make sure to select `1PCS R4 DS PRO`.
 
@@ -193,7 +193,7 @@ The EZ Flash Parallel is a new flashcart on the market with a fairly stylish she
 
 There are several issues that result in this flashcart not being recommended:
 <br><br>
-- Slow SD card speeds, which cause slowdown in games, with some homebrew applications not even working.
+- Very slow SD card speeds. This causes slowdown in some games, especially those with video cutscenes.
 - Multiple reports of fitment issues with the cart, with the shell being too thick for some DS consoles, therefore not fitting properly.
 - Reports of users also needing to use the paper trick to use the cart with the PCB pins not making good contact. Both these issues demonstrate the inconsistent build quality of this flashcart.
 - Sleep mode is non-functional, causing a strobing effect when it is used [(GBATemp Post)](https://gbatemp.net/threads/652317/). It is not clear if this issue will be fixed any time soon.
@@ -205,7 +205,7 @@ One common misconception about the EZ Flash Parallel is that the FPGA on the car
 
 <details markdown="1">
 <summary><b>GPL Non-compliance</b></summary>
-Other issues which some community members feel are worth mentioning about this cart is EZ Flash's attitude to open source. EZ Flash stated they were planning to release the source code to their DLDI - which they aren't required to do. However, this has not happened, many months later. Similarly, they are refusing to give out the source code to the cart's kernel. The EZDS kernel is based on WoodRPG, which is licensed under GPLv3. Since the license requires them to publicly provide their source code, they are violating the license terms. They are also violating the GPLv2 license of Homebrew Menu as functions from it have been found in the EZP's firmware. In the past, EZ Flash have respected the licenses of any open source software that they used in their products, which is why it's strange for them to not do so now.
+Other issues which some community members feel are worth mentioning about this cart is EZ Flash's attitude to open source. EZ Flash stated they were planning to release the source code to their DLDI - which they aren't required to do. However, this has not happened many months later. Similarly, they are refusing to give out the source code to the cart's kernel. The EZDS kernel is based on WoodRPG, which is licensed under GPLv3. Since the license requires them to provide the source code to the kernel, they are violating the license terms. They are also violating the GPLv2 license of Homebrew Menu as functions from it have been found in the EZP's firmware. In the past, EZ Flash have respected the licenses of any open source software that they used in their products, which is why it's strange for them to not do so now.
 </details>
 
 Due to this flashcart's unusually high price - which often sells for around 25 USD, whereas most other carts sell between 5-10 USD - and the issues listed above, we cannot recommend this cart to people looking to buy one. If you own an EZ Flash Parallel, please update to the latest kernel (1.06) as soon as possible as it fixes a bug where the game `Casper's Scare School: Spooky Sports Day` can brick the flashcart due to a missing save patch.
@@ -251,9 +251,11 @@ If you do have one of the faulty carts, you can use [BL2CK](https://archive.flas
 
 ![Stargate3DS](./assets/images/ds_carts/stargate3ds.png){:.float-start .me-3}
 
-Stargate3DS flashcarts are still being made to this day. However, they are not recommended in the context of a DS flashcart for a few reasons. The major reason being that it is only usable on a 3DS, you cannot use it's DS mode on a DS, DS Lite, or DSi due to the shape of the cartridge. The DS mode of this flashcart becomes inaccessible once you have installed custom firmware onto your 3DS. The final nail in the coffin for this flashcart is it's lack of an available DLDI, meaning that some homebrew cannot be used on it. If you are looking for a DS flashcart to use in your 3DS, consider an [Ace3DS X](?tab=unhacked#ace3ds-x) instead.
+Stargate3DS flashcarts are still being made to this day. However, they are not recommended in the context of a DS flashcart for a few reasons. The major reason being that it is only usable on a 3DS, you cannot use it's DS mode on a DS, DS Lite, or DSi due to the shape of the cartridge. The DS mode of this flashcart becomes inaccessible once you have installed Luma3DS onto your 3DS. There are ways around this however. One option is to install a Stage2 launcher, we have one available in the flashcard-archive ([SG_Launcher](https://archive.flashcarts.net/stargate-3ds.com/SG_Launcher_CFW)). The other option is to [compile Luma3DS without the `patchTwlWhitelistChecks` function](https://github.com/LumaTeam/Luma3DS/issues/2046#issuecomment-2245411574). Do note however that the latter option may be less desirable if you intend to use other flashcarts that do not pass the console's whitelist checks. The Stargate3DS does have exFat support built in. However, this can present issues in DS mode as the DLDI driver only works with Fat32 formatted microSD cards. The kernel used in the DS mode also has a broken cheat engine. This of course means that you cannot use cheat codes in games without using an alternative to the kernel, such as TWiLight Menu++. For titles that require anti-piracy patches (ie. Pokemon Black/White 2), you will have to manually patch them as AP-bypass cheats will be unavailable to you. If you are looking for a DS flashcart to use in your 3DS, consider an [Ace3DS X](?tab=unhacked#ace3ds-x) instead. It doesn't require any workarounds to get it to boot in custom firmware and can be used in any DS console.
 
-In the context of a 3DS flashcart, it's not really recommended either. Installing [custom firmware](https://3ds.hacks.guide) to your 3DS is easy to do and it allows you to install 3DS backups directly to your console. You need custom firmware to dump your 3DS ROMs to use in the flashcart anyways, making this flashcart a gimmick more than something useful given it's price.
+In the context of the 3DS, it's not the best option you could choose to play 3DS games. It can't play ROM hacks, eShop titles, homebrew, and some later titles that use a newer anti-piracy standard. A better option for most people would be installing [custom firmware](https://3ds.hacks.guide) to your 3DS. It is easy to do and it allows you to install 3DS backups directly to your console. You will need custom firmware to dump your 3DS ROMs for use in the flashcart anyways. CFW does lack the ability to hotswap games and save files between consoles however, which this cart is able to do. 
+
+The Stargate3DS goes for around $30 on AliExpress. As this is a very niche cart at the end of the day, we feel that it may not be worth it for most people. Hence why we have put it in the non-recommended flashcarts section.
 {% endcapture %}
 {% assign tab-non-recommended = tab-non-recommended | split: "////////" %}
 
