@@ -64,7 +64,7 @@ This cart uses the same kernel as the Ace3DS+, link provided below
 ## Ace3DS+/R4iLS Clones
 ![Ace3DS+ Original](/assets/images/ds_carts/ace3ds+.png){:.float-start .me-3}
 
-These carts are clones of the Ace3DS+ or R4iLS flashcarts, compatible with all DS, DSi, and 3DS consoles, even unhacked ones on the latest firmware. These carts **do not** work with ntrboot - see the [Ace3DS X](#ace3ds-x) instead if this is a feature that you may need.
+These carts are clones of the Ace3DS+ or R4iLS flashcarts, compatible with all DS, DSi, and 3DS consoles, even unhacked ones on the latest firmware. These carts **do not** work with ntrboot - see the [Ace3DS X](?tab=unhacked#ace3ds-x) instead if this is a feature that you may need.
 
 Important distinction: past listings of unlabeled Ace3DS+/R4iLS clones exist, but we can no longer advise the purchase of these carts as they have started mixing in older versions of the Ace3DS+ which do not work on the latest firmware. More confusion arises from the fact that there are also timebomb clones that have very similar looking PCBs to the Ace3DS+ unlabeled carts. Please purchase the other labeled variants instead, specifically the two shown below.
 
@@ -102,9 +102,9 @@ Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://archive.flashcarts.net/Ace3DS+_R4i
 ## DSTTi Timebomb Clones
 ![r4i-sdhc.com 3DS RTS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}
 
-These common carts are clones of the DSTTi, and are known as "timebomb" carts because their stock kernels used to contain a date-check mechanism that would throw an error past a certain date. The latest releases of the stock kernel for these carts no longer contain this timebomb, so users who want to use stock kernel-specific features like RTS have the option of using it instead of the recommended YSMenu. These carts are compatible with all DS, DSi, and 3DS consoles - even on the latest firmware - so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+/R4iLS clones](#ace3ds-clones) are recommended instead if possible.
+These common carts are clones of the DSTTi, and are known as "timebomb" carts because their stock kernels used to contain a date-check mechanism that would throw an error past a certain date. The latest releases of the stock kernel for these carts no longer contain this timebomb, so users who want to use stock kernel-specific features like RTS have the option of using it instead of the recommended YSMenu. These carts are compatible with all DS, DSi, and 3DS consoles - even on the latest firmware - so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+/R4iLS clones](?tab=unhacked#ace3dsr4ils-clones) are recommended instead if possible.
 
-Most of these carts sold today are labeled r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with games and romhacks, as well as certain features like Wii connectivity in DS games. One notable advantage of these carts over Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS, and can also be flashed with DSi ntrboot for unbricking DSi consoles. However, the [Ace3DS X](#ace3ds-x) above is preferable for 3DS ntrboot use, since it has ntrboot preflashed and uses a better kernel when in DS mode.
+Most of these carts sold today are labeled r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with games and romhacks, as well as certain features like Wii connectivity in DS games. One notable advantage of these carts over Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS, and can also be flashed with DSi ntrboot for unbricking DSi consoles. However, the [Ace3DS X](?tab=unhacked#ace3ds-x) above is preferable for 3DS ntrboot use, since it has ntrboot preflashed and uses a better kernel when in DS mode.
 
 There is a lot of misinformation surrounding timebombs and what they do. See our [Timebomb Misconceptions](ds-timebomb) page for more details.
 
@@ -135,32 +135,6 @@ Links to AliExpress are provided below, but they may not be the cheapest option 
 These are flashcarts which we don't necessarily recommend but are available to buy. Information is provided here about these carts for people who may already have one.
 
 **Note**: These flashcarts will only work on the DS, DS Lite, and hacked 3DS/DSi systems. They **will not** work on unhacked 3DS/DSi systems.
-
-## R4DS Pro
-![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
-
-While on the surface this may look like an original R4 clone, and is often described as an original R4, this is actually an **r4dspro.com** clone instead. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard 2 based carts. 
-
-BL2CK tends to avoid the AP-patching issues that Ace3DS+ clones have, however it has some problems specific to this cart:
-<br>
-<br>
-- Attempting to access the `Minigames` section in `New Super Mario bros` crashes on a black screen.
-- Attempting to change WFC settings in some games will cause the console to freeze.
-- DS Download play does not work in most games.
-- Slow SD Cards speeds when using homebrew due to using single-block DLDI.
-- Sleep mode does not work on some R4DS Pro units, causing a strobing effect [(Reddit Post)](https://www.reddit.com/r/flashcarts/s/W8LKdc3isr).
-
-Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**! This is the only flashcart listed here that will brick if you attempt to run YSMenu on it.
-{:.alert .alert-warning}
-
-### Obtaining and Setup
-Costs $3-8 USD. Searching "R4 DS" on AliExpress may return this cart. This cart is also sold as the "BL2CK Homebrew OS" cart with a custom BL2CK label on the front, which is sold at a slight markup.
-
-A link is provided here, but this may not be the cheapest option as it's one of the many listings: <https://www.aliexpress.com/item/1005007018267862.html> - make sure to select `1PCS R4 DS PRO`.
-
-BL2CK is the recommended kernel for this cart. The stock kernel is also an option, although it isn't great for playing your DS ROMs:
-- Kernel: [BL2CK (R4DSPro Edition)](https://archive.flashcarts.net/BL2CK/BL2CK_1.31.0_r4dspro.com.zip)
-- Alternate kernel: [Stock kernel](https://archive.flashcarts.net/r4dspro.com/old/r4dspro.com_Kernel_1.50.zip)
 
 ## DSTT
 ![DSTT](./assets/images/ds_carts/dstt.png){:.float-start .me-3}
@@ -209,6 +183,25 @@ Other issues which some community members feel are worth mentioning about this c
 </details>
 
 Due to this flashcart's unusually high price - which often sells for around 25 USD, whereas most other carts sell between 5-10 USD - and the issues listed above, we cannot recommend this cart to people looking to buy one. If you own an EZ Flash Parallel, please update to the latest kernel (1.06) as soon as possible as it fixes a bug where the game `Casper's Scare School: Spooky Sports Day` can brick the flashcart due to a missing save patch.
+
+## R4DS Pro
+![R4DS Pro](/assets/images/ds_carts/r4ds_pro.png){:.float-start .me-2}
+
+While on the surface this may look like an original R4 clone, and is often described as an original R4, this cart is not related to it at all. It is based on the R4 Ultra, which is itself a derivative of the Acekard 2. However, it doesn't pass AKAIO's clone checks, therefore making BL2CK OS the best kernel choice like most other Acekard 2 based carts. Do note however that due to a quirk mentioned below, it uses it's own version of BL2CK: [BL2CK 1.31.0 (r4dspro.com)](https://archive.flashcarts.net/BL2CK/BL2CK_1.31.0_r4dspro.com.zip)
+
+BL2CK tends to avoid the AP-patching issues that Ace3DS+ clones have, however it has some problems specific to this cart:
+
+- Attempting to access the `Minigames` section in `New Super Mario bros` crashes on a black screen.
+- Attempting to change WFC settings in some games will cause the console to freeze.
+- DS Download Play does not work in most games.
+- Slow SD card speeds, especially when using homebrew due to it only supporting a single-block DLDI.
+- Sleep mode does not work on some R4DS Pro units, causing a strobing effect [(Reddit Post)](https://www.reddit.com/r/flashcarts/s/W8LKdc3isr).
+
+Do not attempt to run YSMenu on this flashcart, doing so will cause it to **brick**!
+{:.alert .alert-warning}
+
+We do not recommend this flashcart due to an increase in reports of them being dead on arrival. If the cart isn't DOA, it's likely that it will die after a short period of time. Some people have reported that it took less than a week for their R4DS Pro to become a paperweight.
+The [Ace3DS+/R4iLS clones](?tab=unhacked#ace3dsr4ils-clones) on the market are generally just as cheap and do not have the issues listed above. We would suggest that you buy one of them instead.
 
 ## AliExpress "DSTWO"s
 ![DSTWO WOS MINI](/assets/images/ds_carts/dstwo_wos_mini.png){:.float-start .me-3 width="150px" height="150px"}
