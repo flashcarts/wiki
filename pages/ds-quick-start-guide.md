@@ -95,7 +95,8 @@ Links to AliExpress are provided below, but they may not be the cheapest option 
 
 - [r4isdhc.com.cn carts [1]](https://www.aliexpress.com/item/1005007089983137.html)
 - [r4isdhc.com.cn carts [2]](https://www.aliexpress.com/item/3256807671820308.html)
-- [r4isdhc.hk cart](https://www.aliexpress.com/item/1005007707123413.html)
+- [r4isdhc.com.cn carts [3]](https://www.aliexpress.com/item/3256808241585629.html)
+- [r4isdhc.hk cart](https://www.aliexpress.com/item/3256807729063031.html)
 
 Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://archive.flashcarts.net/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
 
@@ -119,8 +120,8 @@ This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**
 Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
 
 - [r4isdhc.com carts [1]](https://www.aliexpress.com/item/1005004530389743.html)
-- [r4isdhc.com carts [2]](https://www.aliexpress.com/item/1005006679720299.html)
-- [r4i-sdhc.com cart](https://www.aliexpress.com/item/1005006864079187.html)
+- [r4isdhc.com carts [2]](https://www.aliexpress.com/item/3256808156061805.html)
+- [r4i-sdhc.com cart](https://www.aliexpress.com/item/3256807943481141.html)
 
 - Kernel: [YSMenu](https://gbatemp.net/download/35737/)
 - Alternate Kernel:
