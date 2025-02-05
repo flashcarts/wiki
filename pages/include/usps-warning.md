@@ -1,0 +1,2 @@
+The United States Postal Service (USPS) has [suspended incoming packages from China and Hong Kong](https://about.usps.com/newsroom/service-alerts/international/suspension-of-inbound-parcels-from-china-and-hong-kong.htm). All product links listed below may not ship to the United States. We are closely monitoring the situation. Feel free to [contact us](/contact) for more info.
+{:.alert .alert-danger}
