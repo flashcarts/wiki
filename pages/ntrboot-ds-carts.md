@@ -6,8 +6,6 @@ tabs:
      avoid: Carts to avoid
 ---
 
-{% include_relative include/usps-warning.md %}
-
 This page exists as an answer to "Which flashcart should I buy for ntrboot?". Flashcarts which we recommend over others in a category are in **bold**. <br/>
 We would recommend buying an **[Ace3DS X](?tab=preflashed#ace3ds-x)** due to it's ability to switch between it's DS firmware and ntrboot firmware. Other options are mentioned on this list if you are unable to obtain this cart.
 {:.alert .alert-info}
