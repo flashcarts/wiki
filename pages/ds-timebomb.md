@@ -26,8 +26,8 @@ But that's all the timebomb does; it prevents you from booting into the flashcar
 
 Here is a list of carts which had timebombs in their stock kernels:
 
-- All r4i-sdhc.com carts
-- **2014+** carts from r4isdhc.com - previous carts did not have a timebomb.
+- All r4i-sdhc.com carts on stock kernels older than v1.87b
+- **2014+** carts from r4isdhc.com on stock kernels older than v4.3 - previous carts did not have a timebomb.
 - All r4i-gold.eu carts
 - r4i-gold.com's v1.4/1.4.4 carts - if the cart has a year number or 3DS written on the label, it is not a timebomb cart.
 - All r4imax.com carts
@@ -38,9 +38,15 @@ If the label on your cart does not list one of these sites, it's very likely tha
 
 If you have one of the carts affected by this timebomb, you can do the following:
 
-- Set your date and time back a few years - this will allow you to boot into the stock kernel without facing the timebomb message.
 - Install [RetroGameFan's R4i-SDHC YSMenu](https://gbatemp.net/download/35737/) - timebomb carts are [supported by YSMenu](ysmenu-compat-ext#r4i-sdhc-ysmenu-folder). Before attempting to install it, ensure that your particular cart is known to work with YSMenu by referencing the compatibility list. Unsupported carts can be bricked if you are not careful!
 - Install TWiLight Menu ++ - install YSMenu first as your flashcart loader, then follow the guide for [installing TWiLight Menu ++ onto your flashcart](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard).
 - [r4isdhc.com 2014+ and r4i-sdhc.com only] - Install the latest version of the stock kernel, which no longer has a timebomb. This is kernel version 4.3b for r4isdhc.com carts, and 1.87b for r4i-sdhc.com carts. The kernel can be downloaded from [r4i-sdhc.com](http://r4i-sdhc.com).
+- Set your date and time back a few years - this will allow you to boot into the stock kernel without facing the timebomb message. This can however cause issues with some games that keep track of the time to prevent cheating, such as the Pokemon Games.
+
+## Why do they have a timebomb?
+
+Its a common misconception that these flashcarts had a timebomb to trick users into buying another flashcart, but with the consideration that the message tells the user the firmware had expired, and that updating the kernel fixes the issue, the timebomb was likely intended to:
+- Catch out manufacturers making unauthorised clones of timebomb carts, the timebomb would make modifying the stock kernel difficult.
+- Require users update the kernel to prevent complaints about games not working on older kernels that are fixed on a newer version of the stock kernel.
 
 {% include_relative include/disclaimer.md %}

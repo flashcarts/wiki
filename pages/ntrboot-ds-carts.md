@@ -12,10 +12,10 @@ We would recommend buying an **[Ace3DS X](?tab=preflashed#ace3ds-x)** due to it'
 
 ## READ FIRST
 
-1. Carts flashed with ntrboot will not appear on your console's home screen. This is normal, **your flashcart isn't broken**. The only exception to this is the Acekard 2i.
+1. Carts flashed with ntrboot will not appear on your console's home screen. This is normal, **your flashcart isn't broken**. The only exception to this is the Acekard 2i (except for DSi ntrboot).
 1. Some carts may look similar to those listed on this page, however, they may not be compatible with ntrboot. See the '[Carts to avoid](?tab=avoid)' tab for more information.
-1. Do not use 'R4' websites for purchasing flashcarts. Many are scammy and don't refund orders. Stick to more general places like eBay or AliExpress.
-   - Amazon is also not generally recommended as flashcarts are generally extremely over priced compared to eBay and AliExpress.
+1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay and Aliexpress.
+   - Amazon, Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or Aliexpress 
    - The exception to the R4 site rule is NDS-Card, hence why we have links to their site for most flashcarts.
 1. If you already have a flashcart and want to see if it can be flashed with ntrboot, have a look at this page: [https://3ds.hacks.guide/ntrboot](https://3ds.hacks.guide/ntrboot). <br/>As mentioned in a point above, some carts may look similar to ntrboot carts, make sure to verify that your cart really does support ntrboot before attempting to flash it.
 
@@ -32,21 +32,10 @@ This flashcart requires a microSD card to be inserted for it to be detected by y
 
 ### Purchase links and kernel downloads
 
-This cart usually costs $5-$10 USD. Searching "ace3ds" seems to correctly return results on AliExpress, however, we cannot guarantee that you will receive the flashcart. A link to a listing is provided here though it may not be the cheapest option out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575) / [AliExpress](https://www.aliexpress.com/item/1005005616167352.html)
+This cart usually costs $5-$10 USD. Searching "ace3ds" seems to correctly return results on AliExpress, however, we cannot guarantee that you will receive the flashcart. A link to a listing is provided here though it may not be the cheapest option out there:
 
-Kernel: [Ace Wood 1.62](https://flashcard-archive.ds-homebrew.com/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip) 
+[**Buying Information**](ds-quick-start-guide#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide#ace3ds-x-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
 
-## R4i-SDHC B9S
-![R4i-SDHC B9S](/assets/images/ds_carts/r4i-sdhc_b9s.png){:.float-start .me-3} 
-
-This cart does **not** have a switch for different modes. It's one of r4i-sdhc.com's timebomb carts which has been pre-flashed with ntrboot. You can flash it back to a state where it can play DS games again. <br/>The stock kernel for this cart has a timebomb set for the 3rd of September, 2024. You should use YSMenu instead as it does not have a timebomb. See our [Timebomb Misconceptions](ds-timebomb) page for more details.
-
-### Purchase links and kernel downloads
-
-This cart costs $16.99 on NDS-Card's website: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=574)
-
-Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
-Alternate Kernel: [De-Timebombed 1.85b r4i-sdhc kernel](https://github.com/DS-Homebrew/flashcard-archive/raw/archive/files/YSMenu/DEMON_common/r4i-sdhc.com_DEMON_1.85b-no-timebomb.zip)
 {% endcapture %}
 {% assign tab-preflashed = tab-preflashed | split: "////////" %}
 
@@ -63,10 +52,8 @@ The 4.1b kernel for this cart hosted by r4i-sdhc.com has a broken ROM loader - o
 
 ### Purchase links and kernel downloads
 
-This cart usually costs $5-10 USD. Searching "r4 gold" seems to correctly return results on AliExpress. Links are provided here but they may not be the cheapest out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=490) / [AliExpress](https://www.aliexpress.com/item/1005002010753427.html)
+[**Buying Information**](ds-quick-start-guide#obtaining-and-setup-2) --- [**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/)
 
-Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
-Alternate Kernel: [r4isdhc.com R4iMenu 4.3b](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-2024_DEMON_4.3.zip)
 
 ## R4i-SDHC 3DS RTS
 ![R4i-SDHC 3DS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}   
@@ -75,10 +62,7 @@ This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart menti
 
 ### Purchase links and kernel downloads
 
-This cart usually costs $10-15 USD. Searching "r4i-sdhc" seems to correctly return results on AliExpress. Links are provided here but they may not be the cheapest out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=146) / [AliExpress](https://www.aliexpress.com/item/1005005714399106.html)
-
-Kernel: [R4i-SDHC YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)<br/>
-Alternate Kernel: [R4i-SDHC R4iMenu 1.87b](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.87b.zip)
+[**Buying Information**](ds-quick-start-guide#obtaining-and-setup-2) --- [**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc)
 
 ## DSTT
 ![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}   
@@ -89,9 +73,8 @@ Consider other options on this list before deciding if you really want to buy a 
 
 ### Purchase links and kernel downloads
 
-This cart usually costs $6-$12 USD. Links are provided here though they may not be the cheapest options out there: [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=157) / [AliExpress](https://www.aliexpress.com/item/3256806134330675.html) 
+[**Buying Information**](ds-quick-start-guide?tab=original-hacked#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide?tab=original-hacked#dstt) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/dstti/)
 
-Kernel: [DSTTi Clone YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
 {% endcapture %}
 {% assign tab-flashable = tab-flashable | split: "////////" %}
 
