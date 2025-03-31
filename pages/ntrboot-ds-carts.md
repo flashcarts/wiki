@@ -33,14 +33,9 @@ This flashcart requires a microSD card to be inserted for it to be detected by y
 The Ace3DS X only supports 3DS ntrboot, it is not compatible with DSi ntrboot.
 
 ### Purchase links and kernel downloads
-The Ace3DS X costs around $5-10 USD. Searching "ace3ds" on AliExpress or eBay usually returns this cart. Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
+The Ace3DS X costs around $5-10 USD. Searching "ace3ds" on AliExpress or eBay usually returns this cart. Links to purchase the Ace3DS X are provided in the 'Buying Information' page, but they may not be the cheapest option as they're one of many listings:
 
-- [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575)
-- [AliExpress [1]](https://www.aliexpress.com/item/1005005616167352.html)
-- [AliExpress [2]](https://www.aliexpress.com/item/1005006357885550.html)
-- [AliExpress [3]](https://www.aliexpress.com/item/1005005780889754.html)
-
-[**Detailed Information**](ds-quick-start-guide#ace3ds-x-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
+[**Buying Information**](ds-quick-start-guide#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide#ace3ds-x-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
 
 {% endcapture %}
 {% assign tab-preflashed = tab-preflashed | split: "////////" %}
@@ -57,12 +52,9 @@ It doesn't matter whether you get the Gold Pro, or the Dual Core, or any other c
 R4iSDHC.com 2014+ flashcarts support both 3DS and DSi ntrboot.
 
 ### Purchase links and kernel downloads
-These usually cost around $5-10 USD. Searching for "r4 gold pro" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
-- [AliExpress [1]](https://www.aliexpress.com/item/1005004530389743.html)
-- [AliExpress [2]](https://www.aliexpress.com/item/3256807366812516.html)
-- [NDS-Card](https://nds-card.com/ProShow.asp?ProID=490)
+These usually cost around $5-10 USD. Searching for "r4 gold pro" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided in the 'Buying Information' page, but they may not be the cheapest option as they're one of many listings:
 
-[**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/)
+[**Buying Information**](ds-quick-start-guide#obtaining-and-setup-2) --- [**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/)
 
 
 ## R4i-SDHC 3DS RTS
@@ -73,12 +65,9 @@ This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart menti
 The R4i-SDHC 3DS RTS supports both 3DS and DSi ntrboot.
 
 ### Purchase links and kernel downloads
-The R4i-SDHC 3DS RTS usually costs around $10-15 USD. Searching for "r4 rts 3ds" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
+The R4i-SDHC 3DS RTS usually costs around $10-15 USD. Searching for "r4 rts 3ds" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided in the 'Buying Information' page, but they may not be the cheapest option as they're one of many listings:
 
-- [AliExpress](https://www.aliexpress.com/item/3256807943481141.html)
-- [NDS-Card](https://nds-card.com/ProShow.asp?ProID=146)
-
-[**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc)
+[**Buying Information**](ds-quick-start-guide#obtaining-and-setup-2) --- [**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc)
 
 ## DSTT
 ![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}   
@@ -90,13 +79,9 @@ Consider other options on this list before deciding if you really want to buy a 
 The DSTT supports both 3DS and DSi ntrboot.
 
 ### Purchase links and kernel downloads
-These can still be purchased new fron NDS-Card on their website or their AliExpress stores. Links are provided below but you may find it cheaper to buy a DSTT from a second-hand marketplace like eBay:
+These can still be purchased new fron NDS-Card on their website or their AliExpress stores. Links are provided in the 'Buying Information' page, but you may find it cheaper to buy a DSTT from a second-hand marketplace like eBay:
 
-- [AliExpress](https://www.aliexpress.com/item/3256806134330675.html)
-- [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=157)
-
-
-[**Detailed Information**](ds-quick-start-guide?tab=original-hacked#dstt) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/dstti/)
+[**Buying Information**](ds-quick-start-guide?tab=original-hacked#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide?tab=original-hacked#dstt) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/dstti/)
 
 {% endcapture %}
 {% assign tab-flashable = tab-flashable | split: "////////" %}
