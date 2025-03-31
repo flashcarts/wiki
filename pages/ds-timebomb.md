@@ -45,8 +45,9 @@ If you have one of the carts affected by this timebomb, you can do the following
 
 ## Why do they have a timebomb?
 
-Its a common misconception that these flashcarts had a timebomb to trick users into buying another flashcart, but with the consideration that the message tells the user the firmware had expired, and that updating the kernel fixes the issue, the timebomb was likely intended to:
-- Catch out manufacturers making unauthorised clones of timebomb carts, the timebomb would make modifying the stock kernel difficult.
-- Require users update the kernel to prevent complaints about games not working on older kernels that are fixed on a newer version of the stock kernel.
+There have been many theories as to why these flashcarts had a timebomb. Some of which are listed below:
+- It was there to trick the user into thinking their R4 was broken and that they would need a new one. The message doesn't go away unless you know that you would need to update the kernel or change the date and time, so it is a possibility.
+- It was just a reminder to update the kernel to ensure that people had the latest version installed. This is most likely the actual reason, as this is reflected in the error message itself.
+- It would catch out manufacturers making unauthorised clones of these carts. The timebomb would mean that it is harder to modify and redistribute the stock kernel of the flashcart they have cloned.
 
 {% include_relative include/disclaimer.md %}

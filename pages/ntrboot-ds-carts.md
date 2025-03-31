@@ -7,17 +7,17 @@ tabs:
 ---
 
 This page exists as an answer to "Which flashcart should I buy for ntrboot?". Flashcarts which we recommend over others in a category are in **bold**. <br/>
-We would recommend buying an **[Ace3DS X](?tab=preflashed#ace3ds-x)** due to it's ability to switch between it's DS firmware and ntrboot firmware. Other options are mentioned on this list if you are unable to obtain this cart.
+We would recommend buying an **[Ace3DS X](?tab=preflashed#ace3ds-x)** due to it's ability to switch between it's DS firmware and 3DS ntrboot firmware. Other options are mentioned on this list if you are unable to obtain this cart or have a need for DSi ntrboot instead.
 {:.alert .alert-info}
 
 ## READ FIRST
 
-1. Carts flashed with ntrboot will not appear on your console's home screen. This is normal, **your flashcart isn't broken**. The only exception to this is the Acekard 2i (except for DSi ntrboot).
+1. Carts flashed with ntrboot will not appear on your console's home screen. This is normal, **your flashcart isn't broken**. The only exception to this is the Acekard 2i (unless it has been flashed with DSi ntrboot).
 1. Some carts may look similar to those listed on this page, however, they may not be compatible with ntrboot. See the '[Carts to avoid](?tab=avoid)' tab for more information.
-1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay and Aliexpress.
-   - Amazon, Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or Aliexpress 
+1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay and AliExpress.
+   - Amazon, Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or AliExpress 
    - The exception to the R4 site rule is NDS-Card, hence why we have links to their site for most flashcarts.
-1. If you already have a flashcart and want to see if it can be flashed with ntrboot, have a look at this page: [https://3ds.hacks.guide/ntrboot](https://3ds.hacks.guide/ntrboot). <br/>As mentioned in a point above, some carts may look similar to ntrboot carts, make sure to verify that your cart really does support ntrboot before attempting to flash it.
+1. If you already have a flashcart and want to see if it can be flashed with ntrboot, have a look at this page: [https://3ds.hacks.guide/ntrboot](https://3ds.hacks.guide/ntrboot). <br/>As mentioned above, some flashcarts look similar to those that are ntrboot-compatible. Make sure to verify that the flashcart you are attempting to flash is indeed compatible.
 
 ## Flashcarts
 
@@ -30,17 +30,23 @@ These carts come pre-flashed with the ntrboot firmware. If you have one of these
 
 This flashcart requires a microSD card to be inserted for it to be detected by your console, neither the DS mode nor the ntrboot mode will work without it. The DS mode is the normal Ace3DS+ experience, you add the kernel files and then your games! However, **do not flash this mode with ntrboot**. Instead, flip the switch on the side of the cart to 3DS mode. 3DS mode is ntrboot firmware, when the cart is in 3DS mode, it will disappear from your home screen - this is normal and it means that you are now in ntrboot mode.
 
+The Ace3DS X only supports 3DS ntrboot, it is not compatible with DSi ntrboot.
+
 ### Purchase links and kernel downloads
+The Ace3DS X costs around $5-10 USD. Searching "ace3ds" on AliExpress or eBay usually returns this cart. Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
 
-This cart usually costs $5-$10 USD. Searching "ace3ds" seems to correctly return results on AliExpress, however, we cannot guarantee that you will receive the flashcart. A link to a listing is provided here though it may not be the cheapest option out there:
+- [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575)
+- [AliExpress [1]](https://www.aliexpress.com/item/1005005616167352.html)
+- [AliExpress [2]](https://www.aliexpress.com/item/1005006357885550.html)
+- [AliExpress [3]](https://www.aliexpress.com/item/1005005780889754.html)
 
-[**Buying Information**](ds-quick-start-guide#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide#ace3ds-x-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
+[**Detailed Information**](ds-quick-start-guide#ace3ds-x-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
 
 {% endcapture %}
 {% assign tab-preflashed = tab-preflashed | split: "////////" %}
 
 {% capture tab-flashable %}
-These carts will need to be flashed with ntrboot as they come with their DS firmware from factory. Flashing one of these carts is easy though, you can find out how to do that here: [https://3ds.hacks.guide/ntrboot](https://3ds.hacks.guide/ntrboot)
+These carts will need to be flashed with ntrboot as they come with their DS firmware from factory. Flashing one of these carts is easy though, you can find out how to do that here: [3DS ntrboot](https://3ds.hacks.guide/ntrboot) / [DSi ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot)
 {:.alert .alert-info}
 
 ## **R4iSDHC.com 2014+**
@@ -48,21 +54,31 @@ These carts will need to be flashed with ntrboot as they come with their DS firm
 
 It doesn't matter whether you get the Gold Pro, or the Dual Core, or any other cart from r4isdhc.com, as long as the year number is 2014 or above - you can use the cart with ntrboot. Carts pre-2014 are not compatible with ntrboot. You must ensure that this is an r4isdhc**.com** cart, other similar looking carts mentioned in the '[Carts to avoid](?tab=avoid)' tab cannot use ntrboot. 
 
-The 4.1b kernel for this cart hosted by r4i-sdhc.com has a broken ROM loader - older versions of the stock kernel have a timebomb - you should use YSMenu instead as it does not have the issues mentioned before. See our [Timebomb Misconceptions](ds-timebomb) page for more details.
+R4iSDHC.com 2014+ flashcarts support both 3DS and DSi ntrboot.
 
 ### Purchase links and kernel downloads
+These usually cost around $5-10 USD. Searching for "r4 gold pro" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
+- [AliExpress [1]](https://www.aliexpress.com/item/1005004530389743.html)
+- [AliExpress [2]](https://www.aliexpress.com/item/3256807366812516.html)
+- [NDS-Card](https://nds-card.com/ProShow.asp?ProID=490)
 
-[**Buying Information**](ds-quick-start-guide#obtaining-and-setup-2) --- [**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/)
+[**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/)
 
 
 ## R4i-SDHC 3DS RTS
 ![R4i-SDHC 3DS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}   
 
-This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart mentioned above, though the main difference is that it costs more to buy it. <br/>The stock kernel for this cart has a timebomb set for the 3rd of September, 2024. You should use YSMenu instead as it does not have a timebomb. See our [Timebomb Misconceptions](ds-timebomb) page for more details.
+This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart mentioned above, though the main difference is that it normally costs more to buy it. You should compare prices to find the cheapest of the two to get the best deal.
+
+The R4i-SDHC 3DS RTS supports both 3DS and DSi ntrboot.
 
 ### Purchase links and kernel downloads
+The R4i-SDHC 3DS RTS usually costs around $10-15 USD. Searching for "r4 rts 3ds" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
 
-[**Buying Information**](ds-quick-start-guide#obtaining-and-setup-2) --- [**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc)
+- [AliExpress](https://www.aliexpress.com/item/3256807943481141.html)
+- [NDS-Card](https://nds-card.com/ProShow.asp?ProID=146)
+
+[**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc)
 
 ## DSTT
 ![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}   
@@ -71,9 +87,16 @@ This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart menti
 
 Consider other options on this list before deciding if you really want to buy a DSTT.
 
-### Purchase links and kernel downloads
+The DSTT supports both 3DS and DSi ntrboot.
 
-[**Buying Information**](ds-quick-start-guide?tab=original-hacked#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide?tab=original-hacked#dstt) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/dstti/)
+### Purchase links and kernel downloads
+These can still be purchased new fron NDS-Card on their website or their AliExpress stores. Links are provided below but you may find it cheaper to buy a DSTT from a second-hand marketplace like eBay:
+
+- [AliExpress](https://www.aliexpress.com/item/3256806134330675.html)
+- [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=157)
+
+
+[**Detailed Information**](ds-quick-start-guide?tab=original-hacked#dstt) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/dstti/)
 
 {% endcapture %}
 {% assign tab-flashable = tab-flashable | split: "////////" %}

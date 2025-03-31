@@ -16,9 +16,9 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 ## READ FIRST
 
 1. The market contains a huge array of R4 clones; often using their own kernels and are not compatible with each other.
-1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay and Aliexpress.
-   - Amazon, Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or Aliexpress 
-   - The exception to the R4 site rule is NDS-Card.com, hence why we have links to their site for most flashcarts. It is an option if Aliexpress does not ship to your country.
+1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay and AliExpress.
+   - Amazon, Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or AliExpress 
+   - The exception to the R4 site rule is NDS-Card, hence why we have links to their site for most flashcarts. It is an option if AliExpress does not ship to your country.
 1. Do **not** follow YouTube setup guides, as there are many reproduction carts in the market and 99% of guides are outdated.
 1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a recognised name-brand microSD card separately, being [cautious of SD card scams](https://www.youtube.com/watch?v=UsWx1iO-aeA).
 
@@ -32,33 +32,33 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 
 ### Important to note
 - **GBA emulation on these consoles is not perfect, refer to the [GBARunner2 Wiki](https://wiki.gbatemp.net/wiki/GBARunner2#DS_Compatibility_List) to check game compatibility.**
-- **None of the carts listed here play 3DS games. Install CFW to run 3DS games, more details in the [3DS section](?tab=alternatives).**
+- **None of the carts listed here play 3DS games. Install CFW to run 3DS games, more details in the [3DS section](?tab=alternatives&tab1=3ds).**
 
 ## Flashcarts
 
 {% capture tab-unhacked %}
 # Recommended Flashcarts - All Systems
 
-#### Ace3DS X
+### Ace3DS X
 
 ![Ace3DS X](/assets/images/ds_carts/ace3dsx.png)
 
 [**Buying Information**](ds-quick-start-guide#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide#ace3ds-x-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
 
-An upgraded version of the Ace3DS+ with support for 3DS ntrboot. Good for 3DS users (DSi ntrboot not supported).
+An upgraded version of the Ace3DS+ with support for 3DS ntrboot. Good for 3DS users (DSi ntrboot is not supported).
 
 **Pros**:
-- Support for highly compatible Ace Wood R4 kernel.
+- Uses the Ace Wood R4 kernel which has great support for ROM hacks and games with DS-Wii connectivity.
 - 3DS ntrboot at the flick of the switch, no need to use ntrboot flasher.
-- Works on all DS & 3DS Consoles on all firmwares.
+- Works on all DS & 3DS consoles on all firmwares.
 
 **Cons**:
-- Does not support DSi ntrboot
+- Does not support DSi ntrboot.
 - Poor shell quality, may not fit well in some consoles.
 - Ace Wood R4 kernel lacks anti-piracy patches for a few games.
 <details markdown="1">
 <summary><b>Resolving anti-piracy issues</b></summary>
-Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases) and enable the Anti-Piracy bypass cheat before starting the game.
+Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://gbatemp.net/threads/488711/) and enable the Anti-Piracy bypass cheat before starting the game.
 </details>
 
 ### Ace3DS+/R4iLS CLones
@@ -67,20 +67,20 @@ Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black &
 [**Buying Information**](ds-quick-start-guide#obtaining-and-setup-1) --- [**Detailed Information**](ds-quick-start-guide#ace3dsr4ils-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
 
 Clones of the Ace3DS+ and R4iLS that are a cheaper alternative to the Ace3DS X for DS & DSi users, or 3DS users who do not require ntrboot.
-If you're simply just looking to play DS games, this is a good choice. Usually seen as r4isdhc.com.cn or r4isdkc.hk with 2020 or newer inside a star shape.
+If you're simply just looking to play DS games, this is a good choice. Usually seen as r4isdhc.com.cn or r4isdkc.hk with a year number of 2020 or newer inside a star shape.
 
 **Pros**:
-- Support for highly compatible Ace Wood R4 kernel.
-- More affortable than the Ace3DS X.
-- Works on all DS & 3DS Consoles on all firmwares.
+- Uses the Ace Wood R4 kernel which has great support for ROM hacks and games with DS-Wii connectivity.
+- More affordable than the Ace3DS X.
+- Works on all DS & 3DS consoles on all firmwares.
 
 **Cons**:
-- No support for ntrboot
+- No support for ntrboot.
 - Poor shell quality, may not fit well in some consoles.
 - Ace Wood R4 kernel lacks anti-piracy patches for a few games.
 <details markdown="1">
 <summary><b>Resolving anti-piracy issues</b></summary>
-Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases) and enable the Anti-Piracy bypass cheat before starting the game.
+Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://gbatemp.net/threads/488711/) and enable the Anti-Piracy bypass cheat before starting the game.
 </details>
 
 ### DSTTi DEMON HW Clones
@@ -88,12 +88,12 @@ Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black &
 
 [**Buying Information**](ds-quick-start-guide#obtaining-and-setup-2) --- [**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/)
 
-Clone of the DSTTi carts. Good for users needing DSi ntrboot or 3DS ntrboot when the Ace3DS X is not available. Usually seen as r4i-sdhc.com or r4isdhc.com 2024+ branded as Gold Pro, RTS Lite and Dual Core.
+Clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". Good for users needing DSi ntrboot or 3DS ntrboot when the Ace3DS X is not available. Usually seen as r4i-sdhc.com or r4isdhc.com 2014+ branded as Gold Pro, RTS Lite and Dual Core.
 
 **Pros**:
 - Support for both 3DS & DSi ntrboot when flashed with ntrboot flasher [(Click here for more information)](ntrboot-ds-carts?tab=flashable)
 - Higher quality shell then the Ace3DS+ & X and generally fits better in most consoles.
-- Works on all DS & 3DS Consoles on all firmwares.
+- Works on all DS & 3DS consoles on all firmwares.
 
 **Cons**:
 - The supported YSMenu & R4iMenu kernels are not as good as Ace Wood R4, although they are still compatible with most retail games.
@@ -129,8 +129,8 @@ Links to purchase the Ace3DS X are provided below, but they may not be the cheap
 
 ##### Kernels
 
-- AceWood R4 Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://archive.flashcarts.net/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
-- AceOS Kernel (Ace Wood R4 + Built in Emulators): [AceOS](https://github.com/flashcarts/AOS/#setup)
+- Ace Wood R4 Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://archive.flashcarts.net/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
+- AceOS Kernel (Ace Wood R4 + Built-in Emulators): [AceOS](https://github.com/flashcarts/AOS/#setup)
 
 ---
 
@@ -174,8 +174,8 @@ Links to AliExpress are provided below, but they may not be the cheapest option 
 
 ##### Kernels
 
-- AceWood R4 Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://archive.flashcarts.net/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
-- AceOS Kernel (Ace Wood R4 + Built in Emulators): [AceOS](https://github.com/flashcarts/AOS/#setup)
+- Ace Wood R4 Kernel: [Ace3DS+/R4iLS Wood R4 v1.62](https://archive.flashcarts.net/Ace3DS+_R4iLS/Ace3DS+_R4iLS_Wood_R4_1.62.zip)
+- AceOS Kernel (Ace Wood R4 + Built-in Emulators): [AceOS](https://github.com/flashcarts/AOS/#setup)
 
 ---
 
@@ -194,7 +194,7 @@ There is a lot of misinformation surrounding timebombs and what they do. See our
 ![Unlabelled timebomb clone](/assets/images/ds_carts/timebomb_back.png)
 
 #### Obtaining and Setup
-This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**. Usually costs $5-10 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart.
+This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**, or if you need a flashcart for DSi ntrboot. Usually costs $5-10 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart.
 
 Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
 
