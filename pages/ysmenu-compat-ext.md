@@ -28,7 +28,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i WiFi V1.5 (r4igold.cn)
     - R4i-SDHC (r4i-sdhc.com.tw)
     - R4i Dual Core NEW (r4isdhc.cc)
-    - R4i Unlimited Upgradable (r4i-sdhc.hk)
+    - R4i Unlimited Upgradable (r4i-sdhc.hk) 
+        - Note: If you get a `Couldn't find _DS_MENU.DAT` error on this cart, it is likely to be an original R4 clone. It should use [Wood R4 1.62](https://mirrors.lifehacker101.net/flashcard-archive//R4_original_M3_Simply/R4DS_Wood_R4_1.62.zip) instead of YSMenu.
     - R4i 3DS (r4-gold.net)
     - all carts from r4itt.**info** - not r4itt.**net**
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.dat`**:
