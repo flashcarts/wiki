@@ -55,6 +55,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4i-3ds.com
     - all carts from r4i3ds.com
     - all carts from r4n3ds.com
+    - Red R4i Upgrade (r4ll-net.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.PK`**:
     - R4DSiXL3D (r4dsixl3d.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `config`**:
