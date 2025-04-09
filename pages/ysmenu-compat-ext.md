@@ -47,6 +47,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4-king.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.TP`**:
     - R4i Advance V1.6 WiFi 3DS (Red cart) (r4i-advance.com)
+    - R4i WiFi 3DS (Gold cart) (r4i-advance.com)
     - R4i Red 3DS New WiFI (r4i-sdhc.hk)
     - all carts from r4ita.com that didn't work with R4i-SDHC YSMenu
     - all carts from r4i-dshc.com
