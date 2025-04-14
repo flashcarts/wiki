@@ -81,6 +81,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - r4-v.com v1.4.x carts
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.dat`**:
     - R4i V1.4 (r4igold.cn)
+- **The following carts must make three copies of `TTMenu.dat` and rename them to `iLL.iL`, `R4i.3DS`, and `R4i.TP`**:
+    - all carts from r4iasdhc.com
 - **The following carts have multiple files to test. Make several copies of `TTMenu.dat`, and name them `R4i.TP`, `iLL.iL`, `config`, `3DSCARD.dat`, `R4i.3DS`**:
     - Most r4i-sdhc.hk carts
     - All r4i-gold.hk carts
