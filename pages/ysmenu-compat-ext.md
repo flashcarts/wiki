@@ -43,6 +43,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - all carts from r4i3d-multi.com
     - all carts from r4iiisdhc.com
     - all carts from r4ids.cc
+    - all carts from ndsr4i.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4KING`**:
     - all carts from r4-king.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.TP`**:
