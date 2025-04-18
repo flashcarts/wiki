@@ -26,7 +26,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - Blue/Green R4i 1.41-1.45 (ndsill.net)
     - R4i Gold Upgrade 1.4.1 and V1.41 (r4igold.cn)
     - R4i WiFi V1.5 (r4igold.cn)
-    - R4i-SDHC (r4i-sdhc.com.tw)
     - R4i Dual Core NEW (r4isdhc.cc)
     - R4i Unlimited Upgradable (r4i-sdhc.hk) 
         - Note: If you get a `Couldn't find _DS_MENU.DAT` error on this cart, it is likely to be an original R4 clone. It should use [Wood R4 1.62](https://mirrors.lifehacker101.net/flashcard-archive//R4_original_M3_Simply/R4DS_Wood_R4_1.62.zip) instead of YSMenu.
@@ -50,6 +49,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i Advance V1.6 WiFi 3DS (Red cart) (r4i-advance.com)
     - R4i WiFi 3DS (Gold cart) (r4i-advance.com)
     - R4i Red 3DS New WiFI (r4i-sdhc.hk)
+    - all carts from r4i-sdhc.com.tw
     - all carts from r4ita.com that didn't work with R4i-SDHC YSMenu
     - all carts from r4i-dshc.com
     - all carts from r4i-ndsill.com
