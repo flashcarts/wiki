@@ -49,7 +49,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i Advance V1.6 WiFi 3DS (Red cart) (r4i-advance.com)
     - R4i WiFi 3DS (Gold cart) (r4i-advance.com)
     - R4i Red 3DS New WiFI (r4i-sdhc.hk)
-    - all carts from r4i-sdhc.com.tw
     - all carts from r4ita.com that didn't work with R4i-SDHC YSMenu
     - all carts from r4i-dshc.com
     - all carts from r4i-ndsill.com
@@ -80,6 +79,7 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - GoldR4 3DS (r4issdhc.com)
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.TP`**:
     - r4-v.com v1.4.x carts
+    - all carts from r4i-sdhc.com.tw
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.dat`**:
     - R4i V1.4 (r4igold.cn)
 - **The following carts must make three copies of `TTMenu.dat` and rename them to `iLL.iL`, `R4i.3DS`, and `R4i.TP`**:
