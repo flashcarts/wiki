@@ -45,59 +45,59 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 
 [**Buying Information**](ds-quick-start-guide#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide#ace3ds-x-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
 
-An upgraded version of the Ace3DS+ with support for 3DS ntrboot. Good for 3DS users (DSi ntrboot is not supported).
+The Ace3DS X is an upgraded version of the Ace3DS+ with support for 3DS ntrboot. Good for 3DS users that want to easily hack their console or unbrick it. (Note: DSi ntrboot is not supported).
 
 **Pros**:
 - Uses the Ace Wood R4 kernel which has great support for ROM hacks and games with DS-Wii connectivity.
-- 3DS ntrboot at the flick of the switch, no need to use ntrboot flasher.
-- Works on all DS & 3DS consoles on all firmwares.
+- 3DS ntrboot at the flick of the switch - no need to flash the cart with ntrboot flasher.
+- Works on all DS & 3DS family consoles on all firmware versions.
 
 **Cons**:
 - Does not support DSi ntrboot.
 - Poor shell quality, may not fit well in some consoles.
 - Ace Wood R4 kernel lacks anti-piracy patches for a few games.
 <details markdown="1">
-<summary><b>Resolving anti-piracy issues</b></summary>
+<summary><b>Resolving Anti-Piracy Issues</b></summary>
 Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://gbatemp.net/threads/488711/) and enable the Anti-Piracy bypass cheat before starting the game.
 </details>
 
-### Ace3DS+/R4iLS CLones
+### Ace3DS+/R4iLS Clones
 ![r4isdhc.com.cn R4iLS clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
 
 [**Buying Information**](ds-quick-start-guide#obtaining-and-setup-1) --- [**Detailed Information**](ds-quick-start-guide#ace3dsr4ils-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
 
-Clones of the Ace3DS+ and R4iLS that are a cheaper alternative to the Ace3DS X for DS & DSi users, or 3DS users who do not require ntrboot.
-If you're simply just looking to play DS games, this is a good choice. Usually seen as r4isdhc.com.cn or r4isdkc.hk with a year number of 2020 or newer inside a star shape.
+These carts are clones of the Ace3DS+ and R4iLS that are a cheaper alternative to the Ace3DS X. Great choice for DS & DSi users, or 3DS users who do not require ntrboot.
+If you're simply looking to play DS games and run homebrew, this is the most recommended option. Usually found as r4isdhc.com.cn carts, or r4isdhc.hk carts with a year number of 2020 or newer inside a star shape.
 
 **Pros**:
 - Uses the Ace Wood R4 kernel which has great support for ROM hacks and games with DS-Wii connectivity.
 - More affordable than the Ace3DS X.
-- Works on all DS & 3DS consoles on all firmwares.
+- Works on all DS & 3DS consoles on all firmware versions.
 
 **Cons**:
 - No support for ntrboot.
 - Poor shell quality, may not fit well in some consoles.
 - Ace Wood R4 kernel lacks anti-piracy patches for a few games.
 <details markdown="1">
-<summary><b>Resolving anti-piracy issues</b></summary>
+<summary><b>Resolving Anti-Piracy Issues</b></summary>
 Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://gbatemp.net/threads/488711/) and enable the Anti-Piracy bypass cheat before starting the game.
 </details>
 
-### DSTTi DEMON HW Clones
+### DSTTi DEMON-HW Clones
 ![r4isdhc.com gold cart](/assets/images/ds_carts/r4isdhc_com_front.png)
 
 [**Buying Information**](ds-quick-start-guide#obtaining-and-setup-2) --- [**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/)
 
-Clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". Good for users needing DSi ntrboot or 3DS ntrboot when the Ace3DS X is not available. Usually seen as r4i-sdhc.com or r4isdhc.com 2014+ branded as Gold Pro, RTS Lite and Dual Core.
+These are clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". These carts are reflashable with ntrboot_flasher, so they are a good choice for users needing DSi ntrboot, or 3DS ntrboot in case the Ace3DS X is not available. Usually found as r4i-sdhc.com or r4isdhc.com 2014+ carts, branded as Gold Pro, RTS Lite and Dual Core. (There is no difference in hardware between them, only color/label differences)
 
 **Pros**:
-- Support for both 3DS & DSi ntrboot when flashed with ntrboot flasher [(Click here for more information)](ntrboot-ds-carts?tab=flashable)
+- Support for both 3DS & DSi ntrboot when flashed with ntrboot flasher. [(Click here for more information)](ntrboot-ds-carts?tab=flashable)
 - Higher quality shell then the Ace3DS+ & X and generally fits better in most consoles.
-- Works on all DS & 3DS consoles on all firmwares.
+- Works on all DS & 3DS consoles on all firmware versions.
 
 **Cons**:
 - The supported YSMenu & R4iMenu kernels are not as good as Ace Wood R4, although they are still compatible with most retail games.
-- Flashing ntrboot require access to a working console.
+- Flashing ntrboot require access to a working DS console.
 - Often sold at a higher price than Ace3DS+/R4iLS clones.
 
 ---
