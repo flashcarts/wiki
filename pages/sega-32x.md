@@ -2,6 +2,8 @@
 title: Sega 32X Flashcarts
 ---
 
+{% include_relative include/archived-page.md %}
+
 Sega 32X flashcarts do not exist, presently. However, if you do own a 32X Add-on in addition to your Mega Drive or Genesis, the following flashcarts will allow 32X passthrough (i.e., they work):
 
 |Status|Make|Brand|Model|Notes|MSRP|

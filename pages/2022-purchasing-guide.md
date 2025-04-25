@@ -2,6 +2,8 @@
 title: 2022 Purchasing Guide (or, the Great-Big-"Is-It-Flashcart-able" List)
 ---
 
+{% include_relative include/archived-page.md %}
+
 Don't know where to start? Use the below list to head in the right direction! List is currently laid out by [console generation(s).](https://en.wikipedia.org/wiki/Home_video_game_console_generations)
 
 

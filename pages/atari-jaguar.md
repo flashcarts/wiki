@@ -2,6 +2,8 @@
 title: Atari Jaguar Flashcarts
 ---
 
+{% include_relative include/archived-page.md %}
+
 There is only one Jaguar flashcart known to exist:
 
 |Status|Make|Model|Notes|MSRP|

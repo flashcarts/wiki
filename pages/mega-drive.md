@@ -2,6 +2,8 @@
 title: Mega Drive Flashcarts
 ---
 
+{% include_relative include/archived-page.md %}
+
 At the moment, there is only one Mega Drive / Genesis flash cartridge listed on this page. This model also supports the Mega CD / Sega CD consoles as well.
 
 |Status|Make|Brand|Model|Notes|MSRP|

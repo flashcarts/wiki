@@ -2,6 +2,8 @@
 title: Super Game Boy Flashcarts
 ---
 
+{% include_relative include/archived-page.md %}
+
 ## Software
 
 As far as software goes, Super Game Boy (SGB) was not a game format per se, but rather bonus features (mostly borders and "expanded" color palettes) that could be added to both Game Boy (roughly 25% of the Game Boy Library) and Game Boy Color (roughly 20% of the Game Boy Color Library) titles.

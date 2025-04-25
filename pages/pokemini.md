@@ -2,6 +2,8 @@
 title: Pokémon Mini Flashcarts
 ---
 
+{% include_relative include/archived-page.md %}
+
 Provided are links to known Pokémon Mini flashcarts.
 
 |Status|Make|Set|Includes|MSRP|
