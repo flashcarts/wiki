@@ -20,7 +20,7 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 1. The market contains a huge array of R4 clones; often using their own kernels and are not compatible with each other.
 1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay and AliExpress.
    - Amazon, Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or AliExpress 
-   - The exception to the R4 site rule is NDS-Card, hence why we have links to their site for most flashcarts. It is an option if AliExpress does not ship to your country.
+   - The exception to the R4 site rule is NDS-Card, hence why we have links to their site for most flashcarts. It may be an option if AliExpress does not ship to your country.
 1. Do **not** follow YouTube setup guides, as there are many reproduction carts in the market and 99% of guides are outdated.
 1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a recognised name-brand microSD card separately, being cautious of SD card scams. For more information check out our page on **[Counterfeit MicroSD cards](microsd-fakes)**
 
@@ -231,9 +231,8 @@ The original DSTT is still being sold by NDS-Card. Since this flashcart does not
 This cart may be useful for ntrboot. NDS-Card appear to have sent out genuine DSTTs which can be used for that purpose. Though if you need a flashcart for ntrboot, an [Ace3DS X](?tab=unhacked#ace3ds-x) will still be a better choice over this cart.
 
 ### Obtaining and Setup
-NDS-Card charge different prices on their AliExpress store and their main website. The AliExpress listing appears to be cheaper so it is recommended to buy from there instead if you wish to buy a DSTT. You may also find one cheaper second-hand on eBay. This also does not come with the DSTT's original packaging if that matters to you.
+You can find a link to NDS-Card's listing below. If NDS-Card does not ship to your country, you may be able to find it on second-hand marketplaces for cheap.
 
-- AliExpress: <https://www.aliexpress.com/item/3256806134330675.html>
 - NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=157>
 
 You should avoid the original TTMenu kernel just in case you are sent a DSTT clone, you will risk bricking your flashcart if you attempt to use it. We would recommend using YSMenu or RetroGameFan's repacked version of TTMenu instead.

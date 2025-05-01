@@ -81,7 +81,7 @@ Consider other options on this list before deciding if you really want to buy a 
 The DSTT supports both 3DS and DSi ntrboot.
 
 ### Purchase links and kernel downloads
-These can still be purchased new fron NDS-Card on their website or their AliExpress stores. Links are provided in the 'Buying Information' page, but you may find it cheaper to buy a DSTT from a second-hand marketplace like eBay:
+These can still be purchased new from NDS-Card on their website. Links are provided in the 'Buying Information' page, but you may find it cheaper to buy a DSTT from a second-hand marketplace like eBay:
 
 [**Buying Information**](ds-quick-start-guide?tab=original-hacked#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide?tab=original-hacked#dstt) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/dstti/)
 
