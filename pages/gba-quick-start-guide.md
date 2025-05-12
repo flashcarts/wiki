@@ -59,6 +59,9 @@ This cart costs $99 USD. You can find it on Krikzz website here: <https://krikzz
 ### SuperCard SD
 ![SuperCard MiniSD](./assets/images/gba_carts/SuperCard_MiniSD_Front.png){:.float-start .me-3} The cheapest and worst option. Out of the box, this cart only supports microSD cards up to 2GB in size. ROMs require a lot of patching to be able to use them on this cart, even then some games will refuse to work. Saving on this cart is *manual* as you need to quick reset to the menu to save. However, it seems to be the only readily available cart to work in conjunction with TWiLight Menu++ on DS Phat/Lite for loading GBA games natively on those systems via Slot-1. You can find an archive of the firmware and ROM patcher for this cart here: <https://archive.org/details/supercard-slot-2-series>
 
+The SuperCard SD does not work reliably on AGB-001 consoles. The reliability issues worsen if the console has a hardmod installed, such as an IPS display and/or a LiPo battery.
+{:.alert .alert-warning}
+
 #### Alternative firmware
 
 Recently, there have been efforts to make this flashcart suck less for normal use. There is a variety of custom firmwares that you can use on the SuperCard SD, each with their own features, pros and cons. While they are all quite different to one another, they all support SDHC cards which is a major improvement over the stock firmware.
