@@ -10,8 +10,6 @@ tabs:
     3ds: 3DS
 ---
 
-{% include_relative include/us-tariff-warning.md %}
-
 Here are the best DS flashcarts currently available on the market. **If you're looking for a GBA flashcart, see the [GBA quick start guide](gba-quick-start-guide).** For other consoles, see the [quick start guide list](index.html).
 {:.alert .alert-info}
 
