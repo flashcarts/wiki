@@ -122,9 +122,9 @@ Searching "ace3ds" on AliExpress or eBay usually returns this cart.
 Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
 
 - [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575)
-- [AliExpress [1]](https://www.aliexpress.com/item/1005008114088874.html)
-- [AliExpress [2]](https://www.aliexpress.com/item/1005006357885550.html)
-- [AliExpress [3]](https://www.aliexpress.com/item/1005005780889754.html)
+- [AliExpress [1]](https://www.aliexpress.com/item/1005006357885550.html)
+- [AliExpress [2]](https://www.aliexpress.com/item/1005005768798296.html)
+- [AliExpress [3]](https://www.aliexpress.com/item/3256805594575002.html)
 
 ##### Kernels
 
@@ -169,7 +169,7 @@ Links to AliExpress are provided below, but they may not be the cheapest option 
 - [r4isdhc.com.cn carts [2]](https://www.aliexpress.com/item/1005007078682362.html)
 - [r4isdhc.com.cn carts [3]](https://www.aliexpress.com/item/1005007755454363.html)
 - [r4isdhc.com.cn [NDS-Card]](https://nds-card.com/ProShow.asp?ProID=507)
-- [r4isdhc.hk cart](https://www.aliexpress.com/item/1005008468790669.html)
+- [r4isdhc.hk cart](https://www.aliexpress.com/item/3256806983572884.html)
 
 ##### Kernels
 

@@ -85,7 +85,7 @@ The SuperCard SD uses SRAM to store save data, this means that the battery is sa
 
 #### Purchase Links
 This cart costs anywhere between $10-20 USD. A purchase link has been provided but it may not be the cheapest listing out there:
-- AliExpress: <https://www.aliexpress.com/item/1005006472045290.html>
+- AliExpress: <https://www.aliexpress.com/item/1005006309346650.html>
 {% endcapture %}
 {% assign tab-supercard-sd = tab-supercard-sd | split: "////////" %}
 
