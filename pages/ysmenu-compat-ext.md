@@ -143,8 +143,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
 
 ### Alternative kernel (R4iMenu) - RTS Support/TTMenu Style UI/No Timebomb - For r4i-sdhc.com and r4isdhc.com carts only
 - **Downloads:**
-    - For r4isdhc.com 2014+ flashcarts: [4.3 Kernel](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-and-above_DEMON_4.3.zip)
-    - For r4i-sdhc.com flashcarts: [1.87b Kernel](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.87b.zip)
+    - For r4isdhc.com 2014+ flashcarts: [4.3 Kernel](https://archive.flashcarts.net/r4isdhc.com/r4isdhc.com_2014-and-above_DEMON_4.3.zip)
+    - For r4i-sdhc.com flashcarts: [1.87b Kernel](https://archive.flashcarts.net/r4i-sdhc.com/r4i-sdhc.com_DEMON_1.87b.zip)
     - **Avoid using older versions of the stock kernel for these carts as they still have a timebomb.**
 - **Features:**
     - No timebomb
