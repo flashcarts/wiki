@@ -75,6 +75,8 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - U2DS from u2ds.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `n5i.dat`**:
     - R4i Upgrade (r4i-g.com)
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `R4XDS.dat`**:
+    - R4XDS (r4xds.com)
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
     - GoldR4 3DS (r4issdhc.com)
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.TP`**:
@@ -131,7 +133,6 @@ Please see [RetroGameFan Updates / Releases](https://gbatemp.net/threads/267243/
     - R4i Gold 3DS (r4i-gold.cc)
     - R4i Max (r4imax.com)
     - r4i-gold.com v1.4/1.4.1 carts WITHOUT A YEAR NUMBER AND WITHOUT PRO WRITTEN ON THE CART, ANY WITH A YEAR NUMBER OR PRO WILL BRICK!
-    - R4xDS (r4xds.com)
     - Some r4ita.com carts - If this fails, try DSTTi Clone folder
     - r4r4.be - R4i-SDHC variant
     - R4i SDHC v1.41 (r4ixl-sdhc.com)
