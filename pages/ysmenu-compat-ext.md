@@ -22,7 +22,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - All carts from r4dsll.com
     - All carts from r4top.com
     - All carts from pk3ds.com
-    - All carts from r4i-best.com
+    - All carts from r4i-best.com - Green cart is not supported - (If this fails, use DEMON section below)
     - R4i-SDHC 1.4.1, 1.4.2 (r4ll-net.com)
     - R4 Gold 3DS RTS - Upgrade with Cable (r4i-gold.com) - WITHOUT year number, WITHOUT "PRO" on the label, running it on those will **BRICK** your cart!
     - R4iTT (r4itt.net) - (MUST have a screw on the back! If it doesn't, this will **BRICK** your cart!)
@@ -41,8 +41,8 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - All carts from r4i-3ds.com
     - All carts from r4i3ds.com
     - All carts from r4n3ds.com
-    - All carts from r4ita.com (If this fails, use DEMON-HW section below)
-    - All carts from r4i-dshc.com (If this fails, use DEMON-HW section below)
+    - All carts from r4ita.com (If this fails, use DEMON section below)
+    - All carts from r4i-dshc.com (If this fails, use DEMON section below)
     - Red R4i Upgrade (r4ll-net.com)
     - R4i Advance V1.6 WiFi 3DS (Red cart) (r4i-advance.com)
     - R4i WiFi 3DS (Gold cart) (r4i-advance.com)
@@ -86,7 +86,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
     - GoldR4 3DS (r4issdhc.com)
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.TP`**:
-    - All carts from r4i-sdhc.com.tw (If this fails, use DEMON-HW section below)
+    - All carts from r4i-sdhc.com.tw (If this fails, use DEMON section below)
     - r4-v.com v1.4.x carts
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.dat`**:
     - R4i V1.4 (r4igold.cn)
@@ -106,6 +106,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - Any r4i-sdhc.com.tw carts that didn't work with DSTTi-Clone YSMenu
     - Any r4i-dshc.com carts that didn't work with DSTTi-Clone YSMenu
     - Any r4ita.com carts that didn't work with DSTTi-Clone YSMenu
+    - Any r4i-best.com carts that didn't work with DSTTi-Clone YSMenu
     - M3i Upgrade (m3iupgrade.com) - Rename the bootstrap `R4.dat` to `M3i.dat`
     - R4 2016 Dual Core (r4-usas.com)
     - R4-III(i) (r4dsl.net)
@@ -135,7 +136,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
 This was meant for the [Original R4SDHC from r4sdhc.com](https://i.redd.it/sy1w7d1s2fc81.jpg). However, this folder is currently broken because of a configuration error in the `YSMenu.ini` file. It's setup to use the stock R4SDHC 1.34 kernel to autoboot YSMenu as `DEFAULT.NDS`. However, YSMenu also autoboots any file named `DEFAULT.NDS`, so YSMenu ends up autobooting itself forever.
 {:.alert .alert-info}
 
-- Some OG R4 SDHC's are actually DSTTi "DEMON" clones. If it looks like [this cart](https://i.redd.it/sy1w7d1s2fc81.jpg) but boots to a `Menu?` screen when an empty sd is inserted, it will use DSTTi-Clone YSMenu with a bootstrap `R4.dat` from the "DEMON-HW DSTTi Clones" section above.
+- Some OG R4 SDHC's are actually DSTTi "DEMON" clones. If it looks like [this cart](https://i.redd.it/sy1w7d1s2fc81.jpg) but boots to a `Menu?` screen when an empty sd is inserted, it will use DSTTi-Clone YSMenu with a bootstrap `R4.dat` from the "DEMON DSTTi Clones" section above.
 - For actual Original R4SDHC carts from r4sdhc.com, it's advised to use R4-Clone YSMenu, listed below.
 
 ## R4-Clone YSMenu folder
@@ -149,7 +150,7 @@ This is a YSMenu version for the Original R4, and clones + derivatives. Some car
 ---
 
 - For the [Original R4SDHC from r4sdhc.com](https://i.redd.it/sy1w7d1s2fc81.jpg):
-    - Use R4-Clone YSMenu folder, then place this `_DS_MENU.DAT` file on the SD root as well.
+    - Use R4-Clone YSMenu folder, then place [this `_DS_MENU.DAT` file](https://archive.flashcarts.net/YSMenu/R4SDHC_common/_DS_MENU.DAT) on the SD root as well.
 
 - For the N5 from dsn5.com:
     - Use R4-Clone YSMenu folder, and rename `YSMenu.nds` to `_DS_MENU.DAT`. Copy `_AX_MENU.DAT` from the [stock kernel](https://archive.flashcarts.net/dsn5.com/dsn5.com_N5_Kernel_1.32.zip) to the SD root as well.
