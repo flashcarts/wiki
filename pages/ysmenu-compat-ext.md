@@ -40,6 +40,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - All carts from r4i-yes.com
     - All carts from r4i-3ds.com
     - All carts from r4i3ds.com
+		- All carts from r4isdxc.com
     - All carts from r4n3ds.com
     - All carts from r4ita.com (If this fails, use DEMON section below)
     - All carts from r4i-dshc.com (If this fails, use DEMON section below)
