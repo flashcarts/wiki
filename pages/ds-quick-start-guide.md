@@ -117,7 +117,7 @@ Purchase links:
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
-### DSTTi DEMON-HW Clones
+### DSTTi "DEMON" Clones
 ![r4isdhc.com gold cart](/assets/images/ds_carts/r4isdhc_com_front.png)
 
 These are clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". These carts are still a decent choice if the Ace3DS X or Ace3DS+ is not available to you. Usually found as r4i-sdhc.com or r4isdhc.com (not .hk) 2014+ carts, branded as Gold Pro, RTS Lite and Dual Core. (There is no difference in hardware between them, only color/label differences)
@@ -226,7 +226,7 @@ Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils
 
 ---
 
-### DSTTi DEMON HW Clones
+### DSTTi "DEMON" Clones
 ![r4i-sdhc.com 3DS RTS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}
 
 These common carts are clones of the DSTTi, and are known as "timebomb" carts because their stock kernels used to contain a date-check mechanism that would throw an error past a certain date. The latest releases of the stock kernel for these carts no longer contain this timebomb, so users who want to use stock kernel-specific features like RTS have the option of using it instead of the recommended YSMenu. These carts are compatible with all DS, DSi, and 3DS consoles - even on the latest firmware - so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+/R4iLS clones](?tab=unhacked#ace3dsr4ils-clones) are recommended instead if possible.
