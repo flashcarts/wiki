@@ -2,14 +2,36 @@
 title: A Quick Guide on DS Flashcarts
 description: DS flashcarts, what there is, and what to buy
 tabs:
-  - unhacked: All Systems - Unhacked or Hacked - 3DS/DSi/DS/DSL
+  - unhacked-simplified: All Systems - Simplified
+    unhacked-detailed: All Systems - Detailed
     original-hacked: Other Flashcarts
-    non-recommended: Non-Recommended Carts
-    alternatives: Alternatives for DSi & 3DS Users
+    non-recommended: Non-Recommended Flashcarts
+    alternatives: Alternatives for DSi/3DS Users
   - dsi: DSi
     3ds: 3DS
+purchase_links:
+  - cart: Ace3DS-X
+    links: [
+      ["NDS-Card","https://www.nds-card.com/ProShow.asp?ProID=575"],
+    ]
+  - cart: R4iLS
+    links: [
+      ["AliExpress [1]","https://www.aliexpress.com/item/1005008068608956.html"],
+      ["AliExpress [2]","https://www.aliexpress.com/item/1005006574158620.html"],
+      ["AliExpress [3]","https://www.aliexpress.com/item/1005008451621346.html"],
+      ["AliExpress (US Only)","https://www.aliexpress.com/item/1005008830236796.html"],
+      ["NDS-Card (Ace3DS+)","https://nds-card.com/ProShow.asp?ProID=511"],
+      ["NDS-Card (R4iLS)","https://www.nds-card.com/ProShow.asp?ProID=507"]
+    ]
+  - cart: Demon
+    links: [
+      ["AliExpress [1]","https://www.aliexpress.com/item/1005005642926227.html"],
+      ["AliExpress [2]","https://www.aliexpress.com/item/1005005714147653.html"],
+      ["AliExpress [3]","https://www.aliexpress.com/item/1005006071118271.html"],
+      ["NDS-Card (r4isdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=490"],
+      ["NDS-Card (r4i-sdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=146"]
+    ]
 ---
-
 Here are the best DS flashcarts currently available on the market. **If you're looking for a GBA flashcart, see the [GBA quick start guide](gba-quick-start-guide).** For other consoles, see the [quick start guide list](index.html).
 {:.alert .alert-info}
 
@@ -36,8 +58,8 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 
 ## Flashcarts
 
-{% capture tab-unhacked %}
-# Recommended Flashcarts - All Systems
+{% capture tab-unhacked-simplified %}
+## Recommended Flashcarts - Simplified Information - All Systems
 
 Looking for a flashcart to use ntrboot? [Click here.](ntrboot-ds-carts) If you are looking for a flashcart to play DS Games and homebrew, see below.
 {:.alert .alert-warning}
@@ -45,8 +67,6 @@ Looking for a flashcart to use ntrboot? [Click here.](ntrboot-ds-carts) If you a
 ### Ace3DS X
 
 ![Ace3DS X](/assets/images/ds_carts/ace3dsx.png)
-
-[**Buying Information**](ds-quick-start-guide#obtaining-and-setup) --- [**Detailed Information**](ds-quick-start-guide#ace3ds-x-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
 
 The Ace3DS X is based upon the Ace3DS+ with a switch to use for 3DS ntrboot (see the ntrboot link above if you require this). This is a good option for 3DS users but the below Ace3DS+ carts are generally a cheaper option if you don't have a 3DS.
 
@@ -62,10 +82,17 @@ The Ace3DS X is based upon the Ace3DS+ with a switch to use for 3DS ntrboot (see
 Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://gbatemp.net/threads/488711/) and enable the Anti-Piracy bypass cheat before starting the game.
 </details>
 
+Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/>
+
+Purchase links:
+{% for item in page.purchase_links[0].links %}
+- [{{item[0]}}]({{item[1]}})
+{% endfor %}
+Currently, NDS-Card is the only option for the Ace3DS X as it seems to have disappeared from AliExpress. 
+It may still be available on eBay if you are looking for a cheaper option.
+
 ### Ace3DS+/R4iLS Clones
 ![r4isdhc.com.cn R4iLS clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
-
-[**Buying Information**](ds-quick-start-guide#obtaining-and-setup-1) --- [**Detailed Information**](ds-quick-start-guide#ace3dsr4ils-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/)
 
 These carts are clones of the Ace3DS+ and R4iLS that are a cheaper alternative to the Ace3DS X.
 If you're simply looking to play DS games and run homebrew, this is the most recommended option. Usually found as r4isdhc.com.cn carts, or r4isdhc.hk carts with a year number of 2020 or newer inside a star shape.
@@ -83,10 +110,15 @@ If you're simply looking to play DS games and run homebrew, this is the most rec
 Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://gbatemp.net/threads/488711/) and enable the Anti-Piracy bypass cheat before starting the game.
 </details>
 
+Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/>
+
+Purchase links:
+{% for item in page.purchase_links[1].links %}
+- [{{item[0]}}]({{item[1]}})
+{% endfor %}
+
 ### DSTTi DEMON-HW Clones
 ![r4isdhc.com gold cart](/assets/images/ds_carts/r4isdhc_com_front.png)
-
-[**Buying Information**](ds-quick-start-guide#obtaining-and-setup-2) --- [**Detailed Information**](ds-quick-start-guide#dstti-demon-hw-clones-1) --- [**Setup Guide & Kernel**](https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/)
 
 These are clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". These carts are still a decent choice if the Ace3DS X or Ace3DS+ is not available to you. Usually found as r4i-sdhc.com or r4isdhc.com (not .hk) 2014+ carts, branded as Gold Pro, RTS Lite and Dual Core. (There is no difference in hardware between them, only color/label differences)
 
@@ -97,13 +129,23 @@ These are clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones".
 
 **Cons**:
 - The supported YSMenu & R4iMenu kernels are not as good as Ace Wood R4, although they are still compatible with most retail games.
-- Often sold at a higher price than Ace3DS+/R4iLS clones.
+- Of
+ten sold at a higher price than Ace3DS+/R4iLS clones.
 
----
+Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/>
 
-## Detailed Information
+Purchase links:
+{% for item in page.purchase_links[2].links %}
+- [{{item[0]}}]({{item[1]}})
+{% endfor %}
 
-Read this section if you would like to see more information about the above recommended flashcarts.
+{% endcapture %}
+{% assign tab-unhacked-simplified = tab-unhacked-simplified | split: "////////" %}
+
+{% capture tab-unhacked-detailed %}
+## Recommended Flashcarts - Detailed Information - All Systems
+
+Read this section if you would like to see more information about the flashcarts we recommend.
 
 ### Ace3DS X
 ![Ace3DS X](/assets/images/ds_carts/ace3dsx.png){:.float-start .me-3}
@@ -121,10 +163,15 @@ Searching "ace3ds" on AliExpress or eBay usually returns this cart.
 
 Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
 
-- [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=575)
-- [AliExpress [1]](https://www.aliexpress.com/item/1005006357885550.html)
-- [AliExpress [2]](https://www.aliexpress.com/item/1005005768798296.html)
-- [AliExpress [3]](https://www.aliexpress.com/item/3256805594575002.html)
+Purchase links:
+{% for item in page.purchase_links[0].links %}
+- [{{item[0]}}]({{item[1]}})
+{% endfor %}
+
+Currently, NDS-Card is the only option for the Ace3DS X as it seems to have disappeared from AliExpress. 
+It may still be available on eBay if you are looking for a cheaper option.
+
+Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/>
 
 ##### Kernels
 
@@ -165,11 +212,12 @@ Searching "r4 wood" on AliExpress or "r4" on eBay usually returns this cart.
 
 Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
 
-- [r4isdhc.com.cn carts [1]](https://www.aliexpress.com/item/1005007089983137.html)
-- [r4isdhc.com.cn carts [2]](https://www.aliexpress.com/item/1005007078682362.html)
-- [r4isdhc.com.cn carts [3]](https://www.aliexpress.com/item/1005007755454363.html)
-- [r4isdhc.com.cn [NDS-Card]](https://nds-card.com/ProShow.asp?ProID=507)
-- [r4isdhc.hk cart](https://www.aliexpress.com/item/3256806983572884.html)
+Purchase links:
+{% for item in page.purchase_links[1].links %}
+- [{{item[0]}}]({{item[1]}})
+{% endfor %}
+
+Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/>
 
 ##### Kernels
 
@@ -197,13 +245,12 @@ This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**
 
 Links to AliExpress are provided below, but they may not be the cheapest option as they're one of many listings:
 
-- r4isdhc.com carts
-  - [r4isdhc.com carts [1]](https://www.aliexpress.com/item/1005004530389743.html)
-  - [r4isdhc.com carts [2]](https://www.aliexpress.com/item/1005006728772917.html)
-  - [r4isdhc.com carts [NDS-Card]](https://nds-card.com/ProShow.asp?ProID=490)
-- r4i-sdhc.com carts
-  - [r4i-sdhc.com carts [1]](https://www.aliexpress.com/item/3256807943481141.html)
-  - [r4i-sdhc.com carts [NDS-Card]](https://nds-card.com/ProShow.asp?ProID=146)
+Purchase links:
+{% for item in page.purchase_links[2].links %}
+- [{{item[0]}}]({{item[1]}})
+{% endfor %}
+
+Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/>
 
 ##### Kernels
 
@@ -212,10 +259,10 @@ Links to AliExpress are provided below, but they may not be the cheapest option 
     - [r4isdhc.com 4.3b](https://archive.flashcarts.net/r4isdhc.com/old/r4isdhc.com_2014-and-above_DEMON_4.3.zip)
     - [r4i-sdhc.com 1.87b](https://archive.flashcarts.net/r4i-sdhc.com/old/r4i-sdhc.com_DEMON_1.87b.zip)
 {% endcapture %}
-{% assign tab-unhacked = tab-unhacked | split: "////////" %}
+{% assign tab-unhacked-detailed = tab-unhacked-detailed | split: "////////" %}
 
 {% capture tab-original-hacked %}
-# Other Flashcarts
+## Other Flashcarts
 
 These are flashcarts which we don't necessarily recommend but are available to buy. Information is provided here about these carts for people who may already have one.
 
@@ -240,6 +287,7 @@ You should avoid the original TTMenu kernel just in case you are sent a DSTT clo
 {% assign tab-original-hacked = tab-original-hacked | split: "////////" %}
 
 {% capture tab-non-recommended %}
+## Non-Recommended Flashcarts
 These are carts that you may encounter but are generally NOT recommended.
 {:.alert .alert-warning}
 
@@ -367,7 +415,7 @@ See [3ds.hacks.guide](https://3ds.hacks.guide) for how to install CFW on your 3D
 {% assign tab-alternatives = tab-alternatives | split: "////////" %}
 
 
-{% assign tabs = tab-unhacked | concat: tab-original-hacked | concat: tab-non-recommended | concat: tab-alternatives %}
+{% assign tabs = tab-unhacked-simplified | concat: tab-unhacked-detailed | concat: tab-original-hacked | concat: tab-non-recommended | concat: tab-alternatives %}
 {% include tabs.html index=0 tabs=tabs %}
 
 
