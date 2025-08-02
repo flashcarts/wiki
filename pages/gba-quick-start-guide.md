@@ -92,6 +92,8 @@ The SuperCard SD uses SRAM to store save data, so the battery is save-critical (
 #### Purchase Links
 This cart costs anywhere between $10-20 USD. A purchase link has been provided but it may not be the cheapest listing out there:
 - AliExpress: <https://www.aliexpress.com/item/1005006954219864.html>
+
+The SuperCard SD is also being sold under the "REMANK" name. The "REMANK SuperCard" is the base SuperCard SD without any firmware modifications. The "REMANK FlashGBACart" is a SuperCard SD pre-flashed with SuperFW. If you were to buy the FlashGBACart variant, we cannot guarantee that it will have the latest SuperFW; it is advised that you check for updates before using the cart.
 {% endcapture %}
 {% assign tab-supercard-sd = tab-supercard-sd | split: "////////" %}
 
