@@ -21,7 +21,7 @@ The EZ Flash Omega DE uses a CR1025 battery for it's real-time clock (RTC). The 
 
 #### Purchase Links
 This cart costs around $80 USD. Purchase links have been provided here though they may not be the cheapest listings out there:
-- AliExpress: <https://www.aliexpress.com/item/1005005696944889.html>
+- AliExpress: <https://www.aliexpress.com/item/1005006734360403.html>
 - Retro Game Repair Shop: <https://retrogamerepairshop.com/products/ez-flash-omega-definitive-edition>
 {% endcapture %}
 {% assign tab-ez-flash-ode = tab-ez-flash-ode | split: "////////" %}
@@ -34,7 +34,7 @@ The EZ Flash Omega uses a CR1220 battery held in with tabs which are soldered to
 
 #### Purchase Links
 This cart costs about $40-50 USD. Purchase links have been provided here though they may not be the cheapest listings out there:
-- AliExpress: <https://www.aliexpress.com/item/1005005691248592.html>
+- AliExpress: <https://www.aliexpress.com/item/1005008480093651.html>
 - HandHeldLegend: <https://handheldlegend.com/products/ez-flash-omega-micro-sd-card-adapter>
 - Retro Game Repair Shop: <https://retrogamerepairshop.com/products/ez-flash-omega>
 {% endcapture %}
@@ -91,7 +91,7 @@ The SuperCard SD uses SRAM to store save data, so the battery is save-critical (
 
 #### Purchase Links
 This cart costs anywhere between $10-20 USD. A purchase link has been provided but it may not be the cheapest listing out there:
-- AliExpress: <https://www.aliexpress.com/item/1005006309346650.html>
+- AliExpress: <https://www.aliexpress.com/item/1005006954219864.html>
 {% endcapture %}
 {% assign tab-supercard-sd = tab-supercard-sd | split: "////////" %}
 
