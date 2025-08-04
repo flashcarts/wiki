@@ -25,9 +25,8 @@ purchase_links:
     ]
   - cart: Demon
     links: [
-      ["AliExpress [1]","https://www.aliexpress.com/item/1005005642926227.html"],
-      ["AliExpress [2]","https://www.aliexpress.com/item/1005005714147653.html"],
-      ["AliExpress [3]","https://www.aliexpress.com/item/1005006071118271.html"],
+      ["AliExpress [1]","https://www.aliexpress.com/item/1005005714147653.html"],
+      ["AliExpress [2]","https://www.aliexpress.com/item/1005006071118271.html"],
       ["NDS-Card (r4isdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=490"],
       ["NDS-Card (r4i-sdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=146"]
     ]
