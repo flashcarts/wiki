@@ -34,8 +34,7 @@ The EZ Flash Omega uses a CR1220 battery held in with tabs which are soldered to
 
 #### Purchase Links
 This cart costs about $40-50 USD. Purchase links have been provided here though they may not be the cheapest listings out there:
-- AliExpress: <https://www.aliexpress.com/item/1005008480093651.html>
-- HandHeldLegend: <https://handheldlegend.com/products/ez-flash-omega-micro-sd-card-adapter>
+- HandHeldLegend: <https://handheldlegend.com/products/ez-flash-omega>
 - Retro Game Repair Shop: <https://retrogamerepairshop.com/products/ez-flash-omega>
 {% endcapture %}
 {% assign tab-ez-flash-omega = tab-ez-flash-omega | split: "////////" %}
