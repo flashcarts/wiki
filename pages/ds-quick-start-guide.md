@@ -16,17 +16,16 @@ purchase_links:
     ]
   - cart: R4iLS
     links: [
-      ["AliExpress [1]","https://www.aliexpress.com/item/1005008068608956.html"],
-      ["AliExpress [2]","https://www.aliexpress.com/item/1005006574158620.html"],
-      ["AliExpress [3]","https://www.aliexpress.com/item/1005008451621346.html"],
+      ["AliExpress [1]","https://www.aliexpress.com/item/1005006574158620.html"],
+      ["AliExpress [2]","https://www.aliexpress.com/item/1005008451621346.html"],
       ["AliExpress (US Only)","https://www.aliexpress.com/item/1005008830236796.html"],
       ["NDS-Card (Ace3DS+)","https://nds-card.com/ProShow.asp?ProID=511"],
       ["NDS-Card (R4iLS)","https://www.nds-card.com/ProShow.asp?ProID=507"]
     ]
   - cart: Demon
     links: [
-      ["AliExpress [1]","https://www.aliexpress.com/item/1005005714147653.html"],
-      ["AliExpress [2]","https://www.aliexpress.com/item/1005006071118271.html"],
+      ["AliExpress [r4isdhc.com; 1]","https://www.aliexpress.com/item/1005009549607049.html"],
+      ["AliExpress [r4isdhc.com; 2]","https://www.aliexpress.com/item/1005008908400242.html"],
       ["NDS-Card (r4isdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=490"],
       ["NDS-Card (r4i-sdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=146"]
     ]
