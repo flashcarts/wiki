@@ -36,8 +36,8 @@ Here are the best DS flashcarts currently available on the market. **If you're l
 ## READ FIRST
 
 1. The market contains a huge array of R4 clones; often using their own kernels and are not compatible with each other.
-1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay and AliExpress.
-   - Amazon, Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or AliExpress 
+1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay, AliExpress and Amazon.
+   - Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or AliExpress 
    - The exception to the R4 site rule is NDS-Card, hence why we have links to their site for most flashcarts. It may be an option if AliExpress does not ship to your country.
 1. Do **not** follow YouTube setup guides, as there are many reproduction carts in the market and 99% of guides are outdated.
 1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a recognised name-brand microSD card separately, being cautious of SD card scams. For more information check out our page on **[Counterfeit MicroSD cards](microsd-fakes)**
