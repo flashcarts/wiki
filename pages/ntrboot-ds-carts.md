@@ -16,8 +16,8 @@ We would recommend buying an **[Ace3DS X](?tab=preflashed#ace3ds-x)** due to it'
 
 1. Carts flashed with ntrboot will not appear on your console's home screen. This is normal, **your flashcart isn't broken**. The only exception to this is the Acekard 2i (unless it has been flashed with DSi ntrboot).
 1. Some carts may look similar to those listed on this page, however, they may not be compatible with ntrboot. See the '[Carts to avoid](?tab=avoid)' tab for more information.
-1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay and AliExpress.
-   - Amazon, Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or AliExpress 
+1. Do **not** use 'R4' websites to purchase flashcarts as they are often scammy and don't give refunds, Stick to more general places like eBay, AliExpress and Amazon.
+   - Etsy & Temu are usually not recommended due to selling flashcarts for much higher prices than eBay or AliExpress 
    - The exception to the R4 site rule is NDS-Card, hence why we have links to their site for most flashcarts.
 1. If you already have a flashcart and want to see if it can be flashed with ntrboot, have a look at this page: [https://3ds.hacks.guide/ntrboot](https://3ds.hacks.guide/ntrboot). <br/>As mentioned above, some flashcarts look similar to those that are ntrboot-compatible. Make sure to verify that the flashcart you are attempting to flash is indeed compatible.
 
@@ -60,10 +60,8 @@ R4iSDHC.com 2014+ flashcarts support both 3DS and DSi ntrboot.
 ### Purchase links and kernel downloads
 These usually cost around $5-10 USD. Searching for "r4 gold pro" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
 
-{% assign r4isdhc = ds-qsg-reference[0].purchase_links[2].links %}
-{% for item in r4isdhc %}
-<!--Remove r4i-sdhc.com from r4isdhc.com list. Trying to remove it with filters didn't seem to work.-->
-{% if item[0] != "NDS-Card (r4i-sdhc.com)" %}
+{% for item in ds-qsg-reference[0].purchase_links[2].links %}
+{% if item[0] contains "r4isdhc.com" %}
 - [{{item[0]}}]({{item[1]}})
 {%endif%}
 {%endfor%}
@@ -71,7 +69,7 @@ These usually cost around $5-10 USD. Searching for "r4 gold pro" on AliExpress o
 You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=unhacked-detailed#dstti-demon-clones).
 
 ## R4i-SDHC 3DS RTS
-![R4i-SDHC 3DS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}   
+![R4i-SDHC 3DS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}
 
 This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart mentioned above, though the main difference is that it normally costs more to buy it. You should compare prices to find the cheapest of the two to get the best deal.
 
@@ -80,13 +78,15 @@ The R4i-SDHC 3DS RTS supports both 3DS and DSi ntrboot.
 ### Purchase links and kernel downloads
 The R4i-SDHC 3DS RTS usually costs around $10-15 USD. Searching for "r4 rts 3ds" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
 
-{% assign r4i-sdhc = ds-qsg-reference[0].purchase_links[2].links[-1] %}
-- [{{r4i-sdhc[0]}}]({{r4i-sdhc[1]}})
-
+{% for item in ds-qsg-reference[0].purchase_links[2].links %}
+{% if item[0] contains "r4i-sdhc.com" %}
+- [{{item[0]}}]({{item[1]}})
+{% endif %}
+{% endfor %}
 You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=unhacked-detailed#dstti-demon-clones).
 
 ## DSTT
-![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}   
+![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}
 
 **This cart will not work on a stock DSi/3DS, only buy this cart if you have a DS/DS Lite**. [Only certain flashchips are compatible](https://gist.github.com/aspargas2/fa2a70aed3a7fe33f1f10bc264d9fab6), while the purchase links here have sent out compatible DSTT carts, we cannot guarantee that this is what you will recieve. 
 
