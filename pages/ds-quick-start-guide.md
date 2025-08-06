@@ -16,17 +16,15 @@ purchase_links:
     ]
   - cart: R4iLS
     links: [
-      ["AliExpress [1]","https://www.aliexpress.com/item/1005006574158620.html"],
-      ["AliExpress [2]","https://www.aliexpress.com/item/1005008068608956.html"],
-      ["AliExpress [3]","https://www.aliexpress.com/item/1005007466789904.html"],
+      ["AliExpress [1]","https://www.aliexpress.com/item/1005006045593536.html"],
+      ["AliExpress [2]","https://www.aliexpress.com/item/1005006912106289.html"],
+      ["AliExpress [3]","https://www.aliexpress.com/item/1005006723184182.html"],
       ["AliExpress (US Only)","https://www.aliexpress.com/item/1005008830236796.html"],
       ["NDS-Card (Ace3DS+)","https://nds-card.com/ProShow.asp?ProID=511"],
       ["NDS-Card (R4iLS)","https://www.nds-card.com/ProShow.asp?ProID=507"]
     ]
   - cart: Demon
     links: [
-      ["AliExpress [r4isdhc.com; 1]","https://www.aliexpress.com/item/1005009549607049.html"],
-      ["AliExpress [r4isdhc.com; 2]","https://www.aliexpress.com/item/1005008908400242.html"],
       ["NDS-Card (r4isdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=490"],
       ["NDS-Card (r4i-sdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=146"]
     ]
@@ -87,8 +85,9 @@ Purchase links:
 {% for item in page.purchase_links[0].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
-Currently, NDS-Card is the only option for the Ace3DS X as it seems to have disappeared from AliExpress. 
-It may still be available on eBay if you are looking for a cheaper option.
+
+The Ace3DS X appears to have disappeared from AliExpress. 
+It is still available on Amazon and eBay if you are looking for a cheaper option to NDS-Card.
 
 ### Ace3DS+/R4iLS Clones
 ![r4isdhc.com.cn R4iLS clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
@@ -138,6 +137,9 @@ Purchase links:
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
+DEMON carts appear to have disappeared from AliExpress.
+It can still be found on Amazon and eBay if you are looking for a cheaper option to NDS-Card.
+
 {% endcapture %}
 {% assign tab-unhacked-simplified = tab-unhacked-simplified | split: "////////" %}
 
@@ -167,8 +169,8 @@ Purchase links:
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
-Currently, NDS-Card is the only option for the Ace3DS X as it seems to have disappeared from AliExpress. 
-It may still be available on eBay if you are looking for a cheaper option.
+The Ace3DS X appears to have disappeared from AliExpress.
+It is still available on Amazon and eBay if you are looking for a cheaper option to NDS-Card.
 
 Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/>
 
@@ -248,6 +250,9 @@ Purchase links:
 {% for item in page.purchase_links[2].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
+
+DEMON carts appear to have disappeared from AliExpress.
+It can still be found on Amazon and eBay if you are looking for a cheaper option to NDS-Card.
 
 Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/>
 
