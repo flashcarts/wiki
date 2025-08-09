@@ -54,6 +54,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - All carts from r4ids.cc
     - All carts from ndsr4i.com
     - R4i SDHC Silver RTS Lite (r4isdhc.com) - WITHOUT year number, WITHOUT the NEW label, running it on those will **BRICK** your cart!
+    - R4i Gold Plus (r4ids.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.3ds`**:
     - R4i3D (r4i3d.com) - WITHOUT year number, WITHOUT the NEW label, running it on those will **BRICK** your cart!
     - R4i Upgrade (r4i-gold.cc)
