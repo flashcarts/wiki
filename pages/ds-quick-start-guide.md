@@ -25,6 +25,8 @@ purchase_links:
     ]
   - cart: Demon
     links: [
+      ["AliExpress [1; r4isdhc.com]","https://www.aliexpress.com/item/1005009601916566.html"],
+      ["AliExpress [2; r4isdhc.com]","https://www.aliexpress.com/item/1005009661455004.html"],
       ["NDS-Card (r4isdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=490"],
       ["NDS-Card (r4i-sdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=146"]
     ]
@@ -137,9 +139,6 @@ Purchase links:
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
-DEMON carts appear to have disappeared from AliExpress.
-It can still be found on Amazon and eBay if you are looking for a cheaper option to NDS-Card.
-
 {% endcapture %}
 {% assign tab-unhacked-simplified = tab-unhacked-simplified | split: "////////" %}
 
@@ -250,9 +249,6 @@ Purchase links:
 {% for item in page.purchase_links[2].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
-
-DEMON carts appear to have disappeared from AliExpress.
-It can still be found on Amazon and eBay if you are looking for a cheaper option to NDS-Card.
 
 Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/>
 
