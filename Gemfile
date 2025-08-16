@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3", ">= 4.3.4"
+gem "jekyll", "~> 4.4", ">= 4.4.1"
 
 gem "kramdown-parser-gfm", "~>1.1"
 gem "jemoji", "~> 0.13.0"
@@ -25,18 +25,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem 'tzinfo', "~> 1.2"
-  gem "tzinfo-data"
-end
+gem 'tzinfo', '~> 2.0', '>= 2.0.6', platforms: :windows
+gem "tzinfo-data", platforms: :windows
 
-# Removing this will break the site under Arch Linux's provided ruby package (3.0.6-1) as it appears to be missing the json gem.
-gem "json", "~> 2.9", ">= 2.9.1"
-
-# Add gems removed from Ruby 3.4.0 Standard library
-gem "csv", "~> 3.3", ">=3.3.2"
-gem "base64", "~> 0.2.0"
-gem "bigdecimal", "~> 3.1", ">= 3.1.9"
-
-# Add gems removed from Ruby 3.5.0 Standard library
-gem 'logger', '~> 1.6', '>= 1.6.5'
+gem 'wdm', '~> 0.2.0', platforms: :windows
