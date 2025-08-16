@@ -1,11 +1,10 @@
 ---
 ---
-/// use base style
-@use "base" with (
+@use "colours" with (
 	$main-bg: #fff,
 	$main-color: #222,
 	$secondary-bg: #e9e9e9,
-	$header-color: #222 ,
+	$header-color: #222,
 	$borders: #bbb,
 	$borders-hover: #666,
 	$borders-hover-color: #fff,
@@ -45,8 +44,10 @@
 	$light: #f8f9fa,
 	$light-border: #ced4da,
 	$light-placeholder: darkgray,
-	$light-disabled: #e9ecef,
+	$light-disabled: #e9ecef
 );
+
+@use "base";
 
 /// CSS Overrides
 .carousel-dark-when-light .carousel-control-next-icon, .carousel-dark-when-light .carousel-control-prev-icon {

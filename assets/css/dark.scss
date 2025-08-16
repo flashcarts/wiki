@@ -1,7 +1,6 @@
 ---
 ---
-// use base style with different colour values
-@use "base" with (
+@use "colours" with (
 	/// Variables
 	// Main contents
 	$main-bg: #333,
@@ -51,6 +50,7 @@
 	$light-placeholder: #999,
 	$light-disabled: #303030
 );
+@use "base";
 
 /// CSS Overrides
 // Override FAQ accordian chevron color
