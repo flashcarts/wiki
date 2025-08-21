@@ -3,7 +3,7 @@ title: A Quick Guide on GBA Flashcarts
 description: GBA flashcarts, what there is, and what to buy
 tabs:
   - ez-flash-ode: EZ Flash Omega DE
-    ez-flash-omega: EZ Flash Omega
+    ez-flash-air: EZ Flash Air
     everdrive-gba-mini: Everdrive GBA Mini
     supercard-sd: SuperCard SD
 ---
@@ -15,7 +15,7 @@ The below flashcarts are purchasable from AliExpress or reputable retro accessor
 ## Recommended carts
 {% capture tab-ez-flash-ode %}
 ### EZ Flash Omega Definitive Edition
-![EZ Flash ODE](./assets/images/gba_carts/EZFlash_Omega_DE.png){:.float-start .me-3} Premium option with the [best battery life as of revision B](https://www.reddit.com/r/Gameboy/comments/12n4krf/gba_flash_cart_power_consumption_test_ez_flash/). It has some niche features like rumble and Slot-2 DS compatibility for linking. Fixes save issue from regular version. Has a bigger pcb so it doesn't come with the alternative DS Lite shell that the [EZ Flash Omega](?tab=ez-flash-omega) includes. [Mahko made a more indepth post here](https://www.reddit.com/r/Gameboy/comments/kv9y87/after_playing_with_the_new_ezflash_omega/).
+![EZ Flash ODE](./assets/images/gba_carts/EZFlash_Omega_DE.png){:.float-start .me-3} Premium option with the [best battery life as of revision B](https://www.reddit.com/r/Gameboy/comments/12n4krf/gba_flash_cart_power_consumption_test_ez_flash/). It has some niche features like rumble and Slot-2 DS compatibility for linking. Fixes save issue from regular version. Has a bigger pcb so it doesn't come with the alternative DS Lite shell that the EZ Flash Omega included. [Mahko made a more indepth post here](https://www.reddit.com/r/Gameboy/comments/kv9y87/after_playing_with_the_new_ezflash_omega/).
 
 The EZ Flash Omega DE uses a CR1025 battery for it's real-time clock (RTC). The battery itself is not save-critical as the cart uses FRAM instead of SRAM for storing save data. The battery is held in with a battery contact clip, therefore no soldering is required to replace the battery. There isn't any warning to say that the battery is running dry. The only sign that your battery needs replacing is that the RTC resets itself to the default time on each boot.
 
@@ -26,18 +26,29 @@ This cart costs around $80 USD. Purchase links have been provided here though th
 {% endcapture %}
 {% assign tab-ez-flash-ode = tab-ez-flash-ode | split: "////////" %}
 
-{% capture tab-ez-flash-omega %}
-### EZ Flash Omega
-![EZ Flash Omega](./assets/images/gba_carts/EZFlash_Omega_front.png){:.float-start .me-3} The non-premium option with a few shortcomings. It has a notable battery drain in comparison to other flashcarts. After saving, you *must* wait 5-10 seconds before powering off your console as you will risk corrupting the file system otherwise. There is an [activity LED mod](https://www.youtube.com/watch?v=SsPOobvoBe8) available for this cart to help determine when you should turn off your console, however, it does require you to have some soldering skills. Despite these issues, it is a fairly capable flashcart. It also comes with an alternate shell to sit flush in the DS Lite. This would be the best cart for people on a budget, it isn't as limited in what it can do compared to the SuperCard SD and it doesn't cost as much as the premium options. 
+{% capture tab-ez-flash-air %}
+### EZ Flash Air
+![EZ Flash Air](./assets/images/gba_carts/EZFlash_Air.png){:.float-start .me-3} The EZ Flash Air is a new flashcart from EZ Flash which intends to replace the EZ Flash Omega. It is a budget flashcart with a couple of limitations. It is *not* intended to be a successor to the EZ Flash Omega DE. [According to gbasp.ru](https://gbasp.ru/?p=887), EZ Flash discontinued the Omega (Non-DE) due to a shortage of chips.
 
-The EZ Flash Omega uses a CR1220 battery held in with tabs which are soldered to the PCB. As a result, it may be difficult to find and install replacement batteries. If you aren't comfortable soldering a new battery to the cart, it is possible to break the welds of the tabs from the old battery, which will allow you to tape in a new battery. Just be careful to not break the tabs away from the solder joints on the PCB. The cart only uses the battery for the real-time clock (RTC), it is not save-critical. There isn't any warning to say that the battery is running dry. The only sign that your battery needs replacing is that the RTC resets itself to the default time on each boot.
+The EZ Flash Air has a similar PCB design to the EZ Flash Omega DE. Shells intended for the Omega DE can be used with the Air and vice versa. The Air has 4 official shell colours, transparent (base), red, green and blue. The latter three are an optional accessory, you do not have to buy the cart with all 4 shell options. Due to the bigger PCB, it does not have a shell that can fit flush with a DS Lite, which is what the previous Omega included.
+
+Game saves on the Air are handled using SRAM. The downside to this is that the battery is now save-critical. If the battery dies, the SRAM will not be able to retain your save file after the console is powered off. It's a step back compared to the Omega, which was able to write save files straight to the SD card without needing a working battery, even if you had to wait a few seconds for the save to complete. On the flip side, the battery in the Air is easy to replace. It is not soldered in as it was in the Omega, instead, it's held in with a battery clip. Replacing it is as simple as opening the cart up, pushing out the old battery and putting in the new. The battery used is a CR1220.
+
+The major change with the EZ Flash Air was that the PSRAM was removed in favour of a bigger NOR flash. The NOR flash is now 960 Megabits (120 MB), compared to the Omega and Omega DE's smaller 512 Megabits (64 MB). But in turn, games **must** be written to the NOR flash before they can be played. Due to the small size of the NOR flash, you are limited in the number of games you can have stored in it at once. It highly depends on which games you intend to write, but a mixture of 8MB/16MB games could allow for roughly 10 games to be stored. Writing to the NOR flash is also quite slow, with the claimed speed being 256 Megabits (32MB) in 2 minutes. One other point of contention with this is that games can only be deleted from the NOR flash in the reverse order from which they've been written. Say you have four games in the order 1, 2, 3, 4. To delete game 2 from the NOR flash, you must also delete games 3 and 4 which were written *after* game 2. You should carefully consider the order in which games are written to the NOR flash in case you have to delete some of them.
+
+Besides that, it has the usual features you would expect; RTC, cheats and soft-reset are all supported. Though there are a couple of features that the Air lost from the Omega, those being save states and sleep mode, which may be a deciding factor for some people. But it also gains some features from the Omega DE. It has GBA/DS Rumble support and DS-GBA link support, it does *not* have RAM expansion as some resources have suggested. 
+
+For these features to work, there is a switch on the side of the cart which will let you swap between Mode A (Normal flashcart) and Mode B (DS Rumble pak or Link mode - whichever is set). When mode B is set to Link mode, the Air will load the first game written to the NOR flash as a standalone GBA game. Now as mentioned before, you have to delete games in the order of newest to oldest. This means that you must delete *every game* from the NOR flash to change the title accessible in mode B.
+
+This flashcart is still very new, there is little information about it's issues and limitations besides what's been laid out in the [FAQ document](https://www.ezflash.cn/air.pdf). [GBASP has a review on the cart](https://gbasp.ru/ezflashair-en.html) which is worth a read. All in all, it is at least half the price of the Omega DE, and it is also cheaper than what the Omega was being sold for before it's discontinuation. It seems to be an okay flashcart, but most of it's limitations appear to be there to cut costs at the sake of convenience.
 
 #### Purchase Links
 This cart costs about $40-50 USD. Purchase links have been provided here though they may not be the cheapest listings out there:
-- HandHeldLegend: <https://handheldlegend.com/products/ez-flash-omega>
-- Retro Game Repair Shop: <https://retrogamerepairshop.com/products/ez-flash-omega>
+- AliExpress: <https://www.aliexpress.com/item/1005009595508081.html>
+- Retro Game Repair Shop: <https://retrogamerepairshop.com/products/ez-flash-air>
+- Senkogames: <https://senkogames.com/products/ez-flash-air>
 {% endcapture %}
-{% assign tab-ez-flash-omega = tab-ez-flash-omega | split: "////////" %}
+{% assign tab-ez-flash-air = tab-ez-flash-air | split: "////////" %}
 
 {% capture tab-everdrive-gba-mini %}
 ### Everdrive GBA Mini
@@ -54,7 +65,7 @@ This cart costs $99 USD. You can find it on Krikzz website here: <https://krikzz
 
 {% capture tab-supercard-sd %}
 ### SuperCard SD
-![SuperCard MiniSD](./assets/images/gba_carts/SuperCard_MiniSD_Front.png){:.float-start .me-3} The cheapest and worst option. While it offers the least amount of features, it has become an adequate option for those that need a GBA flashcart on a budget thanks to the hard work of custom firmware developers like David G.F. and MetroidManiac. The stock SuperCard firmware requires games to be manually patched with external software, and manual game saving via a menu. With CFW such as SuperFW or SCFW, games are automatically patched on-device, and game saving is taken care of automatically.
+![SuperCard MiniSD](./assets/images/gba_carts/SuperCard_MiniSD_Front.png){:.float-start .me-3} The cheapest budget option. While it offers the least amount of features, it has become an adequate option for those that need a GBA flashcart on a budget thanks to the hard work of custom firmware developers like David G.F. and MetroidManiac. The stock SuperCard firmware requires games to be manually patched with external software, and manual game saving via a menu. With CFW such as SuperFW or SCFW, games are automatically patched on-device, and game saving is taken care of automatically.
 
 Note that to install a custom firmware on the SuperCard SD, you will need to either use a 2GB SD card first to launch the installer from the stock firmware, or a Slot-1 flashcart and a DSL/NDS system on hand.
 
@@ -96,7 +107,7 @@ The SuperCard SD is also being sold under the "REMANK" name. The "REMANK SuperCa
 {% endcapture %}
 {% assign tab-supercard-sd = tab-supercard-sd | split: "////////" %}
 
-{% assign tabs = tab-ez-flash-ode | concat: tab-ez-flash-omega | concat: tab-everdrive-gba-mini | concat: tab-supercard-sd %}
+{% assign tabs = tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-everdrive-gba-mini | concat: tab-supercard-sd %}
 {% include tabs.html index=0 tabs=tabs %}
 
 {% include_relative include/disclaimer.md %}
