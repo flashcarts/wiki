@@ -33,13 +33,19 @@ If they come in branded packaging, the packaging will often be a low-quality pho
 
 <sup>Image from [Everything But Stromboli](https://bulkmemorycards.com/identifying-counterfeit-microsd-cards/)</sup>
 
+**Below is an example of a genuine Sandisk MicroSD card compared to a counterfeit. The font & print quality highlight the differences:**
+
+![Comparison between a genuine Sandisk MicroSD card and a fake Sandisk MicroSD card.](/assets/images/microsd/fake-sandisk-comparison.png){:width="500"}
+
+<sup>Image from [sthetix on X](https://x.com/sthetixofficial/status/1601517821023768576)</sup>
+
 #### Fake capacities and performance
 
-Fake MicroSD cards will often use low-quality flash memory with a spoofed capacity. What will appear as a 512GB MicroSD card on your computer may actually be 64GB instead or maybe even less. Their performance is often quite poor too, not meeting their advertised read and write speeds.
+Fake MicroSD cards will often use low-quality flash memory with a fraudulently spoofed capacity. What will appear as a 512GB MicroSD card on your computer may actually be 64GB instead or maybe even less. Their performance is often quite poor too, not meeting their advertised read and write speeds. Its common these days to see cards marked as 2TB being sold for bargain basement prices, these are absolutely not genuine and users have reported their real capacity being as low as 8GB.
 
 You can test a suspected fake MicroSD card using a variety of tools. These tools will write a data pattern to the MicroSD card and then read it back to confirm that all the data is intact. A MicroSD card with a fake capacity will fail these tests.
 
-- Windows Users: [H2TestW](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) --- [Validrive](https://www.grc.com/validrive.htm) (Validrive is much faster at testing MicroSD card capacities, but is not advised for testing for defective storage).
+- Windows Users: [H2TestW](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) --- [Validrive](https://www.grc.com/validrive.htm) (Validrive is much faster at testing MicroSD cards for capacity fraud, **but is not advised for testing for defective storage**).
 - Mac Users: [F3XSwift](https://github.com/vrunkel/F3XSwift/releases/latest)
 - Linux Users: [F3](https://github.com/AltraMayor/f3/releases/latest)
 
@@ -47,37 +53,41 @@ Looking at the MicroSD card's properties will not reveal the fraud. Similarly, r
 
 [This video](https://www.youtube.com/watch?v=UsWx1iO-aeA) outlines a lot of important information when it comes to counterfeit MicroSD cards and their capacities/performance. It was made back in 2023; however, the information it contains is still true today.
 
+If you want to ensure what you are buying is genuine, try to buy directly from the manufacturer's website or one of their authorised sellers which many list on their website.
+
 ### Fake brands that don't exist
 
 Often called "no-name" or "generic" MicroSD cards, these are MicroSD cards sold under random brand names, sometimes made to sound similar to reputable brands (e.g., "SanDian"). These cards are typically the same as counterfeit cards, encompassing low-quality flash storage and/or a fake capacity and should also be avoided. It's always important to only purchase brands you recognise.
+
+No-name MicroSD cards are commonly included with preloaded Nintendo DS flashcarts and likewise use low quality flash storage and will typically stop working or become defective in a short period of time.
 
 **Below are some examples:**
 
 ![fake SanDian MicroSD card](/assets/images/microsd/sandian-card.png){:width="200"}
 ![fake MicroDrive MicroSD card](/assets/images/microsd/microdrive-card.png){:width="200"}
-![fake Olevo MicroSD card](/assets/images/microsd/oleco-card.png){:width="200"}
+![No-name Unbranded MicroSD card](/assets/images/microsd/generic.png){:width="200"}
 
 ---
 
 ### Brandjacking
 
 Brandjacking is a tactic used by counterfeiters to sell a product fraudulently using the brand of a real company when that brand does not sell the product in question.
-This tactic fools consumers into believing they are buying a name-brand product. This is very common on online marketplaces, such as AliExpress.
+This tactic fools consumers into believing they are buying a name-brand product. This is very common on online marketplaces, such as AliExpress and Amazon.
 
 The below brands **DO NOT** sell MicroSD cards. Any MicroSD cards bearing these brand names are employing brandjacking and are counterfeit:
 
-- Lenovo
 - Xiaomi
 - Mi
 - Huawei (Huawei only sell their own proprietary "NM Card" Memory cards for certain smartphones).
-- Thinkplus
 - Sony (Sony only sell professional/industrial grade SD cards and have discontinued their MicroSD cards).
 
 **Examples of MicroSD cards using brandjacking:**
 
-![fake Lenovo MicroSD card](/assets/images/microsd/lenovo-fake.png){:width="200"}
+![fake Huawei MicroSD card](/assets/images/microsd/huawei-fake.png){:width="200"}
 ![fake Xiaomi MicroSD card](/assets/images/microsd/xiaomi-fake.png){:width="200"} 
 ![fake Sony MicroSD card](/assets/images/microsd/sony-fake.png){:width="200"}
+
+There are some cases where a brand will sell MicroSD cards, but counterfeit cards posing as non-existent models exist on online marketplaces, usually bearing a generic design or the design of another brand. It is advised to check the manufacturer's website to ensure they sell the displayed model if you are unsure.
 
 ---
 
