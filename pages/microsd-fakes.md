@@ -14,7 +14,7 @@ It's important to avoid buying counterfeit MicroSD cards as you may experience d
 - ✓ Always go for name brand MicroSD cards.
 - ✗ Avoid brands you do not recognise.
 - ✓ Check that the MicroSD is a real model the brand sells.
-- ✗ If the price is too good to be true, it probably is.
+- ✗ If the price is too good to be true, it probably is too good to be true.
 
 ---
 
@@ -67,6 +67,8 @@ No-name MicroSD cards are commonly included with preloaded Nintendo DS flashcart
 ![fake MicroDrive MicroSD card](/assets/images/microsd/microdrive-card.png){:width="200"}
 ![No-name Unbranded MicroSD card](/assets/images/microsd/generic.png){:width="200"}
 
+<sup>These examples were spotted on several online marketplaces.</sup>
+
 ---
 
 ### Brandjacking
@@ -86,6 +88,8 @@ The below brands **DO NOT** sell MicroSD cards. Any MicroSD cards bearing these 
 ![fake Huawei MicroSD card](/assets/images/microsd/huawei-fake.png){:width="200"}
 ![fake Xiaomi MicroSD card](/assets/images/microsd/xiaomi-fake.png){:width="200"} 
 ![fake Sony MicroSD card](/assets/images/microsd/sony-fake.png){:width="200"}
+
+<sup>These examples were spotted on several online marketplaces and are all unofficial and will likely have a fake capacity and poor quality memory.</sup>
 
 There are some cases where a brand will sell MicroSD cards, but counterfeit cards posing as non-existent models exist on online marketplaces, usually bearing a generic design or the design of another brand. It is advised to check the manufacturer's website to ensure they sell the displayed model if you are unsure.
 

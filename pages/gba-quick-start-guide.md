@@ -20,9 +20,10 @@ The below flashcarts are purchasable from AliExpress or reputable retro accessor
 The EZ Flash Omega DE uses a CR1025 battery for it's real-time clock (RTC). The battery itself is not save-critical as the cart uses FRAM instead of SRAM for storing save data. The battery is held in with a battery contact clip, therefore no soldering is required to replace the battery. There isn't any warning to say that the battery is running dry. The only sign that your battery needs replacing is that the RTC resets itself to the default time on each boot.
 
 #### Purchase Links
-This cart costs around $80 USD. Purchase links have been provided here though they may not be the cheapest listings out there:
-- AliExpress: <https://www.aliexpress.com/item/1005006734360403.html>
+This cart costs around $90 USD. Purchase links have been provided here though they may not be the cheapest listings out there:
+- Zedlabz: <https://www.zedlabz.com/products/ez-flash-omega-definitive-edition-cartridge-for-game-boy-advance-sp-ez-flash>
 - Retro Game Repair Shop: <https://retrogamerepairshop.com/products/ez-flash-omega-definitive-edition>
+- Senkogames: <https://senkogames.com/products/ez-flash-omega-definitive-edition-gameboy>
 {% endcapture %}
 {% assign tab-ez-flash-ode = tab-ez-flash-ode | split: "////////" %}
 
@@ -30,7 +31,7 @@ This cart costs around $80 USD. Purchase links have been provided here though th
 ### EZ Flash Air
 ![EZ Flash Air](./assets/images/gba_carts/EZFlash_Air.png){:.float-start .me-3} The EZ Flash Air is a budget flashcart which intends to replace the EZ Flash Omega. It is *not* a successor to the EZ Flash Omega DE, but they do share a similar design and shells can be interchanged between the two. The Air comes with a transparent shell, and there is the option to buy official red, green and blue shells too. It does not have the option of a DS Lite shell as the PCB is too big.
 
-The Air uses SRAM for saves, which means the battery is save-critical. If the battery dies, the save file from the current game will be lost upon reboot. This is in contrast to the Omega, which was able to write save files directly to the SD card without needing a battery. Fortunately, the battery in the Air is easy to replace. It is a CR1220 battery held in with a clip, rather than being soldered in place like the Omega.
+The Air uses SRAM for saves, which means the battery is save-critical. If the battery dies, the save file from the current game will be lost upon reboot, This is in contrast to the Omega, which was able to write save files directly to the SD card without needing a battery. Fortunately, the battery in the Air is easy to replace. It is a CR1220 battery held in with a clip, rather than being soldered in place like the Omega.
 
 PSRAM was dropped from the EZ Flash Air in favour of a 960Mbit (120MB) NOR flash, up from the 512Mbit in the Omega/DE. Because of this, games **must** be written to the NOR flash before they can be played. The small size of the NOR flash will also limit the number of games you can store in it at one time. Write speeds to the NOR flash are quite slow, with it taking roughly 2 minutes to write 256Mbits (32MB). When deleting games from the NOR flash, you can only remove them in the reverse order of which they were written. For example, if you have four games stored in the NOR flash and want to delete the second game, you must also delete the two other games written after it.
 
@@ -40,7 +41,7 @@ Information about the Air and it's issues is still quite limited, most of what i
 
 #### Purchase Links
 This cart costs about $40-50 USD. Purchase links have been provided here though they may not be the cheapest listings out there:
-- AliExpress: <https://www.aliexpress.com/item/1005009595508081.html>
+- Zedlabz: <https://www.zedlabz.com/products/ez-flash-air-cartridge-for-game-boy-advance-ez-flash>
 - Retro Game Repair Shop: <https://retrogamerepairshop.com/products/ez-flash-air>
 - Senkogames: <https://senkogames.com/products/ez-flash-air>
 {% endcapture %}
@@ -97,9 +98,11 @@ The SuperCard SD uses SRAM to store save data, so the battery is save-critical (
 
 #### Purchase Links
 This cart costs anywhere between $10-20 USD. A purchase link has been provided but it may not be the cheapest listing out there:
-- AliExpress: <https://www.aliexpress.com/item/1005008147177428.html>
+- AliExpress [1]: <https://www.aliexpress.com/item/1005005016129405.html>
+- AliExpress [2]: <https://www.aliexpress.com/item/1005006706538645.html>
+- AliExpress [3]: <https://www.aliexpress.com/item/1005009435346138.html>
 
-The SuperCard SD is also being sold under the "REMANK" name. The "REMANK SuperCard" is the base SuperCard SD without any firmware modifications. The "REMANK FlashGBACart" is a SuperCard SD pre-flashed with SuperFW. If you were to buy the FlashGBACart variant, we cannot guarantee that it will have the latest SuperFW; it is advised that you check for updates before using the cart.
+The SuperCard SD is also being sold under the "REMANK" name on Aliexpress. The "REMANK SuperCard" is the base SuperCard SD without any firmware modifications. The "REMANK FlashGBACart" is a SuperCard SD pre-flashed with SuperFW. If you were to buy the FlashGBACart variant, we cannot guarantee that it will have the latest SuperFW; it is advised that you check for updates before using the cart. If you are unable to find a 2GB MicroSD card or lack a Slot 1 flashcart to flash an alternative firmware, this is also an option.
 {% endcapture %}
 {% assign tab-supercard-sd = tab-supercard-sd | split: "////////" %}
 
