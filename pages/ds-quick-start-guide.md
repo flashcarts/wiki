@@ -76,7 +76,7 @@ The Ace3DS X is based upon the Ace3DS+ with a switch to use for 3DS ntrboot (see
 
 **Cons**:
 - Poor shell quality, may not fit well in some consoles.
-- Ace Wood R4 kernel lacks anti-piracy patches for a few games.
+- Ace Wood R4 kernel lacks anti-piracy patches for a few games (But has easy workarounds).
 <details markdown="1">
 <summary><b>Resolving Anti-Piracy Issues</b></summary>
 Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://gbatemp.net/threads/488711/) and enable the Anti-Piracy bypass cheat before starting the game.
@@ -95,8 +95,8 @@ It is still available on Amazon and eBay if you are looking for a cheaper option
 ### Ace3DS+/R4iLS Clones
 ![r4isdhc.com.cn R4iLS clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
 
-These carts are clones of the Ace3DS+ and R4iLS that are a cheaper alternative to the Ace3DS X.
-If you're simply looking to play DS games and run homebrew, this is the most recommended option. Usually found as r4isdhc.com.cn carts, or r4isdhc.hk carts with a year number of 2020 or newer inside a star shape.
+These carts are clones of the Ace3DS+ and R4iLS (which are almost identical to each other) that are a cheaper alternative to the Ace3DS X.
+If you're simply looking to play DS games and run homebrew, this is the most recommended option. Usually found as r4isdhc.com.cn carts, as r4isdhc.hk carts with a year number of 2020 or newer inside a star shape, or as unlabeled carts with a red PCB on the back.
 
 **Pros**:
 - Uses the Ace Wood R4 kernel which has great support for ROM hacks and games with DS-Wii connectivity.
@@ -105,7 +105,7 @@ If you're simply looking to play DS games and run homebrew, this is the most rec
 
 **Cons**:
 - Poor shell quality, may not fit well in some consoles.
-- Ace Wood R4 kernel lacks anti-piracy patches for a few games.
+- Ace Wood R4 kernel lacks anti-piracy patches for a few games (But has easy workarounds).
 <details markdown="1">
 <summary><b>Resolving Anti-Piracy Issues</b></summary>
 Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://gbatemp.net/threads/488711/) and enable the Anti-Piracy bypass cheat before starting the game.
@@ -123,7 +123,7 @@ This cart is also available on Amazon and eBay if Aliexpress is not available. B
 ### DSTTi "DEMON" Clones
 ![r4isdhc.com gold cart](/assets/images/ds_carts/r4isdhc_com_front.png)
 
-These are clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". These carts are still a decent choice if the Ace3DS X or Ace3DS+ is not available to you. Usually found as r4i-sdhc.com or r4isdhc.com (not .hk) 2014+ carts, branded as Gold Pro, RTS Lite and Dual Core. (There is no difference in hardware between them, only color/label differences)
+These are a clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". These carts are still a decent choice if the Ace3DS X or Ace3DS+ is not available to you. Usually found as r4i-sdhc.com or r4isdhc.com (not .hk) 2014+ carts, branded as Gold Pro, RTS Lite and Dual Core. (There is no difference in hardware between them, only color/label differences)
 
 **Pros**:
 - Higher quality shell then the Ace3DS+/X & R4iLS carts and generally fits better in most consoles.
@@ -199,7 +199,7 @@ Multiple variations of this cart exist, and they're all clones of the Ace3DS+ or
 ![208 in 1 cart](/assets/images/ds_carts/208in1.png)
 ![Ace3DS+ unlabeled](/assets/images/ds_carts/ace3ds-nolabel.png)
 
-These carts are sold under a variety of brandings. The 2020 and later carts labeled as r4isdhc**.com.cn** and r4isdhc**.hk** are R4iLS clones. "208-in-1" and unlabeled carts are Ace3DS+ or R4iLS clones. All of these carts will perform the same and use the same kernel, so choose whichever label style you like.
+These carts are sold under a variety of brandings. The 2020 and later carts labeled as r4isdhc**.com.cn** and r4isdhc**.hk** are R4iLS clones. "208-in-1" and unlabeled carts with a red PCB are Ace3DS+ or R4iLS clones. All of these carts will perform the same and use the same kernel, so choose whichever label style you like.
 
 **Warning regarding r4isdhc.hk variant:** Not all carts labeled with the r4isdhc.hk URL are R4iLS/Ace3DS+ clones. If you choose to buy this variant, look out for the following characteristics to make sure you get the correct cart:
 
