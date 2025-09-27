@@ -78,7 +78,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.DL`**:
     - All carts from r4idsxl.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.dat`**:
-    - R4i Gold Upgrade 1.14b (r4igold.cn)
+    - R4i Gold V1.4 (r4igold.cn)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `u2ds.dat`**:
     - U2DS from u2ds.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `n5i.dat`**:
