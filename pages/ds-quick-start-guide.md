@@ -12,6 +12,7 @@ tabs:
 purchase_links:
   - cart: Ace3DS-X
     links: [
+      ["AliExpress [NDS-Card's store - cheaper]","https://www.aliexpress.com/item/1005009800358215.html"],
       ["NDS-Card","https://www.nds-card.com/ProShow.asp?ProID=575"],
     ]
   - cart: R4iLS
@@ -28,6 +29,7 @@ purchase_links:
       ["AliExpress [1; r4isdhc.com]","https://www.aliexpress.com/item/1005009674460335.html"],
       ["AliExpress [2; r4isdhc.com] - Choose \"gold-No-SD\"","https://www.aliexpress.com/item/1005009793763624.html"],
       ["AliExpress [3; r4isdhc.com - EU ONLY]","https://www.aliexpress.com/item/1005009801700665.html"],
+      ["AliExpress [4; r4isdhc.com - EU ONLY]","https://www.aliexpress.com/item/1005009805680395.html"],
       ["NDS-Card (r4isdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=490"],
       ["NDS-Card (r4i-sdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=146"]
     ]
