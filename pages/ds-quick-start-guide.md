@@ -12,7 +12,8 @@ tabs:
 purchase_links:
   - cart: Ace3DS-X
     links: [
-      ["AliExpress [NDS-Card's store - cheaper]","https://www.aliexpress.com/item/1005009800358215.html"],
+      ["AliExpress [1] - Does not ship to the US!","https://www.aliexpress.com/item/1005010334610371.html"],
+      ["AliExpress [NDS-Card]","https://www.aliexpress.com/item/1005009800358215.html"],
       ["NDS-Card","https://www.nds-card.com/ProShow.asp?ProID=575"],
     ]
   - cart: R4iLS
@@ -90,9 +91,6 @@ Purchase links:
 {% for item in page.purchase_links[0].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
-
-The Ace3DS X appears to have disappeared from AliExpress. 
-It is still available on Amazon and eBay if you are looking for a cheaper option to NDS-Card. Be sure to shop around to find the best price.
 
 ### Ace3DS+/R4iLS Clones
 ![r4isdhc.com.cn R4iLS clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
@@ -173,9 +171,6 @@ Purchase links:
 {% for item in page.purchase_links[0].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
-
-The Ace3DS X appears to have disappeared from AliExpress.
-It is still available on Amazon and eBay if you are looking for a cheaper option to NDS-Card. Be sure to shop around to find the best price.
 
 Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/>
 
