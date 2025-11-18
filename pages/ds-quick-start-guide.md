@@ -18,7 +18,7 @@ purchase_links:
     ]
   - cart: R4iLS
     links: [
-      ["AliExpress [1]","https://www.aliexpress.com/item/1005006045593536.html"],
+      ["AliExpress [1] - Does not ship to the US!","https://www.aliexpress.com/item/1005006045593536.html"],
       ["AliExpress [2]","https://www.aliexpress.com/item/1005010140376791.html"],
       ["AliExpress [3]","https://www.aliexpress.com/item/1005010140611313.html"],
       ["AliExpress [4; r4isdhc.com.cn - USA ONLY]","https://www.aliexpress.com/item/1005008830236796.html"],
@@ -30,7 +30,7 @@ purchase_links:
       ["AliExpress [1; r4isdhc.com]","https://www.aliexpress.com/item/1005009674460335.html"],
       ["AliExpress [2; r4isdhc.com]", "https://www.aliexpress.com/item/1005010094680725.html"],
       ["AliExpress [3; r4isdhc.com] - Choose \"gold-No-SD\"","https://www.aliexpress.com/item/1005009793763624.html"],
-      ["AliExpress [4; r4isdhc.com - EU ONLY]","https://www.aliexpress.com/item/1005009801700665.html"],
+      ["AliExpress [4; r4isdhc.com - Does not ship to the US!]","https://www.aliexpress.com/item/1005009801700665.html"],
       ["NDS-Card (r4isdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=490"],
       ["NDS-Card (r4i-sdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=146"]
     ]
