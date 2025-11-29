@@ -7,6 +7,8 @@ This page aims to detail the issues surrounding counterfeit MicroSD cards, as we
 
 It's important to avoid buying counterfeit MicroSD cards as you may experience data loss & slow performance.
 
+**All information on this page generally also applies to full size SD cards.**
+
 ## (Overview) Checklist to avoid fake MicroSD Cards
 
 - ✓ Always buy from a well known trusted retailer (Some brands also operate their own online stores).
