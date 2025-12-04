@@ -2,6 +2,7 @@
 title: Pico Launcher Builds
 launcher_ver: v1.0.0
 loader_ver: v1.1.0
+fcnetrev: 0
 downloads: [
     ["Ace3DS+", "pico_package_ACE3DS.zip"],
     ["Acekard 2", "pico_package_AK2.zip"],
@@ -31,6 +32,7 @@ If you spot an issue with the packages provided, please [open an issue here firs
 Each package below contains Pico Launcher {{ page.launcher_ver }} and Pico Loader {{ page.loader_ver }}.
 
 {% for item in page.downloads %}
-{% assign download_link = "https://picoarchive.cdn.blobfrii.com/" | append: item[1] %}
- - {{ item[0] }} - [{{ item[1] }}]({{ download_link }})
+{% assign download_link = "https://picoarchive.cdn.blobfrii.com/" | append: item[1] | append: "?picoloader=" 
+| append: page.loader_ver | append: "&picolauncher=" |append: page.launcher_ver %}
+ - {{ item[0] }} - [{{ item[1] }}]({% if page.fcnetrev > 0 %}{{ download_link | append: "&fcnetrev=" | append: page.fcnetrev}}{% else %}{{download_link}}{%endif%})
 {% endfor %}
