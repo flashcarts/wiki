@@ -1,13 +1,14 @@
 ---
 title: Pico Launcher Builds
 launcher_ver: v1.0.0
-loader_ver: v1.0.1
+loader_ver: v1.1.0
 downloads: [
     ["Ace3DS+", "pico_package_ACE3DS.zip"],
     ["Acekard 2", "pico_package_AK2.zip"],
     ["Acekard R.P.G.", "pico_package_AKRPG.zip"],
     ["DSpico", "pico_package_DSPICO.zip"],
     ["DSTT", "pico_package_DSTT.zip"],
+    ["EZ Flash Parallel", "pico_package_EZP.zip"],
     ["M3i Zero GMP-Z003", "pico_package_G003.zip"],
     ["Gateway Blue", "pico_package_GWBLUE.zip"],
     ["M3DS Real", "pico_package_M3DS.zip"],
