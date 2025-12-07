@@ -31,5 +31,5 @@ Each package below contains Pico Launcher {{ site.data.pico_ver.launcher_ver }} 
 {% for item in page.downloads %}
 {% assign cdn = "https://picoarchive.cdn.blobfrii.com/" %}
 {% assign pico_data = site.data.pico_ver %}
- - {{ item[0] }} - [{{ item[1] }}]({{cdn}}{{item[1]}}?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}{% if pico_data.fcnetrev > 0 %}&fcnetrev={{pico_data.fcnetrev}}{%endif%})
+ - {{ item[0] }} - [{{ item[1] }}]({{cdn}}{{item[1]}}?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}&fcnetrev={{pico_data.fcnetrev}})
 {% endfor %}
