@@ -16,11 +16,11 @@ downloads: [
     ["SuperCard (Slot-2)", "pico_package_SUPERCARD.zip"]
 ]
 ---
-On this page you will find builds of Pico Launcher, alongside it's loader, Pico Loader. 
+On this page you will find builds of Pico Launcher, alongside it's loader, Pico Loader.  
 These packages are specific to each flashcart family, so it is important that you choose the correct build.
 {:.alert .alert-info}
 
-Note that these builds are **unofficial** and in no way are affiliated with the LNH-team. 
+Note that these builds are **unofficial** and in no way are affiliated with the LNH-team.  
 If you spot an issue with the packages provided, please [open an issue here first](https://github.com/flashcarts/pico-builder).
 {:.alert .alert-danger}
 
