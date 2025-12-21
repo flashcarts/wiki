@@ -6,7 +6,6 @@ downloads: [
     ["Acekard R.P.G.", "pico_package_AKRPG.zip"],
     ["DSpico", "pico_package_DSPICO.zip"],
     ["DSTT", "pico_package_DSTT.zip"],
-    ["EZ Flash Parallel", "pico_package_EZP.zip"],
     ["M3i Zero GMP-Z003", "pico_package_G003.zip"],
     ["Gateway Blue", "pico_package_GWBLUE.zip"],
     ["M3DS Real", "pico_package_M3DS.zip"],
