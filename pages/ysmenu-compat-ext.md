@@ -19,7 +19,6 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - All carts from nds-tti.com
     - All carts from dstt-adv.com
     - All carts from r4ill-net.com
-    - All carts from r4dsll.com
     - All carts from r4top.com
     - All carts from pk3ds.com
     - All carts from r4i-best.com - Green cart is not supported - (If this fails, use DEMON section below)
@@ -98,6 +97,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - All r4i-gold.hk carts
     - Most r4i-sdhc.hk carts
     - r4i-kungfu.com RTS Lite carts
+    - All carts from r4dsll.com
 
 #### DEMON DSTTi Clones
 ##### These are DSTTi clone carts that expect an encrypted `R4.dat` boot file.
