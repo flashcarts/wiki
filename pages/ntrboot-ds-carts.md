@@ -58,6 +58,19 @@ It doesn't matter whether you get the Gold Pro, or the Dual Core, or any other c
 R4iSDHC.com 2014+ flashcarts support both 3DS and DSi ntrboot.
 
 ### Purchase links and kernel downloads
+
+{:.alert .alert-danger}
+**There have been reports of users buying DSTTi "DEMON" Clones and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Ace3DS+/R4iLS Clones are not compatible with ntrboot! Please excercise caution when purchasing and sort reviews by latest.**
+
+<details markdown="1">
+<summary><b>What to look for in user reviews</b></summary>
+- Check to see if user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
+- Check latest user reviews to see if the cart has a **Red PCB**, shows "Could not find _DSMENU.DAT" or has an "Ace3DS" interface. This also means a relabeled R4iLS clone.
+
+
+![DEMON and R4iLS Cart Comparison](/assets/images/ds_carts/demonr4ils.png){:width="600"}
+</details>
+
 These usually cost around $5-10 USD. Searching for "r4 gold pro" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
 
 {% for item in ds-qsg-reference[0].purchase_links[2].links %}

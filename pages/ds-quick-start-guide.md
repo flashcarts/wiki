@@ -18,7 +18,7 @@ purchase_links:
     ]
   - cart: R4iLS
     links: [
-      ["AliExpress [1] - Does not ship to the US!","https://www.aliexpress.com/item/1005006045593536.html"],
+      ["AliExpress [1]","https://www.aliexpress.com/item/1005006045593536.html"],
       ["AliExpress [2]","https://www.aliexpress.com/item/1005010140376791.html"],
       ["AliExpress [3]","https://www.aliexpress.com/item/1005010140611313.html"],
       ["AliExpress [4; r4isdhc.com.cn - USA ONLY]","https://www.aliexpress.com/item/1005008830236796.html"],
@@ -124,6 +124,18 @@ This cart is also available on Amazon and eBay if Aliexpress is not available. B
 ![r4isdhc.com gold cart](/assets/images/ds_carts/r4isdhc_com_front.png)
 
 These are a clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". These carts are still a decent choice if the Ace3DS X or Ace3DS+ is not available to you. Usually found as r4i-sdhc.com or r4isdhc.com (not .hk) 2014+ carts, branded as Gold Pro, RTS Lite and Dual Core. (There is no difference in hardware between them, only color/label differences)
+
+{:.alert .alert-danger}
+**There have been reports of users buying DSTTi "DEMON" Clones and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Please excercise caution when purchasing and sort reviews by latest.**
+
+<details markdown="1">
+<summary><b>What to look for in user reviews</b></summary>
+- Check to see if user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
+- Check latest user reviews to see if the cart has a **Red PCB**, shows "Could not find _DSMENU.DAT" or has an "Ace3DS" interface. This also means a relabeled R4iLS clone.
+
+
+![DEMON and R4iLS Cart Comparison](/assets/images/ds_carts/demonr4ils.png){:width="600"}
+</details>
 
 **Pros**:
 - Higher quality shell then the Ace3DS+/X & R4iLS carts and generally fits better in most consoles.
@@ -240,6 +252,19 @@ There is a lot of misinformation surrounding timebombs and what they do. See our
 ![Unlabelled timebomb clone](/assets/images/ds_carts/timebomb_back.png)
 
 #### Obtaining and Setup
+
+{:.alert .alert-danger}
+**There have been reports of users buying DSTTi "DEMON" Clones and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Please excercise caution when purchasing and sort reviews by latest.**
+
+<details markdown="1">
+<summary><b>What to look for in user reviews</b></summary>
+- Check to see if user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
+- Check latest user reviews to see if the cart has a **Red PCB**, shows "Could not find _DSMENU.DAT" or has an "Ace3DS" interface. This also means a relabeled R4iLS clone.
+
+
+![DEMON and R4iLS Cart Comparison](/assets/images/ds_carts/demonr4ils.png){:width="600"}
+</details>
+
 This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**, or if you need a flashcart for DSi ntrboot. Usually costs $5-10 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart.
 
 Links to AliExpress & NDS-Card are provided below, but they may not be the cheapest option as they're one of many listings:
