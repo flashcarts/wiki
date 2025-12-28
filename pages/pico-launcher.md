@@ -12,6 +12,7 @@ downloads: [
     ["Original R4/M3 Simply", "pico_package_R4.zip"],
     ["R4DS Pro", "pico_package_R4DSPRO.zip"],
     ["R4iDSN", "pico_package_R4iDSN.zip"],
+    ["Stargate 3DS", "pico_package_STARGATE.zip"],
     ["SuperCard (Slot-2)", "pico_package_SUPERCARD.zip"]
 ]
 ---
