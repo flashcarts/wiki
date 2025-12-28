@@ -126,11 +126,11 @@ This cart is also available on Amazon and eBay if Aliexpress is not available. B
 These are a clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". These carts are still a decent choice if the Ace3DS X or Ace3DS+ is not available to you. Usually found as r4i-sdhc.com or r4isdhc.com (not .hk) 2014+ carts, branded as Gold Pro, RTS Lite and Dual Core. (There is no difference in hardware between them, only color/label differences)
 
 {:.alert .alert-danger}
-**There have been reports of users buying DSTTi "DEMON" Clones and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Please excercise caution when purchasing and sort reviews by latest.**
+**There have been reports of users buying DSTTi "DEMON" carts and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Please excercise caution when purchasing and sort reviews by latest.**
 
 <details markdown="1">
 <summary><b>What to look for in user reviews</b></summary>
-- Check to see if user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
+- Check to see if the latest user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
 - Check latest user reviews to see if the cart has a **Red PCB**, shows "Could not find _DSMENU.DAT" or has an "Ace3DS" interface. This also means a relabeled R4iLS clone.
 
 
@@ -254,11 +254,11 @@ There is a lot of misinformation surrounding timebombs and what they do. See our
 #### Obtaining and Setup
 
 {:.alert .alert-danger}
-**There have been reports of users buying DSTTi "DEMON" Clones and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Please excercise caution when purchasing and sort reviews by latest.**
+**There have been reports of users buying DSTTi "DEMON" carts and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Please excercise caution when purchasing and sort reviews by latest.**
 
 <details markdown="1">
 <summary><b>What to look for in user reviews</b></summary>
-- Check to see if user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
+- Check to see if the latest user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
 - Check latest user reviews to see if the cart has a **Red PCB**, shows "Could not find _DSMENU.DAT" or has an "Ace3DS" interface. This also means a relabeled R4iLS clone.
 
 

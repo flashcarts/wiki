@@ -60,11 +60,11 @@ R4iSDHC.com 2014+ flashcarts support both 3DS and DSi ntrboot.
 ### Purchase links and kernel downloads
 
 {:.alert .alert-danger}
-**There have been reports of users buying DSTTi "DEMON" Clones and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Ace3DS+/R4iLS Clones are not compatible with ntrboot! Please excercise caution when purchasing and sort reviews by latest.**
+**There have been reports of users buying R4iSDHC.com 2014+ carts and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like the former. Ace3DS+/R4iLS Clones are not compatible with ntrboot! Please excercise caution when purchasing and sort reviews by latest.**
 
 <details markdown="1">
 <summary><b>What to look for in user reviews</b></summary>
-- Check to see if user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
+- Check to see if the latest user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
 - Check latest user reviews to see if the cart has a **Red PCB**, shows "Could not find _DSMENU.DAT" or has an "Ace3DS" interface. This also means a relabeled R4iLS clone.
 
 
