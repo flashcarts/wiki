@@ -4,6 +4,7 @@ downloads: [
     ["Ace3DS+", "pico_package_ACE3DS.zip"],
     ["Acekard 2", "pico_package_AK2.zip"],
     ["Acekard R.P.G.", "pico_package_AKRPG.zip"],
+    ["Datel [1]","pico_package_DATEL.zip"],
     ["DSpico", "pico_package_DSPICO.zip"],
     ["DSTT", "pico_package_DSTT.zip"],
     ["M3i Zero GMP-Z003", "pico_package_G003.zip"],
@@ -33,3 +34,7 @@ Each package below contains Pico Launcher {{ site.data.pico_ver.launcher_ver }} 
 {% assign pico_data = site.data.pico_ver %}
  - {{ item[0] }} - [{{ item[1] }}]({{cdn}}{{item[1]}}?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}&fcnetrev={{pico_data.fcnetrev}})
 {% endfor %}
+
+#### Footnotes
+
+\[1\] - It is recommended that edo9300's Games 'n' Music custom firmware is installed before using pico-loader. It adds support for SDHC cards and auto DLDI patching for homebrew: <https://github.com/edo9300/games-n-music-custom>
