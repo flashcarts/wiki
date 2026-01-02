@@ -12,7 +12,6 @@ tabs:
 purchase_links:
   - cart: Ace3DS-X
     links: [
-      ["AliExpress [1] - Does not ship to the US!","https://www.aliexpress.com/item/1005010334610371.html"],
       ["AliExpress [NDS-Card]","https://www.aliexpress.com/item/1005009800358215.html"],
       ["NDS-Card","https://www.nds-card.com/ProShow.asp?ProID=575"],
     ]
@@ -21,16 +20,11 @@ purchase_links:
       ["AliExpress [1]","https://www.aliexpress.com/item/1005006045593536.html"],
       ["AliExpress [2]","https://www.aliexpress.com/item/1005010140376791.html"],
       ["AliExpress [3]","https://www.aliexpress.com/item/1005010140611313.html"],
-      ["AliExpress [4; r4isdhc.com.cn - USA ONLY]","https://www.aliexpress.com/item/1005008830236796.html"],
       ["NDS-Card (Ace3DS+)","https://nds-card.com/ProShow.asp?ProID=511"],
       ["NDS-Card (R4iLS)","https://www.nds-card.com/ProShow.asp?ProID=507"]
     ]
   - cart: Demon
     links: [
-      ["AliExpress [1; r4isdhc.com]","https://www.aliexpress.com/item/1005009674460335.html"],
-      ["AliExpress [2; r4isdhc.com]", "https://www.aliexpress.com/item/1005010094680725.html"],
-      ["AliExpress [3; r4isdhc.com] - Choose \"gold-No-SD\"","https://www.aliexpress.com/item/1005009793763624.html"],
-      ["AliExpress [4; r4isdhc.com - Does not ship to the US!]","https://www.aliexpress.com/item/1005009801700665.html"],
       ["NDS-Card (r4isdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=490"],
       ["NDS-Card (r4i-sdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=146"]
     ]
@@ -126,7 +120,7 @@ This cart is also available on Amazon and eBay if Aliexpress is not available. B
 These are a clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones". These carts are still a decent choice if the Ace3DS X or Ace3DS+ is not available to you. Usually found as r4i-sdhc.com or r4isdhc.com (not .hk) 2014+ carts, branded as Gold Pro, RTS Lite and Dual Core. (There is no difference in hardware between them, only color/label differences)
 
 {:.alert .alert-danger}
-**There have been reports of users buying DSTTi "DEMON" carts and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Please excercise caution when purchasing and sort reviews by latest.**
+**There have been reports of users buying DSTTi "DEMON" carts from AliExpress and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. If you are looking to purchase a DEMON cart, we would recommend getting one from NDS-Card at the moment.**
 
 <details markdown="1">
 <summary><b>What to look for in user reviews</b></summary>
@@ -254,7 +248,7 @@ There is a lot of misinformation surrounding timebombs and what they do. See our
 #### Obtaining and Setup
 
 {:.alert .alert-danger}
-**There have been reports of users buying DSTTi "DEMON" carts and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. Please excercise caution when purchasing and sort reviews by latest.**
+**There have been reports of users buying DSTTi "DEMON" carts from AliExpress and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like a DEMON cart. If you are looking to purchase a DEMON cart, we would recommend getting one from NDS-Card at the moment.**
 
 <details markdown="1">
 <summary><b>What to look for in user reviews</b></summary>

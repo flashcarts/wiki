@@ -29,3 +29,5 @@ gem 'tzinfo', '~> 2.0', '>= 2.0.6', platforms: :windows
 gem "tzinfo-data", platforms: :windows
 
 gem 'wdm', '~> 0.2.0', platforms: :windows
+
+gem 'logger', '~> 1.7'

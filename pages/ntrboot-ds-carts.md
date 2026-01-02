@@ -60,7 +60,7 @@ R4iSDHC.com 2014+ flashcarts support both 3DS and DSi ntrboot.
 ### Purchase links and kernel downloads
 
 {:.alert .alert-danger}
-**There have been reports of users buying R4iSDHC.com 2014+ carts and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like the former. Ace3DS+/R4iLS Clones are not compatible with ntrboot! Please excercise caution when purchasing and sort reviews by latest.**
+**There have been reports of users buying R4iSDHC.com 2014+ carts from AliExpress and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like the former. Ace3DS+/R4iLS Clones are not compatible with ntrboot! If you are looking to purchase this cart, we would recommend getting one from NDS-Card at the moment.**
 
 <details markdown="1">
 <summary><b>What to look for in user reviews</b></summary>
