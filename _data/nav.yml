@@ -8,17 +8,11 @@
   url: https://archive.flashcarts.net/
 - title: Other Pages
   items:
-    - title: Atari Jaguar Flashcarts
-      url: atari-jaguar
-    - title: Mega Drive Flashcarts
-      url: mega-drive
+    - title: Counterfeit MicroSD Cards
+      url: microsd-fakes
     - title: NTRBoot Quick Start Guide
       url: ntrboot-ds-carts
-    - title: Pokémon Mini Flashcarts
-      url: pokemini
-    - title: Sega 32X Flashcarts
-      url: sega-32x
-    - title: Super Game Boy Flashcarts
-      url: super-gb
+    - title: Pico Launcher Builds
+      url: pico-launcher
     - title: YSMenu compatibility list
       url: ysmenu-compat-ext
