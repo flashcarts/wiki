@@ -1,6 +1,14 @@
 ---
 title: Counterfeit MicroSD Cards
 description: Details about Counterfeit MicroSD Cards
+tabs:
+    - windows: Windows
+      mac: MacOS
+      linux: Linux
+    - validrive: Validrive
+      h2testw: H2TestW
+    - f3probe: F3 Probe
+      f3rw: F3 Read/Write
 ---
 
 This page aims to detail the issues surrounding counterfeit MicroSD cards, as well as MicroSD cards sold under the brand name of real companies that do not sell MicroSD cards (known as "brandjacking").
@@ -45,11 +53,10 @@ If they come in branded packaging, the packaging will often be a low-quality pho
 
 Fake MicroSD cards will often use low-quality flash memory with a fraudulently spoofed capacity. What will appear as a 512GB MicroSD card on your computer may actually be 64GB instead or maybe even less. Their performance is often quite poor too, not meeting their advertised read and write speeds. Its common these days to see cards marked as 2TB being sold for bargain basement prices, these are absolutely not genuine and users have reported their real capacity being as low as 8GB.
 
-You can test a suspected fake MicroSD card using a variety of tools. These tools will write a data pattern to the MicroSD card and then read it back to confirm that all the data is intact. A MicroSD card with a fake capacity will fail these tests.
+You can test a suspected fake MicroSD card using a variety of tools. These tools will write a data pattern to the MicroSD card and then read it back to confirm that all the data is intact. A MicroSD card with a fake capacity will fail these tests. You can find instructions on how to use these tools in the [`Testing a MicroSD card`](#testing-a-microsd-card) section at the bottom of this page.
 
 - Windows Users: [H2TestW](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) --- [Validrive](https://www.grc.com/validrive.htm) (Validrive is much faster at testing MicroSD cards for capacity fraud, **but is not advised for testing for defective storage**).
-- Mac Users: [F3XSwift](https://github.com/vrunkel/F3XSwift/releases/latest)
-- Linux Users: [F3](https://github.com/AltraMayor/f3/releases/latest)
+- Mac OS and Linux Users: [F3](https://github.com/AltraMayor/f3/)
 
 Looking at the MicroSD card's properties will not reveal the fraud. Similarly, reformatting or repartitioning a fake MicroSD card will not "fix" its capacity. The card has specifically been manufactured to always show its fake capacity. It cannot write data past its real capacity and thus should not be trusted with important data. Even if you know its real capacity, you cannot guarantee that your data is safe.
 
@@ -111,5 +118,215 @@ There are various ways to ensure you are getting a genuine product.
     - Kioxia (Formerly Toshiba): [Authorised Sellers](https://europe.kioxia.com/en-europe/personal/support/buy.html)
     - This isn't a complete list, it is here to serve as an example.
 - If you are buying from Amazon, ensure the product listing states that it is both "Sold" and "Shipped" by Amazon. "Fulfilled by Amazon" but sold by a different seller does not guarantee you will get a genuine product.
+
+---
+
+### Testing a MicroSD card
+
+This section contains instructions on testing your MicroSD card for fake storage. Select the operating system you are using below to find specific instructions for your machine.
+
+{% capture tab-windows %}
+
+## Windows
+
+{% capture tab-validrive %}
+
+### ValiDrive
+
+ValiDrive can perform spot-checks on storage devices to verify whether or not the capacity they report is genuine. It is *very* fast in determining if a device has fake storage attached to it. However, it will often not catch cases where the reported capacity is real, but the storage is defective in some way. If you are looking to test for defective storage rather than fake storage capacities, you should follow the `H2TestW` instructions instead.
+
+1. Download ValiDrive from GRC's website: <https://www.grc.com/validrive.htm>
+2. Once it has finished downloading, open ValiDrive and give it administrator privileges when prompted.
+3. Click the `Check USB Drive` button, then insert your MicroSD card when it tells you to.
+4. Wait for the test to complete.
+
+Here is an example of the ValiDrive results obtained from a genuine storage device:
+
+![Good ValiDrive map](/assets/images/microsd/validrive-good.png) 
+
+Real, functional storage will only show green squares in the results. If there are any blue, red, or yellow squares shown in the results from ValiDrive, the storage device being tested is likely to be fake/defective and therefore should not be used. An example of the results obtained from a fake storage device can also be seen in the image below:
+
+![Bad ValiDrive map](/assets/images/microsd/validrive-fake.png)
+
+<small>Images taken from the [ValiDrive homepage](https://www.grc.com/validrive.htm)</small>
+
+{% endcapture %}
+{% assign tab-validrive = tab-validrive | split: "////////" %}
+
+{% capture tab-h2testw %}
+
+### H2TestW
+
+H2TestW works by first filling up the free space of a storage device with test data. Then it will verify that the test data can be read back correctly. It is far slower than ValiDrive at identifying fake storage. It is better suited for cases where the reported storage capacity is real, but the storage itself is defective.
+
+1. Download H2TestW from it's official website: <https://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip>
+2. Once it has finished downloading, open H2TestW. You may wish to change the language at this point.
+3. Click `Select target` and choose to use your SD card.
+4. Ensure that `all available space` is selected, then click `Write + Verify`.
+5. Wait for the tests to complete. This will take a while.
+
+If the test finishes without errors, the storage device should be good to use. However, if the progress bar turns red and data is marked as having been lost, the storage device is fake and/or defective and should not be used.
+
+{% endcapture %}
+{% assign tab-h2testw = tab-h2testw | split: "////////" %}
+
+{% assign tabs-win = tab-validrive | concat: tab-h2testw %}
+{% include tabs.html index=1 tabs=tabs-win %}
+
+{% endcapture %}
+{% assign tab-windows = tab-windows | split: "////////" %}
+
+{% capture tab-mac %}
+## Mac OS
+
+### F3
+
+F3 includes two programs known as `f3read` and `f3write`. They both work in a similar manner to H2TestW on Windows. `f3write` is first used to fill up the free space of a storage device with 1GB files. `f3read` will verify that it can read in the data from those files correctly.
+
+{:start="0"}
+0. Install F3 using either [Homebrew](https://brew.sh/) (`brew install f3`) or [MacPorts](https://guide.macports.org/) (`port install f3`).
+1. Insert the MicroSD card to be tested into your computer.
+2. Backup and remove all of the data stored on the MicroSD card so that the full storage capacity of it can be tested.
+3. Run `f3write /Volumes/<SD card name>` in a terminal and wait for the process to complete. This may take a while.
+4. Once f3write is finished, run `f3read /Volumes/<SD card name>` in a terminal. This may also take a while to complete.
+
+Here is an example of the results obtained from testing a genuine MicroSD card:
+
+```
+$ f3read /Volumes/SD\ CARD
+F3 read 9.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+                  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+Validating file 2.h2w ... 2097152/        0/      0/      0
+Validating file 3.h2w ... 2097152/        0/      0/      0
+[...]
+Validating file 28.h2w ... 2097152/        0/      0/      0
+Validating file 29.h2w ... 2097152/        0/      0/      0
+Validating file 30.h2w ...  229312/        0/      0/      0
+
+  Data OK: 29.11 GB (61046720 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 89.22 MB/s
+```
+
+If there is any data marked as having been lost, you should replace the MicroSD card as it is either fake, or is dying and should not be used. If everything is OK, you can delete all of the `*.h2w` files from the MicroSD card and use it as you normally would.
+
+{% endcapture %}
+{% assign tab-mac = tab-mac | split: "////////" %}
+
+{% capture tab-linux %}
+
+## Linux
+
+{% capture tab-f3probe %}
+
+### F3 Probe
+
+`f3probe` is one of the extra programs that F3 provides. It can be used to quickly determine if a storage device is faking it's real capacity. If you are looking to test for defective storage rather than fake storage capacities, you should follow the `F3 Read/Write` instructions instead.
+
+**Note:** You must run this tool as root in order for it to work!
+
+{:start="0"}
+0. Install F3 using your distribution's package manager.
+    - If F3 is not available in the distro’s package repositories, you should compile F3 from source instead. You can find the instructions to do this here: <https://github.com/AltraMayor/f3> - ensure that you compile the extra applications too as that is required for `f3probe`.
+1. Insert the MicroSD card to be tested into your computer.
+2. Run `f3probe /dev/<device>` in a terminal as root.
+    - If you get an error stating that you have run out of memory, run `f3probe --min-memory /dev/<device>` instead.
+    - If the error persists, backup all of the data on the storage device, then run `f3probe --destructive /dev/<device>`. It is *essential* that you backup the data stored on the device beforehand as this will, as the option implies, destroy it.
+3. Wait for the test to complete.
+
+Here is an example of the results obtained from testing a genuine MicroSD card:
+
+```
+# f3probe /dev/sdb
+F3 probe 9.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+WARNING: Probing normally takes from a few seconds to 15 minutes, but
+         it can take longer. Please be patient.
+
+Probe finished, recovering blocks... Done
+
+Good news: The device `/dev/sdb' is the real thing
+
+Device geometry:
+                 *Usable* size: 29.12 GB (61071360 blocks)
+                Announced size: 29.12 GB (61071360 blocks)
+                        Module: 32.00 GB (2^35 Bytes)
+        Approximate cache size: 0.00 Byte (0 blocks), need-reset=no
+           Physical block size: 512.00 Byte (2^9 Bytes)
+
+Probe time: 1'22"
+```
+
+If you instead get one of the following messages:
+
+- `Bad news: The device '/dev/<device>' is damaged`
+- `Bad news: The device '/dev/<device>' is counterfeit of type [...]`
+
+You should replace your MicroSD card. It is either fake, or damaged to the point where it should no longer be used.
+
+{% endcapture %}
+{% assign tab-f3probe = tab-f3probe | split: "////////" %}
+
+{% capture tab-f3rw %}
+
+### F3 Read/Write
+
+F3 includes two programs known as `f3read` and `f3write`. They both work in a similar manner to H2TestW on Windows. `f3write` is first used to fill up the free space of a storage device with 1GB files. `f3read` will verify that it can read in the data from those files correctly.
+
+{:start="0"}
+0. Install F3 using your distribution's package manager.
+    - If F3 is not available in the distro's package repositories, you should compile F3 from source instead. You can find the instructions to do this here: <https://github.com/AltraMayor/f3>
+1. Insert the MicroSD card to be tested into your computer and mount it.
+2. Backup and remove all of the data stored on the MicroSD card so that the full storage capacity of it can be tested.
+3. Run `f3write <mount point>` in a terminal and wait for the process to complete. This may take a while.
+4. Once f3write is finished, run `f3read <mount point>` in a terminal. This may also take a while to complete.
+
+Here is an example of the results obtained from testing a genuine MicroSD card:
+
+```
+$ f3read /media/deletecat/1B03-2A0A/
+F3 read 9.0
+Copyright (C) 2010 Digirati Internet LTDA.
+This is free software; see the source for copying conditions.
+
+                  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+Validating file 2.h2w ... 2097152/        0/      0/      0
+Validating file 3.h2w ... 2097152/        0/      0/      0
+[...]
+Validating file 28.h2w ... 2097152/        0/      0/      0
+Validating file 29.h2w ... 2097152/        0/      0/      0
+Validating file 30.h2w ...  229312/        0/      0/      0
+
+  Data OK: 29.11 GB (61046720 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+               Corrupted: 0.00 Byte (0 sectors)
+        Slightly changed: 0.00 Byte (0 sectors)
+             Overwritten: 0.00 Byte (0 sectors)
+Average reading speed: 89.22 MB/s
+```
+
+If there is any data marked as having been lost, you should replace the MicroSD card as it is either fake, or is dying and should not be used. If everything is OK, you can delete all of the `*.h2w` files from the MicroSD card and use it as you normally would.
+
+{% endcapture %}
+{% assign tab-f3rw = tab-f3rw | split: "////////" %}
+
+{% assign tabs-linux = tab-f3probe | concat: tab-f3rw %}
+{% include tabs.html index=2 tabs=tabs-linux %}
+
+{% endcapture %}
+{% assign tab-linux = tab-linux | split: "////////" %}
+
+{% assign tabs = tab-windows | concat: tab-mac | concat: tab-linux %}
+{% include tabs.html index=0 tabs=tabs %}
 
 {% include_relative include/disclaimer.md %}
