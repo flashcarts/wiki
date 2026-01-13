@@ -26,6 +26,9 @@ It's important to avoid buying counterfeit MicroSD cards as you may experience d
 - ✓ Check that the MicroSD is a real model the brand sells.
 - ✗ If the price is too good to be true, it probably is too good to be true.
 
+If you suspect that you may have a fake MicroSD card, you can test it by following the instructions laid out in the [Testing a MicroSD Card](#testing-a-microsd-card) section of this page.
+{:.alert .alert-info}
+
 ---
 
 ### Fake MicroSD Cards
@@ -53,12 +56,7 @@ If they come in branded packaging, the packaging will often be a low-quality pho
 
 Fake MicroSD cards will often use low-quality flash memory with a fraudulently spoofed capacity. What will appear as a 512GB MicroSD card on your computer may actually be 64GB instead or maybe even less. Their performance is often quite poor too, not meeting their advertised read and write speeds. Its common these days to see cards marked as 2TB being sold for bargain basement prices, these are absolutely not genuine and users have reported their real capacity being as low as 8GB.
 
-You can test a suspected fake MicroSD card using a variety of tools. These tools will write a data pattern to the MicroSD card and then read it back to confirm that all the data is intact. A MicroSD card with a fake capacity will fail these tests. You can find instructions on how to use these tools in the [`Testing a MicroSD card`](#testing-a-microsd-card) section at the bottom of this page.
-
-- Windows Users: [H2TestW](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) --- [Validrive](https://www.grc.com/validrive.htm) (Validrive is much faster at testing MicroSD cards for capacity fraud, **but is not advised for testing for defective storage**).
-- Mac OS and Linux Users: [F3](https://github.com/AltraMayor/f3/)
-
-Looking at the MicroSD card's properties will not reveal the fraud. Similarly, reformatting or repartitioning a fake MicroSD card will not "fix" its capacity. The card has specifically been manufactured to always show its fake capacity. It cannot write data past its real capacity and thus should not be trusted with important data. Even if you know its real capacity, you cannot guarantee that your data is safe.
+The only way to identify whether or not your MicroSD card is fake is to test it. There are instructions at [the bottom of this page](#testing-a-microsd-card) detailing how you can do just that. Looking at the MicroSD card's properties will not reveal the fraud. Similarly, reformatting or repartitioning a fake MicroSD card will not "fix" its capacity. The card has specifically been manufactured to always show its fake capacity. It cannot write data past its real capacity and thus should not be trusted with important data. Even if you know its real capacity, you cannot guarantee that your data is safe.
 
 [This video](https://www.youtube.com/watch?v=UsWx1iO-aeA) outlines a lot of important information when it comes to counterfeit MicroSD cards and their capacities/performance. It was made back in 2023; however, the information it contains is still true today.
 
@@ -121,7 +119,7 @@ There are various ways to ensure you are getting a genuine product.
 
 ---
 
-### Testing a MicroSD card
+### Testing a MicroSD Card
 
 This section contains instructions on testing your MicroSD card for fake storage. Select the operating system you are using below to find specific instructions for your machine.
 
