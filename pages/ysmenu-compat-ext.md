@@ -85,7 +85,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4XDS.dat`**:
     - All carts from r4xds.com
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
-    - GoldR4 3DS (r4issdhc.com)
+    - All carts from r4issdhc.com
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.TP`**:
     - All carts from r4i-sdhc.com.tw (If this fails, use DEMON section below)
     - r4-v.com v1.4.x carts
