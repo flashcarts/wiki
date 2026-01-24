@@ -5,6 +5,7 @@ tabs:
   - ez-flash-ode: EZ Flash Omega DE
     ez-flash-air: EZ Flash Air
     everdrive-gba-mini: Everdrive GBA Mini
+    superchis: SuperChis Prime
     supercard-sd: SuperCard SD
 ---
 
@@ -60,8 +61,36 @@ This cart costs $99 USD. You can find it on Krikzz website here: <https://krikzz
 {% endcapture %}
 {% assign tab-everdrive-gba-mini = tab-everdrive-gba-mini | split: "////////" %}
 
+{% capture tab-superchis %}
+### SuperChis Prime
+![SuperChis Prime](./assets/images/gba_carts/SuperChis_Prime.png){:.float-start .me-3} The SuperChis Prime is a new open-source GBA flashcart that is the result of reverse engineering the Supercard SD and vastly improving it. Unlike the Supercard SD, it already supports SuperFW and supports MicroSD cards larger than 2GB out of the box. The slowdown & compatibility issues of the Supercard SD does not occur on the SuperChis due to instead writing the game to a NOR flash chip and running it from there instead of slower SDRAM.
+
+Some drawbacks that are shared with the Supercard SD is that it still relies on an SRAM battery for saves, as well as lacking Rumble & RTC.
+SuperFW attemps to alleviate some of these issues by using Direct-Save for games supporting flash save (Such as the Pokémon games) as well as allowing you to flush the save to the SD card for EEPROM & SRAM based games from a menu, and for RTC, it uses a Psuedo-RTC that advances the RTC in supported games when the game is actively running.
+
+The SuperChis is also a great option for those that need a cart to use in conjunction with TWiLight Menu++ on DSL/NDS systems to load GBA games natively from Slot-1. It also supports DS mode via PASSME just like the Supercard SD in order to boot into TWiLight Menu++ & AKMenu-Next should you wish to use this cart for running DS games.
+
+The SuperChis Prime does not work reliably on AGB-001 consoles with an "02" motherboard due to that variant not providing enough power for the SuperChis Prime. You can check by looking at the gap in the battery compartment and seeing if there is an "02" printed there. The reliability issues worsen if the console has a hardmod installed, such as an IPS display and/or a LiPo battery.
+{:.alert .alert-warning}
+
+The SuperChis Prime can generally be found for the same price as a Supercard SD so the Supercard SD should generally be avoided at this point.
+
+More information about the SuperChis Prime can be found on [ChisBread's GBATemp thread.](https://gbatemp.net/threads/superchis-prime-how-i-fixed-the-supercard-sds-flaws-on-a-budget.678808/)
+
+#### Purchase Links
+This cart costs anywhere between $10-20 USD. A purchase link has been provided but it may not be the cheapest listing out there:
+- AliExpress [1]: <https://www.aliexpress.com/item/1005011542077406.html>
+- AliExpress [2]: <https://www.aliexpress.com/item/1005010809710929.html>
+
+{% endcapture %}
+{% assign tab-superchis = tab-superchis | split: "////////" %}
+
 {% capture tab-supercard-sd %}
 ### SuperCard SD
+
+The SuperCard SD has been supersceded by the SuperChis Prime and should be avoided unless you are unable to obtain a SuperChis Prime.
+{:.alert .alert-warning}
+
 ![SuperCard MiniSD](./assets/images/gba_carts/SuperCard_MiniSD_Front.png){:.float-start .me-3} The cheapest budget option. While it offers the least amount of features, it has become an adequate option for those that need a GBA flashcart on a budget thanks to the hard work of custom firmware developers like David G.F. and MetroidManiac. The stock SuperCard firmware requires games to be manually patched with external software, and manual game saving via a menu. With CFW such as SuperFW or SCFW, games are automatically patched on-device, and game saving is taken care of automatically.
 
 Note that to install a custom firmware on the SuperCard SD, you will need to either use a 2GB SD card first to launch the installer from the stock firmware, or a Slot-1 flashcart and a DSL/NDS system on hand.
@@ -84,7 +113,7 @@ The SuperCard SD does not work reliably on AGB-001 consoles. The reliability iss
 [SCFW](https://gbatemp.net/threads/647238/) was the first of the three to be developed, and as of now, it only has a GBA mode. It automatically patches game ROMs, making SuperCard's ROM patcher unnecessary. SCFW can also auto-save your games without having to reset to the menu. The modular kernel branch also features support for various GBA homebrew apps and emulators - you can find more details in this [GBATemp thread.](https://gbatemp.net/threads/656629/)
 
 #### SCSFW
-[SCSFW](https://gbatemp.net/threads/663797/) mainly focuses on a DS mode for FlashMe/PassMe users. It does not have a GBA kernel, however, you can use it with SCFW or SuperFW if you need that functionality. It's fairly limited in what it can do. It uses a custom build of nds-hb-menu which will let you run homebrew from the SD card. Since it is built into the firmware, you do not need any extra files on the SD card for it to work. SCSFW features automatic DLDI patching and boot hotkeys (press A+B on boot to configure them). The main use case for SCSFW is to autoboot into TWiLight Menu++.
+[SCSFW](https://gbatemp.net/threads/663797/) mainly focuses on a DS mode for FlashMe/PassMe users. It does not have a GBA kernel, however, you can use it with SCFW or SuperFW if you need that functionality. It's fairly limited in what it can do. It uses a custom build of nds-hb-menu which will let you run homebrew from the SD card. Since it is built into the firmware, you do not need any extra files on the SD card for it to work. SCSFW features automatic DLDI patching and boot hotkeys (press A+B on boot to configure them). The main use case for SCSFW is to autoboot into TWiLight Menu++ or AKMenu-Next.
 
 #### Flashing firmware
 There are several ways to flash one of these firmwares to the SuperCard SD. Which one you use will depend on your setup and preferences:
@@ -106,7 +135,7 @@ The SuperCard SD is also being sold under the "REMANK" name on Aliexpress. The "
 {% endcapture %}
 {% assign tab-supercard-sd = tab-supercard-sd | split: "////////" %}
 
-{% assign tabs = tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-everdrive-gba-mini | concat: tab-supercard-sd %}
+{% assign tabs = tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-everdrive-gba-mini | concat: tab-superchis | concat: tab-supercard-sd %}
 {% include tabs.html index=0 tabs=tabs %}
 
 {% include_relative include/disclaimer.md %}
