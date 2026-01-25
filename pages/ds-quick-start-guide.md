@@ -12,6 +12,7 @@ tabs:
 purchase_links:
   - cart: Ace3DS-X
     links: [
+      ["AliExpress [1]","https://www.aliexpress.com/item/1005010681938431.html"],
       ["AliExpress [NDS-Card]","https://www.aliexpress.com/item/1005009800358215.html"],
       ["NDS-Card","https://www.nds-card.com/ProShow.asp?ProID=575"],
     ]
@@ -30,12 +31,11 @@ purchase_links:
     ]
   - cart: DSPico
     links: [
-      ["Aliexpress [1]", "https://www.aliexpress.com/item/1005011543735291.html"],
-      ["Aliexpress [2]", "https://www.aliexpress.com/item/1005011543027667.html"],
-      ["Aliexpress [3]", "https://www.aliexpress.com/item/1005011575849540.html"],
-      ["Phenom Mod (US)", "https://store.phenommod.com/?product=dspico-pre-order"],
-      ["LaserBear (US)", "https://www.laserbear.net/products/dspico"],
-      ["Kaico Labs (UK & EU)", "https://kaicolabs.com/product/dspico-by-lnh/"]
+      ["Aliexpress [1] (Injection Moulded Shell; Preferred)", "https://www.aliexpress.com/item/1005011543735291.html"],
+      ["Aliexpress [2] (3D Printed Shell)", "https://www.aliexpress.com/item/1005011543027667.html"],
+      ["Phenom Mod (US; Pre-orders; USB-C Version)", "https://store.phenommod.com/?product=dspico-pre-order"],
+      ["LaserBear (US; Coming soon)", "https://www.laserbear.net/products/dspico"],
+      ["Kaico Labs (UK & EU; Coming soon)", "https://kaicolabs.com/product/dspico-by-lnh/"]
     ]
 ---
 Here are the best DS flashcarts currently available on the market. **If you're looking for a GBA flashcart, see the [GBA quick start guide](gba-quick-start-guide).** For other consoles, see the [quick start guide list](index.html).
@@ -74,50 +74,32 @@ Looking for a flashcart to use ntrboot? [Click here.](ntrboot-ds-carts) If you a
 
 ![DSpico](/assets/images/ds_carts/dspico.png)
 
-The DSpico is a new and open-source flashcart by the LNH Team. It is the world's first open-source DS(i) flashcart and also supports full DSi mode when it is used on a DSi or 3DS, compared to other flashcarts that are DS mode only. It's open-source design means anyone can improve & modify it, as well as manufacture their own DSpico flashcarts. It also has a USB port which allows for additional functionality & updates (including using your DSi/3DS as a USB webcam!).
+The DSpico is a new flashcart created by the LNH Team. It is the world's first open-source DS(i) flashcart that supports full DSi mode when it is used on a DSi or 3DS, unlike other flashcarts on the market that are DS mode only. Its open-source design means anyone can improve and modify it, as well as manufacture their own DSpico flashcarts. The DSpico features both a development port and a USB port, both of which can be used to extend the functionality of the cart; the latter is also used for firmware flashing.
 
 **Pros**:
 - Actively supported with new updates.
-- Full DSi-Mode support when using a DSi or 3DS to access DSi-Enhanced features in supported games and run DSiWare. (These features are unavailable on an Original DS or DS Lite).
-- Works on all DS & 3DS family consoles on all firmware versions.
-- Uses Pico-Launcher + Pico-Loader as the kernel which has a nice Material UI interface and great support for ROM hacks and games with DS-Wii connectivity.
+- Full DSi-mode support when using a DSi or 3DS to access DSi-enhanced features in supported games and run DSiWare. 
+    - Note: These features are unavailable on an Original DS or DS Lite.
+- Works on all DS & 3DS family consoles on all firmware versions depending on the firmware flashed to the cart.
+- Uses a combination of Pico-Launcher (frontend) and Pico-Loader (ROM loader) as its main kernel. Pico-Loader has fairly good game compatibility.
 
 **Cons**:
-- Quality of the shell may differ depending on seller you get it from. Some use 3D Printed shells while others use Injection Moulded shells. Both will generally be fine for most however.
-- Pico-Launcher & Pico-Loader currently does not support cheats, this will be added in the future however.
-- You may need to compile the firmware yourself if you bought one thats is blank and requires flashing which may be more difficult to follow for some users. The instructions are on the [LNH Team Github](https://github.com/LNH-team/dspico/blob/develop/GUIDE.md).
+- Quality of the shell may differ depending on the seller you get it from. Some use 3D Printed shells while others use Injection Moulded shells. Both will generally be fine for most however.
+- Pico-Loader currently does not support cheats, this may be added in the future however.
+- Compiling the firmware may be difficult for some users. This would only be required if you receive a DSpico which has not been pre-flashed with any firmware, or if the provided firmware does not work with your console (e.g., Hybrid bootloader firmware on a stock DSi/3DS).
 
-LNH Team Website: <https://www.lnh-team.org/><br>
-Setup Guide: <https://github.com/LNH-team/dspico/blob/develop/GUIDE.md><br>
-Pico-Launcher build by flashcarts.net: [Pico-Launcher + Pico-Loader](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip)
+{% assign pico_data = site.data.pico_ver %}
+
+LNH Team Website: <https://www.lnh-team.org/>  
+Setup Guide: <https://github.com/LNH-team/dspico/blob/develop/GUIDE.md>  
+Pico-Launcher build by flashcarts.net: [Pico-Launcher {{pico_data.launcher_ver}} + Pico-Loader {{pico_data.loader_ver}}](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}&fcnetrev={{pico_data.fcnetrev}})
 
 Purchase links:
 {% for item in page.purchase_links[3].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
-![Ace3DS X](/assets/images/ds_carts/ace3dsx.png)
-
-The Ace3DS X is based upon the Ace3DS+ with a switch to use for 3DS ntrboot (see the ntrboot link above if you require this). This is a good option for 3DS users but the below Ace3DS+ carts are generally a cheaper option if you don't have a 3DS.
-
-**Pros**:
-- Uses the Ace Wood R4 kernel which has great support for ROM hacks and games with DS-Wii connectivity.
-- Works on all DS & 3DS family consoles on all firmware versions.
-
-**Cons**:
-- Poor shell quality, may not fit well in some consoles.
-- Ace Wood R4 kernel lacks anti-piracy patches for a few games (But has easy workarounds).
-<details markdown="1">
-<summary><b>Resolving Anti-Piracy Issues</b></summary>
-Ace Wood R4 has anti-piracy issues with some games, namely with Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://gbatemp.net/threads/488711/) and enable the Anti-Piracy bypass cheat before starting the game.
-</details>
-
-Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils/>
-
-Purchase links:
-{% for item in page.purchase_links[0].links %}
-- [{{item[0]}}]({{item[1]}})
-{% endfor %}
+---
 
 ### Ace3DS X
 
@@ -126,11 +108,12 @@ Purchase links:
 The Ace3DS X is based upon the Ace3DS+ with a switch to use for 3DS ntrboot (see the ntrboot link above if you require this). This is a good option for 3DS users but the below Ace3DS+ carts are generally a cheaper option if you don't have a 3DS.
 
 **Pros**:
-- Uses the Ace Wood R4 kernel which has great support for ROM hacks and games with DS-Wii connectivity.
+- Uses the Ace Wood R4 kernel which has good support for ROM hacks and games with DS-Wii connectivity.
 - Works on all DS & 3DS family consoles on all firmware versions.
 
 **Cons**:
 - Poor shell quality, may not fit well in some consoles.
+- Using Slot-2 accessories in the stock kernel will require a reset to the menu before they are functional.
 - Ace Wood R4 kernel lacks anti-piracy patches for a few games (But has easy workarounds).
 <details markdown="1">
 <summary><b>Resolving Anti-Piracy Issues</b></summary>
@@ -144,6 +127,10 @@ Purchase links:
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
+This cart is also available on Amazon and eBay if AliExpress is not available. Be sure to shop around to find the best price.
+
+---
+
 ### Ace3DS+/R4iLS Clones
 ![r4isdhc.com.cn R4iLS clone](/assets/images/ds_carts/r4isdhc_com_cn.png)
 
@@ -151,12 +138,13 @@ These carts are clones of the Ace3DS+ and R4iLS (which are almost identical to e
 If you're simply looking to play DS games and run homebrew, this is the most recommended option. Usually found as r4isdhc.com.cn carts, as r4isdhc.hk carts with a year number of 2020 or newer inside a star shape, or as unlabeled carts with a red PCB on the back.
 
 **Pros**:
-- Uses the Ace Wood R4 kernel which has great support for ROM hacks and games with DS-Wii connectivity.
-- More affordable than the Ace3DS X and easily available.
+- Uses the Ace Wood R4 kernel which has good support for ROM hacks and games with DS-Wii connectivity.
+- Cheaper than the Ace3DS X and easily available.
 - Works on all DS & 3DS consoles on all firmware versions.
 
 **Cons**:
 - Poor shell quality, may not fit well in some consoles.
+- Using Slot-2 accessories in the stock kernel will require a reset to the menu before they are functional.
 - Ace Wood R4 kernel lacks anti-piracy patches for a few games (But has easy workarounds).
 <details markdown="1">
 <summary><b>Resolving Anti-Piracy Issues</b></summary>
@@ -170,7 +158,9 @@ Purchase links:
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
-This cart is also available on Amazon and eBay if Aliexpress is not available. Be sure to shop around to find the best price.
+This cart is also available on Amazon and eBay if AliExpress is not available. Be sure to shop around to find the best price.
+
+---
 
 ### DSTTi "DEMON" Clones
 ![r4isdhc.com gold cart](/assets/images/ds_carts/r4isdhc_com_front.png)
@@ -192,10 +182,11 @@ These are a clone of the DSTTi, previously listed here as "DSTTi Timebomb Clones
 **Pros**:
 - Higher quality shell then the Ace3DS+/X & R4iLS carts and generally fits better in most consoles.
 - Works on all DS & 3DS consoles on all firmware versions.
-- Easily available.
 
 **Cons**:
-- The supported YSMenu & R4iMenu kernels are not as good as Ace Wood R4, although they are still compatible with most retail games.
+- The supported YSMenu & R4iMenu kernels both have trade-offs;
+    - YSMenu does not support newer ROM hacks and has some compatibility quirks when run on these specific clones.
+    - R4iMenu does not work with some newer homebrew and it has a few issues with it's cheat system.
 - Often sold at a higher price than Ace3DS+/R4iLS clones.
 
 Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/r4i-sdhc/>
@@ -205,7 +196,7 @@ Purchase links:
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
-This cart is also available on Amazon and eBay if Aliexpress is not available. Be sure to shop around to find the best price.
+This cart is also available on Amazon and eBay if AliExpress is not available. Be sure to shop around to find the best price.
 
 {% endcapture %}
 {% assign tab-unhacked-simplified = tab-unhacked-simplified | split: "////////" %}
@@ -217,32 +208,36 @@ Read this section if you would like to see more information about the flashcarts
 
 ### DSpico
 
-![DSpico](/assets/images/ds_carts/dspico.png)
+![DSpico](/assets/images/ds_carts/dspico.png){:.float-start .me-3}
 
-The DSpico is a new and open-source flashcart by the LNH Team. It is the world's first open-source DS(i) flashcart and also supports full DSi mode when it is used on a DSi or 3DS, compared to other flashcarts that are DS mode only. It's open-source design means anyone can improve & modify it, as well as manufacture their own DSpico flashcarts. It also has a USB port which allows for additional functionality & updates including flashing new firmware, accessing the MicroSD card files over USB and even using your DSi/3DS as a USB webcam! Some USB example .nds files [can be found here.](https://github.com/LNH-team/dspico-usb-examples/releases/latest)
+The DSpico is a new flashcart created by the LNH Team. It is the world's first open-source DS(i) flashcart that supports full DSi mode when it is used on a DSi or 3DS, unlike other flashcarts on the market that are DS mode only. Its open-source design means anyone can improve and modify it, as well as manufacture their own DSpico flashcarts.
 
-It supports all DS, DSi and 3DS consoles on all firmware versions. It is actively supported, often getting new updates, and the DSi & 3DS support allows you to access DSi-Enhanced features (Such as the camera and WPA2 Wifi support) on games that support it, as well being able to run DSiWare. These features are not available while running them on an Original DS or DS Lite and you will be limited to DS mode on those consoles.
+The DSpico features both a development port and a USB port. The development port can be used to create new peripherals for use with the DSpico; more information about it can be found in the [dspico-hardware GitHub repository](https://github.com/LNH-team/dspico-hardware?tab=readme-ov-file#-development). The USB port is used for firmware flashing and can also be used for additional functionality within homebrew applications. Some of the [DSpico USB examples](https://github.com/LNH-team/dspico-usb-examples/) include accessing the contents of the cart's microSD card over USB and using your DSi/3DS as a webcam.
 
-The main kernel intended for the DSpico is Pico-Launcher, which runs games in conjunction with Pico-Loader. It features a modern Material UI style interface that can display your games in various ways, including a coverflow style format in which you can add boxart for your games! It features rich theme customisation and also supports playing background music. For more information on creating themes for the DSpico, [check the Themes page on the LNH Team Github.](https://github.com/LNH-team/pico-launcher/blob/develop/docs/Themes.md) One downside of Pico-Launcher & Pico-Loader is that cheats are not supported, however this will be supported in a future update.
+It supports all DS, DSi and 3DS consoles with their latest firmware versions, provided the cart is flashed with the WRFUxxed firmware. The DSpico also supports 3DS and DSi ntrboot, which is useful for modding and recovering from bricks. The cart is currently in active development, and the DSi-mode support allows you to access DSi-enhanced features (such as the camera and WPA2 Wifi) in games that support it, as well as having the ability to run DSiWare. These features are not available on an original DS or DS Lite, as you will be limited to DS mode on those consoles.
 
-Due to it's open-source nature, the DSpico can be obtained from various sellers (or you could even make your own!), however bear in mind that the quality of the DSpico, particularily it's shell may differ depending on where you buy it from as some sellers sell it with a 3D Printed shell while other sell it with an Injection Moulded shell. The Injection Moulded shells are better, however both should be fine for fitment. Some sellers also opt for a USB-C port over a MicroUSB port on it.
+The main kernel intended for the DSpico is Pico-Launcher, which runs games and homebrew using Pico-Loader. It features a modern Material UI-style interface that can display your games in various ways, including a coverflow-style format in which you can add box art for your games! It features rich theme customisation with support for playing background music. For more information on creating themes for the DSpico, [check the Themes page on the LNH Team Github.](https://github.com/LNH-team/pico-launcher/blob/develop/docs/Themes.md) One downside of Pico-Loader (and by extension, Pico-Launcher) is that cheats are not supported; however, support may be added in a future update.
 
-Also depending on where you buy it from, if it arrives blank, you may need to compile the DSpico firmware yourself (mainly due to the requirement of copyrighted code for it to boot on the DS & 3DS consoles). These steps require some intermediate knowledge of using a Terminal/Command Prompt interface and installing the required toolchains. In the future, this step may become easier to perform as the DSPico and it's documentation is further improved. The instructions are on the [LNH Team Github](https://github.com/LNH-team/dspico/blob/develop/GUIDE.md).
+Due to its open-source nature, the DSpico can be obtained from various sellers (or you could even make your own!). However, bear in mind that the quality of the DSpico, particularly its shell, may differ depending on where you buy it. Some sellers will ship it with a 3D-printed shell, whereas others may send it with an injection-moulded shell instead. The injection-moulded shells are better; however, both should work just fine for most people. USB-C variants of the hardware also exist and are currently being sold by Phenom Mod in the US.
 
-Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
+Some sellers may choose to sell the DSpico without flashing the firmware to it. If this is the case for your cart, or you need to change or update the firmware, you will have to compile it yourself. Compiling the firmware requires the use of a Linux environment and some knowledge of the command line. The steps to do this are laid out in the [DSpico setup guide](https://github.com/LNH-team/dspico/blob/develop/GUIDE.md). Alternatively, another option is to use Docker. [Aar has made a simple guide for Windows users](https://www.youtube.com/watch?v=o7IuaewHNTQ) that takes you through how to compile the WRFUxxed firmware using this method. For users already familiar with Docker, the Dockerfile can be found in [Doomaholic's GitHub Gist](https://gist.github.com/synthic/f9396062d28144823ee8606eba101b2e).
+
+#### Obtaining and Setup
+
+Links to purchase the DSpico are provided below, but they may not be the cheapest option, as they're one of many listings:
 
 {% for item in page.purchase_links[3].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
-LNH Team Website: <https://www.lnh-team.org/><br>
+LNH Team Website: <https://www.lnh-team.org/>  
 Setup Guide: <https://github.com/LNH-team/dspico/blob/develop/GUIDE.md>
 
 ##### Kernels
 
-- Pico-Launcher build by flashcarts.net: [Pico-Launcher + Pico-Loader](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip)
-- AKMenu-Next (follow the steps for adding Pico-Loader): [AKMenu-Next](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_1) 
+- Pico-Launcher build by flashcarts.net: [Pico-Launcher {{pico_data.launcher_ver}} + Pico-Loader {{pico_data.loader_ver}}](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}&fcnetrev={{pico_data.fcnetrev}})
 - TWiLight Menu++ (follow the steps for Pico-Loader): [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard)
+- AKMenu-Next (currently does not support DSi-mode; follow the steps for adding Pico-Loader): [AKMenu-Next](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_1) 
 
 ---
 
