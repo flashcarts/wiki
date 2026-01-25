@@ -30,7 +30,9 @@ purchase_links:
     ]
   - cart: DSPico
     links: [
-      ["Aliexpress", "https://www.aliexpress.com/item/1005011543735291.html"],
+      ["Aliexpress [1]", "https://www.aliexpress.com/item/1005011543735291.html"],
+      ["Aliexpress [2]", "https://www.aliexpress.com/item/1005011543027667.html"],
+      ["Aliexpress [3]", "https://www.aliexpress.com/item/1005011575849540.html"],
       ["Phenom Mod (US)", "https://store.phenommod.com/?product=dspico-pre-order"],
       ["LaserBear (US)", "https://www.laserbear.net/products/dspico"],
       ["Kaico Labs (UK & EU)", "https://kaicolabs.com/product/dspico-by-lnh/"]

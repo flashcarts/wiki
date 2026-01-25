@@ -81,6 +81,7 @@ More information about the SuperChis Prime can be found on [ChisBread's GBATemp 
 This cart costs anywhere between $10-20 USD. A purchase link has been provided but it may not be the cheapest listing out there:
 - AliExpress [1]: <https://www.aliexpress.com/item/1005011542077406.html>
 - AliExpress [2]: <https://www.aliexpress.com/item/1005010809710929.html>
+- AliExpress [3]: <https://www.aliexpress.com/item/1005011578451483.html>
 
 {% endcapture %}
 {% assign tab-superchis = tab-superchis | split: "////////" %}
