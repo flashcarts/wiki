@@ -54,7 +54,7 @@ These carts will need to be flashed with ntrboot as they come with their DS firm
 
 ![DSpico](/assets/images/ds_carts/dspico.png){:.float-start .me-3}
 
-The DSpico is a new, open-source flashcart by the LNH Team. It supports both DSi and 3DS ntrboot. Flashing the DSpico is a different process to the other carts on the list. You first need to compile the firmware using the appropriate ntrboot ROM, then flash it to the cart over USB. **You must have a microSD card inserted into the DSpico**. Otherwise, the RP2040 will enter BOOTSEL mode and ntrboot will not work!
+The DSpico is a new, open-source flashcart by the LNH Team. It supports both DSi and 3DS ntrboot. Flashing the DSpico is a different process to the other carts on the list. You first need to compile the firmware using the appropriate ntrboot ROM, then flash it to the cart over USB. **You must have a microSD card inserted into the DSpico to trigger ntrboot**. Otherwise, the RP2040 will enter BOOTSEL mode and ntrboot will not work!
 
 You can find a guide to setup and compile the firmware in the dspico-firmware repository: <https://github.com/LNH-team/dspico-firmware>.
 
