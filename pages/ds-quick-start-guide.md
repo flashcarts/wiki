@@ -252,11 +252,9 @@ Ntrboot is a method that allows you to hack your 3DS easily, or fix a bricked 3D
 For general usage outside of hacking or unbricking, Ace3DS X clones are a good cheap option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for a few games, namely Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases) and enable the Anti-Piracy bypass cheat before starting the game. Its biggest benefit is that it works on all DS family consoles up to latest 3DS consoles.
 
 #### Obtaining and Setup
-This is recommended **for unhacked DSi and 3DS users** to buy, as well as people who are attempting to unbrick their console (or would like the peace of mind). Usually costs $10-15 USD.
+Searching for "ace3ds" on AliExpress, Amazon or eBay usually returns this cart.
 
-Searching "ace3ds" on Amazon or eBay usually returns this cart.
-
-Links to purchase the Ace3DS X are provided below, but they may not be the cheapest option as they're one of many listings:
+Links to AliExpress & NDS-Card are provided below, but they may not be the cheapest option as they're one of many listings:
 
 Purchase links:
 {% for item in page.purchase_links[0].links %}
@@ -275,7 +273,7 @@ Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils
 ### Ace3DS+/R4iLS Clones
 ![Ace3DS+ Original](/assets/images/ds_carts/ace3ds+.png){:.float-start .me-3}
 
-These carts are clones of the Ace3DS+ or R4iLS flashcarts, compatible with all DS, DSi, and 3DS consoles, even unhacked ones on the latest firmware. These carts **do not** work with ntrboot - see the [Ace3DS X](?tab=unhacked#ace3ds-x) instead if this is a feature that you may need. The upside is that these carts are often cheaper and more easily available than the Ace3DS X.
+These carts are clones of the Ace3DS+ or R4iLS flashcarts, compatible with all DS, DSi, and 3DS consoles, even unhacked ones on the latest firmware. These carts **do not** work with ntrboot - see the [DSpico](?tab=unhacked-detailed#dspico) instead if this is a feature that you may need. The upside is that these carts are often cheaper than the DSpico.
 
 Ace3DS+/R4iLS clones are an excellent option, however they have a few downsides. Due to iffy shell quality some report that it doesn't fit well into their consoles. It also runs an unofficial fork of Wood which lacks anti-piracy patches for a few games, namely Pokémon Black & White 2. To play these games you will have to manually [AP patch their ROMs](https://gbatemp.net/download/35735/), or use a [cheat database](https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases) and enable the Anti-Piracy bypass cheat before starting the game.
 
@@ -319,9 +317,9 @@ Setup guide: <https://sanrax.github.io/flashcart-guides/cart-guides/ace3ds_r4ils
 ### DSTTi "DEMON" Clones
 ![r4i-sdhc.com 3DS RTS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}
 
-These common carts are clones of the DSTTi, and are known as "timebomb" carts because their stock kernels used to contain a date-check mechanism that would throw an error past a certain date. The latest releases of the stock kernel for these carts no longer contain this timebomb, so users who want to use stock kernel-specific features like RTS have the option of using it instead of the recommended YSMenu. These carts are compatible with all DS, DSi, and 3DS consoles - even on the latest firmware - so they make a decent choice for unhacked DSi/3DS users, but the above [Ace3DS+/R4iLS clones](?tab=unhacked#ace3dsr4ils-clones) are recommended instead if possible.
+These common carts are clones of the DSTTi, and are known as "timebomb" carts because their stock kernels used to contain a date-check mechanism that would throw an error past a certain date. The latest releases of the stock kernel for these carts no longer contain this timebomb, so users who want to use stock kernel-specific features like RTS have the option of using it instead of the recommended YSMenu. These carts are compatible with all DS, DSi, and 3DS consoles - even on the latest firmware - so they make a decent choice for unhacked DSi/3DS users, but the [DSpico](?tab=unhacked-detailed#dspico) is recommended instead if possible.
 
-Most of these carts sold today are labeled r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. Ace3DS+ clones are recommended instead due to the Wood kernel having higher compatibility with games and romhacks, as well as certain features like Wii connectivity in DS games. One notable advantage of these carts over Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS, and can also be flashed with DSi ntrboot for unbricking DSi consoles. However, the [Ace3DS X](?tab=unhacked#ace3ds-x) above is preferable for 3DS ntrboot use, since it has ntrboot preflashed and uses a better kernel when in DS mode.
+Most of these carts sold today are labeled r4isdhc.**com** or r4i-sdhc.**com**, but others do exist. Ace3DS+ clones are recommended over this cart due to the Wood kernel having higher compatibility with games and romhacks, as well as certain features like Wii connectivity in DS games. One notable advantage of these carts over Ace3DS+ clones is that they support ntrboot for installing CFW on a 3DS, and can also be flashed with DSi ntrboot for unbricking DSi consoles. However, the [DSpico](?tab=unhacked-detailed#dspico) above is preferable for ntrboot use, since it also supports both 3DS and DSi ntrboot and is generally the better flashcart.
 
 There is a lot of misinformation surrounding timebombs and what they do. See our [Timebomb Misconceptions](ds-timebomb) page for more details.
 
@@ -344,9 +342,9 @@ There is a lot of misinformation surrounding timebombs and what they do. See our
 ![DEMON and R4iLS Cart Comparison](/assets/images/ds_carts/demonr4ils.png){:width="600"}
 </details>
 
-This cart is only recommended **if you cannot buy an Ace3DS X or Ace3DS+ clone**, or if you need a flashcart for DSi ntrboot. Usually costs $5-10 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart.
+This cart is only recommended **if you cannot buy a DSpico, Ace3DS X or an Ace3DS+ clone**. Usually costs $5-10 USD. Searching "r4 gold pro" on AliExpress or eBay usually returns this cart.
 
-Links to AliExpress & NDS-Card are provided below, but they may not be the cheapest option as they're one of many listings:
+Links to NDS-Card are provided below. These are not the cheapest listings, but are guaranteed to send out this cart:
 
 Purchase links:
 {% for item in page.purchase_links[2].links %}
@@ -376,7 +374,7 @@ These are flashcarts which we don't necessarily recommend but are available to b
 
 The original DSTT is still being sold by NDS-Card. Since this flashcart does not work on unhacked 3DS/DSi systems, we have not added it to our list of recommended flashcarts. 
 
-This cart may be useful for ntrboot. NDS-Card appear to have sent out genuine DSTTs which can be used for that purpose. Though if you need a flashcart for ntrboot, an [Ace3DS X](?tab=unhacked#ace3ds-x) will still be a better choice over this cart.
+This cart may be useful for ntrboot. NDS-Card appear to have sent out genuine DSTTs which can be used for that purpose. Though if you need a flashcart for ntrboot, a [DSpico](?tab=unhacked-detailed#dspico) will still be a better choice over this cart.
 
 ### Obtaining and Setup
 You can find a link to NDS-Card's listing below. If NDS-Card does not ship to your country, you may be able to find it on second-hand marketplaces for cheap.
@@ -479,7 +477,7 @@ If you do have one of the faulty carts, you can use [BL2CK](https://archive.flas
 
 ![Stargate3DS](./assets/images/ds_carts/stargate3ds.png){:.float-start .me-3}
 
-Stargate3DS flashcarts are still being made to this day. However, they are not recommended in the context of a DS flashcart for a few reasons. The major reason being that it is only usable on a 3DS, you cannot use it's DS mode on a DS, DS Lite, or DSi due to the shape of the cartridge. The DS mode of this flashcart becomes inaccessible once you have installed Luma3DS onto your 3DS. There are ways around this however. One option is to install a Stage2 launcher, we have one available in the flashcard-archive ([SG_Launcher](https://archive.flashcarts.net/stargate-3ds.com/SG_Launcher_CFW)). The other option is to [compile Luma3DS without the `patchTwlWhitelistChecks` function](https://github.com/LumaTeam/Luma3DS/issues/2046#issuecomment-2245411574). Do note however that the latter option may be less desirable if you intend to use other flashcarts that do not pass the console's whitelist checks. The Stargate3DS does have exFat support built in. However, this can present issues in DS mode as the DLDI driver only works with Fat32 formatted microSD cards. The kernel used in the DS mode also has a broken cheat engine. This of course means that you cannot use cheat codes in games without using an alternative to the kernel, such as TWiLight Menu++. For titles that require anti-piracy patches (ie. Pokemon Black/White 2), you will have to manually patch them as AP-bypass cheats will be unavailable to you. If you are looking for a DS flashcart to use in your 3DS, consider an [Ace3DS X](?tab=unhacked#ace3ds-x) instead. It doesn't require any workarounds to get it to boot in custom firmware and can be used in any DS console.
+Stargate3DS flashcarts are still being made to this day. However, they are not recommended in the context of a DS flashcart for a few reasons. The major reason being that it is only usable on a 3DS, you cannot use it's DS mode on a DS, DS Lite, or DSi due to the shape of the cartridge. The DS mode of this flashcart becomes inaccessible once you have installed Luma3DS onto your 3DS. There are ways around this however. One option is to install a Stage2 launcher, we have one available in the flashcard-archive ([SG_Launcher](https://archive.flashcarts.net/stargate-3ds.com/SG_Launcher_CFW)). The other option is to [compile Luma3DS without the `patchTwlWhitelistChecks` function](https://github.com/LumaTeam/Luma3DS/issues/2046#issuecomment-2245411574). Do note however that the latter option may be less desirable if you intend to use other flashcarts that do not pass the console's whitelist checks. The Stargate3DS does have exFat support built in. However, this can present issues in DS mode as the DLDI driver only works with Fat32 formatted microSD cards. The kernel used in the DS mode also has a broken cheat engine. This of course means that you cannot use cheat codes in games without using an alternative to the kernel, such as TWiLight Menu++. For titles that require anti-piracy patches (ie. Pokemon Black/White 2), you will have to manually patch them as AP-bypass cheats will be unavailable to you. If you are looking for a DS flashcart to use in your 3DS, consider a [DSpico](?tab=unhacked-detailed#dspico) instead. It doesn't require any workarounds to get it to boot in custom firmware and can be used in any DS console.
 
 In the context of the 3DS, it's not the best option you could choose to play 3DS games. It can't play ROM hacks, eShop titles, homebrew, and some later titles that use a newer anti-piracy standard. A better option for most people would be installing [custom firmware](https://3ds.hacks.guide) to your 3DS. It is easy to do and it allows you to install 3DS backups directly to your console. You will need custom firmware to dump your 3DS ROMs for use in the flashcart anyways. CFW does lack the ability to hotswap games and save files between consoles however, which this cart is able to do. 
 
@@ -492,7 +490,7 @@ The Stargate3DS goes for around $30 on AliExpress. As this is a very niche cart 
 ## Alternative Options for DSi/3DS Users
 
 {% capture tab-dsi %}
-On the DSi/DSi XL consoles, Nintendo introduced a whitelist and RSA signatures in an attempt to prevent flashcarts from functioning, so you need to be careful which flashcart you buy to use it on a DSi. Because of this the [Ace3DS+ clones](?tab=unhacked#ace3ds-clones) are recommended if you choose to buy a flashcart for use on a DSi, as they are supported all the way up to the latest firmware version.
+On the DSi/DSi XL consoles, Nintendo introduced a whitelist and RSA signatures in an attempt to prevent flashcarts from functioning, so you need to be careful which flashcart you buy to use it on a DSi. Because of this the [DSpico](?tab=unhacked-detailed#dspico) is recommended if you choose to buy a flashcart for use on a DSi, as it is supported all the way up to the latest firmware version.
 
 If you boot an unsupported flashcart on a stock DSi, it will show black screens with white text that says "[An error has occurred](https://i.imgur.com/gE47UKA.png)". This can be bypassed by installing CFW on your DSi. Specifically, Unlaunch is required - with it, you will be able to load the flashcart from the DSi Menu if it was installed with launcher patches enabled or from Unlaunch itself, TWiLight Menu++, or hiyaCFW regardless whether or not Unlaunch's launcher patches are enabled.
 
@@ -505,7 +503,7 @@ See [dsi.cfw.guide](https://dsi.cfw.guide) for a guide on how to install CFW on 
 {% capture tab-3ds %}
 On the 3DS family of consoles (including the 2DS and XL variants) there is a distinction between flashcarts that play 3DS games and flashcarts that play DS games. Flashcarts that play 3DS games are rendered mostly useless by the existence of CFW, which has *better* compatibility and is completely free, while 3DS flashcarts are very expensive. CFW also has other benefits over 3DS flashcarts such as the ability to run homebrew and emulators.
 
-Flashcarts for playing DS games on the other hand can still be useful, and everything in the [DSi](?tab1=dsi#alternative-options-for-dsi3ds-users) section above applies to DS mode flashcarts on the 3DS as well. That is, [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html) & [AKMenu-Next](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_3) being a good option, but flashcarts for DS games having slightly higher compatibility. The [Ace3DS X](?tab=unhacked#ace3ds-x) carts are the recommended DS flashcart for 3DS users as they support the latest 3DS firmware without needing CFW, and provide ntrboot in the case you may need it. Any DS flashcart can be run with CFW, either from the 3DS HOME Menu or TWiLight Menu++.
+Flashcarts for playing DS games on the other hand can still be useful, and everything in the [DSi](?tab1=dsi#alternative-options-for-dsi3ds-users) section above applies to DS mode flashcarts on the 3DS as well. That is, [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html) & [AKMenu-Next](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_3) being a good option, but flashcarts for DS games having slightly higher compatibility. The [DSpico](?tab=unhacked-detailed#dspico) is the recommended DS flashcart for 3DS users as it supports the latest 3DS firmware without needing CFW, and can be flashed with ntrboot if you ever need it. Any DS flashcart can be run with CFW, either from the 3DS HOME Menu or TWiLight Menu++.
 
 See [3ds.hacks.guide](https://3ds.hacks.guide) for how to install CFW on your 3DS.
 {% endcapture %}
