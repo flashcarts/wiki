@@ -82,6 +82,7 @@ The DSpico is a new flashcart created by the LNH Team. It is the world's first o
     - Note: These features are unavailable on an Original DS or DS Lite.
 - Works on all DS & 3DS family consoles on all firmware versions depending on the firmware flashed to the cart.
 - Uses a combination of Pico-Launcher (frontend) and Pico-Loader (ROM loader) as its main kernel. Pico-Loader has fairly good game compatibility.
+- Can be re-flashed without requiring the use of a console.
 
 **Cons**:
 - Quality of the shell may differ depending on the seller you get it from. Some use 3D Printed shells while others use Injection Moulded shells. Both will generally be fine for most however.

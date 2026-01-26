@@ -63,17 +63,18 @@ This cart costs $99 USD. You can find it on Krikzz website here: <https://krikzz
 
 {% capture tab-superchis %}
 ### SuperChis Prime
-![SuperChis Prime](./assets/images/gba_carts/SuperChis_Prime.png){:.float-start .me-3} The SuperChis Prime is a new open-source GBA flashcart that is the result of reverse engineering the Supercard SD and vastly improving it. Unlike the Supercard SD, it already supports SuperFW and supports MicroSD cards larger than 2GB out of the box. The slowdown & compatibility issues of the Supercard SD does not occur on the SuperChis due to instead writing the game to a NOR flash chip and running it from there instead of slower SDRAM.
+![SuperChis Prime](./assets/images/gba_carts/SuperChis_Prime.png){:.float-start .me-3} The SuperChis Prime is a new (partial) source-available GBA flashcart that is the result of reverse engineering the SuperCard SD and vastly improving upon it. The main benefit that the SuperChis has over the SuperCard is the inclusion of a NOR flash chip. Games running off the NOR flash do not suffer from the same slowdown and compatibility issues that are present on the SuperCard SD. Loading times have also improved drastically, with it taking half the time to boot a game off the SD card when compared to the SuperCard.
 
-Some drawbacks that are shared with the Supercard SD is that it still relies on an SRAM battery for saves, as well as lacking Rumble & RTC.
-SuperFW attemps to alleviate some of these issues by using Direct-Save for games supporting flash save (Such as the Pokémon games) as well as allowing you to flush the save to the SD card for EEPROM & SRAM based games from a menu, and for RTC, it uses a Psuedo-RTC that advances the RTC in supported games when the game is actively running.
+There are a few drawbacks that the cart shares with the SuperCard SD. One of those is that it still relies on an SRAM battery for saves. It uses a soldered-in CR1616 battery, which should last a long time but may be difficult for some people to replace once it dies. The SuperChis Prime also lacks rumble and RTC support. 
 
-The SuperChis is also a great option for those that need a cart to use in conjunction with TWiLight Menu++ on DSL/NDS systems to load GBA games natively from Slot-1. It also supports DS mode via PASSME just like the Supercard SD in order to boot into TWiLight Menu++ & AKMenu-Next should you wish to use this cart for running DS games.
+SuperFW helps to alleviate some of these issues, however. For the missing RTC, it uses a pseudo-RTC that advances the clock in supported games while they are running. If the SRAM battery is dead, there are still ways to save without losing any of your progress. Flash and EEPROM games can take advantage of direct saving, and SRAM-based games can have their save written manually from the in-game menu.
+
+The SuperChis is also a great option for those that need a cart to use in conjunction with TWiLight Menu++ on DSL/NDS systems to load GBA games natively from Slot-1. It also supports DS mode via Passme just like the Supercard SD should you wish to use this cart for running DS games.
 
 The SuperChis Prime does not work reliably on AGB-001 consoles with an "02" motherboard due to that variant not providing enough power for the SuperChis Prime. You can check by looking at the gap in the battery compartment and seeing if there is an "02" printed there. The reliability issues worsen if the console has a hardmod installed, such as an IPS display and/or a LiPo battery.
 {:.alert .alert-warning}
 
-The SuperChis Prime can generally be found for the same price as a Supercard SD so the Supercard SD should generally be avoided at this point.
+The SuperChis Prime can generally be found for the same price as a Supercard SD, so the SuperCard SD should generally be avoided at this point.
 
 More information about the SuperChis Prime can be found on [ChisBread's GBATemp thread.](https://gbatemp.net/threads/superchis-prime-how-i-fixed-the-supercard-sds-flaws-on-a-budget.678808/)
 
