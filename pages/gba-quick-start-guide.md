@@ -4,7 +4,6 @@ description: GBA flashcarts, what there is, and what to buy
 tabs:
   - ez-flash-ode: EZ Flash Omega DE
     ez-flash-air: EZ Flash Air
-    everdrive-gba-mini: Everdrive GBA Mini
     superchis: SuperChis Prime
     supercard-sd: SuperCard SD
 ---
@@ -47,19 +46,6 @@ This cart costs about $40-50 USD. Purchase links have been provided here though 
 - Senkogames: <https://senkogames.com/products/ez-flash-air>
 {% endcapture %}
 {% assign tab-ez-flash-air = tab-ez-flash-air | split: "////////" %}
-
-{% capture tab-everdrive-gba-mini %}
-### Everdrive GBA Mini
-![Everdrive GBA Mini](./assets/images/gba_carts/Everdrive_GBA_Mini.png){:.float-start .me-3} Premium option from Krikzz. It fits snug like a regular cartridge. However, the [EZ Flash Omega DE](?tab=ez-flash-ode) costs less and has more features in comparison. What it lacks in features, it gains in support and build quality. This may be a good option if you prefer better support over more functionality.
-
-The Everdrive GBA Mini uses SRAM instead of FRAM for storing save data, which means that the battery inside of it is save-critical. The cart should warn you when the battery is running dry. It uses a CR1220 battery which is held in with a battery contact clip - therefore no soldering is required to replace the battery.
-
-Currently, this is the only GBA flashcart being sold by Krikzz. The previous Everdrive GBA X5 is no longer in stock.
-
-#### Purchase Links
-This cart costs $99 USD. You can find it on Krikzz website here: <https://krikzz.com/our-products/cartridges/everdrive-gba-mini.html>
-{% endcapture %}
-{% assign tab-everdrive-gba-mini = tab-everdrive-gba-mini | split: "////////" %}
 
 {% capture tab-superchis %}
 ### SuperChis Prime
@@ -136,7 +122,7 @@ The SuperCard SD is also being sold under the "REMANK" name on Aliexpress. The "
 {% endcapture %}
 {% assign tab-supercard-sd = tab-supercard-sd | split: "////////" %}
 
-{% assign tabs = tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-everdrive-gba-mini | concat: tab-superchis | concat: tab-supercard-sd %}
+{% assign tabs = tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-superchis | concat: tab-supercard-sd %}
 {% include tabs.html index=0 tabs=tabs %}
 
 {% include_relative include/disclaimer.md %}
