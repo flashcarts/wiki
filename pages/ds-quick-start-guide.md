@@ -31,8 +31,8 @@ purchase_links:
     ]
   - cart: DSPico
     links: [
-      ["Aliexpress [1] (Injection Moulded Shell; Preferred)", "https://www.aliexpress.com/item/1005011543735291.html"],
-      ["Aliexpress [2] (3D Printed Shell)", "https://www.aliexpress.com/item/1005011543027667.html"],
+      ["AliExpress [1] (Injection Moulded Shell; Micro USB)", "https://www.aliexpress.com/item/1005011543735291.html"],
+      ["AliExpress [2] (Injection Moulded Shell; USB-C)","https://www.aliexpress.com/item/1005007535764512.html"],
       ["Phenom Mod (US; Pre-orders; USB-C Version)", "https://store.phenommod.com/?product=dspico-pre-order"],
       ["LaserBear (US; Coming soon)", "https://www.laserbear.net/products/dspico"],
       ["Kaico Labs (UK & EU; Coming soon)", "https://kaicolabs.com/product/dspico-by-lnh/"]
