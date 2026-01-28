@@ -87,7 +87,7 @@ The DSpico is a new flashcart created by the LNH Team. It is the world's first o
 
 **Cons**:
 - Quality of the shell may differ depending on the seller you get it from. Some use 3D Printed shells while others use Injection Moulded shells. Both will generally be fine for most however.
-- Pico-Loader currently does not support cheats, this may be added in the future however.
+- Pico-Loader currently does not support cheats nor soft-reset in games; this may be added in the future, however.
 - Compiling the firmware may be difficult for some users. This would only be required if you receive a DSpico which has not been pre-flashed with any firmware, or if the provided firmware does not work with your console (e.g., Hybrid bootloader firmware on a stock DSi/3DS).
 
 {% assign pico_data = site.data.pico_ver %}
@@ -218,7 +218,7 @@ The DSpico features both a development port and a USB port. The development port
 
 It supports all DS, DSi and 3DS consoles with their latest firmware versions, provided the cart is flashed with the WRFUxxed firmware. The DSpico also supports 3DS and DSi ntrboot, which is useful for modding and recovering from bricks. The cart is currently in active development, and the DSi-mode support allows you to access DSi-enhanced features (such as the camera and WPA2 Wifi) in games that support it, as well as having the ability to run DSiWare. These features are not available on an original DS or DS Lite, as you will be limited to DS mode on those consoles.
 
-The main kernel intended for the DSpico is Pico-Launcher, which runs games and homebrew using Pico-Loader. It features a modern Material UI-style interface that can display your games in various ways, including a coverflow-style format in which you can add box art for your games! It features rich theme customisation with support for playing background music. For more information on creating themes for the DSpico, [check the Themes page on the LNH Team Github.](https://github.com/LNH-team/pico-launcher/blob/develop/docs/Themes.md) One downside of Pico-Loader (and by extension, Pico-Launcher) is that cheats are not supported; however, support may be added in a future update.
+The main kernel intended for the DSpico is Pico-Launcher, which runs games and homebrew using Pico-Loader. It features a modern Material UI-style interface that can display your games in various ways, including a coverflow-style format in which you can add box art for your games! It features rich theme customisation with support for playing background music. For more information on creating themes for the DSpico, [check the Themes page on the LNH Team Github.](https://github.com/LNH-team/pico-launcher/blob/develop/docs/Themes.md) One downside of Pico-Loader (and by extension, Pico-Launcher) is that neither cheats nor soft-reset in games are supported; however, support may be added in a future update.
 
 Due to its open-source nature, the DSpico can be obtained from various sellers (or you could even make your own!). However, bear in mind that the quality of the DSpico, particularly its shell, may differ depending on where you buy it. Some sellers will ship it with a 3D-printed shell, whereas others may send it with an injection-moulded shell instead. The injection-moulded shells are better; however, both should work just fine for most people. USB-C variants of the hardware also exist and are currently being sold by Phenom Mod in the US.
 
