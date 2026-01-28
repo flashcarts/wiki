@@ -1,15 +1,15 @@
 ---
 title: NTRBoot Quick Start Guide
 tabs:
-   - preflashed: Pre-flashed carts
-     flashable: Flashable carts
-     avoid: Carts to avoid
+    - flashable: Flashable carts
+      preflashed: Pre-flashed carts
+      avoid: Carts to avoid
 ---
 
 {% assign ds-qsg-reference = site.pages | where: 'name', 'ds-quick-start-guide.md' %}
 
-This page exists as an answer to "Which flashcart should I buy for ntrboot?". Flashcarts which we recommend over others in a category are in **bold**. <br/>
-We would recommend buying an **[Ace3DS X](?tab=preflashed#ace3ds-x)** due to it's ability to switch between it's DS firmware and 3DS ntrboot firmware. Other options are mentioned on this list if you are unable to obtain this cart or have a need for DSi ntrboot instead.
+This page exists as an answer to "Which flashcart should I buy for ntrboot?". Flashcarts which we recommend over others in a category are in **bold**.  
+We would recommend buying a **[DSpico](?tab=flashable#dspico)** as it does not require a working console to flash it. It also supports both DSi and 3DS ntrboot. Other options are mentioned on this list if you are unable to obtain this cart.
 {:.alert .alert-info}
 
 ## READ FIRST
@@ -50,7 +50,26 @@ You can find more information about this flashcart on our [DS Quick Start Guide]
 These carts will need to be flashed with ntrboot as they come with their DS firmware from factory. Flashing one of these carts is easy though, you can find out how to do that here: [3DS ntrboot](https://3ds.hacks.guide/ntrboot) / [DSi ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot)
 {:.alert .alert-info}
 
-## **R4iSDHC.com 2014+**
+## **DSpico**
+
+![DSpico](/assets/images/ds_carts/dspico.png){:.float-start .me-3}
+
+The DSpico is a new, open-source flashcart by the LNH Team. It supports both DSi and 3DS ntrboot. Flashing the DSpico is a different process to the other carts on the list. You first need to compile the firmware using the appropriate ntrboot ROM, then flash it to the cart over USB. **You must have a microSD card inserted into the DSpico to trigger ntrboot**. Otherwise, the RP2040 will enter BOOTSEL mode and ntrboot will not work!
+
+You can find a guide to setup and compile the firmware in the dspico-firmware repository: <https://github.com/LNH-team/dspico-firmware>.
+
+For DSi ntrboot, you should use the ntrboot image provided on the [DS-Homebrew wiki](https://wiki.ds-homebrew.com/ds-index/ntrboot) as your `default.nds`. For 3DS ntrboot, you should use [boot9strap_ntr 1.3](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3-ntr.zip) as your `default.nds`.
+
+### Purchase links and kernel downloads
+
+These usually cost around $10-20 USD. Searching for "dspico" on AliExpress usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
+{% for item in ds-qsg-reference[0].purchase_links[3].links %}
+- [{{item[0]}}]({{item[1]}})
+{%endfor%}
+
+You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=unhacked-detailed#dspico).
+
+## R4iSDHC.com 2014+
 ![r4isdhc gold pro](/assets/images/ds_carts/r4isdhc_com_front.png){:.float-start .me-3} 
 
 It doesn't matter whether you get the Gold Pro, or the Dual Core, or any other cart from r4isdhc.com, as long as the year number is 2014 or above - you can use the cart with ntrboot. Carts pre-2014 are not compatible with ntrboot. You must ensure that this is an r4isdhc**.com** cart, other similar looking carts mentioned in the '[Carts to avoid](?tab=avoid)' tab cannot use ntrboot. 
@@ -157,7 +176,7 @@ Key differenced to look out for are:
 Earlier carts (~2017) from r4isdhc.com.cn supported being flashed with ntrboot - it could not be flashed back to it's DS firmware meaning it would forever be an ntrboot cart. Newer carts (2020+) do not support being flashed with ntrboot.
 {% endcapture %}
 {% assign tab-avoid = tab-avoid | split: "////////" %}
-{% assign tabs = tab-preflashed | concat: tab-flashable | concat: tab-avoid %}
+{% assign tabs = tab-flashable | concat: tab-preflashed | concat: tab-avoid %}
 {% include tabs.html index=0 tabs=tabs %}
 
 {% include_relative include/disclaimer.md %}
