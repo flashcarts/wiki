@@ -33,11 +33,10 @@ purchase_links:
     links: [
       ["AliExpress [1] (Injection Moulded Shell; Micro USB)", "https://www.aliexpress.com/item/1005011543735291.html"],
       ["AliExpress [2] (Injection Moulded Shell; USB-C)","https://www.aliexpress.com/item/1005007535764512.html"],
-      ["AliExpress [3] (3D-Printed Shell)","https://aliexpress.com/item/1005010650741717.html"],
       ["Phenom Mod (US; Pre-orders; USB-C Version)", "https://store.phenommod.com/?product=dspico-pre-order"],
       ["ShiraSeal (UK & EU; Pre-orders; USB-C Version)", "https://shiraseal.com/product/dspico/"],
-      ["LaserBear (US; Coming soon)", "https://www.laserbear.net/products/dspico"],
-      ["Kaico Labs (UK & EU)", "https://kaicolabs.com/product/dspico-by-lnh/"]
+      ["Kaico Labs (UK & EU; Pre-orders; Micro USB)", "https://kaicolabs.com/product/dspico-by-lnh/"],
+      ["LaserBear (US; Coming soon)", "https://www.laserbear.net/products/dspico"]
     ]
 ---
 Here are the best DS flashcarts currently available on the market. **If you're looking for a GBA flashcart, see the [GBA quick start guide](gba-quick-start-guide).** For other consoles, see the [quick start guide list](index.html).
