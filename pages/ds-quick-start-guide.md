@@ -29,14 +29,18 @@ purchase_links:
       ["NDS-Card (r4isdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=490"],
       ["NDS-Card (r4i-sdhc.com)","https://www.nds-card.com/ProShow.asp?ProID=146"]
     ]
-  - cart: DSPico
+  - cart: DSPicoMicroUSB
     links: [
-      ["AliExpress [1] (Injection Moulded Shell; Micro USB)", "https://www.aliexpress.com/item/1005011543735291.html"],
-      ["AliExpress [2] (Injection Moulded Shell; USB-C)","https://www.aliexpress.com/item/1005007535764512.html"],
-      ["Phenom Mod (US; Pre-orders; USB-C Version)", "https://store.phenommod.com/?product=dspico-pre-order"],
-      ["Kaico Labs (UK & EU; Pre-orders; Micro USB)", "https://kaicolabs.com/product/dspico-by-lnh/"],
-      ["ShiraSeal (UK & EU; Pre-orders; USB-C Version)", "https://shiraseal.com/product/dspico/"],
+      ["AliExpress (Injection Moulded Shell)", "https://www.aliexpress.com/item/1005011543735291.html"],
+      ["AliExpress (3D-Printed Shell)","https://aliexpress.com/item/1005010650741717.html"],
+      ["Kaico Labs (UK & EU; Pre-orders)", "https://kaicolabs.com/product/dspico-by-lnh/"],
       ["LaserBear (US; Coming soon)", "https://www.laserbear.net/products/dspico"]
+    ]
+  - cart: DSPicoUSBC
+    links: [
+      ["AliExpress (Injection Moulded Shell)","https://www.aliexpress.com/item/1005007535764512.html"],
+      ["Phenom Mod (US; Pre-orders)", "https://store.phenommod.com/?product=dspico-pre-order"],
+      ["ShiraSeal (UK & EU; Pre-orders)", "https://shiraseal.com/product/dspico/"]
     ]
 ---
 Here are the best DS flashcarts currently available on the market. **If you're looking for a GBA flashcart, see the [GBA quick start guide](gba-quick-start-guide).** For other consoles, see the [quick start guide list](index.html).
@@ -96,8 +100,13 @@ LNH Team Website: <https://www.lnh-team.org/>
 Setup Guide: <https://github.com/LNH-team/dspico/blob/develop/GUIDE.md>  
 Pico-Launcher build by flashcarts.net: [Pico-Launcher {{pico_data.launcher_ver}} + Pico-Loader {{pico_data.loader_ver}}](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}&fcnetrev={{pico_data.fcnetrev}})
 
-Purchase links:
+Purchase links - Micro USB Version:
 {% for item in page.purchase_links[3].links %}
+- [{{item[0]}}]({{item[1]}})
+{% endfor %}
+
+Purchase links - USB-C Version:
+{% for item in page.purchase_links[4].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
