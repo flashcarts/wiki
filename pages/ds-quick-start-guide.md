@@ -33,7 +33,7 @@ purchase_links:
     links: [
       ["AliExpress (Injection Moulded Shell)", "https://www.aliexpress.com/item/1005011543735291.html"],
       ["AliExpress (3D-Printed Shell)","https://aliexpress.com/item/1005010650741717.html"],
-      ["Kaico Labs (UK & EU; Pre-orders)", "https://kaicolabs.com/product/dspico-by-lnh/"],
+      ["Kaico Labs (UK & EU; VAT is not included for the EU)", "https://kaicolabs.com/product/dspico-by-lnh/"],
       ["LaserBear (US; Coming soon)", "https://www.laserbear.net/products/dspico"]
     ]
   - cart: DSPicoUSBC
