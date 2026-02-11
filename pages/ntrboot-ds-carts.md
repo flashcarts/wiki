@@ -58,12 +58,20 @@ The DSpico is a new, open-source flashcart by the LNH Team. It supports both DSi
 
 You can find a guide to setup and compile the firmware in the dspico-firmware repository: <https://github.com/LNH-team/dspico-firmware>.
 
-For DSi ntrboot, you should use the ntrboot image provided on the [DS-Homebrew wiki](https://wiki.ds-homebrew.com/ds-index/ntrboot) as your `default.nds`. For 3DS ntrboot, you should use [boot9strap_ntr 1.3](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3-ntr.zip) as your `default.nds`.
+For DSi ntrboot, you should use the ntrboot image provided on the [DS-Homebrew wiki](https://wiki.ds-homebrew.com/ds-index/ntrboot) as your `default.nds`. For 3DS ntrboot, you should use [boot9strap_ntr](https://github.com/SciresM/boot9strap/releases/latest) as your `default.nds`.
 
 ### Purchase links and kernel downloads
 
 These usually cost around $10-20 USD. Searching for "dspico" on AliExpress usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
+
+Purchase links - Micro USB Version:
 {% for item in ds-qsg-reference[0].purchase_links[3].links %}
+- [{{item[0]}}]({{item[1]}})
+{%endfor%}
+
+Purchase links - USB-C Version:
+
+{% for item in ds-qsg-reference[0].purchase_links[4].links %}
 - [{{item[0]}}]({{item[1]}})
 {%endfor%}
 
