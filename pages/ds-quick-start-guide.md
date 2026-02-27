@@ -248,7 +248,7 @@ Setup Guide: <https://github.com/LNH-team/dspico/blob/develop/GUIDE.md>
 
 - Pico-Launcher build by flashcarts.net: [Pico-Launcher {{pico_data.launcher_ver}} + Pico-Loader {{pico_data.loader_ver}}](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}&fcnetrev={{pico_data.fcnetrev}})
 - TWiLight Menu++ (follow the steps for Pico-Loader): [TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard)
-- AKMenu-Next (currently does not support DSi-mode; follow the steps for adding Pico-Loader): [AKMenu-Next](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_1) 
+- AKMenu-Next (follow the steps for Pico-Loader): [AKMenu-Next](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_2) 
 
 ---
 
