@@ -242,7 +242,7 @@ Links to purchase the DSpico are provided below, but they may not be the cheapes
 {% endfor %}
 
 LNH Team Website: <https://www.lnh-team.org/>  
-Setup Guide: <https://github.com/LNH-team/dspico/blob/develop/GUIDE.md>
+Setup Guide: <https://sanrax.github.io/flashcart-guides/cart-guides/dspico/>
 
 ##### Kernels
 
