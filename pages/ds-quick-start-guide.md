@@ -97,7 +97,7 @@ The DSpico is a new flashcart created by the LNH Team. It is the world's first o
 {% assign pico_data = site.data.pico_ver %}
 
 LNH Team Website: <https://www.lnh-team.org/>  
-Setup Guide: <https://github.com/LNH-team/dspico/blob/develop/GUIDE.md>  
+Setup Guide: <https://sanrax.github.io/flashcart-guides/cart-guides/dspico/>  
 Pico-Launcher build by flashcarts.net: [Pico-Launcher {{pico_data.launcher_ver}} + Pico-Loader {{pico_data.loader_ver}}](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}&fcnetrev={{pico_data.fcnetrev}})
 
 Purchase links - Micro USB Version:
