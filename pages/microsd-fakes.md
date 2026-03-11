@@ -17,6 +17,9 @@ It's important to avoid buying counterfeit MicroSD cards as you may experience d
 
 **All information on this page generally also applies to full size SD cards.**
 
+Counterfeit MicroSD cards and similar scams are becoming more widespread due to current events causing a sharp rise in costs of memory & flash storage. Please be extra vigilant when shopping for MicroSD cards.
+{:.alert .alert-danger}
+
 ## (Overview) Checklist to avoid fake MicroSD Cards
 
 - ✓ Always buy from a well known trusted retailer (Some brands also operate their own online stores).
@@ -106,16 +109,23 @@ There are some cases where a brand will sell MicroSD cards, but counterfeit card
 
 There are various ways to ensure you are getting a genuine product.
 
-- Always buy from a trusted & reputable big name retailer.
 - Avoid buying MicroSD cards from online shopping marketplaces such as AliExpress, Wish, Temu & Shein.
-- Some name brands like Sandisk, Samsung and Kingston have official online stores to buy genuine MicroSD cards directly from them. Other name brands will typically have a list of authorised sellers on their website.
+- Always buy from a trusted & reputable big name retailer; such as a retail chain store or a supermarket, or directly from the brand as mentioned below.
+- Some name brands like Sandiskand Samsung have official online stores to buy genuine MicroSD cards directly from them. Other name brands will typically have a list of authorised sellers on their website:
+<br><br>
     - Sandisk: [Online Store](https://shop.sandisk.com/product-portfolio/memory-cards/microsd-cards) --- [Authorised Sellers](https://shop.sandisk.com/company/distributors)
     - Samsung: [Online Store](https://www.samsung.com/us/computing/memory-storage/memory-cards/)
-    - Kingston: [Online Store](https://shop.kingston.com/collections/memory-cards/Memory-Card)
+    - Kingston: [Authorised Sellers](https://www.kingston.com/en/wheretobuy)
     - Lexar: [Authorised Sellers](https://www.lexar.com/global/store/)
     - Kioxia (Formerly Toshiba): [Authorised Sellers](https://europe.kioxia.com/en-europe/personal/support/buy.html)
-    - This isn't a complete list, it is here to serve as an example.
+    - PNY [Authorised Sellers](https://www.pny.com/company/where-to-buy)
+    - Transcend: [Authorised Sellers](https://www.transcend-info.com/support/buy)
+    - Integral: [Authorised Sellers](https://www.integralmemory.com/where-to-buy/)
+    - Supermarket own-brand MicroSD cards (such as Walmart Onn) are typically rebadged name-brand cards (Walmart Onn is rebadged PNY for example) and are also a good choice.
+    - This isn't a complete list, nor is it a guide to which name-brands exist, however it is here to serve as an example.
+<br><br>
 - If you are buying from Amazon, ensure the product listing states that it is both "Sold" and "Shipped" by Amazon. "Fulfilled by Amazon" but sold by a different seller does not guarantee you will get a genuine product.
+- Likewise, you will not be guaranteed a genuine MicroSD card from Ebay, ensure the seller you are buying from has good reviews and is reputable.
 
 ---
 
