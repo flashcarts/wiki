@@ -39,7 +39,7 @@ purchase_links:
   - cart: DSPicoUSBC
     links: [
       ["AliExpress (Injection Moulded Shell)","https://www.aliexpress.com/item/1005007535764512.html"],
-      ["Phenom Mod (US; Pre-orders)", "https://store.phenommod.com/?product=dspico-pre-order"],
+      ["Phenom Mod (US)", "https://store.phenommod.com/?product=dspico-pre-order"],
       ["ShiraSeal (UK & EU; Pre-orders)", "https://shiraseal.com/product/dspico/"]
     ]
 ---
