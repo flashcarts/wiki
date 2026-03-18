@@ -40,7 +40,7 @@ purchase_links:
     links: [
       ["AliExpress (Injection Moulded Shell)","https://www.aliexpress.com/item/1005007535764512.html"],
       ["Phenom Mod (US)", "https://store.phenommod.com/?product=dspico-pre-order"],
-      ["ShiraSeal (UK & EU; Pre-orders)", "https://shiraseal.com/product/dspico/"]
+      ["ShiraSeal (UK & EU)", "https://shiraseal.com/product/dspico/"]
     ]
 ---
 Here are the best DS flashcarts currently available on the market. **If you're looking for a GBA flashcart, see the [GBA quick start guide](gba-quick-start-guide).** For other consoles, see the [quick start guide list](index.html).
