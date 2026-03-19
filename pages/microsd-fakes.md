@@ -76,6 +76,7 @@ No-name MicroSD cards are commonly included with preloaded Nintendo DS flashcart
 ![fake SanDian MicroSD card](/assets/images/microsd/sandian-card.png){:width="200"}
 ![fake MicroDrive MicroSD card](/assets/images/microsd/microdrive-card.png){:width="200"}
 ![No-name Unbranded MicroSD card](/assets/images/microsd/generic.png){:width="200"}
+![No-name Unbranded "miomg" card](/assets/images/microsd/miomg.png){:width="200"}
 
 <sup>These examples were spotted on several online marketplaces.</sup>
 
