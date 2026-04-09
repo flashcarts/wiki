@@ -31,6 +31,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - R4i Gold Upgrade 1.4.1 and V1.41 (r4igold.cn)
     - R4i WiFi V1.5 (r4igold.cn)
     - R4i Dual Core NEW (r4isdhc.cc)
+    - R4i Gold Plus 3DS (r4isdhc.cc)
     - R4i 3DS (r4-gold.net)
     - R4i Unlimited Upgradable (r4i-sdhc.hk) 
         - Note: If you get a `Couldn't find _DS_MENU.DAT` error on this cart, it is likely to be an original R4 clone. It should use [Wood R4 1.62](https://mirrors.lifehacker101.net/flashcard-archive//R4_original_M3_Simply/R4DS_Wood_R4_1.62.zip) instead of YSMenu.
