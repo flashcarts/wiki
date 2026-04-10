@@ -75,6 +75,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - R4i SDHC 1.4V Gold (r4i-sdhc.com.au)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.HK`**:
     - All carts from r4i-blue.com
+    - All carts from r4i-sdhc.com.hk
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.DL`**:
     - All carts from r4idsxl.com
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4i.dat`**:
