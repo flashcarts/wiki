@@ -96,7 +96,7 @@ This cart costs $99 USD. You can find it on Krikzz website here: <https://krikzz
 
 {% capture tab-everdrive-gba-pro %}
 ### Everdrive GBA Pro
-![Everdrive GBA Mini](./assets/images/gba_carts/Everdrive_GBA_Pro.png){:.float-start .me-3} A more high end premium option from Krikzz. It fits snug like a regular cartridge. However, the [EZ Flash Omega DE](?tab=ez-flash-ode) costs less and has more features in comparison. What it lacks in features, it gains in support and build quality. This may be a good option if you prefer better support over more functionality.
+![Everdrive GBA Mini](./assets/images/gba_carts/Everdrive_GBA_Pro.png){:.float-start .me-3} A more high end premium option from Krikzz. It fits snug like a regular cartridge. However, the [EZ Flash Omega DE](?tab=ez-flash-ode) costs less for the same features. However, for the higher price, you get better technical support and build quality. This may be a good option if you prefer better support over a cheaper option.
 
 The Everdrive GBA Pro stores save data on PSRAM instead SRAM of the previous model, but still requires a battery, which means that the battery inside of it is save-critical. The cart should warn you when the battery is running dry. It uses a CR1220 battery which is held in with a battery contact clip - therefore no soldering is required to replace the battery.
 
