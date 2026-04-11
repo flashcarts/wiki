@@ -2,10 +2,11 @@
 title: A Quick Guide on GBA Flashcarts
 description: GBA flashcarts, what there is, and what to buy
 tabs:
-  - ez-flash-ode: EZ Flash Omega DE
+  - superchis: SuperChis Prime
+    ez-flash-ode: EZ Flash Omega DE
     ez-flash-air: EZ Flash Air
     everdrive-gba-mini: Everdrive GBA Mini
-    superchis: SuperChis Prime
+    everdrive-gba-pro: Everdrive GBA Pro
     supercard-sd: SuperCard SD
 ---
 
@@ -14,6 +15,40 @@ Here are the best GBA flashcarts available on the market currently. For other co
 The below flashcarts are purchasable from AliExpress or reputable retro accessory stores like [Hand Held Legend](https://handheldlegend.com) and [Retro Game Repair Shop](https://retrogamerepairshop.com).
 
 ## Recommended carts
+
+{% capture tab-superchis %}
+### SuperChis Prime
+![SuperChis Prime](./assets/images/gba_carts/SuperChis_Prime.png){:.float-start .me-3} The SuperChis Prime is a new (partial) source-available GBA flashcart that is the result of reverse engineering the SuperCard SD and vastly improving upon it. The main benefit that the SuperChis has over the SuperCard is the inclusion of a NOR flash chip. Games running off the NOR flash do not suffer from the same slowdown and compatibility issues that are present on the SuperCard SD. Loading times have also improved drastically, with it taking half the time to boot a game off the SD card when compared to the SuperCard.
+
+There are a few drawbacks that the cart shares with the SuperCard SD. One of those is that it still relies on an SRAM battery for saves. It uses a soldered-in CR1616 battery, which should last a long time but may be difficult for some people to replace once it dies. The SuperChis Prime also lacks rumble and RTC support. 
+
+SuperFW helps to alleviate some of these issues, however. For the missing RTC, it uses a pseudo-RTC that advances the clock in supported games while they are running. If the SRAM battery is dead, there are still ways to save without losing any of your progress. Flash and EEPROM games can take advantage of direct saving, and SRAM-based games can have their save written manually from the in-game menu.
+
+The SuperChis is also a great option for those that need a cart to use in conjunction with TWiLight Menu++ on DSL/NDS systems to load GBA games natively from Slot-1. It also supports DS mode via Passme just like the Supercard SD should you wish to use this cart for running DS games.
+
+<div class="alert alert-warning">
+<p>
+The SuperChis Prime does not work reliably on AGB-001 consoles with an "02" motherboard due to that variant not providing enough power for the SuperChis Prime. You can check by looking at the gap in the battery compartment and seeing if there is an "02" printed there. The reliability issues worsen if the console has a hardmod installed, such as an IPS display and/or a LiPo battery.
+</p>
+<details>
+  <summary>Click here for how to check if your AGS-001 has an 02 motherboard</summary>
+  <img src="{{ '/assets/images/gba_carts/superchis02.png' | relative_url }}" alt="AGB-001 02 Motherboard">
+</details>
+</div>
+
+The SuperChis Prime can generally be found for the same price as a Supercard SD, so the SuperCard SD should generally be avoided at this point.
+
+More information about the SuperChis Prime can be found on [ChisBread's GBATemp thread.](https://gbatemp.net/threads/superchis-prime-how-i-fixed-the-supercard-sds-flaws-on-a-budget.678808/)
+
+#### Purchase Links
+This cart costs anywhere between $10-20 USD. A purchase link has been provided but it may not be the cheapest listing out there:
+- AliExpress [1]: <https://www.aliexpress.com/item/1005011542077406.html>
+- AliExpress [2]: <https://www.aliexpress.com/item/1005010809710929.html>
+- AliExpress [3]: <https://www.aliexpress.com/item/1005011578451483.html>
+
+{% endcapture %}
+{% assign tab-superchis = tab-superchis | split: "////////" %}
+
 {% capture tab-ez-flash-ode %}
 ### EZ Flash Omega Definitive Edition
 ![EZ Flash ODE](./assets/images/gba_carts/EZFlash_Omega_DE.png){:.float-start .me-3} Premium option with the [best battery life as of revision B](https://www.reddit.com/r/Gameboy/comments/12n4krf/gba_flash_cart_power_consumption_test_ez_flash/). It has some niche features like rumble and Slot-2 DS compatibility for linking. Fixes save issue from regular version. Has a bigger pcb so it doesn't come with the alternative DS Lite shell that the EZ Flash Omega included. [Mahko made a more indepth post here](https://www.reddit.com/r/Gameboy/comments/kv9y87/after_playing_with_the_new_ezflash_omega/).
@@ -54,38 +89,29 @@ This cart costs about $40-50 USD. Purchase links have been provided here though 
 
 The Everdrive GBA Mini uses SRAM instead of FRAM for storing save data, which means that the battery inside of it is save-critical. The cart should warn you when the battery is running dry. It uses a CR1220 battery which is held in with a battery contact clip - therefore no soldering is required to replace the battery.
 
-Currently, this is the only GBA flashcart being sold by Krikzz. The previous Everdrive GBA X5 is no longer in stock.
-
 #### Purchase Links
 This cart costs $99 USD. You can find it on Krikzz website here: <https://krikzz.com/our-products/cartridges/everdrive-gba-mini.html>
 {% endcapture %}
 {% assign tab-everdrive-gba-mini = tab-everdrive-gba-mini | split: "////////" %}
 
-{% capture tab-superchis %}
-### SuperChis Prime
-![SuperChis Prime](./assets/images/gba_carts/SuperChis_Prime.png){:.float-start .me-3} The SuperChis Prime is a new (partial) source-available GBA flashcart that is the result of reverse engineering the SuperCard SD and vastly improving upon it. The main benefit that the SuperChis has over the SuperCard is the inclusion of a NOR flash chip. Games running off the NOR flash do not suffer from the same slowdown and compatibility issues that are present on the SuperCard SD. Loading times have also improved drastically, with it taking half the time to boot a game off the SD card when compared to the SuperCard.
+{% capture tab-everdrive-gba-pro %}
+### Everdrive GBA Pro
+![Everdrive GBA Mini](./assets/images/gba_carts/Everdrive_GBA_Pro.png){:.float-start .me-3} A more high end premium option from Krikzz. It fits snug like a regular cartridge. However, the [EZ Flash Omega DE](?tab=ez-flash-ode) costs less and has more features in comparison. What it lacks in features, it gains in support and build quality. This may be a good option if you prefer better support over more functionality.
 
-There are a few drawbacks that the cart shares with the SuperCard SD. One of those is that it still relies on an SRAM battery for saves. It uses a soldered-in CR1616 battery, which should last a long time but may be difficult for some people to replace once it dies. The SuperChis Prime also lacks rumble and RTC support. 
+The Everdrive GBA Pro stores save data on PSRAM instead SRAM of the previous model, but still requires a battery, which means that the battery inside of it is save-critical. The cart should warn you when the battery is running dry. It uses a CR1220 battery which is held in with a battery contact clip - therefore no soldering is required to replace the battery.
 
-SuperFW helps to alleviate some of these issues, however. For the missing RTC, it uses a pseudo-RTC that advances the clock in supported games while they are running. If the SRAM battery is dead, there are still ways to save without losing any of your progress. Flash and EEPROM games can take advantage of direct saving, and SRAM-based games can have their save written manually from the in-game menu.
+The game loading speed of the Everdrive GBA Pro has been increased and it adds extra features such as Solar, Tilt and Gyro sensors, as well as Cheats, Save States, Themes and a "Mode B" function much like the EZFlash AIR and EZFlash Omega DE. 
 
-The SuperChis is also a great option for those that need a cart to use in conjunction with TWiLight Menu++ on DSL/NDS systems to load GBA games natively from Slot-1. It also supports DS mode via Passme just like the Supercard SD should you wish to use this cart for running DS games.
+A comparison of the Everdrive GBA Mini and Everdrive GBA Pro from is provided below:
 
-The SuperChis Prime does not work reliably on AGB-001 consoles with an "02" motherboard due to that variant not providing enough power for the SuperChis Prime. You can check by looking at the gap in the battery compartment and seeing if there is an "02" printed there. The reliability issues worsen if the console has a hardmod installed, such as an IPS display and/or a LiPo battery.
-{:.alert .alert-warning}
+![Everdrive GBA Comparison Chart](./assets/images/gba_carts/carts_cmp_GBA_PRO.png)
 
-The SuperChis Prime can generally be found for the same price as a Supercard SD, so the SuperCard SD should generally be avoided at this point.
-
-More information about the SuperChis Prime can be found on [ChisBread's GBATemp thread.](https://gbatemp.net/threads/superchis-prime-how-i-fixed-the-supercard-sds-flaws-on-a-budget.678808/)
+<sup>Image from [Krikzz](https://krikzz.com/our-products/cartridges/everdrive-gba-pro.html)</sup>
 
 #### Purchase Links
-This cart costs anywhere between $10-20 USD. A purchase link has been provided but it may not be the cheapest listing out there:
-- AliExpress [1]: <https://www.aliexpress.com/item/1005011542077406.html>
-- AliExpress [2]: <https://www.aliexpress.com/item/1005010809710929.html>
-- AliExpress [3]: <https://www.aliexpress.com/item/1005011578451483.html>
-
+This cart costs $129 USD. You can find it on Krikzz website here: <https://krikzz.com/our-products/cartridges/everdrive-gba-pro.html>
 {% endcapture %}
-{% assign tab-superchis = tab-superchis | split: "////////" %}
+{% assign tab-everdrive-gba-pro = tab-everdrive-gba-pro | split: "////////" %}
 
 {% capture tab-supercard-sd %}
 ### SuperCard SD
@@ -137,7 +163,7 @@ The SuperCard SD is also being sold under the "REMANK" name on Aliexpress. The "
 {% endcapture %}
 {% assign tab-supercard-sd = tab-supercard-sd | split: "////////" %}
 
-{% assign tabs = tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-everdrive-gba-mini | concat: tab-superchis | concat: tab-supercard-sd %}
+{% assign tabs = tab-superchis | concat: tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-everdrive-gba-mini | concat: tab-everdrive-gba-pro | concat: tab-supercard-sd %}
 {% include tabs.html index=0 tabs=tabs %}
 
 {% include_relative include/disclaimer.md %}

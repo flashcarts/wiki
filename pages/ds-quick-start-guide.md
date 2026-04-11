@@ -31,14 +31,14 @@ purchase_links:
     ]
   - cart: DSPicoMicroUSB
     links: [
-      ["AliExpress (Injection Moulded Shell)", "https://www.aliexpress.com/item/1005011543735291.html"],
-      ["AliExpress (3D-Printed Shell)","https://aliexpress.com/item/1005010650741717.html"],
+      ["AliExpress (Purple PCB)", "https://www.aliexpress.com/item/1005011543735291.html"],
+      ["AliExpress (White PCB)","https://www.aliexpress.com/item/1005011966105845.html"],
       ["Kaico Labs (UK)", "https://kaicolabs.com/product/dspico-by-lnh/"],
       ["LaserBear (US)", "https://www.laserbear.net/products/dspico"]
     ]
   - cart: DSPicoUSBC
     links: [
-      ["AliExpress (Injection Moulded Shell)","https://www.aliexpress.com/item/1005007535764512.html"],
+      ["AliExpress","https://www.aliexpress.com/item/1005007535764512.html"],
       ["Phenom Mod (US)", "https://store.phenommod.com/?product=dspico-pre-order"],
       ["ShiraSeal (UK & EU)", "https://shiraseal.com/product/dspico/"]
     ]
@@ -92,7 +92,7 @@ The DSpico is a new flashcart created by the LNH Team. It is the world's first o
 **Cons**:
 - Quality of the shell may differ depending on the seller you get it from. Some use 3D Printed shells while others use Injection Moulded shells. Both will generally be fine for most however.
 - Pico-Loader currently does not support soft-reset in games; this may be added in the future, however.
-- Compiling the firmware may be difficult for some users. This would only be required if you receive a DSpico which has not been pre-flashed with any firmware, or if the provided firmware does not work with your console (e.g., Hybrid bootloader firmware on a stock DSi/3DS).
+- May require flashing before use if it comes unflashed, or if the provided firmware does not work with your console (e.g., Hybrid bootloader firmware on a stock DSi/3DS).
 
 {% assign pico_data = site.data.pico_ver %}
 
@@ -100,12 +100,12 @@ LNH Team Website: <https://www.lnh-team.org/>
 Setup Guide: <https://sanrax.github.io/flashcart-guides/cart-guides/dspico/>  
 Pico-Launcher build by flashcarts.net: [Pico-Launcher {{pico_data.launcher_ver}} + Pico-Loader {{pico_data.loader_ver}}](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}&fcnetrev={{pico_data.fcnetrev}})
 
-Purchase links - Micro USB Version:
+Purchase links - **Micro USB Version**:
 {% for item in page.purchase_links[3].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
 
-Purchase links - USB-C Version:
+Purchase links - **USB-C Version**:
 {% for item in page.purchase_links[4].links %}
 - [{{item[0]}}]({{item[1]}})
 {% endfor %}
