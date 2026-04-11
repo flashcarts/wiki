@@ -112,7 +112,7 @@ There are various ways to ensure you are getting a genuine product.
 
 - Avoid buying MicroSD cards from online shopping marketplaces such as AliExpress, Wish, Temu & Shein.
 - Always buy from a trusted & reputable big name retailer; such as a retail chain store or a supermarket, or directly from the brand as mentioned below.
-- Some name brands like Sandiskand Samsung have official online stores to buy genuine MicroSD cards directly from them. Other name brands will typically have a list of authorised sellers on their website:
+- Some name brands like Sandisk and Samsung have official online stores to buy genuine MicroSD cards directly from them. Other name brands will typically have a list of authorised sellers on their website:
 <br><br>
     - Sandisk: [Online Store](https://shop.sandisk.com/product-portfolio/memory-cards/microsd-cards) --- [Authorised Sellers](https://shop.sandisk.com/company/distributors)
     - Samsung: [Online Store](https://www.samsung.com/us/computing/memory-storage/memory-cards/)

@@ -41,7 +41,7 @@ The Ace3DS X costs around $5-10 USD. Searching "ace3ds" on AliExpress or eBay us
 - [{{item[0]}}]({{item[1]}})
 {%endfor%}
 
-You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=unhacked-detailed#ace3ds-x).
+You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=ace3ds-x#ace3ds-x).
 
 {% endcapture %}
 {% assign tab-preflashed = tab-preflashed | split: "////////" %}
@@ -75,7 +75,7 @@ Purchase links - USB-C Version:
 - [{{item[0]}}]({{item[1]}})
 {%endfor%}
 
-You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=unhacked-detailed#dspico).
+You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=dspico#dspico).
 
 ## R4iSDHC.com 2014+
 ![r4isdhc gold pro](/assets/images/ds_carts/r4isdhc_com_front.png){:.float-start .me-3} 
@@ -106,7 +106,7 @@ These usually cost around $5-10 USD. Searching for "r4 gold pro" on AliExpress o
 {%endif%}
 {%endfor%}
 
-You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=unhacked-detailed#dstti-demon-clones).
+You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=demon-clones#dstti-demon-clones).
 
 ## R4i-SDHC 3DS RTS
 ![R4i-SDHC 3DS](/assets/images/ds_carts/r4i-sdhc_3ds_rts.png){:.float-start .me-3}
@@ -123,7 +123,7 @@ The R4i-SDHC 3DS RTS usually costs around $10-15 USD. Searching for "r4 rts 3ds"
 - [{{item[0]}}]({{item[1]}})
 {% endif %}
 {% endfor %}
-You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=unhacked-detailed#dstti-demon-clones).
+You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=demon-clones#dstti-demon-clones).
 
 ## DSTT
 ![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}
@@ -139,7 +139,7 @@ These can still be purchased new from NDS-Card on their website. Links are provi
 
 - NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=157>
 
-You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=original-hacked#dstt).
+You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=other-flashcarts#dstt).
 
 {% endcapture %}
 {% assign tab-flashable = tab-flashable | split: "////////" %}
