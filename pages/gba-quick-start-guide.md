@@ -5,8 +5,8 @@ tabs:
   - ez-flash-ode: EZ Flash Omega DE
     ez-flash-air: EZ Flash Air
     superchis: SuperChis Prime
-    everdrive-gba-mini: Everdrive GBA Mini
     everdrive-gba-pro: Everdrive GBA Pro
+    everdrive-gba-mini: Everdrive GBA Mini
     supercard-sd: SuperCard SD
 ---
 
@@ -83,17 +83,6 @@ This cart costs anywhere between $10-20 USD. A purchase link has been provided b
 {% endcapture %}
 {% assign tab-superchis = tab-superchis | split: "////////" %}
 
-{% capture tab-everdrive-gba-mini %}
-### Everdrive GBA Mini
-![Everdrive GBA Mini](./assets/images/gba_carts/Everdrive_GBA_Mini.png){:.float-start .me-3} Premium option from Krikzz. It fits snug like a regular cartridge. However, the [EZ Flash Omega DE](?tab=ez-flash-ode) costs less and has more features in comparison. What it lacks in features, it gains in support and build quality. This may be a good option if you prefer better support over more functionality.
-
-The Everdrive GBA Mini uses SRAM instead of FRAM for storing save data, which means that the battery inside of it is save-critical. The cart should warn you when the battery is running dry. It uses a CR1220 battery which is held in with a battery contact clip - therefore no soldering is required to replace the battery.
-
-#### Purchase Links
-This cart costs $99 USD. You can find it on Krikzz website here: <https://krikzz.com/our-products/cartridges/everdrive-gba-mini.html>
-{% endcapture %}
-{% assign tab-everdrive-gba-mini = tab-everdrive-gba-mini | split: "////////" %}
-
 {% capture tab-everdrive-gba-pro %}
 ### Everdrive GBA Pro
 ![Everdrive GBA Mini](./assets/images/gba_carts/Everdrive_GBA_Pro.png){:.float-start .me-3} A more high end premium option from Krikzz. It fits snug like a regular cartridge. However, the [EZ Flash Omega DE](?tab=ez-flash-ode) costs less for the same features. However, for the higher price, you get better technical support and build quality. This may be a good option if you prefer better support over a cheaper option.
@@ -112,6 +101,17 @@ A comparison of the Everdrive GBA Mini and Everdrive GBA Pro from is provided be
 This cart costs $129 USD. You can find it on Krikzz website here: <https://krikzz.com/our-products/cartridges/everdrive-gba-pro.html>
 {% endcapture %}
 {% assign tab-everdrive-gba-pro = tab-everdrive-gba-pro | split: "////////" %}
+
+{% capture tab-everdrive-gba-mini %}
+### Everdrive GBA Mini
+![Everdrive GBA Mini](./assets/images/gba_carts/Everdrive_GBA_Mini.png){:.float-start .me-3} Premium option from Krikzz. It fits snug like a regular cartridge. However, the [EZ Flash Omega DE](?tab=ez-flash-ode) costs less and has more features in comparison. What it lacks in features, it gains in support and build quality. This may be a good option if you prefer better support over more functionality.
+
+The Everdrive GBA Mini uses SRAM instead of FRAM for storing save data, which means that the battery inside of it is save-critical. The cart should warn you when the battery is running dry. It uses a CR1220 battery which is held in with a battery contact clip - therefore no soldering is required to replace the battery.
+
+#### Purchase Links
+This cart costs $99 USD. You can find it on Krikzz website here: <https://krikzz.com/our-products/cartridges/everdrive-gba-mini.html>
+{% endcapture %}
+{% assign tab-everdrive-gba-mini = tab-everdrive-gba-mini | split: "////////" %}
 
 {% capture tab-supercard-sd %}
 ### SuperCard SD
