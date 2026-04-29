@@ -33,16 +33,17 @@ purchase_links:
     ]
   - cart: DSPicoMicroUSB
     links: [
-      ["AliExpress (Purple PCB)", "https://www.aliexpress.com/item/1005011543735291.html"],
-      ["AliExpress (White PCB)","https://www.aliexpress.com/item/1005011966105845.html"],
+      ["AliExpress (ChisFamily; Purple PCB)", "https://www.aliexpress.com/item/1005011543735291.html"],
+      ["AliExpress (ChisFamily; White PCB)","https://www.aliexpress.com/item/1005011966105845.html"],
       ["Kaico Labs (UK)", "https://kaicolabs.com/product/dspico-by-lnh/"],
       ["LaserBear (US)", "https://www.laserbear.net/products/dspico"]
     ]
   - cart: DSPicoUSBC
     links: [
-      ["AliExpress","https://www.aliexpress.com/item/1005007535764512.html"],
+      ["AliExpress (GAME SMITH)","https://www.aliexpress.com/item/1005007535764512.html"],
       ["Phenom Mod (US)", "https://store.phenommod.com/?product=dspico-pre-order"],
-      ["ShiraSeal (UK & EU)", "https://shiraseal.com/product/dspico/"]
+      ["ShiraSeal (UK & EU)", "https://shiraseal.com/product/dspico/"],
+      ["AliExpress (ChisFamily)","https://www.aliexpress.com/item/1005012172539431.html"]
     ]
 ---
 Here are the best DS flashcarts currently available on the market. **If you're looking for a GBA flashcart, see the [GBA quick start guide](gba-quick-start-guide).** For other consoles, see the [quick start guide list](index.html).
