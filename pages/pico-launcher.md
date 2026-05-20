@@ -8,6 +8,7 @@ downloads: [
     ["Datel MMD CF (Slot-2)","pico_package_MMCF.zip"],
     ["DSpico", "pico_package_DSPICO.zip"],
     ["DSTT", "pico_package_DSTT.zip"],
+    ["EX4DS", "pico_package_EX4DS.zip"],
     ["M3i Zero GMP-Z003", "pico_package_G003.zip"],
     ["Gateway Blue", "pico_package_GWBLUE.zip"],
     ["GBAMP CF (Slot-2)","pico_package_MPCF.zip"],
