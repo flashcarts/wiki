@@ -21,9 +21,10 @@ purchase_links:
     ]
   - cart: R4iLS
     links: [
-      ["AliExpress [1]","https://www.aliexpress.com/item/1005006045593536.html"],
-      ["AliExpress [2]","https://www.aliexpress.com/item/1005010140376791.html"],
+      ["AliExpress [1]","https://www.aliexpress.com/item/3256809848884225.html"],
+      ["AliExpress [2]","https://www.aliexpress.com/item/3256805834281036.html"],
       ["AliExpress [3]","https://www.aliexpress.com/item/1005010140611313.html"],
+      ["AliExpress [4]","https://www.aliexpress.com/item/3256806725791537.html"],
       ["NDS-Card (Ace3DS+)","https://nds-card.com/ProShow.asp?ProID=511"],
       ["NDS-Card (R4iLS)","https://www.nds-card.com/ProShow.asp?ProID=507"]
     ]
