@@ -15,8 +15,9 @@ purchase_links:
   - cart: Ace3DS-X
     links: [
       ["AliExpress [1]","https://www.aliexpress.com/item/1005010681938431.html"],
-      ["AliExpress [NDS-Card]","https://www.aliexpress.com/item/1005009800358215.html"],
-      ["NDS-Card","https://www.nds-card.com/ProShow.asp?ProID=575"],
+      ["AliExpress [2]","https://www.aliexpress.com/item/3256811452517184.html"],
+      ["AliExpress [3]","https://www.aliexpress.com/item/3256811461279869.html"],
+      ["NDS-Card","https://www.nds-card.com/ProShow.asp?ProID=575"]
     ]
   - cart: R4iLS
     links: [
