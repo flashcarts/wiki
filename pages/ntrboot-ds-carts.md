@@ -56,7 +56,7 @@ These carts will need to be flashed with ntrboot as they come with their DS firm
 
 The DSpico is a new, open-source flashcart by the LNH Team. It supports both DSi and 3DS ntrboot. Unlike the other carts in this list, the DSpico does not use ntrboot-flasher, and instead is flashed over a USB cable. This means that it's a great choice for those wanting to recover bricked consoles when no working consoles are available for ntrboot-flasher. **You must have a microSD card inserted into the DSpico to trigger ntrboot**. Otherwise, the RP2040 will enter BOOTSEL mode and ntrboot will not work!
 
-You can find ntrboot-compatible DSpico firmware here (Choose "Hybrid Firmware"): https://sanrax.github.io/flashcart-guides/cart-guides/dspico/
+You can find ntrboot-compatible DSpico firmware here (Choose "Hybrid Firmware"): <https://sanrax.github.io/flashcart-guides/cart-guides/dspico/>
 
 The firmware linked above contains ntrboot for **both** DSi and 3DS consoles. The console type will be detected automatically, and the cart will use the appropriate ntrboot version as needed.
 
