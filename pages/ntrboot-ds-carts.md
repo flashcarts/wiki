@@ -85,13 +85,13 @@ It doesn't matter whether you get the Gold Pro, Dual Core, or any other variant 
 
 R4iSDHC.com 2014+ flashcarts support both 3DS and DSi ntrboot.
 
-### Purchase links and kernel downloads
+### Purchase links
 
 {:.alert .alert-danger}
-**There have been reports of users buying R4iSDHC.com 2014+ carts from AliExpress and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like the former. Ace3DS+/R4iLS Clones are not compatible with ntrboot! If you are looking to purchase this cart, we would recommend getting one from NDS-Card at the moment.**
+**There have been reports of users buying R4iSDHC.com 2014+ carts from AliExpress and instead receiving an Ace3DS+/R4iLS Clone, but still labeled to look like an r4isdhc.com cart. These clones are not compatible with ntrboot! While NDS-Card is more expensive than AliExpress stores, buying from them guarantees you will get the correct cart.**
 
 <details markdown="1">
-<summary><b>What to look for in user reviews</b></summary>
+<summary><b>What to look for in user reviews to avoid mislabeled carts on AliExpress</b></summary>
 - Check to see if the latest user review photos show the cart's shell as having deeper shorter indents rather than longer shallow indents, the former means a relabeled R4iLS clone.
 - Check latest user reviews to see if the cart has a **Red PCB**, shows "Could not find _DSMENU.DAT" or has an "Ace3DS" interface. This also means a relabeled R4iLS clone.
 
