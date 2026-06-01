@@ -54,22 +54,23 @@ These carts will need to be flashed with ntrboot as they come with their DS firm
 
 ![DSpico](/assets/images/ds_carts/dspico.png){:.float-start .me-3}
 
-The DSpico is a new, open-source flashcart by the LNH Team. It supports both DSi and 3DS ntrboot. Flashing the DSpico is a different process to the other carts on the list. You first need to compile the firmware using the appropriate ntrboot ROM, then flash it to the cart over USB. **You must have a microSD card inserted into the DSpico to trigger ntrboot**. Otherwise, the RP2040 will enter BOOTSEL mode and ntrboot will not work!
+The DSpico is a new, open-source flashcart by the LNH Team. It supports both DSi and 3DS ntrboot. Unlike the other carts in this list, the DSpico does not use ntrboot-flasher, and instead is flashed over a USB cable. This means that it's a great choice for those wanting to recover bricked consoles when no working consoles are available for ntrboot-flasher. **You must have a microSD card inserted into the DSpico to trigger ntrboot**. Otherwise, the RP2040 will enter BOOTSEL mode and ntrboot will not work!
 
-You can find a guide to setup and compile the firmware in the dspico-firmware repository: <https://github.com/LNH-team/dspico-firmware>.
+You can find ntrboot-compatible DSpico firmware here (Choose "Hybrid Firmware"): https://sanrax.github.io/flashcart-guides/cart-guides/dspico/
 
-For DSi ntrboot, you should use the ntrboot image provided on the [DS-Homebrew wiki](https://wiki.ds-homebrew.com/ds-index/ntrboot) as your `default.nds`. For 3DS ntrboot, you should use [boot9strap_ntr](https://github.com/SciresM/boot9strap/releases/latest) as your `default.nds`.
+The firmware linked above contains ntrboot for **both** DSi and 3DS consoles. The console type will be detected automatically, and the cart will use the appropriate ntrboot version as needed.
 
-### Purchase links and kernel downloads
+### Purchase links
 
 These usually cost around $10-20 USD. Searching for "dspico" on AliExpress usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
 
-Purchase links - Micro USB Version:
+Micro USB Version:
+
 {% for item in ds-qsg-reference[0].purchase_links[3].links %}
 - [{{item[0]}}]({{item[1]}})
 {%endfor%}
 
-Purchase links - USB-C Version:
+USB-C Version:
 
 {% for item in ds-qsg-reference[0].purchase_links[4].links %}
 - [{{item[0]}}]({{item[1]}})
@@ -80,7 +81,7 @@ You can find more information about this flashcart on our [DS Quick Start Guide]
 ## R4iSDHC.com 2014+
 ![r4isdhc gold pro](/assets/images/ds_carts/r4isdhc_com_front.png){:.float-start .me-3} 
 
-It doesn't matter whether you get the Gold Pro, or the Dual Core, or any other cart from r4isdhc.com, as long as the year number is 2014 or above - you can use the cart with ntrboot. Carts pre-2014 are not compatible with ntrboot. You must ensure that this is an r4isdhc**.com** cart, other similar looking carts mentioned in the '[Carts to avoid](?tab=avoid)' tab cannot use ntrboot. 
+It doesn't matter whether you get the Gold Pro, Dual Core, or any other variant from r4isdhc.com - as long as the year number is 2014 or above, it is compatible with ntrboot. Carts with no year, or a year earlier than 2014, are not compatible with ntrboot. You must ensure that this is an r4isdhc**.com** cart, as other similar looking carts mentioned in the '[Carts to avoid](?tab=avoid)' tab cannot use ntrboot.
 
 R4iSDHC.com 2014+ flashcarts support both 3DS and DSi ntrboot.
 
@@ -115,7 +116,7 @@ This cart is from r4i-sdhc.com, it is very similar to the r4isdhc.com cart menti
 
 The R4i-SDHC 3DS RTS supports both 3DS and DSi ntrboot.
 
-### Purchase links and kernel downloads
+### Purchase links
 The R4i-SDHC 3DS RTS usually costs around $10-15 USD. Searching for "r4 rts 3ds" on AliExpress or eBay usually returns this cart. Links to purchase this cart are provided below, but they may not be the cheapest option as they're one of many listings:
 
 {% for item in ds-qsg-reference[0].purchase_links[2].links %}
@@ -128,16 +129,16 @@ You can find more information about this flashcart on our [DS Quick Start Guide]
 ## DSTT
 ![DSTT](/assets/images/ds_carts/dstt.png){:.float-start .me-3}
 
-**This cart will not work on a stock DSi/3DS, only buy this cart if you have a DS/DS Lite**. [Only certain flashchips are compatible](https://gist.github.com/aspargas2/fa2a70aed3a7fe33f1f10bc264d9fab6), while the purchase links here have sent out compatible DSTT carts, we cannot guarantee that this is what you will recieve. 
+**This cart will not boot on a stock DSi/3DS! Only buy this cart if you have an Original DS/DS Lite to flash it with, or a modded DSi/3DS**. [Note that only certain DSTT flashchips are compatible.](https://gist.github.com/aspargas2/fa2a70aed3a7fe33f1f10bc264d9fab6) While the sellers listed here have sent out compatible DSTT carts, we cannot guarantee that this is what you will receive.
 
 Consider other options on this list before deciding if you really want to buy a DSTT.
 
 The DSTT supports both 3DS and DSi ntrboot.
 
-### Purchase links and kernel downloads
+### Purchase links
 These can still be purchased new from NDS-Card on their website. Links are provided below, but you may find it cheaper to buy a DSTT from a second-hand marketplace like eBay:
 
-- NDS-Card: <https://www.nds-card.com/ProShow.asp?ProID=157>
+- [NDS-Card](https://www.nds-card.com/ProShow.asp?ProID=157)
 
 You can find more information about this flashcart on our [DS Quick Start Guide](ds-quick-start-guide?tab=other-flashcarts#dstt).
 
