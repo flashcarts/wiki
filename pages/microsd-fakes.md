@@ -94,7 +94,7 @@ This tactic fools consumers into believing they are buying a name-brand product.
 
 #### Brands that do not sell MicroSD cards
 
-These brands have never sold MicroSD card under their names and this any MicroSD card sold under these brands are guaranteed to be counterfeit:
+These brands have never sold MicroSD card under their names and therefore any MicroSD card sold under these brands are guaranteed to be counterfeit:
 
 - Xiaomi
 - Mi
