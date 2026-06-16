@@ -14,5 +14,7 @@
       url: ntrboot-ds-carts
     - title: Pico Launcher Builds
       url: pico-launcher
+    - title: sdFormatWindows
+      url: sdformatwindows
     - title: YSMenu compatibility list
       url: ysmenu-compat-ext

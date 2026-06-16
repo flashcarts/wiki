@@ -18,6 +18,7 @@ Here you can find flashcart recommendations for various systems like the Nintend
     - [Timebomb Misconceptions](ds-timebomb)
     - [YSMenu compatibility page, extended](ysmenu-compat-ext)
 - [GBA Quick Start Guide](gba-quick-start-guide)
+- [sdFormatWindows](sdformatwindows)
 
 ---
 
