@@ -4,7 +4,7 @@ downloads: [
     ["Ace3DS+", "pico_package_ACE3DS.zip"],
     ["Acekard 2", "pico_package_AK2.zip"],
     ["Acekard R.P.G.", "pico_package_AKRPG.zip"],
-    ["Datel (Slot-1) [1]","pico_package_DATEL.zip"],
+    ["Datel (Slot-1)[^1]","pico_package_DATEL.zip"],
     ["Datel MMD CF (Slot-2)","pico_package_MMCF.zip"],
     ["DSpico", "pico_package_DSPICO.zip"],
     ["DSTT", "pico_package_DSTT.zip"],
@@ -18,8 +18,8 @@ downloads: [
     ["R4DS Pro", "pico_package_R4DSPRO.zip"],
     ["R4iDSN", "pico_package_R4iDSN.zip"],
     ["Stargate 3DS", "pico_package_STARGATE.zip"],
-    ["SuperCard (Slot-2) [2]", "pico_package_SUPERCARD.zip"],
-    ["SuperCard CF [2]","pico_package_SUPERCARDCF.zip"]
+    ["SuperCard (Slot-2)[^2]", "pico_package_SUPERCARD.zip"],
+    ["SuperCard CF[^2]","pico_package_SUPERCARDCF.zip"]
 ]
 ---
 On this page you will find builds of Pico Launcher, alongside it's loader, Pico Loader.  
@@ -41,7 +41,9 @@ Each package below contains Pico Launcher {{ site.data.pico_ver.launcher_ver }} 
 {% endfor %}
 
 #### Footnotes
+- placeholder
+{:footnotes}
 
-\[1\] - It is recommended that edo9300's Games 'n' Music custom firmware is installed before using Pico Launcher. It adds support for SDHC cards and auto DLDI patching for homebrew: <https://github.com/edo9300/games-n-music-custom>. To autoboot Pico Launcher, make a copy of `_picoboot.nds` and name that copy to `bootme.nds`.
+[^1]: It is recommended that edo9300's Games 'n' Music custom firmware is installed before using Pico Launcher. It adds support for SDHC cards and auto DLDI patching for homebrew: <https://github.com/edo9300/games-n-music-custom>. To autoboot Pico Launcher, make a copy of `_picoboot.nds` and name that copy to `bootme.nds`.
 
-\[2\] - It is recommended that [edo9300's SCSFW](https://github.com/edo9300/SCSFW), or [DavidGF's SuperFW](https://github.com/davidgfnet/superfw) (SuperCard SD/Lite only), is installed before using Pico Launcher. They both add support for SDHC cards on the SuperCard SD/Lite, and they also provide the ability to autoboot into Pico Launcher.
+[^2]: It is recommended that [edo9300's SCSFW](https://github.com/edo9300/SCSFW), or [DavidGF's SuperFW](https://github.com/davidgfnet/superfw) (SuperCard SD/Lite only), is installed before using Pico Launcher. They both add support for SDHC cards on the SuperCard SD/Lite, and they also provide the ability to autoboot into Pico Launcher.
