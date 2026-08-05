@@ -54,7 +54,7 @@ There are several fake versions of this flashcart on online marketplaces that ar
 
 The SuperChis Prime is a budget flashcart from ChisBread. It is based on the SuperCard SD, with the main difference being that it features a 1Gbit (128MB) NOR Flash for improved game compatibility. 
 
-Its firmware (SuperFW) uses a hybrid saving system. EEPROM or flash memory game saves are written directly to the SD card. However, games that save to SRAM will always save to SRAM. This means that a working SRAM battery is required for your save file to survive a reboot. The battery is soldered in but has a lifespan of approximately 10 years.
+Its firmware (SuperFW) uses a hybrid saving system. EEPROM or flash memory game saves are written directly to the SD card. However, games that save to SRAM will always save to SRAM. This means that a working SRAM battery is required for your save file to be retained after a reboot. The battery is soldered in but has a lifespan of approximately 10 years.
 
 One downside of the cart is that games loaded from the SD card may encounter slowdown or compatibility issues; however, writing the game to NOR flash mitigates this problem. It also only has partial RTC support (or pseudo-RTC), where the RTC progresses only when a game is running, but it can be manually changed or advanced to any date desired.
 
@@ -93,7 +93,7 @@ The SuperChis is also a great option for those that need a cart to use in conjun
 ### Everdrive GBA Pro
 ![Everdrive GBA Pro](/assets/images/gba_carts/Everdrive_GBA_Pro.png)
 
-The Everdrive GBA Pro is a premium GBA flashcart from Krikzz that is the successor to the [Everdrive GBA Mini](?tab=everdrive-gba-mini). It is unique in that it has solar, tilt, and gyro sensors for games that require them. It uses PSRAM for saving, which means a working battery is required for save files to survive a reboot. The battery is, however, easy to replace, and the cart will display a message when it is running low.
+The Everdrive GBA Pro is a premium GBA flashcart from Krikzz that is the successor to the [Everdrive GBA Mini](?tab=everdrive-gba-mini). It is unique in that it has solar, tilt, and gyro sensors for games that require them. It uses PSRAM for saving, which means a working battery is required for save files to be retained after a reboot. The battery is, however, easy to replace, and the cart will display a message when it is running low.
 
 One other advantage of the Everdrive GBA Pro is the high build quality and good technical support provided by Krikzz. This may be a factor for some users to choose this cart over the alternatives.
 
@@ -115,7 +115,7 @@ This cart costs $129 USD. You can find it on Krikzz website here: <https://krikz
 <summary><b>Detailed Information</b></summary>
 A more premium option from Krikzz. Compared to EZ Flash's offering (the [EZ Flash Omega DE B](?tab=ez-flash-ode)), it costs more money to buy, lacks a vibration motor and the ability to be used as a memory expansion pak on the DS. However, it does have solar, tilt, and gyro sensors, which are not found on most other flashcarts. It is a big upgrade over their older [Everdrive GBA Mini](?tab=everdrive-gba-mini).
 
-Unlike the previous model, the Everdrive GBA Pro stores save data on PSRAM instead of SRAM. However, a battery is still required for save files to survive a reboot. The cart should warn you when the battery is running dry. It uses a CR1220 battery which is held in with a battery contact clip - therefore no soldering is required to replace the battery.
+Unlike the previous model, the Everdrive GBA Pro stores save data on PSRAM instead of SRAM. However, a battery is still required for save files to be retained after a reboot. The cart should warn you when the battery is running dry. It uses a CR1220 battery which is held in with a battery contact clip - therefore no soldering is required to replace the battery.
 
 The game loading speed of the Everdrive GBA Pro has been increased over its predecessor. It adds extra features such as the aforementioned sensors, as well as cheats, save states, custom themes, and a "Mode B" function for DS game linking, similar to that of the EZFlash AIR and EZFlash Omega DE B.
 
@@ -217,7 +217,7 @@ Information about the Air and it's issues is still quite limited, most of what i
 ### Everdrive GBA Mini
 ![Everdrive GBA Mini](/assets/images/gba_carts/Everdrive_GBA_Mini.png)
 
-The Everdrive GBA Mini is Krikzz's cheaper GBA Flashcart that is the predecessor of the [Everdrive GBA Pro](?tab=everdrive-gba-pro). It isn't great value for money compared to other flashcarts, such as the [EZ Flash Omega DE B](?tab=ez-flash-ode), which have more features for a lower price. It uses SRAM for saving and therefore requires a working battery for save files to survive a reboot. The battery is, however, easy to replace and will display a message when it is running low.
+The Everdrive GBA Mini is Krikzz's cheaper GBA Flashcart that is the predecessor of the [Everdrive GBA Pro](?tab=everdrive-gba-pro). It isn't great value for money compared to other flashcarts, such as the [EZ Flash Omega DE B](?tab=ez-flash-ode), which have more features for a lower price. It uses SRAM for saving and therefore requires a working battery for save files to be retained after a reboot. The battery is, however, easy to replace and will display a message when it is running low.
 
 One other advantage of the Everdrive GBA Mini is the high build quality and good technical support provided by Krikzz. This may be a factor for some users to choose this cart over the alternatives.
 
