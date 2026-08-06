@@ -14,15 +14,6 @@ gem "kramdown-parser-gfm", "~>1.1"
 gem "jemoji", "~> 0.13.0"
 gem "webrick", "~> 1.9", ">= 1.9.1"
 
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17.0"
-end
-
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 gem 'tzinfo', '~> 2.0', '>= 2.0.6', platforms: :windows
