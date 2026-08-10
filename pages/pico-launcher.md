@@ -34,9 +34,8 @@ If you spot an issue with the packages provided, please [open an issue here firs
 
 Each package below contains Pico Launcher {{ site.data.pico_ver.launcher_ver }} and Pico Loader {{ site.data.pico_ver.loader_ver }}.
 
-{% for item in page.downloads %}
 {% assign cdn = "https://files.deletecat.com/pico-builds/" %}
-{% assign pico_data = site.data.pico_ver %}
+{% for item in page.downloads %}
  - {{ item[0] }} - [{{ item[1] }}]({{cdn}}{{item[1]}})
 {% endfor %}
 
