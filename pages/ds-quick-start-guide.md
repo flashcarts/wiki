@@ -39,7 +39,7 @@ purchase_links:
     links: [
       ["AliExpress (ChisFamily; Purple PCB)", "https://www.aliexpress.com/item/1005011543735291.html"],
       ["AliExpress (ChisFamily; White PCB)","https://www.aliexpress.com/item/1005011966105845.html"],
-      ["Kaico Labs (UK)", "https://kaicolabs.com/product/dspico-by-lnh/"],
+      ["Kaico Labs (UK)", "https://www.kaicolabs.com/products/dspico-open-source"],
       ["LaserBear (US)", "https://www.laserbear.net/products/dspico"]
     ]
   - cart: DSPicoUSBC
