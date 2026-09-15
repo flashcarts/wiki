@@ -42,6 +42,7 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - All carts from r4i3ds.com
     - All carts from r4isdxc.com
     - All carts from r4n3ds.com
+    - All carts from ko-3ds.com
     - All carts from r4ita.com (If this fails, use DEMON section below)
     - All carts from r4i-dshc.com (If this fails, use DEMON section below)
     - Red R4i Upgrade (r4ll-net.com)
@@ -85,6 +86,8 @@ DSTTi-Clone **TTMenu** has broken homebrew loading, and will only work to play r
     - R4i Upgrade (r4i-g.com)
 - **The following carts must make a copy of `TTMenu.dat` and rename it to `R4XDS.dat`**:
     - All carts from r4xds.com
+- **The following carts must make a copy of `TTMenu.dat` and rename it to `m3.dat`**:
+    - All carts from m3adaptes.com
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4.dat`**:
     - All carts from r4ids.cc
 - **The following carts must make two copies of `TTMenu.dat` and rename them to `iLL.iL` and `R4i.PK`**:
