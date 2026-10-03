@@ -56,7 +56,7 @@ The SuperChis Prime is a budget flashcart from ChisBread. It is based on the Sup
 
 Its firmware (SuperFW) uses a hybrid saving system. EEPROM or flash memory game saves are written directly to the SD card. However, games that save to SRAM will always save to SRAM. This means that a working SRAM battery is required for your save file to be retained after a reboot. The battery is soldered in but has a lifespan of approximately 10 years.
 
-One downside of the cart is that games loaded from the SD card may encounter slowdown or compatibility issues; however, writing the game to NOR flash mitigates this problem. It also only has partial RTC support (or pseudo-RTC), where the RTC progresses only when a game is running, but it can be manually changed or advanced to any date desired.
+One downside of the cart is that games loaded from the SD card may encounter slowdown or compatibility issues; however, writing the game to NOR flash mitigates this problem. It also only has partial RTC support (or pseudo-RTC), where the RTC progresses only when a game is running, but it can be manually changed or advanced to any date desired. Please bear in mind that this flashcart can have some issues running GBA romhacks so for ROM hacks it is generally advised to use an EZ Flash Omega DE, Everdrive GBA or a flashable cart such as a ChisFlash 1.1 instead.
 
 **Pros**:
 - Cheap and easily available
@@ -65,6 +65,7 @@ One downside of the cart is that games loaded from the SD card may encounter slo
 
 **Cons**:
 - No true RTC, Rumble or Slot-2 linking
+- Has difficulty running some ROM hacks
 - Uses SRAM saving for some games
 - Games have slowdown if loaded from the SD card instead of the NOR flash
 
@@ -74,6 +75,7 @@ More information about the SuperChis Prime can be found on [ChisBread's GBATemp 
 This cart costs around $20-30 USD. Purchase links have been provided below. They may not be the cheapest listings out there, but they are known to be selling genuine carts:
 - AliExpress [1]: <https://www.aliexpress.com/item/1005011542077406.html>
 - AliExpress [2]: <https://www.aliexpress.com/item/3256812209378511.html>
+- GBMake: <https://gbmake.com/us/products/superchis-cartridge>
 
 <details markdown="1">
 <summary><b>Detailed Information</b></summary>
@@ -258,12 +260,13 @@ These are GBA flashcarts that contain internal storage that is written to direct
 ![ChisFlash](/assets/images/gba_carts/chisflash.png)
 
 The ChisFlash series of carts are GBA Flashcarts that do not use a MicroSD. They instead contain an internal NOR chip to store a ROM and a seperate save chip for the game that is stored on it.
-These carts serve as an alternative to conventional MicroSD-based flashcarts by functioning more like a standard GBA cartridge that is rewritable. These carts are a good budget alternative for games supporting Slot 2 linking on the Nintendo DS, or for games that require RTC or Rumble features.
+These carts serve as an alternative to conventional MicroSD-based flashcarts by functioning more like a standard GBA cartridge that is rewritable. These carts are a good budget alternative for games supporting Slot 2 linking on the Nintendo DS, or for games that require RTC or Rumble features. Due to the way they simulate genuine GBA cartridges, these make for an excellent low-cost option for running games such as ROM hacks while still getting features like working RTC.
 
-There are three variants of the ChisFlash Available.
+There are four variants of the ChisFlash Available.
 - <b>ChisFlash 1.1</b> - 32MB NOR with 128KB Flash-save & RTC.
 - <b>ChisFlash 1.2</b> - 32MB NOR with 128KB FRAM-save & Rumble.
-- <b>ChisFlash 1.0V</b> - 32MB NOR with 512KB Virtual FRAM-save, cheaper alternative to the ChisFlash 1.2 that lacks Rumble.
+- <b>ChisFlash 1.0V</b> - 32MB NOR with 512KB Virtual FRAM-save and RTS (games much be patched with [Ausar's Web RTS Patcher](https://archeychen.github.io/GBA-RTS-PATCH-WEB/) for RTS features)
+- <b>ChisFlash 1.2V</b> - 32MB NOR with 128KB Virtual FRAM-save with rumble and a tilt sensor.
 
 *Please note these are not version numbers, but rather different variants to fit different requirements or needs depending on the game being played.*
 
@@ -297,6 +300,8 @@ These carts costs anywhere between $10-20 USD. Purchase links have been provided
 - ChisFlash 1.1 - Aliexpress: <https://www.aliexpress.com/item/1005012287228960.html>
 - ChisFlash 1.2 - Aliexpress: <https://www.aliexpress.com/item/1005012564808648.html>
 - ChisFlash 1.0V - Aliexpress: <https://www.aliexpress.com/item/1005012547916875.html>
+- ChisFlash 1.2V - Aliexpress: <https://www.aliexpress.com/item/1005013279570117.html>
+- Various ChisFlash Variants - GBMake: <https://gbmake.com/us/products/cartridge-gba>
 
 {% endcapture %}
 {% assign tab-alternatives = tab-alternatives | split: "////////" %}
