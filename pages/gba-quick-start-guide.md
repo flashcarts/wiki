@@ -2,7 +2,8 @@
 title: A Quick Guide on GBA Flashcarts
 description: GBA flashcarts, what there is, and what to buy
 tabs:
-  - superchis: SuperChis Prime
+  - quick-guide: Quick Guide
+    superchis: SuperChis Prime
     everdrive-gba-pro: Everdrive GBA Pro
     ez-flash-ode: EZ Flash Omega DE B
     ez-flash-air: EZ Flash Air
@@ -11,14 +12,14 @@ tabs:
     non-recommended: Non-Recommended Flashcarts
 ---
 
-Here are the best GBA flashcarts currently available on the market. **If you're looking for a DS flashcart, see the [DS quick start guide](ds-quick-start-guide).** For other consoles, see the [quick start guide list](index.html).
+Compare recommended GBA flashcarts below. For DS carts, see the [DS quick start guide](ds-quick-start-guide); for other systems, see the [quick start guide list](index.html).
 {:.alert .alert-info}
 
 ## READ FIRST
 
-1. There are fake versions of some of the below flashcarts that are misbranded versions of other flashcarts. Please ensure the flashcart you are buying is as advertised.
-1. Do **not** follow YouTube setup guides as they may contain outdated information.
-1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a recognised name-brand microSD card separately, being cautious of SD card scams. For more information check out our page on **[Counterfeit MicroSD cards](microsd-fakes)**
+1. **Check authenticity:** Some carts found online are mislabelled clones. Confirm the cart is the model advertised.
+1. **Follow official setup instructions:** Do not follow video guides as they may be out of date or wrong.
+1. **Use your own microSD card:** Don't buy preloaded flashcarts as their bundled cards are low quality or fake and **you will experience irreversible data loss**. Buy a reputable brand and watch for fakes; see [Counterfeit MicroSD cards](microsd-fakes).
 
 <div class="alert alert-warning" markdown=1>
 
@@ -38,12 +39,31 @@ The module can be purchased from their Aliexpress store: [https://www.aliexpress
 </details>
 </div>
 
-{:.alert .alert-info}
-If you own a SuperCard SD and would like to improve your experience with this flashcart, consider installing [SuperFW](https://superfw.davidgf.net/) on it to gain SDHC support, improved game compatibility, faster game loading, and pseudo-RTC. More information about SuperFW and other kernel options are [available here](?tab=non-recommended#alternative-custom-firmware).
-
 The below flashcarts are purchasable from AliExpress or reputable retro accessory stores like [Hand Held Legend](https://handheldlegend.com) and [Retro Game Repair Shop](https://retrogamerepairshop.com).
 
 ## Flashcarts
+
+{% capture tab-quick-guide %}
+## Which cart should I choose?
+
+<div class="gba-choice-table" markdown="1">
+
+| Cart | Estimated price (USD) | Pros | Cons |
+| --- | ---: | --- | --- |
+| [**SuperChis Prime**](?tab=superchis) | ~$20-30 | Want a low-cost MicroSD cart with cheats & save states (real-time save). | Some games loaded from SD can slow down. Writing a game to NOR flash alleviates this, but the NOR flash has limited capacity, so you may need to delete games from it to add more. SRAM saves depend on a battery (Except FRAM Models), RTC is software-based and not all ROM hacks work. |
+| [**Everdrive GBA Pro**](?tab=everdrive-gba-pro) | $129 | Prefer Krikzz build quality and support, fast loading, save states (real-time save), RTC, solar, tilt, gyro support, and Mode B DS linking. | It is a premium-priced option, and its save memory depends on a battery. It has no rumble or DS memory-expansion mode. |
+| [**EZ Flash Omega DE B**](?tab=ez-flash-ode) | ~$80-110 | Want a broad feature set, including RTC, rumble, Mode B DS linking, and memory expansion. | Check that the seller is offering the&nbsp;B&nbsp;revision; its firmware is incompatible with the original Omega DE. Read the manual before switching modes so you don't lose save progress. |
+| [**EZ Flash Air**](?tab=ez-flash-air) | ~$40-45 | Want RTC, rumble, and Mode B DS linking at a lower price. | Games must be written to NOR before playing (and the write speed is quite slow), and saves depend on the cart's SRAM battery. |
+| [**Everdrive GBA Mini**](?tab=everdrive-gba-mini) | $99 | Want a lower-priced Krikzz cart with fast loading, RTC, and Krikzz's build quality and support. | It uses battery-backed save memory and lacks the Pro's sensors and Mode B DS Linking. |
+| [**ChisFlash**](?tab=alternatives) | ~$10-20 | Want a simple cart without a MicroSD slot, a particular feature for one game, or want to play ROM hacks. | Variants have different save and game features, so check the model carefully; writing games requires a compatible device. |
+
+</div>
+
+Prices are aproximate.
+
+For more detail on each cart's features, compatibility, and setup, use the tabs above.
+{% endcapture %}
+{% assign tab-quick-guide = tab-quick-guide | split: "////////" %}
 
 {% capture tab-superchis %}
 ### SuperChis Prime
@@ -316,6 +336,9 @@ These are carts that you may encounter but are generally NOT recommended.
 The SuperCard SD has been supersceded by the SuperChis Prime and should be avoided unless you are unable to obtain a SuperChis Prime.
 {:.alert .alert-warning}
 
+If you already own a SuperCard SD, [SuperFW](https://superfw.davidgf.net/) can add SDHC support, improve game compatibility and loading speed, and provide pseudo-RTC. See the [custom firmware options](?tab=non-recommended#alternative-custom-firmware).
+{:.alert .alert-info}
+
 ![SuperCard MiniSD](/assets/images/gba_carts/SuperCard_MiniSD_Front.png)
 
 The SuperCard SD is a older flashcart that was previously the cheaper advised GBA flashcart, there are however now better alternatives available such as the SuperChis Prime.
@@ -352,7 +375,7 @@ The SuperCard SD uses SRAM to store save data, so the battery is save-critical (
 {% endcapture %}
 {% assign tab-non-recomended = tab-non-recomended | split: "////////" %}
 
-{% assign tabs = tab-superchis | concat: tab-everdrive-gba-pro | concat: tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-everdrive-gba-mini | concat: tab-alternatives | concat: tab-non-recomended %}
+{% assign tabs = tab-quick-guide | concat: tab-superchis | concat: tab-everdrive-gba-pro | concat: tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-everdrive-gba-mini | concat: tab-alternatives | concat: tab-non-recomended %}
 {% include tabs.html index=0 tabs=tabs %}
 
 {% include_relative include/disclaimer.md %}
