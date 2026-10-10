@@ -50,16 +50,16 @@ The below flashcarts are purchasable from AliExpress or reputable retro accessor
 
 | Cart | Estimated price (USD) | Pros | Cons |
 | --- | ---: | --- | --- |
-| [**SuperChis Prime**](?tab=superchis) | ~$20-30 | Want a low-cost MicroSD cart with cheats & save states (real-time save). | Some games loaded from SD can slow down. Writing a game to NOR flash alleviates this, but the NOR flash has limited capacity, so you may need to delete games from it to add more. SRAM saves depend on a battery (Except FRAM Models), RTC is software-based and not all ROM hacks work. |
-| [**Everdrive GBA Pro**](?tab=everdrive-gba-pro) | $129 | Prefer Krikzz build quality and support, fast loading, save states (real-time save), RTC, solar, tilt, gyro support, and Mode B DS linking. | It is a premium-priced option, and its save memory depends on a battery. It has no rumble or DS memory-expansion mode. |
-| [**EZ Flash Omega DE B**](?tab=ez-flash-ode) | ~$80-110 | Want a broad feature set, including RTC, rumble, Mode B DS linking, and memory expansion. | Check that the seller is offering the&nbsp;B&nbsp;revision; its firmware is incompatible with the original Omega DE. Read the manual before switching modes so you don't lose save progress. |
-| [**EZ Flash Air**](?tab=ez-flash-air) | ~$40-45 | Want RTC, rumble, and Mode B DS linking at a lower price. | Games must be written to NOR before playing (and the write speed is quite slow), and saves depend on the cart's SRAM battery. |
-| [**Everdrive GBA Mini**](?tab=everdrive-gba-mini) | $99 | Want a lower-priced Krikzz cart with fast loading, RTC, and Krikzz's build quality and support. | It uses battery-backed save memory and lacks the Pro's sensors and Mode B DS Linking. |
-| [**ChisFlash**](?tab=alternatives) | ~$10-20 | Want a simple cart without a MicroSD slot, a particular feature for one game, or want to play ROM hacks. | Variants have different save and game features, so check the model carefully; writing games requires a compatible device. |
+| [**SuperChis Prime**](?tab=superchis) | ~$20-30 | Low-cost MicroSD cart with cheats & save states (real-time save). | Some games loaded from SD can slow down. Writing a game to NOR flash alleviates this, but the NOR flash has limited capacity, so you may need to delete games from it to add more. SRAM saves depend on a battery (Except FRAM Models), RTC is software-based and not all ROM hacks work. |
+| [**Everdrive GBA Pro**](?tab=everdrive-gba-pro) | $129 | Krikzz build quality and support, fast loading, save states (real-time save), RTC, solar, tilt, gyro support, and Mode B DS linking. | It is a premium-priced option, and its save memory depends on a battery. It has no rumble or DS memory-expansion mode. |
+| [**EZ Flash Omega DE B**](?tab=ez-flash-ode) | ~$80-110 | Broad feature set, including RTC, rumble, Mode B DS linking, and memory expansion. | Check that the seller is offering the B revision as its firmware is incompatible with the original Omega DE. Read the manual before switching modes so you don't lose save progress. |
+| [**EZ Flash Air**](?tab=ez-flash-air) | ~$40-45 | RTC, rumble, and Mode B DS linking at a lower price. | Games must be written to NOR before playing (and the write speed is quite slow), and saves depend on the cart's SRAM battery. |
+| [**Everdrive GBA Mini**](?tab=everdrive-gba-mini) | $99 | Lower-priced Krikzz cart with fast loading, RTC, and Krikzz's build quality and support. | It uses battery-backed save memory and lacks the Pro's sensors and Mode B DS Linking. |
+| [**ChisFlash**](?tab=alternatives) | ~$10-20 | Low-cost rewritable cart without a MicroSD slot, can be used for a particular feature for a game such as rumble or tilt and is suitable for ROM hacks. | Variants differ in save hardware and features; verify the exact model before buying. |
 
 </div>
 
-Prices are aproximate.
+Prices are approximate.
 
 For more detail on each cart's features, compatibility, and setup, use the tabs above.
 {% endcapture %}
@@ -279,48 +279,40 @@ These are GBA flashcarts that contain internal storage that is written to direct
 ### ChisFlash Series
 ![ChisFlash](/assets/images/gba_carts/chisflash.png)
 
-The ChisFlash series of carts are GBA Flashcarts that do not use a MicroSD. They instead contain an internal NOR chip to store a ROM and a seperate save chip for the game that is stored on it.
-These carts serve as an alternative to conventional MicroSD-based flashcarts by functioning more like a standard GBA cartridge that is rewritable. These carts are a good budget alternative for games supporting Slot 2 linking on the Nintendo DS, or for games that require RTC or Rumble features. Due to the way they simulate genuine GBA cartridges, these make for an excellent low-cost option for running games such as ROM hacks while still getting features like working RTC.
+ChisFlash carts do not use a MicroSD card. They store the game ROM in onboard NOR flash and use onboard save memory. The feature set depends on the exact variant, so choose by the game and features you need. Slot-2 linking and ROM-hack compatibility can vary by game and cart revision; check these before buying. They are a low cost option ideal for single-game dedicated carts or for running ROM hacks (for example the ChisFlash 1.1 is a popular option for Pokémon ROM hacks)
 
-There are four variants of the ChisFlash Available.
-- <b>ChisFlash 1.1</b> - 32MB NOR with 128KB Flash-save & RTC.
-- <b>ChisFlash 1.2</b> - 32MB NOR with 128KB FRAM-save & Rumble.
-- <b>ChisFlash 1.0V</b> - 32MB NOR with 512KB Virtual FRAM-save and RTS (games much be patched with [Ausar's Web RTS Patcher](https://archeychen.github.io/GBA-RTS-PATCH-WEB/) for RTS features)
-- <b>ChisFlash 1.2V</b> - 32MB NOR with 128KB Virtual FRAM-save with rumble and a tilt sensor.
+**Important:** ChisFlash 1.1, 1.2, 1.0V, and 1.2V are names for different variants, **not version numbers**. For example, the ChisFlash 1.2 is not a newer version of the ChisFlash 1.1 but instead a different save type. Choose by the features listed below instead.
 
-*Please note these are not version numbers, but rather different variants to fit different requirements or needs depending on the game being played.*
+<div class="chisflash-variant-table" markdown="1">
 
-For the ChisFlash 1.1, as it features RTC, it uses a coin cell battery to faciliate this. If the battery runs dry, it can be replaced as the battery is held in with a clip. However, if you have an older version, it may be soldered instead.
+| Variant | Save memory | Features | Notes |
+| --- | --- | --- | --- |
+| **ChisFlash 1.1** | 128 KB Flash | RTC | RTC uses a coin-cell battery. Some revisions have a clip; older boards may have a soldered cell. Popular option for Pokémon ROM hacks. Supports DS linking. |
+| **ChisFlash 1.2** | 128 KB FRAM | Rumble |  |
+| **ChisFlash 1.0V** | 512 KB virtual FRAM | Real-time save (RTS) | <span>ROM must be patched with <a href="https://archeychen.github.io/GBA-RTS-PATCH-WEB/">Ausar's Web RTS Patcher</a> for RTS.</span> |
+| **ChisFlash 1.2V** | 128 KB virtual FRAM | Rumble and tilt sensor |  |
+
+</div>
 
 #### Writing ROMs to ChisFlash Carts
 
-ChisFlash carts must be written to using either a USB GBA reader device with software or a Nintendo DS/DS Lite with a way to run homebrew.
+ChisFlash carts must be written to using either a USB GBA reader device with software or a Nintendo DS/DS Lite with a way to run homebrew. All of the programmer options below support every ChisFlash variant.
 
-Compatible USB devices include:
-- ChisFlash Burner
-- GBxCart RW
-- GeekSimon GBFlash
-- BennVenn Joey Jr
-- Game Bub
-- Epilogue GB Operator 
+| Reader hardware | Software | Notes |
+| --- | --- | --- |
+| ChisFlash Burner | [Beggar Socket web flasher](https://tautcony.xyz/beggar_socket/) | Requires a browser with WebUSB, such as Chrome or Edge. |
+| GBxCart RW, GBFlash, Joey Jr, or Game Bub | [FlashGBX](https://github.com/lesserkuma/FlashGBX) |  |
+| GB Operator | [Playback](https://www.epilogue.co/software/playback) |  |
+| Nintendo DS or DS Lite | [Burn2Slot](https://github.com/vrodin/Burn2Slot/releases/latest) | Requires a Slot-1 flashcart to run homebrew. |
 
-The ChisFlash Burner uses the [beggar socket web flasher](https://tautcony.xyz/beggar_socket/) and requires a browser supporting WebUSB (such as Chrome or Edge).
-
-The GBXCart RW, GBFlash, Joey Jr and Game Bub use [FlashGBX](https://github.com/lesserkuma/FlashGBX).
-
-The GB Operator uses the [Playback](https://www.epilogue.co/software/playback) Software.
-
-For Nintendo DS/DS Lite users who are able to run homebrew, ChisFlash carts can be written using Burn2Slot [which is available here](https://github.com/vrodin/Burn2Slot/releases/latest).
-Save files can be backed up or written using [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases/latest) and if you have a ChisFlash 1.1, the RTC can be adjusted with [GBA_RTCRead](https://github.com/megaboyexe/GBA_RTCRead/releases/latest).
+**DS/DS Lite:** Save files can be backed up or restored using [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases/latest). For a ChisFlash 1.1, [GBA_RTCRead](https://github.com/megaboyexe/GBA_RTCRead/releases/latest) can adjust the RTC.
 
 #### Purchase Links
-These carts costs anywhere between $10-20 USD. Purchase links have been provided but they may not be the cheapest listings out there.
-
-*Please note these are not version numbers, please get the variant that best suits the type of games you wish to flash to them.*
-- ChisFlash 1.1 - Aliexpress: <https://www.aliexpress.com/item/1005012287228960.html>
-- ChisFlash 1.2 - Aliexpress: <https://www.aliexpress.com/item/1005012564808648.html>
-- ChisFlash 1.0V - Aliexpress: <https://www.aliexpress.com/item/1005012547916875.html>
-- ChisFlash 1.2V - Aliexpress: <https://www.aliexpress.com/item/1005013279570117.html>
+Prices and availability vary by seller. Confirm the exact variant and, where possible, the PCB revision before ordering; marketplace listings may use inconsistent names or photos.
+- ChisFlash 1.1 - AliExpress: <https://www.aliexpress.com/item/1005012287228960.html>
+- ChisFlash 1.2 - AliExpress: <https://www.aliexpress.com/item/1005012564808648.html>
+- ChisFlash 1.0V - AliExpress: <https://www.aliexpress.com/item/1005012547916875.html>
+- ChisFlash 1.2V - AliExpress: <https://www.aliexpress.com/item/1005013279570117.html>
 - Various ChisFlash Variants - GBMake: <https://gbmake.com/us/products/cartridge-gba>
 
 {% endcapture %}
