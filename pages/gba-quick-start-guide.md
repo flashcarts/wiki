@@ -376,6 +376,6 @@ The SuperCard SD uses SRAM to store save data, so the battery is save-critical (
 {% assign tab-non-recomended = tab-non-recomended | split: "////////" %}
 
 {% assign tabs = tab-quick-guide | concat: tab-superchis | concat: tab-everdrive-gba-pro | concat: tab-ez-flash-ode | concat: tab-ez-flash-air | concat: tab-everdrive-gba-mini | concat: tab-alternatives | concat: tab-non-recomended %}
-{% include tabs.html index=0 tabs=tabs %}
+{% include tabs.html index=0 tabs=tabs class="gba-quick-start-tabs" %}
 
 {% include_relative include/disclaimer.md %}

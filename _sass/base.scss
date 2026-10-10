@@ -678,6 +678,17 @@ a.footnote::after {
 	display: flex;
 	flex-wrap: wrap;
 
+	&.gba-quick-start-tabs {
+		@media screen and (min-width: 576px) {
+			.tab-link {
+				font-size: 1rem;
+				padding-left: 0.575rem;
+				padding-right: 0.575rem;
+				white-space: nowrap;
+			}
+		}
+	}
+
 	.tab-link {
 		border: 1px solid colours.$borders;
 		border-bottom-width: 0;
