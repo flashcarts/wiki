@@ -285,10 +285,10 @@ ChisFlash carts do not use a MicroSD card. They store the game ROM in onboard NO
 
 | Variant | Save memory | Features | Notes |
 | --- | --- | --- | --- |
-| **ChisFlash 1.1** | 128 KB Flash | RTC | RTC uses a coin-cell battery. Some revisions have a clip; older boards may have a soldered cell. Popular option for Pokémon ROM hacks. Supports DS linking. |
-| **ChisFlash 1.2** | 128 KB FRAM | Rumble |  |
-| **ChisFlash 1.0V** | 512 KB virtual FRAM | Real-time save (RTS) | <span>ROM must be patched with <a href="https://archeychen.github.io/GBA-RTS-PATCH-WEB/">Ausar's Web RTS Patcher</a> for RTS.</span> |
-| **ChisFlash 1.2V** | 128 KB virtual FRAM | Rumble and tilt sensor |  |
+| **ChisFlash 1.1** | 128 KB Flash | RTC | Suitable for games that use Flash saves. RTC uses a coin-cell battery. Some revisions have a clip; older boards may have a soldered cell. Popular option for Pokémon ROM hacks. Supports DS linking. |
+| **ChisFlash 1.2** | 128 KB FRAM | Rumble | Suitable for games that use SRAM/FRAM saves and games that use EEPROM save but have been patched to use SRAM instead. |
+| **ChisFlash 1.0V** | 512 KB virtual FRAM | Real-time save (RTS) | <span>ROM must be patched with <a href="https://archeychen.github.io/GBA-RTS-PATCH-WEB/">Ausar's Web RTS Patcher</a> for RTS. Suitable for games that use SRAM/FRAM saves.</span> |
+| **ChisFlash 1.2V** | 128 KB virtual FRAM | Rumble and tilt sensor | Suitable for games that use SRAM/FRAM saves. |
 
 </div>
 
