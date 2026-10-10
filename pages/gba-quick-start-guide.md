@@ -17,9 +17,9 @@ Compare recommended GBA flashcarts below. For DS carts, see the [DS quick start 
 
 ## READ FIRST
 
-1. **Check authenticity:** Some carts found online are mislabelled clones. Confirm the cart is the model advertised.
-1. **Follow official setup instructions:** Do not follow video guides as they may be out of date or wrong.
-1. **Use your own microSD card:** Don't buy preloaded flashcarts as their bundled cards are low quality or fake and **you will experience irreversible data loss**. Buy a reputable brand and watch for fakes; see [Counterfeit MicroSD cards](microsd-fakes).
+1. There are fake versions of some of the below flashcarts that are misbranded versions of other flashcarts. Please ensure the flashcart you are buying is as advertised.
+1. Do **not** follow YouTube setup guides as they may contain outdated information or are for the wrong cart.
+1. Do **not** buy a flashcart with a pre-loaded SD card. These SD cards are very cheap and will usually die on you within weeks. You will **not** be able to recover the files stored on them. Save yourself the hassle and buy a recognised name-brand microSD card separately, being cautious of SD card scams. For more information check out our page on **[Counterfeit MicroSD cards](microsd-fakes)**
 
 <div class="alert alert-warning" markdown=1>
 
@@ -38,8 +38,6 @@ The module can be purchased from their Aliexpress store: [https://www.aliexpress
 
 </details>
 </div>
-
-The below flashcarts are purchasable from AliExpress or reputable retro accessory stores like [Hand Held Legend](https://handheldlegend.com) and [Retro Game Repair Shop](https://retrogamerepairshop.com).
 
 ## Flashcarts
 
@@ -76,7 +74,7 @@ The SuperChis Prime is a budget flashcart from ChisBread. It is based on the Sup
 
 Its firmware (SuperFW) uses a hybrid saving system. EEPROM or flash memory game saves are written directly to the SD card. However, games that save to SRAM will always save to SRAM. This means that a working SRAM battery is required for your save file to be retained after a reboot. The battery is soldered in but has a lifespan of approximately 10 years.
 
-One downside of the cart is that games loaded from the SD card may encounter slowdown or compatibility issues; however, writing the game to NOR flash mitigates this problem. It also only has partial RTC support (or pseudo-RTC), where the RTC progresses only when a game is running, but it can be manually changed or advanced to any date desired. Please bear in mind that this flashcart can have some issues running GBA romhacks so for ROM hacks it is generally advised to use an EZ Flash Omega DE, Everdrive GBA or a flashable cart such as a ChisFlash 1.1 instead.
+One downside of the cart is that games loaded from the SD card may encounter slowdown or compatibility issues; however, writing the game to NOR flash mitigates this problem. It also only has software-based RTC support, where the RTC progresses only when a game is running, but it can be manually changed or advanced to any date desired. Please bear in mind that this flashcart can have some issues running GBA romhacks so for ROM hacks it is generally advised to use an EZ Flash Omega DE, Everdrive GBA or a flashable cart such as a ChisFlash 1.1 instead.
 
 **Pros**:
 - Cheap and easily available
@@ -104,7 +102,7 @@ The SuperChis Prime is a new (partial) source-available GBA flashcart that is th
 
 There are a few drawbacks that the cart shares with the SuperCard SD. One of those is that it still relies on an SRAM battery for saves. It uses a soldered-in CR1616 battery, which should last a long time but may be difficult for some people to replace once it dies. The SuperChis Prime also lacks rumble and RTC support. 
 
-SuperFW helps to alleviate some of these issues, however. For the missing RTC, it uses a pseudo-RTC that advances the clock in supported games while they are running. If the SRAM battery is dead, there are still ways to save without losing any of your progress. Flash and EEPROM games can take advantage of direct saving, and SRAM-based games can have their save written manually from the in-game menu.
+SuperFW helps to alleviate some of these issues, however. For the missing RTC, it uses a software-based RTC that advances the clock in supported games while they are running. If the SRAM battery is dead, there are still ways to save without losing any of your progress. Flash and EEPROM games can take advantage of direct saving, and SRAM-based games can have their save written manually from the in-game menu.
 
 The SuperChis is also a great option for those that need a cart to use in conjunction with TWiLight Menu++ on DSL/NDS systems to load GBA games natively from Slot-1. It also supports DS mode via PassMe just like the SuperCard SD should you wish to use this cart for running DS games.
 

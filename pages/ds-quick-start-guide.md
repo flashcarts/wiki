@@ -106,6 +106,14 @@ LNH Team Website: <https://www.lnh-team.org/>
 Setup Guide: <https://sanrax.github.io/flashcart-guides/cart-guides/dspico/>  
 Pico-Launcher build by flashcarts.net: [Pico-Launcher {{pico_data.launcher_ver}} + Pico-Loader {{pico_data.loader_ver}}](https://picoarchive.cdn.blobfrii.com/pico_package_DSPICO.zip?picoloader={{pico_data.loader_ver}}&picolauncher={{pico_data.launcher_ver}}&fcnetrev={{pico_data.fcnetrev}})
 
+<div class="alert alert-warning clearfix" markdown="1">
+
+![DSpico Lite](/assets/images/ds_carts/dspicolite.png){:.float-start .me-3 width="100px"}
+
+**DSpico Lite carts:** You may see DSpico carts on online marketplaces branded as a "DSpico Lite" or have a shell that looks similar to an Ace3DS+ shell such as the one pictured here. These carts typically lack a USB port, so their firmware cannot be changed or updated, and there is no guarantee they will arrive with up-to-date firmware. It also means they usually cannot be used for ntrboot. Avoid these listings if possible; the lower price is often not worth lacking the ability to update the firmware and they usually have the same DS cart slot fitment issues that Ace3DS+ carts have.
+
+</div>
+
 Purchase links - **Micro USB Version**:
 {% for item in page.purchase_links[3].links %}
 - [{{item[0]}}]({{item[1]}})
