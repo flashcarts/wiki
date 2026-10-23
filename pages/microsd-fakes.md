@@ -15,66 +15,62 @@ This page aims to detail the issues surrounding counterfeit MicroSD cards, as we
 
 It's important to avoid buying counterfeit MicroSD cards as you may experience data loss & slow performance.
 
-**All information on this page generally also applies to full size SD cards.**
-
-Counterfeit MicroSD cards and similar scams have become increasingly common as memory and flash storage prices have risen due to various market factors. While genuine MicroSD cards have risen in price, counterfeit cards often remain suspiciously cheap, making them appear to be attractive bargains.
-When shopping for a MicroSD card, be cautious of prices that seem too good to be true. **A significantly lower price than comparable products from reputable retailers can be a warning sign of a counterfeit or misrepresented SD card.**
+Counterfeit MicroSD cards have become increasingly common on online marketplaces more recently, often being sold at prices significantly lower than genuine products. With flash storage prices currently high due to various market factors, these suspiciously cheap listings can appear particularly attractive.
+**If a MicroSD card is significantly cheaper than comparable products from reputable retailers, it may be counterfeit or have a falsely advertised capacity.**
 {:.alert .alert-danger}
 
-## (**Overview**) Checklist to avoid fake MicroSD Cards
+## (**Overview**) Avoiding fake MicroSD cards
 
-- **✓** Buy from trusted retailers or the manufacturer's official website.
-- **✗** Avoid AliExpress, Temu, Shein and Wish for MicroSD cards. Be cautious when buying from Amazon and eBay.
-- **✓** Stick to well known MicroSD brands.
-- **✗** Avoid unknown, generic or suspicious brands.
-- **✓** Verify that the card is a genuine model listed on the manufacturer's website.
-- **✗** Be wary of prices that seem too good to be true.
+**✓ DO:**
+- Buy from reputable retailers or official manufacturer stores.
+- Choose established MicroSD card brands.
+- Check that the advertised model exists on the manufacturer's website.
 
+**✗ DON'T:**
+- Buy MicroSD cards from AliExpress, Temu, Shein or Wish.
+- Trust unknown, generic or suspicious brands.
+- Go for prices that seem too good to be true.
+
+**Be cautious when buying from Amazon or eBay.** Check who is actually selling the card, not just the marketplace hosting the listing.
 If you suspect that you may have a fake MicroSD card, you can test it by following the instructions laid out in the [Testing a MicroSD Card](#testing-a-microsd-card) section of this page.
-{:.alert .alert-info}
 
 ---
 
-### Fake MicroSD Cards
+### Fake MicroSD cards
 
-Fake MicroSD cards are becoming increasingly common on online marketplaces.
+Counterfeit MicroSD cards often copy products from well-known manufacturers, using similar labels and packaging to appear genuine. The listings for these MicroSD cards may also have fake or AI-generated reviews, alongside positive feedback from buyers who have not yet discovered that their cards are counterfeit.
 
-They will typically look similar to genuine MicroSD cards and will be fakes of popular name brands. They're often sold at an attractive price and may have fake reviews, many of which are AI-generated, or positive reviews from buyers who have not yet realised they have purchased a counterfeit card.
+Common warning signs include poor print quality, incorrect fonts, misaligned labels and spelling mistakes. Counterfeit packaging may also appear blurry, poorly printed or noticeably different from genuine products.
 
-Counterfeit MicroSD cards will often have low-quality markings on the label, the incorrect font or be misaligned.
-If they come in branded packaging, the packaging will often be a low-quality photocopy, have the incorrect font and also may have spelling mistakes.
+**Below is a comparison between genuine and counterfeit Samsung MicroSD cards. The stars highlight the differences:**
 
-**Below is an example of a genuine Samsung MicroSD card compared to a counterfeit. The stars highlight the differences:**
-
-![Comparison between a genuine Samsung MicroSD card and a fake Samsung MicroSD card.](/assets/images/microsd/fake-samsung-comparison.png){:width="500"}
+![Comparison between a genuine Samsung MicroSD card and a counterfeit.](/assets/images/microsd/fake-samsung-comparison.png){:width="500"}
 
 <sup>Image from [Everything But Stromboli](https://bulkmemorycards.com/identifying-counterfeit-microsd-cards/)</sup>
 
-**Below is an example of a genuine Sandisk MicroSD card compared to a counterfeit. The font & print quality highlight the differences:**
+**Below is a comparison between genuine and counterfeit SanDisk MicroSD cards, highlighting differences in font and print quality:**
 
-![Comparison between a genuine Sandisk MicroSD card and a fake Sandisk MicroSD card.](/assets/images/microsd/fake-sandisk-comparison.png){:width="500"}
+![Comparison between a genuine SanDisk MicroSD card and a counterfeit.](/assets/images/microsd/fake-sandisk-comparison.png){:width="500"}
 
 <sup>Image from [sthetix on X](https://x.com/sthetixofficial/status/1601517821023768576)</sup>
 
 #### Fake capacities and performance
 
-Counterfeit MicroSD cards often use low-quality flash memory (typically factory rejected or QC rejected parts) and report a fraudulently inflated capacity. A card advertised and detected as 512GB may in reality only contain 64GB of storage, or even less. Performance is often poor as well, with read and write speeds falling far below the advertised specifications.
+Counterfeit MicroSD cards often use low-quality or QC-rejected flash memory and may report fake capacities. For example, a 512GB card might only contain 64GB, or even 4GB according to more recent user reports. These cards may initially work normally, but exceeding their actual capacity can cause data corruption or data loss. Performance may also be significantly slower than advertised.
 
-The only way to identify whether or not your MicroSD card is fake is to test it. There are instructions at [the bottom of this page](#testing-a-microsd-card) detailing how you can do just that. Looking at the MicroSD card's properties will not reveal the fraud. Similarly, reformatting or repartitioning a fake MicroSD card will not "fix" its capacity. The MicroSD's chip has specifically been programmed to always show its fake capacity even after reformatting. Once the card's real storage limit is exceeded, data may become corrupted, overwritten, or lost. Even if you discover the card's true capacity, it should not be trusted with important data.
+Checking the card's properties or reformatting will not reveal its true capacity, as the card's controller chip reports a false size and it cannot be changed. Follow our [testing instructions](#testing-a-microsd-card) to check for this. However, not all counterfeit or off-brand cards have fake capacities. Some provide their advertised storage but remain unreliable, with several users reporting failures after just weeks or months of use.
 
-[This video](https://www.youtube.com/watch?v=UsWx1iO-aeA) by Atomic Shrimp provides an excellent overview of counterfeit MicroSD cards, including fake capacities and misleading performance claims, as well as what some fake reviews may look like. Although it was produced in 2023, the information remains relevant today.
-
-If you want to ensure what you are buying is genuine, purchase directly from the manufacturer or from an authorised retailer listed on the manufacturer's website.
+[This video](https://www.youtube.com/watch?v=UsWx1iO-aeA) by Atomic Shrimp explains counterfeit MicroSD cards, misleading specifications and fake reviews. Although it was produced in 2023, the information remains relevant today.
 
 ---
 
-### Fake brands that don't exist
+### Fake and unknown MicroSD brands
 
-Often called "no-name" or "generic" MicroSD cards, these are cards sold under invented brand names with little or no established presence in the industry. Some are designed to resemble reputable brands, while others use entirely fabricated names.
+Some MicroSD cards are sold under obscure or invented brand names, often referred to as "no-name" or "off-brand" cards. These brands typically have little or no established reputation, and some imitate the names or designs of well-known manufacturers.
 
-Some commonly seen examples include Microdrive, Microdata, SanDian, ShanDian, Somnambulist, Olevo and numerous other invented brands continue to pop up on online marketplaces.
+Examples commonly found on online marketplaces include Microdrive, Microdata, SanDian, ShanDian, Somnambulist and Olevo, with new names appearing regularly.
 
-These cards frequently contain low-quality flash memory, fake capacities, or both, and should be avoided. It is generally safest to purchase MicroSD cards from well known brands rather than a brand you do not recognise.
+These cards may contain low-quality flash memory, falsely advertised capacities or both. While not every unfamiliar brand is necessarily fraudulent, we recommend sticking to established manufacturers to reduce the risk of purchasing unreliable or counterfeit storage.
 
 **Below are some examples:**
 
@@ -87,68 +83,91 @@ These cards frequently contain low-quality flash memory, fake capacities, or bot
 
 ---
 
-### Brand Fraud
+### Brand fraud
 
-Brand Fraud is a tactic used by counterfeiters to sell a product fraudulently using the brand of a real company when that brand does not sell the product in question.
-This tactic fools consumers into believing they are buying a name-brand product. This is very common on online marketplaces, and the quality & reliability of these cards are often poor as well, often with a fake capacity.
+Brand fraud, also known as "brandjacking", involves selling counterfeit products under the names of established companies, often ones that don't officially sell the products being advertised. These cards are common on online marketplaces and may contain low-quality flash memory, fake capacities or both.
 
-#### Brands that do not sell MicroSD cards
+#### Brands that do not officially sell MicroSD cards
 
-These brands have never sold MicroSD card under their names and therefore any MicroSD card sold under these brands are guaranteed to be counterfeit:
+The following brands are commonly used on counterfeit MicroSD cards, despite not officially selling them under these names:
 
 - Xiaomi
 - Mi
 - Huawei
 
+MicroSD cards sold under these brands are typically counterfeit.
+
 #### Brands commonly used on counterfeit cards
 
-These companies have sold genuine MicroSD cards at some point, but almost all the the cards with these brands currently sold on most online marketplaces are counterfeit:
+These companies have previously sold genuine MicroSD cards, but counterfeit products using their names are widespread:
 
-- Lenovo - Lenovo only sells MicroSD cards under their sub-brands; ThinkPlus, Monster and Legion, and not their main Lenovo brand. These products are only officially sold on the Chinese market. Lenovo branded MicroSD cards sold on most online marketplaces should be treated with extreme caution, as counterfeits of these are widespread.
-- Sony - Sony used to make MicroSD cards but has not done so for years and any new Sony branded card is counterfeit.
+- **Lenovo:** Genuine Lenovo-associated MicroSD cards are sold under the names ThinkPlus, Monster and Legion, exclusively for sale only in China. Generic Lenovo-branded cards found on online marketplaces are typically counterfeit.
+- **Sony:** Sony previously manufactured MicroSD cards but has discontinued them. Newly advertised Sony-branded cards are typically counterfeit, although genuine older stock may still exist.
 
 **Examples of MicroSD cards using brand fraud:**
 
-![fake Huawei MicroSD card](/assets/images/microsd/huawei-fake.png){:width="200"}
-![fake Xiaomi MicroSD card](/assets/images/microsd/xiaomi-fake.png){:width="200"} 
-![fake Sony MicroSD card](/assets/images/microsd/sony-fake.png){:width="200"}
-![fake Lenovo MicroSD card](/assets/images/microsd/lenovo-fake.png){:width="200"}
+![Fake Huawei MicroSD card](/assets/images/microsd/huawei-fake.png){:width="200"}
+![Fake Xiaomi MicroSD card](/assets/images/microsd/xiaomi-fake.png){:width="200"}
+![Fake Sony MicroSD card](/assets/images/microsd/sony-fake.png){:width="200"}
+![Fake Lenovo MicroSD card](/assets/images/microsd/lenovo-fake.png){:width="200"}
 
-<sup>These examples were spotted on several online marketplaces. None are official products and they are likely to contain fake capacities, low-quality flash memory, or both.</sup>
+<sup>These counterfeit examples were found on online marketplaces and may contain fake capacities, low-quality flash memory or both.</sup>
 
-Some companies legitimately sell MicroSD cards, but counterfeit versions of non-existent models are also commonly found online. These often use generic designs or copy the appearance of products from other brands, such as SanDisk-style "Lenovo" cards or Samsung-style "SONY" cards.
+Counterfeit cards may also imitate other manufacturers' designs, such as SanDisk-style "Lenovo" cards or Samsung-style "SONY" cards.
 
-If you are unsure whether a MicroSD card model is genuine, check the manufacturer's website to confirm that the model exists and matches the product being advertised.
+**Always verify that the advertised MicroSD card model exists on the manufacturer's official website before purchasing.**
 
 ---
 
-### Where to buy genuine MicroSD cards?
+### Where to buy genuine MicroSD cards
 
-There are various ways to ensure you are getting a genuine product.
+To reduce the risk of purchasing a counterfeit MicroSD card, buy directly from the manufacturer, an authorised reseller or a reputable retailer, either online or in-store.
 
-- Avoid buying MicroSD cards from online shopping marketplaces such as AliExpress, Wish, Temu & Shein.
-- Always buy from a trusted & reputable big name retailer; such as a retail chain store or a supermarket, or directly from the brand as mentioned below.
-- Some name brands like Sandisk and Samsung have official online stores to buy genuine MicroSD cards directly from them. Other name brands will typically have a list of authorised sellers on their website:
-<br><br>
-    - Sandisk: [Online Store](https://shop.sandisk.com/product-portfolio/memory-cards/microsd-cards) --- [Authorised Sellers](https://shop.sandisk.com/company/distributors)
-    - Samsung: [Online Store](https://www.samsung.com/us/computing/memory-storage/memory-cards/)
-    - Kingston: [Authorised Sellers](https://www.kingston.com/en/wheretobuy)
-    - Lexar: [Authorised Sellers](https://www.lexar.com/global/store/)
-    - Kioxia (Formerly Toshiba): [Authorised Sellers](https://europe.kioxia.com/en-europe/personal/support/buy.html)
-    - PNY [Authorised Sellers](https://www.pny.com/company/where-to-buy)
-    - Transcend: [Authorised Sellers](https://www.transcend-info.com/support/buy)
-    - Integral: [Authorised Sellers](https://www.integralmemory.com/where-to-buy/)
-    - Supermarket own-brand MicroSD cards (such as Walmart Onn) are typically manufactured by name-brand companies and are also a good choice.
-    - This isn't a complete list, nor is it a guide to which name-brands exist, however it is here to serve as an example.
-<br><br>
-- If you are buying from Amazon, ensure the product listing states that it is both "Sold" and "Shipped" by Amazon. "Fulfilled by Amazon" but sold by a different seller does not guarantee you will get a genuine product.
-- Likewise, you will not be guaranteed a genuine MicroSD card from eBay, ensure the product you are buying has good reviews and is from a reputable seller.
+- Avoid marketplaces such as AliExpress, Temu, Shein and Wish, where counterfeit storage is commonly found.
+- When buying from Amazon, ensure it is **sold and dispatched by Amazon**. Third-party listings, including those fulfilled by Amazon, carry additional risks.
+- When buying from eBay, check the seller's reputation and reviews carefully. Positive feedback alone does not guarantee authenticity.
+
+Many established manufacturers operate official stores or provide lists of authorised retailers:
+
+- **SanDisk:** [Official Store](https://shop.sandisk.com/product-portfolio/memory-cards/microsd-cards) - [Authorised Sellers](https://shop.sandisk.com/company/distributors)
+- **Samsung:** [Official Store](https://www.samsung.com/us/computing/memory-storage/memory-cards/)
+- **Kingston:** [Authorised Sellers](https://www.kingston.com/en/wheretobuy)
+- **Lexar:** [Authorised Sellers](https://www.lexar.com/global/store/)
+- **Kioxia (formerly Toshiba):** [Authorised Sellers](https://europe.kioxia.com/en-europe/personal/support/buy.html)
+- **PNY:** [Authorised Sellers](https://www.pny.com/company/where-to-buy)
+- **Transcend:** [Authorised Sellers](https://www.transcend-info.com/support/buy)
+- **Integral:** [Authorised Sellers](https://www.integralmemory.com/where-to-buy/)
+
+<sup>This is not an exhaustive list of legitimate MicroSD card manufacturers.</sup>
+
+#### MicroSD brands with reported compatibility issues
+
+Some genuine MicroSD cards have been reported to cause compatibility problems with Nintendo DS flashcarts, DSi, 3DS and Nintendo Switch consoles. The exact cause remains unknown, although differences in performance optimisation on these MicroSD cards are one of the potential reasons.
+
+Reported brands include:
+
+- Intenso
+- Biwin
+- Hama
+- Kootion
+- Philips
+- Emtec
+
+Not every card from these brands is necessarily affected. However, **we recommend avoiding them when purchasing MicroSD cards for these devices** due to the reported issues.
 
 ---
 
 ### Testing a MicroSD Card
 
 This section contains instructions on testing your MicroSD card for fake storage. Select the operating system you are using below to find specific instructions for your machine.
+
+Note: Passing a capacity test does not guarantee that a MicroSD card is genuine or reliable. Some low-quality cards may pass these tests but still fail prematurely. These tests are primarily intended to identify defective storage or falsely advertised capacities.
+
+#### What to do if your MicroSD card fails testing
+
+If your MicroSD card fails a capacity or integrity test, stop using it and avoid writing any additional data to it. Back up any important files that are still accessible, as continued use may result in further corruption or data loss.
+
+If the card was recently purchased, contact the seller/retailer to request a refund & return. Counterfeit or defective MicroSD cards should not be trusted with important data, even if they appear to work after reformatting.
 
 {% capture tab-windows %}
 
