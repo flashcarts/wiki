@@ -142,7 +142,7 @@ Many established manufacturers operate official stores or provide lists of autho
 
 #### MicroSD brands with reported compatibility issues
 
-Some genuine MicroSD cards have been reported to cause compatibility problems with Nintendo DS flashcarts, DSi, 3DS and Nintendo Switch consoles. The exact cause remains unknown, although differences in performance optimisation on these MicroSD cards are one of the potential reasons.
+Some genuine MicroSD cards have been reported to cause compatibility problems with Nintendo DS flashcarts, DSi and 3DS consoles. The exact cause remains unknown, although differences in performance optimisation on these MicroSD cards are one of the potential reasons.
 
 Reported brands include:
 
