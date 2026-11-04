@@ -48,7 +48,7 @@ The module can be purchased from their Aliexpress store: [https://www.aliexpress
 
 | Cart | Estimated price (USD) | Pros | Cons |
 | --- | ---: | --- | --- |
-| [**SuperChis Prime**](?tab=superchis) | ~$20-30 | Low-cost MicroSD cart with cheats & save states (real-time save). | Some games loaded from SD can slow down. Writing a game to NOR flash alleviates this, but the NOR flash has limited capacity, so you may need to delete games from it to add more. SRAM saves depend on a battery (Except FRAM Models), RTC is software-based and not all ROM hacks work. |
+| [**SuperChis Prime**](?tab=superchis) | ~$20-30 | Low-cost MicroSD cart with cheats & save states (real-time save). | Some games loaded from SD can slow down. Writing a game to NOR flash alleviates this, but the NOR flash has limited capacity, so you may need to delete games from it to add more. SRAM saves depend on a battery (Except FRAM Models), RTC is software-based and some Pokémon ROM hacks don't work. |
 | [**Everdrive GBA Pro**](?tab=everdrive-gba-pro) | $129 | Krikzz build quality and support, fast loading, save states (real-time save), RTC, solar, tilt, gyro support, and Mode B DS linking. | It is a premium-priced option, and its save memory depends on a battery. It has no rumble or DS memory-expansion mode. |
 | [**EZ Flash Omega DE B**](?tab=ez-flash-ode) | ~$80-110 | Broad feature set, including RTC, rumble, Mode B DS linking, and memory expansion. | Check that the seller is offering the B revision as its firmware is incompatible with the original Omega DE. Read the manual before switching modes so you don't lose save progress. |
 | [**EZ Flash Air**](?tab=ez-flash-air) | ~$40-45 | RTC, rumble, and Mode B DS linking at a lower price. | Games must be written to NOR before playing (and the write speed is quite slow), and saves depend on the cart's SRAM battery. |
@@ -74,7 +74,7 @@ The SuperChis Prime is a budget flashcart from ChisBread. It is based on the Sup
 
 Its firmware (SuperFW) uses a hybrid saving system. EEPROM or flash memory game saves are written directly to the SD card. However, games that save to SRAM will always save to SRAM. This means that a working SRAM battery is required for your save file to be retained after a reboot. The battery is soldered in but has a lifespan of approximately 10 years.
 
-One downside of the cart is that games loaded from the SD card may encounter slowdown or compatibility issues; however, writing the game to NOR flash mitigates this problem. It also only has software-based RTC support, where the RTC progresses only when a game is running, but it can be manually changed or advanced to any date desired. Please bear in mind that this flashcart can have some issues running GBA romhacks so for ROM hacks it is generally advised to use an EZ Flash Omega DE, Everdrive GBA or a flashable cart such as a ChisFlash 1.1 instead.
+One downside of the cart is that games loaded from the SD card may encounter slowdown or compatibility issues; however, writing the game to NOR flash mitigates this problem. It also only has software-based RTC support, where the RTC progresses only when a game is running, but it can be manually changed or advanced to any date desired. Please bear in mind that this flashcart can have some issues running some Pokémon GBA romhacks so if you cannot confirm it can run on this cart, it is generally advised to use a EZ Flash Omega DE, Everdrive GBA or a flashable cart such as a ChisFlash 1.1 instead.
 
 **Pros**:
 - Cheap and easily available
@@ -83,7 +83,7 @@ One downside of the cart is that games loaded from the SD card may encounter slo
 
 **Cons**:
 - No true RTC, Rumble or Slot-2 linking
-- Has difficulty running some ROM hacks
+- Has difficulty running some Pokémon ROM hacks
 - Uses SRAM saving for some games
 - Games have slowdown if loaded from the SD card instead of the NOR flash
 
