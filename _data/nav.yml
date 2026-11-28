@@ -10,6 +10,8 @@
   items:
     - title: Counterfeit MicroSD Cards
       url: microsd-fakes
+    - title: MicroSD brands with reported compatibility issues
+      url: microsd-compatibility
     - title: NTRBoot Quick Start Guide
       url: ntrboot-ds-carts
     - title: Pico Launcher Builds

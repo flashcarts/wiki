@@ -94,6 +94,7 @@ The following brands are commonly used on counterfeit MicroSD cards, despite not
 - Xiaomi
 - Mi
 - Huawei
+- OnePlus
 
 MicroSD cards sold under these brands are typically counterfeit.
 
@@ -140,20 +141,7 @@ Many established manufacturers operate official stores or provide lists of autho
 
 <sup>This is not an exhaustive list of legitimate MicroSD card manufacturers.</sup>
 
-#### MicroSD brands with reported compatibility issues
-
-Some genuine MicroSD cards have been reported to cause compatibility problems with Nintendo DS flashcarts, DSi and 3DS consoles. The exact cause remains unknown, although differences in performance optimisation on these MicroSD cards are one of the potential reasons.
-
-Reported brands include:
-
-- Intenso
-- Biwin
-- Hama
-- Kootion
-- Philips
-- Emtec
-
-Not every card from these brands is necessarily affected. However, **we recommend avoiding them when purchasing MicroSD cards for these devices** due to the reported issues.
+[MicroSD brands with reported compatibility issues](microsd-compatibility){: #microsd-brands-with-reported-compatibility-issues}
 
 ---
 

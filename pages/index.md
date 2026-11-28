@@ -13,6 +13,7 @@ Here you can find flashcart recommendations for various systems like the Nintend
 
 - [DS Quick Start Guide](ds-quick-start-guide)
     - [Counterfeit MicroSD Cards](microsd-fakes)
+    - [MicroSD brands with reported compatibility issues](microsd-compatibility)
     - [NTRBoot Quick Start Guide](ntrboot-ds-carts)
     - [Pico Launcher Builds](pico-launcher)
     - [Timebomb Misconceptions](ds-timebomb)
